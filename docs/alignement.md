@@ -1,0 +1,352 @@
+# Alignement entre bases
+
+| Sites Perso  | Gertrude                    | Mistral / CINDOC | Nom dans l'export | Commentaire perso       |
+| ------------ | --------------------------- | ---------------- | ----------------- | ----------------------- |
+| commune      | commune                     | COM              | Commune           |                         |
+| lien détails | \[référence documentaire?\] | \[?\]            |                   |                         |
+| adresse      | adresses                    | ADRS             |                   |                         |
+| appellation  | appellations                | APPL             |                   |                         |
+| edifice      | lien dossier\*\*            | EDIF             | Edif. contenant   |                         |
+|              | emplacements                | EMPL             | Emplacement       |                         |
+|              | dénominations               | DENO             |                   |                         |
+|              | titre courant               | TICO             | Titre courant     |                         |
+|              | lien dossier\*\*            | REFA             | REF architecture  |                         |
+|              | référence                   | REF              | REFERENCE         |                         |
+|              | dates                       | DATE             | Date(s)           | JDAT ?                  |
+|              | auteurs                     | AUTR             | Auteur(s)         |                         |
+|              | auteurs                     | PERS             |                   | Personne liée histoire  |
+|              | copyrights                  | COPY             |                   |                         |
+|              | état de conservation        | ETAT             |                   |                         |
+|              | précisions état             | PETA             | Préc. ETAT        |                         |
+|              | inscriptions                | INSC             |                   |                         |
+|              | précisions inscriptions     | PINS             |                   |                         |
+|              | protections                 | PROT             | Protection        | Nature de la protection |
+|              | protections                 | DPRO             | Date Protection   | 1978/06/12 classé …     |
+|              | protections                 | PPRO             | Préc. protection  | Précisions protection   |
+|              | contributeur                | NOMS             |                   |                         |
+|              | description                 | DESC             |                   |                         |
+|              | historique                  | HIST             | Historique        |                         |
+|              | géoréférencement\*          | ZONE             |                   | Zone Lambert            |
+|              | géoréférencement\*          | COOR             |                   | Coordonnées Lambert     |
+|              | dimensions                  | DIMS             | Dimensions        |                         |
+|              | précisions dimensions       | PDIM             |                   |                         |
+|              | structures                  | STRU             |                   |                         |
+|              | matériaux                   | MATR             | Matériaux         |                         |
+|              | techniques                  | TECH             |                   |                         |
+|              | inscriptions                | INSC             |                   |                         |
+|              | \[sans équivalent\]         | ATEL             |                   | Atelier, fabrique, etc. |
+|              | statut                      | STAT             | Statut juridique  |                         |
+|              | périodes                    | SCLE             | Siècle            |                         |
+|              | observation                 | OBS              |                   |                         |
+|              | intérêts de l'œuvre         | INTE             |                   |                         |
+|              | lieux d’exécution           | EXEC             |                   |                         |
+|              | \[sans équivalent\]         | DMAJ             |                   | Date m-à-j dans Mistral |
+|              | \[sans équivalent\]         | DMIS             |                   | Date chargement Mistral |
+|              | \[sans équivalent\]         | INSEE            | INSEE             |                         |
+|              | dates de bordereau          | DBOR             |                   |                         |
+|              |                             |                  | Source            |                         |
+|              |                             |                  | Bibliographie     |                         |
+|              |                             |                  | Nos photos        |                         |
+|              |                             |                  | Date Mistral      |                         |
+|              |                             |                  | Date mise à jour  |                         |
+|              |                             |                  | Image qy          |                         |
+|              |                             |                  | Images            |                         |
+|              |                             |                  | Liens divers      |                         |
+
+# Problèmes sur l'alignement
+
+  - Où mettre l'URL ? Référence documentaire (gertrude) ? Quel est
+    l'équivalent Palissy de la référence documentaire gertrude ?
+
+  - Faire une mini-ontologie de l'orgue : il n'y a pas d'alignement
+    possible entre gertrude/palissy et HADOC/LIDO, il faut d'abord faire
+    une mini-ontologie de l'orgue, voir comment injecter les "faits"
+    depuis gertrude et palissy, puis projeter ces faits depuis notre
+    ontologie vers celles d'HADOC et LIDO.
+
+  - Corriger emplacement-\>appellation dans les .org des sites perso.
+
+# Tableau de concordance des intitulés entre Gertrude et les systèmes descriptifs
+
+## Dossier
+
+### Champs
+
+| Champs de Gertrude                 | Champs interrogeables dans Gertrude    | Equivalents dans les systèmes descriptifs    |
+| ---------------------------------- | -------------------------------------- | -------------------------------------------- |
+| Adresses                           | Localisations                          | ADRS                                         |
+| Aire d'études                      | Aires d'études                         | AIRE                                         |
+| Annexes                            | Annexes                                | Sans équivalent                              |
+| Appellations                       | Appellations                           | APPL                                         |
+| Auteurs                            | Auteurs et personnalités               | AUTR PERS                                    |
+| Autres organes de circulations     | Autres organes de circulations         | ESCA                                         |
+| Cadres d'étude                     | Cadres d'étude                         | ETUD                                         |
+| Canton                             | Cantons                                | CANT                                         |
+| Catégories                         | Catégories                             | CATE                                         |
+| Commune                            | Localisations                          | COM                                          |
+| Contributeur                       | Contributeur                           | NOMS                                         |
+| Copyrights                         | Copyrights                             | COPY                                         |
+| Couverts et découverts de jardin   | Couverts et découverts de jardin       | VERT                                         |
+| Couvertures                        | Couvertures                            | COUV                                         |
+| Couvrements                        | Couvrements                            | VOUT                                         |
+| Cycle de vie                       | Cycle de vie                           | Sans équivalent                              |
+| Date d'enquête                     | Date d'enquête                         | DENQ                                         |
+| Dates de bordereau                 | Dates de bordereau                     | DBOR                                         |
+| Dates                              | Dates historique                       | DATE JDAT                                    |
+| Décompte des œuvres                | Collections                            | COLL                                         |
+| Dénominations                      | Dénominations                          | DENO                                         |
+| Déplacements                       | Déplacements                           | DEPL                                         |
+| Description                        | Description                            | DESC                                         |
+| Destinations                       | Destinations                           | ACTU                                         |
+| Dimensions                         | Dimensions                             | DIMS                                         |
+| Éléments remarquables              | Éléments remarquables                  | REMA                                         |
+| Élévations                         | Élévations extérieur                   | ELEV                                         |
+| Emplacements                       | Emplacements                           | EMPL                                         |
+| Énergies                           | Énergies                               | ENER                                         |
+| Escaliers                          | Escaliers                              | ESCA                                         |
+| Étages                             | Étages                                 | ETAG                                         |
+| État de conservation               | État de conservation                   | ETAT                                         |
+| Genres du destinataire             | Genres                                 | GENR                                         |
+| Historique                         | Historique                             | HIST                                         |
+| Hydrographie                       | Hydrographies                          | HYDR                                         |
+| Illustrations                      | Illustrations                          | Sans équivalent                              |
+| Informations cadastrales           | Non interrogeable en recherche experte | CADA                                         |
+| Inscriptions                       | Inscriptions                           | INSC                                         |
+| Intérêts de l'œuvre                | Intérêts de l'œuvre                    | INTE                                         |
+| Lieux d’exécution                  | Lieux d’exécution                      | EXEC                                         |
+| Lieux-dits                         | Localisations                          | LIEU                                         |
+| Milieu d’implantation              | Localisations                          | IMPL                                         |
+| Matériaux                          | Matériaux                              | MATR                                         |
+| Murs                               | Murs                                   | MURS                                         |
+| Nature de dossier                  | Natures de dossier                     | DOSS                                         |
+| Numéros de renvoi                  | Numéros de renvoi                      | RENV                                         |
+| Numérotation artificielle          | Numérotation artificielle              | NART                                         |
+| Observation                        | Observation                            | OBS                                          |
+| Origines                           | Origines                               | ORIG                                         |
+| Parties constituantes non étudiées | Parties constituantes non étudiées     | PARN                                         |
+| Périodes                           | Datations principales                  | SCLE                                         |
+| Périodes                           | Datations secondaires                  | SCLD                                         |
+| Phase                              | Phase                                  | Sans équivalent                              |
+| Plans                              | Plans                                  | PLAN                                         |
+| Précision sur la protection        | Précision sur la protection            | PPRO                                         |
+| Précisions sur la dénomination     | Précisions sur la dénomination         | PDEN                                         |
+| Précisions sur la dimension        | Non interrogeable                      | PDIM                                         |
+| Précisions sur la localisation     | Précisions sur la localisation         | PLOC                                         |
+| Précisions sur la représentation   | Non interrogeable                      | PREP (Mérimée)                               |
+| Précision(s)                       | Non interrogeable                      | PREP (Palissy) PETA (Palissy) PINS (Palissy) |
+| Protections                        | Protections                            | PROT DPRO APRO                               |
+| Référence                          | Référence                              | REF                                          |
+| Référence MH                       | Numéros de renvoi                      | RENV                                         |
+| Référence Patriarche               | Référence Patriarche                   | ARCHEO                                       |
+| Références documentaires           | Références documentaires               | Sans équivalent                              |
+| Remplois                           | Remplois                               | REMP                                         |
+| Représentations                    | Représentations                        | REPR et PREPR                                |
+| Secret                             | Secret                                 | Sans équivalent                              |
+| Sites                              | Sites de protection                    | SITE                                         |
+| Stades de création                 | Stades de création                     | STAD                                         |
+| Statut                             | Statuts                                | STAT                                         |
+| Structures                         | Structures                             | STRU                                         |
+| Techniques                         | Techniques                             | TECH                                         |
+| Titre courant                      | Titre courant                          | TICO                                         |
+| Titres                             | Titres                                 | TITR                                         |
+| Toits                              | Toits                                  | TOIT                                         |
+| Type                               | Type                                   | DOSS                                         |
+| Typologies                         | Typologies                             | TYPO                                         |
+| Validation scientifique            | Validation scientifique                | Sans équivalent                              |
+| Vocables                           | Vocables                               | VOCA                                         |
+| Vol                                | Vol                                    | VOLS                                         |
+
+### Champs ne servant qu'à l'interrogation
+
+| Champs de Gertrude | Champs interrogeables dans Gertrude | Equivalents dans les systèmes descriptifs |
+| ------------------ | ----------------------------------- | ----------------------------------------- |
+|                    | Cartes                              | Sans équivalent                           |
+|                    | Contenu                             | Sans équivalent (Elément texte libre)     |
+|                    | Géo-référence                       | Sans équivalent                           |
+|                    | Lien dossier                        | Sans équivalent                           |
+|                    | Localisations                       | COM IMPL LIEU ADRS INSEE DPT REG          |
+|                    | Type de dossier                     | DOSS                                      |
+
+## Illustration
+
+| Champs de Gertrude       | Champs interrogeables dans Gertrude | Equivalents dans les systèmes descriptifs |
+| ------------------------ | ----------------------------------- | ----------------------------------------- |
+| Année                    | Année                               | ANN                                       |
+| Auteur                   | Auteur                              | AUT                                       |
+| Code régional            | Code régional                       | REG                                       |
+| Copyrights               | Copyrights                          | COPY                                      |
+| Couleur                  | Couleur                             | COULEUR                                   |
+| Date de prise de vue     | Date de prise de vue                | DATPV                                     |
+| Département              | Département                         | DPT                                       |
+| Diffusion                | Diffusion                           | DIFF                                      |
+| Échelle                  | Échelle                             | ECH                                       |
+| Fichier d'entrée         | Fichier d'entrée                    | Sans équivalent                           |
+| Fichier plein écran      | Fichier d'entrée                    | Sans équivalent                           |
+| Fichier vectoriel        | Fichier vectoriel                   | Sans équivalent                           |
+| Fichier vignette         | Fichier vignette                    | Sans équivalent                           |
+| Format                   | Format                              | FOR                                       |
+| Géo-référence            | Géo-référence                       | Sans équivalent                           |
+| Immatriculation          | Immatriculation                     | EMET<sub>NUMI</sub>                       |
+| Lien dossier             | Lien dossier                        | LBASE                                     |
+| Numéro                   | Numéro                              | NUM                                       |
+| Numéro cd                | Numéro cd                           | NUMCD (Champ de gestion régionale)        |
+| Références documentaires | Références documentaires            | Sans équivalent                           |
+| Sens                     | Sens                                | SENS                                      |
+| Support                  | Support                             | SUP (Champ de gestion régionale)          |
+| Technique de relevé      | Technique de relevé                 | TRL                                       |
+| Technique de rendu       | Technique de rendu                  | TEC (Champ de gestion régionale)          |
+| Type                     | Type                                | TYPDOC                                    |
+| Typologie du support     | Typologie du support                | TYP                                       |
+| Vue cd                   | Vue cd                              | VUECD (Champ de gestion régionale)        |
+
+# Tableau de concordance entre les systèmes descriptifs et les intitulés de Gertrude
+
+## CHAPITRE I : REFERENCES DOCUMENTAIRES
+
+| Mérimée | Palissy | Intitulé du champ      | Bloc et rubrique                  |
+| ------- | ------- | ---------------------- | --------------------------------- |
+| REF     | REF     | Référence              | Bloc Etude/Informations générales |
+| RENV    | RENV    | Références MH          | Bloc Etude/Informations générales |
+| ARCHEO  |         | Références Patriarche  | Bloc Etude/Informations générales |
+| DENQ    | DENQ    | Date d’enquête         | Bloc Etude/Informations générales |
+| COPY    | COPY    | Copyrights             | Bloc Etude/Informations générales |
+| DBOR    | DBOR    | Dates de bordereau     | Bloc Etude/Informations générales |
+| NOMS    | NOMS    | Contributeur           | Bloc Etude/Contributions          |
+| ETUD    | ETUD    | Cadres d’étude         | Bloc Etude/Informations générales |
+| DOSS    | DOSS    | Nature de dossier Type | Bloc Etude/Informations générales |
+
+## CHAPITRE II : DESIGNATION
+
+| Mérimée | Palissy             | Intitulé du champ                  | Bloc et rubrique                                                                |
+| ------- | ------------------- | ---------------------------------- | ------------------------------------------------------------------------------- |
+| DENO    | DENO                | Dénominations                      | Bloc Désignation/Informations générales de Désignation                          |
+| GENR    |                     | Genres du destinataire             | Bloc Désignation/Informations générales de Désignation                          |
+| PDEN    | PDEN                | Précisions sur la dénomination     | Bloc Désignation/Informations générales de Désignation                          |
+|         | TITR                | Titres                             | Bloc Désignation/Informations générales de Désignation                          |
+|         | NART                | Numérotation artificielle          | Bloc Désignation/Informations générales de Désignation                          |
+| VOCA    |                     | Vocables                           | Bloc Désignation/Informations générales de Désignation                          |
+| APPL    | APPL                | Appellations                       | Bloc Désignation/Informations générales de Désignation                          |
+| ACTU    |                     | Destinations                       | Bloc Désignation/Informations générales de Désignation                          |
+| TICO    | TICO                | Titre courant                      | Bloc Désignation/Informations générales de Désignation                          |
+| PART    | PART                | Lien dossier\*\*                   | Bloc Désignation/Lien vers un dossier partie constituante étudiée               |
+|         |                     |                                    | Bloc Désignation/Lien vers un dossier partie constituante étudiée               |
+| REFP    | REFP                | Lien dossier\*\*                   | Bloc Désignation/Partie constituante non étudiée                                |
+| PARN    | PARN                | Parties constituantes non étudiées | Bloc Désignation/Partie constituante non étudiée                                |
+|         | PAPP                | Lien dossier\*\*                   | Bloc Désignation/Lien vers les dossiers dont le dossier est partie constituante |
+|         | REFE                | Lien dossier\*\*                   | Bloc Désignation/Lien vers les dossiers dont le dossier est partie constituante |
+| COLL    | Décompte des œuvres |                                    | Bloc Désignation/Éléments descriptifs                                           |
+
+## CHAPITRE III : LOCALISATION
+
+| Mérimée | Palissy | Intitulé du champ                           | Bloc et rubrique                                                                                                                  |
+| ------- | ------- | ------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
+| REG     | REG     | Sans équivalent                             | Saisie automatique à partir du choix de la commune Se recherche en appelant « localisation », (un terme ou un de ses spécifiques) |
+| DPT     | DPT     | Sans équivalent                             | Saisie automatique à partir du choix de la commune Se recherche en appelant « localisation », (un terme ou un de ses spécifiques) |
+| COM     | COM     | Commune                                     | Bloc Localisation/Bloc Localisations communales Se recherche en appelant « localisation »                                         |
+| INSEE   | INSEE   | Sans équivalent                             | Saisie automatique à partir du choix de la commune Se recherche en appelant « localisation »                                      |
+| PLOC    | PLOC    | Précisions sur la localisation Aire d’étude | Bloc Localisation/Informations générales sur la localisation                                                                      |
+| AIRE    | AIRE    | Aire d’étude                                | Bloc Localisation/Informations générales sur la localisation                                                                      |
+| CANT    | CANT    | Canton                                      | Bloc Localisation/Informations générales sur la localisation                                                                      |
+| LIEU    | LIEU    | Lieux-dits                                  | Bloc Localisation/Bloc Localisations communales                                                                                   |
+| ADRS    | ADRS    | Adresses                                    | Bloc Localisation/Bloc Localisations communales                                                                                   |
+| EDIF    | EDIF    | Lien dossier\*\*                            | Bloc Localisation/Edifice                                                                                                         |
+|         | REFA    | Lien dossier\*\*                            | Bloc Localisation/Edifice                                                                                                         |
+| REFE    |         | Lien dossier\*\*                            | Bloc Désignation/Lien vers les dossiers dont le dossier est partie constituante                                                   |
+| CADA    |         | Informations cadastrales                    | Bloc Localisation/Bloc Localisations communales                                                                                   |
+| ZONE    | ZONE    | Géoréférencement\*                          |                                                                                                                                   |
+| COOR    | COOR    | Géoréférencement\*                          |                                                                                                                                   |
+| COORM   | COORM   | Géoréférencement\*                          |                                                                                                                                   |
+| IMPL    | IMPL    | Milieu d’implantation                       | Bloc Localisation/Bloc Localisations communales                                                                                   |
+|         | EMPL    | Emplacements                                | Bloc Localisation/Informations générales sur la localisation                                                                      |
+|         | DEPL    | Déplacement                                 | Bloc Localisation/Déplacement                                                                                                     |
+|         | VOLS    | Vol                                         | Bloc Localisation/Informations générales sur la localisation                                                                      |
+| HYDR    |         | Hydrographie                                | Bloc Localisation/Informations générales sur la localisation                                                                      |
+
+## CHAPITRE IV : HISTORIQUE
+
+| Mérimée | Palissy | Intitulé du champ        | Bloc et rubrique                              |
+| ------- | ------- | ------------------------ | --------------------------------------------- |
+| SCLE    | SCLE    | Périodes                 | Bloc Historique/Datations                     |
+| SCLD    |         | Périodes                 | Bloc Historique/Datations                     |
+| DATE    | DATE    | Dates                    | Bloc Historique/Datations                     |
+| JDAT    |         | Dates                    | Bloc Historique/Datations                     |
+| AUTR    | AUTR    | Lien ressource personne  | Bloc Historique/Auteur de l'oeuvre            |
+|         | AFIG    | Lien ressource personne  | Bloc Historique/Auteur de l'oeuvre            |
+| JATT    |         |                          |                                               |
+| PERS    | PERS    | Auteurs et personnalités | Bloc Historique/Auteur de l'oeuvre            |
+|         | EXEC    | Lieux d'exécution        | Bloc Historique/Origines et lieux d'exécution |
+|         | ORIG    | Origines                 | Bloc Historique/Origines et lieux d'exécution |
+|         | STAD    | Stades de création       | Bloc Historique/Stades de création            |
+| REMP    |         | Remplois                 | Bloc Historique/Remplois et déplacements      |
+| HIST    | HIST    | Historique               | Bloc Historique/Historique                    |
+
+## CHAPITRE V : DESCRIPTION
+
+| Mérimée | Palissy | Intitulé du champ                                       | Bloc et rubrique                                               |
+| ------- | ------- | ------------------------------------------------------- | -------------------------------------------------------------- |
+| MURS    |         | Murs                                                    | Bloc Description/Eléments descriptifs                          |
+| TOIT    |         | Toits                                                   | Bloc Description/Eléments descriptifs                          |
+| PLAN    |         | Plans                                                   | Bloc Description/Eléments descriptifs                          |
+| ETAG    |         | Etages                                                  | Bloc Description/Eléments descriptifs                          |
+| VOUT    |         | Couvrements                                             | Bloc Description/Eléments descriptifs                          |
+| ELEV    |         | Elévations                                              | Bloc Description/Eléments descriptifs                          |
+| COUV    |         | Couvertures                                             | Bloc Description/Eléments descriptifs                          |
+| ESCA    |         | Escaliers Autres organes de circulation                 | Bloc Description/Eléments descriptifs                          |
+| ENER    |         | Energies                                                | Bloc Description/Eléments descriptifs                          |
+| VERT    |         | Couverts et découverts de jardin                        | Bloc Description/Eléments descriptifs                          |
+| DESC    | DESC    | Description                                             | Bloc Description/Description                                   |
+| TECH    |         | Techniques                                              | Bloc Description/Décors                                        |
+| REPR    | REPR    | Représentations                                         | Mérimée : Bloc Description/Décors                              |
+| PREP    | PREP    | Mérimée : Précisions représentation Palissy : Précision | Palissy : Bloc Description/Iconographie                        |
+| DIMS    | DIMS    | Dimensions                                              | Mérimée : Bloc Description/Décors                              |
+|         | PDIM    | Précisions sur la dimension                             | Palissy : Bloc Description/Iconographie                        |
+| TYPO    |         | Typologies                                              | Bloc Description/Dimensions                                    |
+| ETAT    | ETAT    | Etat de conservation                                    | Bloc Description/Dimensions                                    |
+|         | PETA    | Précision                                               | Bloc Description/Typologies et états de conservation           |
+|         | CATE    | Catégories                                              | Palissy : Bloc Description/Etats                               |
+|         | STRU    | Structures                                              | Mérimée : Bloc Description/Typologies et états de conservation |
+|         | MATR    | Matériaux                                               | Bloc Description/Etats                                         |
+|         | INSC    | Inscriptions                                            | Bloc Description/Eléments descriptifs                          |
+|         | PINS    | Précisions                                              | Bloc Description/Eléments descriptifs                          |
+|         |         |                                                         | Bloc Description/Eléments descriptifs                          |
+|         |         |                                                         | Bloc Description/Inscriptions et marques                       |
+|         |         |                                                         | Bloc Description/Inscriptions et marques                       |
+
+## NEXT CHAPITRE VI : INTERET ET PROTECTION
+
+| Mérimée | Palissy | Intitulé du champ | Bloc et rubrique |
+| ------- | ------- | ----------------- | ---------------- |
+
+## CHAPITRE VII : STATUT JURIDIQUE
+
+| Mérimée | Palissy | Intitulé du champ | Bloc et rubrique |
+| ------- | ------- | ----------------- | ---------------- |
+
+# Acronymes et définitions
+
+  - Gertrude  
+    c'est le nom de l'application qu'utilisent les régions pour
+    construire les inventaires.
+
+  - HADOC  
+    le modèle harmonisé \[du ministère de la culture et de la
+    communication\] pour la production des données culturelles. Ne nous
+    concerne ici qu'une petite partie du modèle, qui n'existe
+    aujourd'hui que sous la forme de spécifications UML.
+
+  - IDO  
+    le modèle de données de l'inventaire des orgues, celui qui permettra
+    de décrire un orgue dans la future application.
+
+  - LIDO  
+    schéma de représentation de données dédié à la muséologie. C'est
+    notamment le schéma utilisé par le [projet
+    MiMO](http://www.mimo-international.com/MIMO/). Plus d'informations
+    sur ce format [en anglais
+    ici](http://network.icom.museum/cidoc/working-groups/lido/what-is-lido/).
+
+  - SD  
+    Système descriptif
+
+  - SDOM  
+    Système descriptif des objets mobiliers, 1999

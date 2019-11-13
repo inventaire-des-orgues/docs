@@ -1,0 +1,98 @@
+**Version 0.3**
+
+# Mentions légales
+
+## Hébergement du site et des données
+
+Le site web principal est hébergé par
+[digitalocean.com](http://digitalocean.com/):
+
+``` example
+DigitalOcean
+101 Avenue of the Americas, 10th Floor
+New York, NY 10013
+VAT ID: EU528002224
+```
+
+Les fichiers d’image et de son sont hébergés via le service
+[filestack.com](https://www.filestack.com):
+
+``` example
+Filestack
+122 E. Houston St, 2nd Floor
+San Antonio, TX 78205 
+```
+
+Les données des utilisateurs sont stockées sur un serveur européen, via
+le service en ligne [auth0.com](https://auth0.com):
+
+``` example
+Auth0
+10900 NE 8th Street
+Suite 700
+Bellevue, WA 98004
+```
+
+## Traitement des données à caractère personnel
+
+Lorsque des données présentes sur ce site ont un caractère nominatif,
+les utilisateurs doivent en faire un usage conforme aux réglementations
+en vigueur et aux recommandations de la Commission nationale de
+l'informatique et des libertés (CNIL).
+
+L’utilisateur est informé que les informations issues des formulaires
+d’inscription au site www.inventaire-des-orgues.org font l’objet d’un
+traitement informatique ayant pour seule finalité la gestion de l’accès
+au site et de son fonctionnement.
+
+Toutes les données personnelles qui sont recueillies sont traitées avec
+la plus stricte confidentialité. En particulier, l’hébergeur \[FIXME\]
+du site s’engage à respecter la confidentialité des messages e-mails
+transmis au moyen d’une messagerie électronique.
+
+Conformément à la loi Informatique et Liberté 78-17 du 6 janvier 1978
+modifiée, vous disposez d'un droit d'opposition (art. 38), d'accès (art.
+39), de rectification ou de suppression (art. 40) des données qui vous
+concernent. Vous pouvez exercer ce droit en vous adressant au Ministère
+du Logement et de l'Habitat Durable - Direction de la Communication,
+Département Images et Edition, Boulevard Saint Germain - 75007 Paris.
+
+Ce droit s'exerce, en justifiant de son identité, par courrier
+électronique en écrivant à contact@inventaire-des-orgues.org
+
+Aucune donnée à caractère personnelle n’est collectée à votre insu ou
+cédée à un tiers.
+
+## Droits de propriété intellectuelle
+
+Les contenus présentés sur le site www.inventaire-des-orgues.org sont
+soumis à la législation relative au droit de la propriété
+intellectuelle.
+
+Les contenus de la base de données d’inventaire participatif des orgues
+sont publiés sous [la licence
+Ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf).
+
+Les fichiers d’image et de son sont publiés sous la [licence Creative
+Commons by-sa 3.0](https://creativecommons.org/licenses/by-sa/3.0/fr/).
+
+Chaque contributeur détient les droits d’auteur des contenus qu’il
+partage via la plate-forme.
+
+## Liens hypertextes
+
+### Liens de www.inventaire-des-orgues.org vers d’autres sites
+
+Les liens insérés dans les pages du site www.inventaire-des-orgues.org
+vers des sites tiers sont proposés à titre d’information ; le contenu
+des sites vers lesquels ces liens conduisent n’engage pas la
+responsabilité de l’hébergeur \[FIXME\].
+
+### Etablir un lien vers www.inventaire-des-orgues.org
+
+L’établissement d’un hyperlien vers les informations diffusées dans
+www.inventaire-des-orgues.org libre et gratuit à la condition que cet
+hyperlien permette l’ouverture d’une nouvelle fenêtre de visualisation
+et que l’affichage de l’URL www.inventaire-des-orgues.org dans la
+nouvelle fenêtre soit lisible par l’internaute dès son ouverture et tout
+au long de l’accès aux données du site.

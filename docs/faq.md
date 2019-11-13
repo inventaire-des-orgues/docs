@@ -1,0 +1,110 @@
+# Foire aux questions
+
+### Quels orgues trouve-t-on dans l'inventaire national ?
+Le périmètre géographique est simple : tout le territoire français, métropole comme outres-mers.
+Sont présents dans l'inventaire tous les orgues ou buffets d’orgue, quel que soit leur état de conservation, situés dans des édifices accessibles au public (que les orgues soient de propriété publique ou privée); les domiciles de particuliers sont donc exclus, car non accessibles et d'une localisation parfois restant confidentielle.
+Les harmoniums sont exclus. Les instruments électroniques, et la partie électronique des instruments hybrides, sont exclus.
+
+Les orgues disparus ne sont pas mentionnés à l'ouverture de l'inventaire, puisque comme son nom l'indique il s'intéresse aux instruments actuellement présents sur le territoire. Cependant, rien n'interdit de les renseigner (les attributs destruction et disparition sont disponibles pour cela).
+
+### Comment sont identifiés les instruments ?
+Les orgues sont identifiés par leur situation géographique.
+
+### A qui appartiennent les données présentes dans l'inventaire ?
+Les données déposées dans l'inventaire sont obligatoirement libre de droits patrimoniaux. L'ensemble de l'inventaire est donc en open data, que ce soit les textes décrivant l'histoire de chaque instrument, sa composition, son état de conservation, etc. De même, l'ensemble de fichiers annexes déposés dans la base de données de l'inventaire, les photos, vidéos, etc. sont libre de droits patrimoniaux.
+
+En revanche fichiers images, sonores ou vidéos peuvent conserver leur droit d'auteur (il est donc possible de conserver le nom de l'auteur dans le fichier ou le nom du fichier).
+
+### Qui peut participer à la complétion de l'inventaire ?
+Tout un chacun.
+
+### Qui s'assure que les données sont exactes ?
+L'inventaire national dispose d'un comité de relecture qui s'assure à la publication qu'il n'y a pas d'erreur évidente. Il peut être contacté en cas d'incertitude sur la qualité des informations.
+La structure de la fiche descriptive de chaque orgue étant bien établie, et les informations collectées étant objectives, il est peut probable qu'apparaissent des litiges.
+
+### Qui a payé le portail Internet de l'inventaire ?
+Le portail de l'inventaire national des orgues a été payé par l'association Orgue en France avec le soutien financier du ministère de la culture, partenaire du projet (directions de la création artistique et direction du patrimoine).
+
+### Qui a réalisé le portail de l'inventaire ?
+La [société FabDev](https://fabdev.fr/).
+
+### Qui a collecté les données pour initier cet inventaire ?
+Un bénévole de l'association Orgue en France.
+
+### Le code source du portail de l'inventaire est-il disponible ?
+Oui, l'ensemble du projet est réalisé en code ouvert (open source) : il est donc accessible et modifiable par quiconque.
+
+### Beau projet, mais cet inventaire ne sera jamais achevé...
+Vrai et faux. Si les associations nationales et locales, ainsi que les personnes privées, travaillent de concert, en quelques mois tous les orgues français disposeront d'une fiche descriptive renseignées, même de façon sommaire et seront donc a minima parfaitement identifiés. De plus, la fiche descriptive de chaque instrument disposera, sous forme d'une pièce jointe, des pages extraites des livres d'inventaire rédigés de 1980 à nos jours. Ainsi, quelques mois après son ouverture, l'inventaire sera déjà exhaustif et riche de très nombreuses informations.Un indicateur présent sur chaque fiche permet de suivre l'avancement de la rédaction.
+L'atteinte d'une très bonne qualité scientifique des informations (historique détaillé, références biblbiographiques complètes, travail de recherche dans les archives) prendra elle plus du temps : cela dépendra de chaque instrument et de la motivation des rédacteurs.
+
+### Tout miser sur le numérique, n'est-ce pas concurrencer le papier ?
+Le projet d'invetaire national ne mise pas tout sur le numérique, mais un site participatif nous a semblé un bon outil capable de viser une échelle nationale et d'être à jour. En effet, les livres d'inventaire perdent leur exhaustivité quelques années après leur publication, en raison des constructions, relevages et modifications d'instruments.
+Les livres déjà édités ne perdent pas moins leur valeur, notamment pour ce qui concerne les données historiques.
+
+### Qui soutient cette initiative ?
+Le projet est conjointement porté par l’association [Orgue en France](http://orgue-en-france.org/), la Fédération Francophone des Amis
+de l’Orgue ([FFAO](http://ffao.com/)) et le [ministère de la Culture](http://www.culture.gouv.fr/).
+
+Le ministère de la Culture s’engage à mettre les données de
+l’[Inventaire général du patrimoine culturel](http://www.inventaire.culture.gouv.fr/) à disposition de l’inventaire des orgues et à en faciliter l’intégration. Orgue en
+France et la FFAO s’engage à maintenir le site.
+
+Le ministère de la culture soutient l'initiative depuis deux ans et avait d'ailleurs consacré dix mois temps plein sur le sujet par le biais du dispositif d'entrepreneurs d'intérêt général.
+Les représentations en région du ministère (directions régionales des affaire culturelles DRAC) ont contribuer à collecter les livres d'inventaire.
+La fédération française des amis des orgues (FFAO) soutient aussi le projet.
+L'association Orgue en France est cheville ouvrière du projet.
+Associations et ministère se sont régulièrement réunis pour suivre l'avancement du projet.
+
+De plus, les régions, par l'intervention des services régionaux de l'inventaire et des centres de documentation associés, ont apporté une aide très utile à la collecte des ouvrages d'inventaire.
+De même, nous remercions les services départementaux des archives pour leur contribution à nos recherches.
+
+### Mon association dispose déjà d'un site inventoriant les orgues de mon territoire.
+Chaque association locale ou personnes privées reste bien évidemment parfaitement libre de ses actions ou de sa politique de communication.
+En pratique, si des associations souhaitent développer ou conserver un site inventoriant des orgues, elles peuvent placer des liens hypertextes vers l'inventaire national.
+De son côté, l'inventaire national permet un renvoi hypertexte vers un site la page d'accueil d'un site associatif ou la page dédiée à un orgue sur un site associatif.
+Cela étant, il n'est pas nécessairement souhaitable de dupliquer inutilement de l'inventaire dès lors qu'elle est similaire. Une juste complémentarité sera certainement à privilégier au cas par cas.
+
+### Où les données déjà présentes à l'ouverture du portail ont-elles été piochées ?
+La liste des orgues est en grande partie basée sur les livre d'inventaire (à l'exception de l'Orne, des Ardennes, d'une partie du département du Nord), puis mis à jour manuellement selon les informations qui nous ont été communiquées.
+Les données présentes à l'ouverture du portail au sein des fiches descriptives ont principalement été récupérées depuis les sites associatifs, avec accord des associations éditrices : nous remercions vivement l'ensemble des associations concernées pour leur aimable participation.
+
+### Ai-je le droit de prendre une photo d’orgue et de la publier ?
+
+Vous avez bien sûr le droit de prendre un orgue en photo, mais pour diffuser la photographie, il est préférable de demander son accord au propriétaire de l’orgue. C’est souvent un moyen d’accéder à l’orgue
+plus facilement et de prendre de meilleures photos, en évitant par exemmple le classique contre-jour dû à la rose ou verrière de facade !
+
+# Ai-je le droit de contribuer ?
+
+Oui, tout utilisateur acceptant la [charte du
+contributeur](charte-du-contributeur.md) peut créer un compte et
+contribuer à cet inventaire des orgues.
+
+# Quels sont mes droits d’auteur sur les images que je publie ?
+
+Lorsque vous vous inscrivez sur le site, vous accepter la [charte du
+contributeur](charte-du-contributeur.md).
+
+Celle-ci indique que vous **conservez tous vos droits d’auteur** sur les
+contenus que vous publiez sur le site mais que vous vous engagez à les
+publier sous licences libres : la [licence
+Ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf)
+pour les données textuelles ajoutées dans la base (le nom d’un facteur
+d’orgue, une indication pour la composition d’un orgue, etc.) et la
+licence [Creative Commons
+by-sa 3.0](https://creativecommons.org/licenses/by-sa/3.0/fr/) pour les
+images et les fichiers son.
+
+La licence Ouverte 2.0 permet à n’importe qui de réutiliser les
+contenus, y compris à des fins commerciales, à condition d’en citer la
+source et les auteurs.
+
+La licence Creative Commons by-sa 3.0 permet la réutilisation, y compris
+à des fins commerciales, mais impose que les contenus dérivés soient
+publiés dans des conditions équivalentes de partage. C’est la licence
+utilisées par des grands projets comme Wikipédia.
+
+# Qui porte le projet ?
+
+
+

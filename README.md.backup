@@ -1,0 +1,16 @@
+# ido-docs
+
+Le site de [documentation](https://docs.inventaire-des-orgues.fr) pour l'inventaire des orgues. 
+
+Initialement, ce site avait été mis en place par Bastien Guerry à l'aide de :
+- module Org mode pour l'éditeur EMACS (https://github.com/fniessen/refcard-org-mode)
+- modèle ReadTheOrg (https://github.com/fniessen/org-html-themes)
+
+Il a été repris sous l'utilitaire Python de génération de site statiques Mkdocs (https://www.mkdocs.org)
+
+Le fichiers .org ont pour ce faire été convertis en fichiers Markdown .md façon Github Flavored Markdown (style gfm)(https://pandoc.org/MANUAL.html#atx-style-headings), à l'aide de l'outil Pandoc.
+
+```
+./pandoc --from org --to gfm -o ido-docs/donnees.md ido-docs/donnees.org
+```
+
