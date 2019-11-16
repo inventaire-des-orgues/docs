@@ -1,10 +1,7 @@
 # Les données à collecter
 
 La page des [données](donnees.md) liste les différentes sources qui
-permettent d'alimenter l'inventaire des orgues. Pour que ces sources
-s'intègrent à l'application et que celle-ci expose les données dans des
-formats utiles, nous construisons un [alignement](alignement.md) des
-référentiels.
+permettent d'alimenter l'inventaire des orgues.
 
 # Le vocabulaire
 
