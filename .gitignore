@@ -1,1 +1,6 @@
-site/
+term.txt
+#site/
+*.md.backup
+.gitignore
+.idea
+.git

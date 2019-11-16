@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Gwilherm Poullennec">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Reprise technique - Documentation de l'inventaire des orgues</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Reprise technique";
+    var mkdocs_page_input_path = "reprise-technique.md";
+    var mkdocs_page_url = "/reprise-technique/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Documentation de l'inventaire des orgues</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Données</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../donnees_etatcollectivites/">Etat et collectivités</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../donnees_sites/">Sites Internet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../donnees_livres/">Livres d'inventaires</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../modele/">Modèle de données</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../about/">About</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Documentation de l'inventaire des orgues</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Reprise technique</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p><strong>Version 0.1</strong></p>
+<p>Si vous voyez une erreur dans ce document, n’hésitez pas à me la
+signaler <a href="https://git.inventaire-des-orgues.fr/bzg/ido-docs/issues">en ouvrant un
+ticket</a>.</p>
+<h1 id="hebergement-de-la-plate-forme">Hébergement de la plate-forme</h1>
+<p>L’application principale est hébergée sur une machine virtuelle louée
+chez <em>DigitalOcean</em> et physiquement située à Amsterdam.</p>
+<h2 id="sauvegarde-des-donnees">Sauvegarde des données</h2>
+<p>Le service DigitalOcean permet une sauvegarde complète de la machine
+toutes les semaines.</p>
+<h1 id="langages-frameworks-et-systeme-de-base-de-donnees">Langages, frameworks et système de base de données</h1>
+<h2 id="langages-et-frameworks">Langages et frameworks</h2>
+<p>Le logiciel faisant fonctionner l’application d’inventaire des orgues
+est écrit en <a href="https://clojure.org">Clojure</a> pour la partie <em>backend</em> et
+en <a href="https://github.com/clojure/clojurescript">ClojureScript</a> pour la
+partie <em>frontend</em>. Clojure et ClojureScript sont des langages LISP de la
+famille des langages fonctionnels. Pour le frontend, le code utilise le
+framework <a href="https://github.com/Day8/re-frame">re-frame</a>, s’appuyant sur
+la bibliothèque <a href="https://reactjs.org">React.js</a> pour développer des
+<em>Single Page Application</em>.</p>
+<h2 id="systeme-de-base-de-donnees">Système de base de données</h2>
+<p>Le système de base de données utilisé est
+<a href="http://www.datomic.com">Datomic</a>.</p>
+<p>Datomic et Clojure sont développés et maintenus par l’entreprise
+<a href="https://cognitect.com/">Cognitect</a> et des centaines de contributeurs.</p>
+<h2 id="deploiement">Déploiement</h2>
+<p>Le code source Clojure et ClojureScript est compilé en Java et déployé
+sous forme de fichier <code>.jar</code> depuis le serveur.</p>
+<h1 id="liste-des-logiciels-utilises">Liste des logiciels utilisés</h1>
+<ul>
+<li>
+<p><a href="https://www.discourse.org">Discourse</a><br />
+    Logiciel libre de forum.</p>
+</li>
+<li>
+<p><a href="https://www.docker.com/">Docker</a><br />
+    Logiciel libre pour « containeriser » des services. En l’occurrence,
+    Piwik, Discourse et Nextcloud sont lancés sur le serveur depuis
+    docker.</p>
+</li>
+<li>
+<p><a href="https://gogs.io/">Gogs</a><br />
+    Logiciel libre pour publier une forge de projets sous git.</p>
+</li>
+<li>
+<p><a href="https://jekyllrb.com">Jekyll</a><br />
+    Logiciel libre pour construire des blogs en HTML statique.
+    Nécessaire de connaître le langage
+    <a href="https://fr.wikipedia.org/wiki/Markdown">Markdown</a> pour écrire.</p>
+</li>
+<li>
+<p><a href="https://letsencrypt.org/">Letsencrypt</a><br />
+    Service gratuit pour l’obtention de certicats SSL/TLS valides,
+    utilisé pour le passage en <code>https</code> de tous les services.</p>
+</li>
+<li>
+<p><a href="https://nextcloud.com/">Nextcloud</a><br />
+    Logiciel libre pour le partage de fichiers en ligne.</p>
+</li>
+<li>
+<p><a href="https://piwik.org/">Piwik</a><br />
+    Logiciel libre pour la collecte de données sur les visites d’un site
+    web.</p>
+</li>
+</ul>
+<h1 id="depots-de-code">Dépôts de code</h1>
+<p>Liste des dépôts disponibles depuis <em>la forge</em> du projet :</p>
+<ul>
+<li>
+<p><a href="https://git.inventaire-des-orgues.fr/bzg/legito">legito</a><br />
+    Code source de l’application d’inventaire des orgues.</p>
+</li>
+<li>
+<p><a href="https://git.inventaire-des-orgues.fr/bzg/rbc-owl">rbc-owl</a><br />
+    Code source (<code>rbc-owl.org</code> et <code>rbc-owl.clj</code>) pour la génération d’un
+    fichier <code>.owl</code> correspondant au référentiel HADOC.</p>
+</li>
+<li>
+<p><a href="https://git.inventaire-des-orgues.fr/bzg/ox-skos">ox-skos</a><br />
+    Code source pour un outil de conversion de fichiers écrits en .org
+    vers le format <code>SKOS</code> utilisé pour l’import de vocabulaire dans
+    <a href="https://ginco.culture.fr">GINCO</a>.</p>
+</li>
+<li>
+<p><a href="https://git.inventaire-des-orgues.fr/bzg/ghislaine">ghislaine</a><br />
+    Code source pour une application de conversion d’un fichier d’export
+    Gertrude <code>.zip</code> vers un mini-site web présentant les données du
+    fichier.</p>
+</li>
+<li>
+<p><a href="https://git.inventaire-des-orgues.fr/bzg/clj-rgf93-wgs84">clj-rgf93-wgs84</a><br />
+    Code source pour une bibliothèque de conversion des coordonnées
+    Lambert93 en WGS84.</p>
+</li>
+<li>
+<p><a href="https://git.inventaire-des-orgues.fr/bzg/ido-docs">ido-docs</a><br />
+    Code source des informations disponibles sur le site
+    <a href="https://docs.inventaire-des-orgues.fr">https://docs.inventaire-des-orgues.fr</a></p>
+</li>
+<li>
+<p><a href="https://git.inventaire-des-orgues.fr/bzg/ido-blog">ido-blog</a><br />
+    (Dépôt privé) Code source pour le blog publié sur
+    <a href="https://blog.inventaire-des-orgues.fr">https://blog.inventaire-des-orgues.fr</a></p>
+</li>
+<li>
+<p><a href="https://git.inventaire-des-orgues.fr/bzg/ido-web">ido-web</a><br />
+    (Dépôt privé) Code source pour le site publié sur
+    <a href="https://www.inventaire-des-orgues.fr">https://www.inventaire-des-orgues.fr</a></p>
+</li>
+</ul>
+<h1 id="services-web-externes">Services web externes</h1>
+<h2 id="services-utilises-en-dehors-du-logiciel">Services utilisés en dehors du logiciel</h2>
+<ul>
+<li>
+<p>gandi.net<br />
+    service de location de noms de domaine.</p>
+</li>
+<li>
+<p>digitalocean.com<br />
+    service de location de machines virtuelles.</p>
+</li>
+<li>
+<p>mailchimp.com<br />
+    service pour la collecte d’adresses électroniques, ainsi que la
+    rédaction et le suivi de lettres d’information.</p>
+</li>
+<li>
+<p>flipmail.co<br />
+    service pour faire suivre le contenu d’un formulaire web vers une
+    adresse email, utilisé sur le site de présentation principal.</p>
+</li>
+<li>
+<p>tawk.to<br />
+    service de discussion en ligne, utilisé sur les sites statiques du
+    projet (www/blog/docs).</p>
+</li>
+</ul>
+<h2 id="services-utilises-par-lapplication">Services utilisés par l’application</h2>
+<ul>
+<li>
+<p>mailgun.com<br />
+    service d’envoi d’emails utilisé par l’application pour les emails
+    transactionnels, par exemple lors de la confirmation lors de
+    l’inscription d’un utilisateur.</p>
+</li>
+<li>
+<p>filestack.com<br />
+    service d’hébergement de fichiers, utilisé par l’application lorsque
+    les contributeurs envoient des fichiers d’images ou autres
+    documents.</p>
+</li>
+</ul>
+<h2 id="noms-de-domaine-et-adresses-email-utilisees">Noms de domaine et adresses email utilisées</h2>
+<ul>
+<li>
+<p>inventaire-des-orgues.fr<br />
+    nom de domaine principal, utilisé pour le portail et les services
+    associés. Pas de service mail actif sur ce nom de domaine depuis
+    gandi.net. La zone DNS est gérée par les serveurs DNS de
+    digitalocean : <code>ns1.digitalocean.com</code>. Tous les emails envoyés à
+    <code>@inventaire-des-orgues.fr</code> sont pour l’instant redirigés vers
+    l’adresse du développeur, depuis le service <code>mailgun.com</code>.</p>
+</li>
+<li>
+<p>inventaire-des-orgues.org<br />
+    nom de domaine secondaire, utilisé par
+    <a href="https://forum.inventaire-des-orgues.fr">https://forum.inventaire-des-orgues.fr</a> pour la passerelle email,
+    i.e. la possibilité de répondre par email à un sujet du forum. Deux
+    adresses email configurées depuis le compte gandi.net :
+    <code>forum@inventaire-des-orgues.org</code> utilisée pour le forum, et
+    <code>contact@inventaire-des-orgues.org</code> utilisée pour flipmail.co et
+    l’envoi d’information sur le formulaire du site principal.</p>
+</li>
+</ul>
+<h2 id="synthese-des-services-et-couts-associes">Synthèse des services et coûts associés</h2>
+<p>| Service          | Coût mensuel (() | Coût annuel ()) | Type d’abonnement |
+| ---------------- | ------------------------------------ | ----------------- |
+| digitalocean.com | 44                                   | 528               |
+| filestack.com    | 49                                   | 588               |
+| flipmail.co      | 0                                    | 0                 |
+| mailchimp.com    | 0                                    | 0                 |
+| mailgun.com      | 0                                    | 0                 |
+| tawk.to          | 0                                    | 0                 |
+| Total            | 93                                   | 1116              |</p>
+<h2 id="synthese-des-etapes-necessaires-au-tranfert">Synthèse des étapes nécessaires au tranfert</h2>
+<table>
+<thead>
+<tr>
+<th>Service</th>
+<th>Transfert</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>gandi.net</td>
+<td>Transfert du nom de domaine</td>
+</tr>
+<tr>
+<td>mailgun.com</td>
+<td>Changement d’adresse de contact et de facturation</td>
+</tr>
+<tr>
+<td>mailchimp.com</td>
+<td>Changement d’adresse de contact et de facturation</td>
+</tr>
+<tr>
+<td>digitalocean.com</td>
+<td>Changement d’adresse de contact et de facturation</td>
+</tr>
+<tr>
+<td>filestack.com</td>
+<td>Changement d’adresse de contact et de facturation</td>
+</tr>
+</tbody>
+</table>
+<h1 id="domaines-sous-domaines-et-services-associes">Domaines, sous-domaines et services associés</h1>
+<table>
+<thead>
+<tr>
+<th>Sous-domaine</th>
+<th>Service</th>
+<th>Logiciel associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>blog.inventaire-des-orgues.fr</td>
+<td>Blog du projet</td>
+<td>Jekyll</td>
+</tr>
+<tr>
+<td>fichiers.inventaire-des-orgues.fr</td>
+<td>Fichiers partagés</td>
+<td>Nextcloud</td>
+</tr>
+<tr>
+<td>forum.inventaire-des-orgues.fr</td>
+<td>Forum</td>
+<td>Discourse</td>
+</tr>
+<tr>
+<td>git.inventaire-des-orgues.fr</td>
+<td>Dépôt de code</td>
+<td>gogs</td>
+</tr>
+<tr>
+<td>www.inventaire-des-orgues.fr</td>
+<td>Portail du projet</td>
+<td>Jekyll</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

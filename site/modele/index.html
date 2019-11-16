@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Gwilherm Poullennec">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Modèle de données - Documentation de l'inventaire des orgues</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Mod\u00e8le de donn\u00e9es";
+    var mkdocs_page_input_path = "modele.md";
+    var mkdocs_page_url = "/modele/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Documentation de l'inventaire des orgues</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Données</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../donnees_etatcollectivites/">Etat et collectivités</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../donnees_sites/">Sites Internet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../donnees_livres/">Livres d'inventaires</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1 current">
+		
+    <a class="current" href="./">Modèle de données</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l2"><a href="#fiche-descriptive-minimale-de-lorgue">Fiche descriptive minimale de l'orgue</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l3" href="#partie-instrumentale-ou-phonique">Partie instrumentale ou phonique</a></li>
+        
+            <li><a class="toctree-l3" href="#buffet">Buffet</a></li>
+        
+            <li><a class="toctree-l3" href="#edifice-contenant-lorgue">Édifice contenant l'orgue</a></li>
+        
+        </ul>
+    
+
+    <li class="toctree-l2"><a href="#contribuer-a-construire-la-fiche">Contribuer à construire la fiche</a></li>
+    
+
+    <li class="toctree-l2"><a href="#questions">Questions</a></li>
+    
+
+    <li class="toctree-l2"><a href="#autres-sources-pour-construire-la-fiche-minimale">Autres sources pour construire la fiche minimale</a></li>
+    
+
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../about/">About</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Documentation de l'inventaire des orgues</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Modèle de données</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="fiche-descriptive-minimale-de-lorgue">Fiche descriptive minimale de l'orgue</h1>
+<p>Les termes en lettres majuscules et entre parenthèses correspondent au
+nom des champs dans la base de données Palissy.</p>
+<p>La fiche contiendra trois volets :</p>
+<ul>
+<li>la description de la partie instrumentale ;</li>
+<li>celle du buffet d'orgue ;</li>
+<li>celle de l'édifice contenant l'orgue.</li>
+</ul>
+<p>La description de la partie instrumentale contiendra elle-même :</p>
+<ul>
+<li>une liste de propriétés « générales » ;</li>
+<li>une description des composants matériels ;</li>
+<li>la composition des jeux ;</li>
+<li>un historique ;</li>
+<li>des données extérieures.</li>
+</ul>
+<p>À noter que des propriétés générales (comme le fait « d'être un Merklin
+») pourront être <em>affichées</em> dans la présentation sommaire de l'orgue,
+mais seulement <em>éditée</em> depuis l'historique de l'orgue.</p>
+<h2 id="partie-instrumentale-ou-phonique">Partie instrumentale ou phonique</h2>
+<h3 id="proprietes-generales">Propriétés générales</h3>
+<table>
+<thead>
+<tr>
+<th>Champ</th>
+<th>Type de données</th>
+<th>Lexique associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Auteur</td>
+<td>Structuré</td>
+<td>AUTR</td>
+</tr>
+<tr>
+<td>Appellations (par ex: "grand orgue", cf. thesaurus)</td>
+<td>Structuré</td>
+<td>TICO</td>
+</tr>
+<tr>
+<td>Appréciation générale sur l'état (ETAT)</td>
+<td>Texte libre ?</td>
+<td>ETAT ?</td>
+</tr>
+<tr>
+<td>État (jouable, etc.)</td>
+<td>Texte libre ?</td>
+<td>Lexique existant ?</td>
+</tr>
+<tr>
+<td>Référence/lien dans Palissy (REF)</td>
+<td>Structuré</td>
+<td>REF</td>
+</tr>
+<tr>
+<td>Affectataire</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Facteur assurant l'entretien</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Procédure et conditions d'accès à l'instrument</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Propriétaire (ou statut (STAT) ?)</td>
+<td>Structuré ?</td>
+<td>STAT ?</td>
+</tr>
+<tr>
+<td>Observations (OBS)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Inscription/classement MH</td>
+<td>texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Intérêt (INTE)</td>
+<td>Structuré</td>
+<td>Thesaurus ?</td>
+</tr>
+<tr>
+<td>Date notice (Palissy/Gertrude) par contributeur (DMIS/DMAJ/PERS)</td>
+<td>Date</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="description-des-composants">Description des composants</h3>
+<table>
+<thead>
+<tr>
+<th>Champ</th>
+<th>Type de données</th>
+<th>Lexique associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Accessoires</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Accouplements et tirasses</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Alimentation</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Boîte expressive</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Combinateur</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Claviers</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Console</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Diapason et température</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Meuble de console</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Pédalier</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers I</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers II</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers III</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers IV</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers V</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers pédale</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Soufflerie / pressions</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Tempérament</td>
+<td>Structuré</td>
+<td>Vocabulaire orgue</td>
+</tr>
+<tr>
+<td>Transmission des notes</td>
+<td>Structuré</td>
+<td>Vocabulaire orgue</td>
+</tr>
+<tr>
+<td>Transmission des jeux</td>
+<td>Structuré</td>
+<td>Vocabulaire orgue</td>
+</tr>
+<tr>
+<td>Tuyauterie</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="composition">Composition</h3>
+<p>Nous proposons de présenter la composition de l'orgue en séparant la
+liste des claviers (incluant la pédale) et la liste des jeux, chaque jeu
+étant bien sûr associé à un clavier.</p>
+<p>Pour les claviers :</p>
+<table>
+<thead>
+<tr>
+<th>Champ</th>
+<th>Type de données</th>
+<th>Lexique associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nom</td>
+<td>Chaîne de caractère</td>
+<td>Lexique des claviers</td>
+</tr>
+<tr>
+<td>Inscription</td>
+<td>Texte libre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td>Nombre de touches</td>
+<td>Nombre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td>Commentaire</td>
+<td>Texte libre</td>
+<td>Aucun</td>
+</tr>
+</tbody>
+</table>
+<p>Pour les jeux :</p>
+<table>
+<thead>
+<tr>
+<th>Champ</th>
+<th>Type de données</th>
+<th>Lexique associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nom</td>
+<td>Chaîne de caractère</td>
+<td>Lexique des jeux</td>
+</tr>
+<tr>
+<td>Inscription</td>
+<td>Texte libre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td>Hauteur / Tessiture</td>
+<td>Texte libre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td>Première / dernière note</td>
+<td>Structuré</td>
+<td>XX / XX avec mini 1 et maxi 73</td>
+</tr>
+<tr>
+<td>Rangs</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Clavier associé</td>
+<td>Clavier</td>
+<td>Lexique des claviers</td>
+</tr>
+<tr>
+<td>Matériaux</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Commentaire</td>
+<td>Texte libre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td>Accessoires</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Attention</strong> : les emprunts, extensions et accouplements seraient ainsi
+décrits dans un champ distinct, non en regard de la description des
+jeux.</p>
+<p>Si nous prenons la <a href="http://orgue-aquitaine.fr/Ancien-orgue-de-Bazas-Cathedrale-Saint-Jean-Baptiste.html">description de l'ancien orgue de
+Bazas</a>,
+nous aurions donc trois "claviers" (Grand-Orgue, Récit expressif et
+Pédale) avec respectivement 54, 54 et 27 "touches".</p>
+<p>Nous aurions en outre 19 jeux, dont 17 sont associés à un seul clavier
+et deux d'entre eux sont associés à deux claviers (la bombarde 16 et la
+trompette 8).</p>
+<p>En supposant que l'inscription du jeu (sur la tirasse) est semblable au
+nom du jeu, cela donne ce tableau de données :</p>
+<table>
+<thead>
+<tr>
+<th>Jeu (et inscription)</th>
+<th>Hauteur</th>
+<th>Clavier(s) associé(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Basson-Hautbois</td>
+<td>8</td>
+<td>Récit expressif</td>
+</tr>
+<tr>
+<td>Bombarde</td>
+<td>16</td>
+<td>Récit expressif, pédale</td>
+</tr>
+<tr>
+<td>Bourdon</td>
+<td>16</td>
+<td>Grand-Orgue</td>
+</tr>
+<tr>
+<td>Bourdon</td>
+<td>8</td>
+<td>Grand-Orgue</td>
+</tr>
+<tr>
+<td>Clairon</td>
+<td>4</td>
+<td>Récit expressif</td>
+</tr>
+<tr>
+<td>Contrebasse</td>
+<td>16</td>
+<td>Pédale</td>
+</tr>
+<tr>
+<td>Flûte</td>
+<td>8</td>
+<td>Pédale</td>
+</tr>
+<tr>
+<td>Flûte harmonique</td>
+<td>8</td>
+<td>Grand-Orgue</td>
+</tr>
+<tr>
+<td>Flûte octaviante</td>
+<td>4</td>
+<td>Récit expressif</td>
+</tr>
+<tr>
+<td>Flûte à pavillon</td>
+<td>8</td>
+<td>Récit expressif</td>
+</tr>
+<tr>
+<td>Kérolophone</td>
+<td>8</td>
+<td>Grand-Orgue</td>
+</tr>
+<tr>
+<td>Montre</td>
+<td>8</td>
+<td>Grand-Orgue</td>
+</tr>
+<tr>
+<td>Octavin</td>
+<td>2</td>
+<td>Grand-Orgue</td>
+</tr>
+<tr>
+<td>Prestant</td>
+<td>4</td>
+<td>Grand-Orgue</td>
+</tr>
+<tr>
+<td>Salicional</td>
+<td>8</td>
+<td>Grand-Orgue</td>
+</tr>
+<tr>
+<td>Trompette</td>
+<td>8</td>
+<td>Récit expressif, pédale</td>
+</tr>
+<tr>
+<td>Violoncelle</td>
+<td>8</td>
+<td>Récit expressif</td>
+</tr>
+<tr>
+<td>Voix Céleste</td>
+<td>8</td>
+<td>Récit expressif</td>
+</tr>
+<tr>
+<td>Voix Humaine</td>
+<td>8</td>
+<td>Récit expressif</td>
+</tr>
+</tbody>
+</table>
+<p>N'hésitez pas à commenter cette proposition sur la <a href="https://forum.inventaire-des-orgues.fr/t/description-de-la-composition-dun-orgue/65">page du
+forum</a>.</p>
+<h3 id="historique">Historique</h3>
+<table>
+<thead>
+<tr>
+<th>Champ</th>
+<th>Type de données</th>
+<th>Lexique associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>En YYYY, l'orgue est construit par A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>En YYYY, l'orgue est restauré par A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>En YYYY, l'orgue est déplacé de A à B</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EN YYYY, l'orgue a pour nouveau titulaire A</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>EN YYYY, orgue est protégé en tant que XXX</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>En YYYY, date d'enquête (DENQ)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>En YYYY, date bordereau (DBOR)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Date de contrat d'entretien</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="donnees-exterieures">Données extérieures</h3>
+<table>
+<thead>
+<tr>
+<th>Champ</th>
+<th>Type de données</th>
+<th>Lexique associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Archives (paroissiales, diocésaines, associatives, etc.)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Bibliographie</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Vidéo (+ auteur, licence, description)</td>
+<td>Fichier</td>
+<td></td>
+</tr>
+<tr>
+<td>Audio (+ auteur, licence, description)</td>
+<td>Fichier</td>
+<td></td>
+</tr>
+<tr>
+<td>Photo (+ auteur, licence, description)</td>
+<td>Fichier</td>
+<td></td>
+</tr>
+<tr>
+<td>Discographie</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Documentation</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="buffet">Buffet</h2>
+<table>
+<thead>
+<tr>
+<th>Champ</th>
+<th>Type de données</th>
+<th>Lexique associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Description (DESC)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Décor (REPR)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Inscriptions (INSC)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Auteur(s) (AUTR)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Historique (DATE)</td>
+<td>Date structurée</td>
+<td></td>
+</tr>
+<tr>
+<td>Matériau (MATR)</td>
+<td>Structuré</td>
+<td>Matériaux</td>
+</tr>
+<tr>
+<td>État (ETAT)</td>
+<td>Structuré</td>
+<td>État</td>
+</tr>
+<tr>
+<td>Inscription/classement MH</td>
+<td>texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Référence/lien dans Palissy (REF)</td>
+<td>Structuré</td>
+<td>REF</td>
+</tr>
+</tbody>
+</table>
+<h2 id="edifice-contenant-lorgue">Édifice contenant l'orgue</h2>
+<table>
+<thead>
+<tr>
+<th>Champ</th>
+<th>Type de données</th>
+<th>Lexique associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Localisation (Adresse postal, coordonnées GPS)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Titre courant (Dénomination/Genre/Appellation/Titre)</td>
+<td>Structuré</td>
+<td></td>
+</tr>
+<tr>
+<td>Propriétaire</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Protection MH</td>
+<td>Structuré</td>
+<td>Protection</td>
+</tr>
+<tr>
+<td>Référence/lien dans Mérimée (REFA)</td>
+<td>Structuré</td>
+<td>REFA</td>
+</tr>
+<tr>
+<td>Localisation de l'instrument dans l'édifice et accès à l'instrument</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Nombre de places assises</td>
+<td>Nombre</td>
+<td></td>
+</tr>
+<tr>
+<td>Acoustique de l'édifice</td>
+<td>Texte libre</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+<h1 id="contribuer-a-construire-la-fiche">Contribuer à construire la fiche</h1>
+<p>Pour contribuer à faire évoluer cette fiche, vous pouvez :</p>
+<ul>
+<li>
+<p>télécharger sa version <a href="data/docs/modele_orgue_complet.odt">odt</a> ou
+    <a href="data/docs/modele_orgue_complet.docx">docx</a> et
+    <a href="mailto:bzg@bzg.fr">m'envoyer</a> une version modifiée, si possible
+    avec le suivi de modifications ;</p>
+</li>
+<li>
+<p>ou participer à la discussion sur le
+    <a href="https://forum.inventaire-des-orgues.fr/t/fiche-descriptive-minimale-de-lorgue/21">forum</a>
+    ;</p>
+</li>
+<li>
+<p>m'envoyer un <a href="mailto:bzg@bzg.fr">simple email</a>.</p>
+</li>
+</ul>
+<h1 id="questions">Questions</h1>
+<ul>
+<li>
+<p>Quels éléments importants manquent encore ?</p>
+</li>
+<li>
+<p>Est-ce que la structuration actuelle est la bonne ?</p>
+</li>
+<li>
+<p>Faut-il indiquer l'état seulement pour le buffet et la partie
+    instrumentale de l'orgue, ou bien la tuyauterie, etc ?</p>
+</li>
+</ul>
+<h1 id="autres-sources-pour-construire-la-fiche-minimale">Autres sources pour construire la fiche minimale</h1>
+<ul>
+<li>Les inventaires papiers</li>
+<li>La fiche « Orgue » du plan 1990 (<a href="fiche-orgue-plan-1990.org">lien</a>)</li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../about/" class="btn btn-neutral float-right" title="About">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../donnees_livres/" class="btn btn-neutral" title="Livres d'inventaires"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../donnees_livres/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../about/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>

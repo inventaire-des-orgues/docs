@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="author" content="Gwilherm Poullennec">
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Modele orgue complet - Documentation de l'inventaire des orgues</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Modele orgue complet";
+    var mkdocs_page_input_path = "modele_orgue_complet.md";
+    var mkdocs_page_url = "/modele_orgue_complet/";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> Documentation de l'inventaire des orgues</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Données</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../donnees_etatcollectivites/">Etat et collectivités</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../donnees_sites/">Sites Internet</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../donnees_livres/">Livres d'inventaires</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../modele/">Modèle de données</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../about/">About</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">Documentation de l'inventaire des orgues</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Modele orgue complet</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <table>
+<thead>
+<tr>
+<th><strong>Propriétés générales de l'orgue</strong></th>
+<th>Type de données</th>
+<th>Lexique associé</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Auteur</td>
+<td>Structuré</td>
+<td>AUTR</td>
+</tr>
+<tr>
+<td>Appellations (par ex: "grand orgue", cf. thesaurus)</td>
+<td>Structuré</td>
+<td>TICO</td>
+</tr>
+<tr>
+<td>Appréciation générale sur l'état (ETAT)</td>
+<td>Texte libre ?</td>
+<td>ETAT ?</td>
+</tr>
+<tr>
+<td>État (jouable, etc.)</td>
+<td>Texte libre ?</td>
+<td>Lexique existant ?</td>
+</tr>
+<tr>
+<td>Référence/lien dans Palissy (REF)</td>
+<td>Structuré</td>
+<td>REF</td>
+</tr>
+<tr>
+<td>Affectataire</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Facteur assurant l'entretien</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Procédure et conditions d'accès à l'instrument</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Propriétaire (ou statut (STAT) ?)</td>
+<td>Structuré ?</td>
+<td>STAT ?</td>
+</tr>
+<tr>
+<td>Observations (OBS)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Inscription/classement MH</td>
+<td>texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Intérêt (INTE)</td>
+<td>Structuré</td>
+<td>Thesaurus ?</td>
+</tr>
+<tr>
+<td>Date notice (Palissy/Gertrude) par contributeur (DMIS/DMAJ/PERS)</td>
+<td>Date</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Description des composants</strong></td>
+<td>Type de données</td>
+<td>Lexique associé</td>
+</tr>
+<tr>
+<td>Accessoires</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Accouplements et tirasses</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Alimentation</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Boîte expressive</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Combinateur</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Claviers</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Console</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Diapason et température</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Meuble de console</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Pédalier</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers I</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers II</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers III</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers IV</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers V</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Sommiers pédale</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Soufflerie / pressions</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Tempérament</td>
+<td>Structuré</td>
+<td>Vocabulaire orgue</td>
+</tr>
+<tr>
+<td>Transmission des notes</td>
+<td>Structuré</td>
+<td>Vocabulaire orgue</td>
+</tr>
+<tr>
+<td>Transmission des jeux</td>
+<td>Structuré</td>
+<td>Vocabulaire orgue</td>
+</tr>
+<tr>
+<td>Tuyauterie</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Claviers</strong></td>
+<td>Type de données</td>
+<td>Lexique associé</td>
+</tr>
+<tr>
+<td>Nom</td>
+<td>Chaîne de caractère</td>
+<td>Lexique des claviers</td>
+</tr>
+<tr>
+<td>Inscription</td>
+<td>Texte libre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td>Nombre de touches</td>
+<td>Nombre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td>Commentaire</td>
+<td>Texte libre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td><strong>Jeux</strong></td>
+<td>Type de données</td>
+<td>Lexique associé</td>
+</tr>
+<tr>
+<td>Nom</td>
+<td>Chaîne de caractère</td>
+<td>Lexique des jeux</td>
+</tr>
+<tr>
+<td>Inscription</td>
+<td>Texte libre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td>Hauteur / Tessiture</td>
+<td>Texte libre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td>Première / dernière note</td>
+<td>Structuré</td>
+<td>XX / XX avec mini 1 et maxi 73</td>
+</tr>
+<tr>
+<td>Rangs</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Clavier associé</td>
+<td>Clavier</td>
+<td>Lexique des claviers</td>
+</tr>
+<tr>
+<td>Matériaux</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Commentaire</td>
+<td>Texte libre</td>
+<td>Aucun</td>
+</tr>
+<tr>
+<td>Accessoires</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Historique</strong></td>
+<td>Type de données</td>
+<td>Lexique associé</td>
+</tr>
+<tr>
+<td>Événement</td>
+<td>Structuré</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Données extérieures</strong></td>
+<td>Type de données</td>
+<td>Lexique associé</td>
+</tr>
+<tr>
+<td>Archives (paroissiales, diocésaines, associatives, etc.)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Bibliographie</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Vidéo (+ auteur, licence, description)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Audio (+ auteur, licence, description)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Photo (+ auteur, licence, description)</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Discographie</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Documentation</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Buffet</strong></td>
+<td>Type de données</td>
+<td>Lexique associé</td>
+</tr>
+<tr>
+<td>Description (DESC)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Décor (REPR)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Inscriptions (INSC)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Auteur(s) (AUTR)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Historique (DATE)</td>
+<td>Date structurée</td>
+<td></td>
+</tr>
+<tr>
+<td>Matériau (MATR)</td>
+<td>Structuré</td>
+<td>Matériaux</td>
+</tr>
+<tr>
+<td>État (ETAT)</td>
+<td>Structuré</td>
+<td>État</td>
+</tr>
+<tr>
+<td>Inscription/classement MH</td>
+<td>texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Référence/lien dans Palissy (REF)</td>
+<td>Structuré</td>
+<td>REF</td>
+</tr>
+<tr>
+<td><strong>Édifice contenant l'orgue</strong></td>
+<td>Type de données</td>
+<td>Lexique associé</td>
+</tr>
+<tr>
+<td>Localisation (Adresse postal, coordonnées GPS)</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Titre courant (Dénomination/Genre/Appellation/Titre)</td>
+<td>Structuré</td>
+<td></td>
+</tr>
+<tr>
+<td>Propriétaire</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Protection MH</td>
+<td>Structuré</td>
+<td>Protection</td>
+</tr>
+<tr>
+<td>Référence/lien dans Mérimée (REFA)</td>
+<td>Structuré</td>
+<td>REFA</td>
+</tr>
+<tr>
+<td>Localisation de l'instrument dans l'édifice et accès à l'instrument</td>
+<td>Texte libre</td>
+<td></td>
+</tr>
+<tr>
+<td>Nombre de places assises</td>
+<td>Nombre</td>
+<td></td>
+</tr>
+<tr>
+<td>Acoustique de l'édifice</td>
+<td>Texte libre</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+              
+            </div>
+          </div>
+          <footer>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+
+</body>
+</html>
