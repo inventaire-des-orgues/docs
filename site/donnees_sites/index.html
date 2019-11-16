@@ -1,219 +1,128 @@
 <!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <meta name="author" content="Gwilherm Poullennec">
-  <link rel="shortcut icon" href="../img/favicon.ico">
-  <title>Sites Internet - Documentation de l'inventaire des orgues</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+  
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="author" content="Gwilherm Poullennec">
+    <link rel="canonical" href="https://docs.inventaire-des-orgues.fr/donnees_sites/">
+    <link rel="shortcut icon" href="../img/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <title>Sites Internet - Documentation de l'inventaire des orgues</title>
+    <link href="../css/bootstrap-3.3.7.min.css" rel="stylesheet">
+    <link href="../css/font-awesome-4.7.0.css" rel="stylesheet">
+    <link href="../css/base.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/highlight.css">
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
 
-  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "Sites Internet";
-    var mkdocs_page_input_path = "donnees_sites.md";
-    var mkdocs_page_url = "/donnees_sites/";
-  </script>
-  
-  <script src="../js/jquery-2.1.1.min.js" defer></script>
-  <script src="../js/modernizr-2.8.3.min.js" defer></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script> 
-  
+    <script src="../js/jquery-3.2.1.min.js"></script>
+    <script src="../js/bootstrap-3.3.7.min.js"></script>
+    <script src="../js/highlight.pack.js"></script>
+    
+    <base target="_top">
+    <script>
+      var base_url = '..';
+      var is_top_frame = false;
+        
+        var pageToc = [
+          {title: "Donn\u00e9es de sites Internet personnels ou associatifs", url: "#_top", children: [
+              {title: "Orgelbase.nl", url: "#orgelbasenl" },
+              {title: "Orgue.free.fr", url: "#orguefreefr" },
+              {title: "Encreuse.free.fr", url: "#encreusefreefr" },
+              {title: "Orgues de Haute-Marne", url: "#orgues-de-haute-marne" },
+              {title: "Musica et memoria", url: "#musica-et-memoria" },
+              {title: "Les orgues du Gers", url: "#les-orgues-du-gers" },
+              {title: "Moisson d'orgues", url: "#moisson-dorgues" },
+              {title: "Richesses en Somme", url: "#richesses-en-somme" },
+              {title: "Les orgues de l'Aisne", url: "#les-orgues-de-laisne" },
+              {title: "Les orgues de Picardie", url: "#les-orgues-de-picardie" },
+              {title: "Orgues en Rh\u00f4ne-Alpes", url: "#orgues-en-rhone-alpes" },
+              {title: "Organisula", url: "#organisula" },
+              {title: "Organaute", url: "#organaute" },
+              {title: "Le printemps des orgues", url: "#le-printemps-des-orgues" },
+              {title: "Les orgues de Sa\u00f4ne et Loire / Archives du 71", url: "#les-orgues-de-saone-et-loire-archives-du-71" },
+              {title: "Les orgues en Normandie", url: "#les-orgues-en-normandie" },
+              {title: "Orgues en terre cathare", url: "#orgues-en-terre-cathare" },
+              {title: "Association Aristide Cavaill\u00e9-Coll", url: "#association-aristide-cavaille-coll" },
+              {title: "D\u00e9couverte des orgues d'Alsace", url: "#decouverte-des-orgues-dalsace" },
+              {title: "Orgues Silbermann", url: "#orgues-silbermann" },
+              {title: "Orgues du bocage Coutan\u00e7ais", url: "#orgues-du-bocage-coutancais" },
+              {title: "Association pour le d\u00e9veloppement de l'orgue en Aquitaine", url: "#association-pour-le-developpement-de-lorgue-en-aquitaine" },
+              {title: "Orgalie -- F\u00e9d\u00e9ration des orgues du Territoire de Belfort", url: "#orgalie-federation-des-orgues-du-territoire-de-belfort" },
+              {title: "Orgues du Val d'Oise", url: "#orgues-du-val-doise" },
+              {title: "Orgue en Alpes-Maritimes", url: "#orgue-en-alpes-maritimes" },
+              {title: "Orgues en Dauphin\u00e9", url: "#orgues-en-dauphine" },
+              {title: "Orgues du Loiret", url: "#orgues-du-loiret" },
+              {title: "L'orgue et ses buffets", url: "#lorgue-et-ses-buffets" },
+              {title: "Het orgel", url: "#het-orgel" },
+              {title: "Orgues et vitraux", url: "#orgues-et-vitraux" },
+          ]},
+          {title: "Facteurs d'orgues", url: "#facteurs-dorgues", children: [
+              {title: "Kern", url: "#kern" },
+              {title: "Pascal Quoirin", url: "#pascal-quoirin" },
+              {title: "Toussaint", url: "#toussaint" },
+              {title: "Jean-Pascal Villard", url: "#jean-pascal-villard" },
+          ]},
+          {title: "Pages de liens", url: "#pages-de-liens", children: [
+          ]},
+          {title: "Sites sur un orgue / une association", url: "#sites-sur-un-orgue-une-association", children: [
+              {title: "Sites de liens", url: "#sites-de-liens" },
+              {title: "Sites individuels", url: "#sites-individuels" },
+          ]},
+        ];
+
+    </script>
+    <script src="../js/base.js"></script> 
 </head>
 
-<body class="wy-body-for-nav" role="document">
+<body>
+<script>
+if (is_top_frame) { $('body').addClass('wm-top-page'); }
+</script>
 
-  <div class="wy-grid-for-nav">
 
-    
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-      <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> Documentation de l'inventaire des orgues</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
-  </form>
-</div>
-      </div>
 
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-	<ul class="current">
-	  
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="..">Home</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <span class="caption-text">Données</span>
-    <ul class="subnav">
-                <li class="">
-                    
-    <a class="" href="../donnees_etatcollectivites/">Etat et collectivités</a>
-                </li>
-                <li class=" current">
-                    
-    <a class="current" href="./">Sites Internet</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#donnees-de-sites-internet-personnels-ou-associatifs">Données de sites Internet personnels ou associatifs</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#orgelbasenl">Orgelbase.nl</a></li>
-        
-            <li><a class="toctree-l4" href="#orguefreefr">Orgue.free.fr</a></li>
-        
-            <li><a class="toctree-l4" href="#encreusefreefr">Encreuse.free.fr</a></li>
-        
-            <li><a class="toctree-l4" href="#orgues-de-haute-marne">Orgues de Haute-Marne</a></li>
-        
-            <li><a class="toctree-l4" href="#musica-et-memoria">Musica et memoria</a></li>
-        
-            <li><a class="toctree-l4" href="#les-orgues-du-gers">Les orgues du Gers</a></li>
-        
-            <li><a class="toctree-l4" href="#moisson-dorgues">Moisson d'orgues</a></li>
-        
-            <li><a class="toctree-l4" href="#richesses-en-somme">Richesses en Somme</a></li>
-        
-            <li><a class="toctree-l4" href="#les-orgues-de-laisne">Les orgues de l'Aisne</a></li>
-        
-            <li><a class="toctree-l4" href="#les-orgues-de-picardie">Les orgues de Picardie</a></li>
-        
-            <li><a class="toctree-l4" href="#orgues-en-rhone-alpes">Orgues en Rhône-Alpes</a></li>
-        
-            <li><a class="toctree-l4" href="#organisula">Organisula</a></li>
-        
-            <li><a class="toctree-l4" href="#organaute">Organaute</a></li>
-        
-            <li><a class="toctree-l4" href="#le-printemps-des-orgues">Le printemps des orgues</a></li>
-        
-            <li><a class="toctree-l4" href="#les-orgues-de-saone-et-loire-archives-du-71">Les orgues de Saône et Loire / Archives du 71</a></li>
-        
-            <li><a class="toctree-l4" href="#les-orgues-en-normandie">Les orgues en Normandie</a></li>
-        
-            <li><a class="toctree-l4" href="#orgues-en-terre-cathare">Orgues en terre cathare</a></li>
-        
-            <li><a class="toctree-l4" href="#association-aristide-cavaille-coll">Association Aristide Cavaillé-Coll</a></li>
-        
-            <li><a class="toctree-l4" href="#decouverte-des-orgues-dalsace">Découverte des orgues d'Alsace</a></li>
-        
-            <li><a class="toctree-l4" href="#orgues-silbermann">Orgues Silbermann</a></li>
-        
-            <li><a class="toctree-l4" href="#association-pour-le-developpement-de-lorgue-en-aquitaine">Association pour le développement de l'orgue en Aquitaine</a></li>
-        
-            <li><a class="toctree-l4" href="#orgues-du-val-doise">Orgues du Val d'Oise</a></li>
-        
-            <li><a class="toctree-l4" href="#orgue-en-alpes-maritimes">Orgue en Alpes-Maritimes</a></li>
-        
-            <li><a class="toctree-l4" href="#orgues-en-dauphine">Orgues en Dauphiné</a></li>
-        
-            <li><a class="toctree-l4" href="#orgues-du-loiret">Orgues du Loiret</a></li>
-        
-            <li><a class="toctree-l4" href="#lorgue-et-ses-buffets">L'orgue et ses buffets</a></li>
-        
-            <li><a class="toctree-l4" href="#het-orgel">Het orgel</a></li>
-        
-            <li><a class="toctree-l4" href="#orgues-et-vitraux">Orgues et vitraux</a></li>
-        
-        </ul>
+<div class="container-fluid wm-page-content">
+  <a name="_top"></a>
     
 
-    <li class="toctree-l3"><a href="#facteurs-dorgues">Facteurs d'orgues</a></li>
     
-        <ul>
-        
-            <li><a class="toctree-l4" href="#kern">Kern</a></li>
-        
-            <li><a class="toctree-l4" href="#pascal-quoirin">Pascal Quoirin</a></li>
-        
-            <li><a class="toctree-l4" href="#toussaint">Toussaint</a></li>
-        
-            <li><a class="toctree-l4" href="#jean-pascal-villard">Jean-Pascal Villard</a></li>
-        
-        </ul>
-    
-
-    <li class="toctree-l3"><a href="#pages-de-liens">Pages de liens</a></li>
-    
-
-    <li class="toctree-l3"><a href="#sites-sur-un-orgue-une-association">Sites sur un orgue / une association</a></li>
-    
-        <ul>
-        
-            <li><a class="toctree-l4" href="#sites-de-liens">Sites de liens</a></li>
-        
-            <li><a class="toctree-l4" href="#sites-individuels">Sites individuels</a></li>
-        
-        </ul>
-    
-
-    </ul>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../donnees_livres/">Livres d'inventaires</a>
-                </li>
-    </ul>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../modele/">Modèle de données</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="../about/">About</a>
-	    </li>
-          
-        </ul>
-      </div>
-      &nbsp;
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
-      
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">Documentation de l'inventaire des orgues</a>
-      </nav>
-
-      
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="..">Docs</a> &raquo;</li>
     
       
-        
-          <li>Données &raquo;</li>
-        
-      
     
-    <li>Sites Internet</li>
-    <li class="wy-breadcrumbs-aside">
-      
-    </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main">
-            <div class="section">
-              
-                <h1 id="donnees-de-sites-internet-personnels-ou-associatifs">Données de sites Internet personnels ou associatifs</h1>
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../donnees_livres/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../donnees_livres/" class="btn btn-xs btn-link">
+        Livres d'inventaires
+      </a>
+    </div>
+    
+    <div class="wm-article-nav">
+      <a href="../donnees_etatcollectivites/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../donnees_etatcollectivites/" class="btn btn-xs btn-link">
+        Etat et collectivités
+      </a>
+    </div>
+    
+  </div>
+
+    
+
+    <h1 id="donnees-de-sites-internet-personnels-ou-associatifs">Données de sites Internet personnels ou associatifs</h1>
 <p><introduction></p>
 <p>Il est prévu de parcourir l'ensemble de ces sites pour voir
 quelles informations du <a href="modele.org">modèle de données</a> y sont
@@ -365,6 +274,10 @@ plecoq@orgues-normandie.com</p>
 <p>http://decouverte.orgue.free.fr/</p>
 <h2 id="orgues-silbermann">Orgues Silbermann</h2>
 <p>https://dev.itineraires-silbermann.org/les-orgues/</p>
+<h2 id="orgues-du-bocage-coutancais">Orgues du bocage Coutançais</h2>
+<p>https://www.orguesdubocage.fr/les-orgues/
+16 orgues
+compositions, photos, vidéos ou fichiers sonores</p>
 <h2 id="association-pour-le-developpement-de-lorgue-en-aquitaine">Association pour le développement de l'orgue en Aquitaine</h2>
 <p>http://orgue-aquitaine.fr/-Inventaire-.html
 Environ 400 notices
@@ -373,6 +286,13 @@ Association A.D.OR.A.
 Mairie de Coutras BP 69
 33230 COUTRAS (France)
 Philippe BEZKOROWAJNY (pdt et webmestre)</p>
+<h2 id="orgalie-federation-des-orgues-du-territoire-de-belfort">Orgalie -- Fédération des orgues du Territoire de Belfort</h2>
+<p>https://www.orgalie.com/orgues-du-territoire-de-belfort/
+20 orgues
+historique, composition, photos
+Jean-Jacques Griesser
+orgalie90@gmail.com
+06 15 83 93 26</p>
 <h2 id="orgues-du-val-doise">Orgues du Val d'Oise</h2>
 <p>http://orguesvaldoise.weebly.com/orgues.html
 orguesvaldoise@gmail.com
@@ -527,52 +447,43 @@ http://www.orgue-chaource.fr/
 http://www.la-thierache.fr/2015/07/30/la-belle-histoire-de-lorgue-de-chaourse/
 http://www.orguesaintsfrancois.org/</li>
 </ul>
-              
-            </div>
-          </div>
-          <footer>
-  
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+
+  <br>
+    
+
+    
+    
       
-        <a href="../donnees_livres/" class="btn btn-neutral float-right" title="Livres d'inventaires">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="../donnees_etatcollectivites/" class="btn btn-neutral" title="Etat et collectivités"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-      
+    
+
+  <div class="row wm-article-nav-buttons" role="navigation" aria-label="navigation">
+    
+    <div class="wm-article-nav pull-right">
+      <a href="../donnees_livres/" class="btn btn-xs btn-default pull-right">
+        Next
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+      </a>
+      <a href="../donnees_livres/" class="btn btn-xs btn-link">
+        Livres d'inventaires
+      </a>
     </div>
-  
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
+    
+    <div class="wm-article-nav">
+      <a href="../donnees_etatcollectivites/" class="btn btn-xs btn-default pull-left">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+        Previous</a><a href="../donnees_etatcollectivites/" class="btn btn-xs btn-link">
+        Etat et collectivités
+      </a>
+    </div>
     
   </div>
 
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
-</footer>
-      
-        </div>
-      </div>
-
-    </section>
-
-  </div>
-
-  <div class="rst-versions" role="note" style="cursor: pointer">
-    <span class="rst-current-version" data-toggle="rst-current-version">
-      
-      
-        <span><a href="../donnees_etatcollectivites/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../donnees_livres/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
+    <br>
 </div>
-    <script>var base_url = '..';</script>
-    <script src="../js/theme.js" defer></script>
-      <script src="../search/main.js" defer></script>
+
+<footer class="col-md-12 wm-page-content">
+  <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a> using <a href="https://github.com/gristlabs/mkdocs-windmill">Windmill</a> theme by Grist Labs.</p>
+</footer>
 
 </body>
 </html>

@@ -124,5 +124,5 @@ class MkDocsBuild(object):
 
 
 if __name__ == "__main__":
-    MkDocsBuild().main()
-    MkDocsBuild().serve()
+    MkDocsBuild().build()
+    #MkDocsBuild().serve()
