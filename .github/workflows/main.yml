@@ -1,0 +1,16 @@
+name: remote ssh command
+on: [push]
+jobs:
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    steps:
+    - name: executing remote ssh commands using password
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST_INVENTAIRE_DES_ORGUES }}
+        username: ${{ secrets.USERNAME_INVENTAIRE_DES_ORGUES }}
+        password: ${{ secrets.PASSWORD_INVENTAIRE_DES_ORGUES }}
+        port: ${{ secrets.PORT_INVENTAIRE_DES_ORGUES }}
+        script: whoami
