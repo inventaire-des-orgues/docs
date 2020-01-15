@@ -5,7 +5,7 @@ site_author: Gwilherm Poullennec
 
 repo_url: 
 
-theme: windmill
+theme: mkdocs
 
 nav:
     - Home: index.md

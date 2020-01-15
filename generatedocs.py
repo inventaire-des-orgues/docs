@@ -86,7 +86,10 @@ class MkDocsBuild(object):
         """
         self.clean()
         print("Building MkDocs Files")
-        cmdopts = ["{}".format(self.PATH_TO_PYTHON_EXE), "{}".format(self.PATH_TO_MKDOCS), "build", "--clean"]
+        if platform.system() == "Windows":
+            cmdopts = ["{}".format(self.PATH_TO_PYTHON_EXE), "{}".format(self.PATH_TO_MKDOCS), "build", "--clean"]
+        elif platform.system() == 'Linux':
+            cmdopts = ["{}".format(self.PATH_TO_MKDOCS), "build", "--clean"]
         print(cmdopts)
         self.run_cmd(cmdopts, self.MKDOCSDIR)
         print("Build finished. The HTML pages are in " + self.BUILDDIR)
