@@ -2,5 +2,10 @@ term.txt
 #site/
 *.md.backup
 .gitignore
-.idea
+.idea/
 .git
+.gitignore
+.idea/docinventairedesorgues.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/workspace.xml
