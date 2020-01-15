@@ -11,6 +11,6 @@ jobs:
       with:
         host: ${{ secrets.HOST_INVENTAIRE_DES_ORGUES }}
         username: ${{ secrets.USERNAME_INVENTAIRE_DES_ORGUES }}
-        password: ${{ secrets.PASSWORD_INVENTAIRE_DES_ORGUES }}
+        key: ${{ secrets.KEY_INVENTAIRE_DES_ORGUES }}
         port: ${{ secrets.PORT_INVENTAIRE_DES_ORGUES }}
         script: whoami
