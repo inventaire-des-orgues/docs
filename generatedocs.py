@@ -6,6 +6,7 @@ https://www.mkdocs.org/
 https://www.mkdocs.org/user-guide/configuration/
 """
 import os
+import platform
 import sys
 import subprocess
 import pathlib
@@ -25,10 +26,17 @@ class MkDocsBuild(object):
         """
         self.BUILDDIR = "site"
         self.MKDOCSDIR = "./"
-        self.PATH_TO_PYTHON_DIR = pathlib.Path("D:\\Users\\poullennecgwi\\Portable\\WPy64-3720\\python-3.7.2.amd64")
-        self.PATH_TO_SITE_PACKAGES = pathlib.Path(self.PATH_TO_PYTHON_DIR / 'Lib' / 'Site-Packages')
-        self.PATH_TO_PYTHON_EXE = pathlib.Path(self.PATH_TO_PYTHON_DIR/'python.exe')
-        self.PATH_TO_MKDOCS = pathlib.Path(self.PATH_TO_SITE_PACKAGES/'mkdocs')
+        # Win ou Unix
+        if platform.system() == "Windows":
+            self.PATH_TO_PYTHON_DIR = pathlib.Path("D:\\Users\\poullennecgwi\\Portable\\WPy64-3720\\python-3.7.2.amd64")
+            self.PATH_TO_SITE_PACKAGES = pathlib.Path(self.PATH_TO_PYTHON_DIR / 'Lib' / 'Site-Packages')
+            self.PATH_TO_PYTHON_EXE = pathlib.Path(self.PATH_TO_PYTHON_DIR/'python.exe')
+            self.PATH_TO_MKDOCS = pathlib.Path(self.PATH_TO_SITE_PACKAGES/'mkdocs')
+        elif platform.system() == "Linux":
+            self.PATH_TO_PYTHON_DIR = pathlib.Path("/usr/bin")
+            self.PATH_TO_SITE_PACKAGES = pathlib.Path('/usr/local/lib/python3.7/dist-packages')
+            self.PATH_TO_PYTHON_EXE = pathlib.Path(self.PATH_TO_PYTHON_DIR/'python3')
+            self.PATH_TO_MKDOCS = pathlib.Path(self.PATH_TO_SITE_PACKAGES/'mkdocs')
 
     def run_cmd(self, cmdarray, workingdir):
         """
