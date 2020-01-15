@@ -1,0 +1,60 @@
+#+TITLE: Inventaire des orgues - documentation
+#+AUTHOR: Ministère de la Culture
+#+EMAIL: contact@inventaire-des-orgues.org
+#+OPTIONS: toc:t
+#+LANGUAGE: fr
+#+SETUPFILE: theme-readtheorg-local.setup
+
+* Les données à collecter
+
+La page des [[file:donnees.org][données]] liste les différentes sources qui permettent
+d'alimenter l'inventaire des orgues.  Pour que ces sources s'intègrent
+à l'application et que celle-ci expose les données dans des formats
+utiles, nous construisons un [[file:alignement.org][alignement]] des référentiels.
+
+* Le vocabulaire et la fiche descriptive
+
+La page du [[file:lexique.org][vocabulaire de l'orgue]] propose un lexique provisoire qui
+servira à terme dans la saisie des informations concernant un orgue.
+
+La page de la [[file:modele.org][fiche descriptive]] (ou « modèle ») de l'orgue présente la
+structure des informations à inventorier pour un orgue.
+
+* Le code source des outils
+
+[[file:code-source.org][Cette page]] donne accès au code source des outils développés pour
+l’inventaire des orgues.
+
+* Comment contribuer au projet ?
+
+Pour commencer à contribuer, rendez-vous sur [[https://forum.inventaire-des-orgues.fr/t/comment-contribuer-au-projet-dinventaire-des-orgues/13][cette page du forum]].
+
+Vous pouvez aussi nous [[https://www.inventaire-des-orgues.fr/#contact][contacter directement]] en indiquant les éléments
+sur lesquels vous pouvez aider : collecte de données en ligne ou sur
+le terrain ; aide à l’évolution de la fiche descriptive ; aide à la
+construction du vocabulaire ; aide aux tests de la plate-forme.
+
+* Foire aux questions
+
+La [[file:faq.org][FAQ (foire aux questions)]] répond aux questions posées par les
+contributeurs au fur et à mesure que le site évolue.
+
+* COMMENT Guide du contributeur
+
+Le [[file:guide-du-contributeur.org][guide du contributeur]] présente les différentes façons dont les
+contributeurs peuvent participer au projet.
+
+* COMMENT Présentation du site inventaire-des-orgues.fr
+
+La [[file:presentation-site.org][présentation]] fait un tour rapide des pages web accessibles depuis
+le site [[http://www.inventaire-des-orgues.fr][www.inventaire-des-orgues.fr]].
+
+* COMMENT Manuel d'utilisation de l'application web
+
+Le [[file:manuel-utilisateur.org][manuel d'utilisation]] fait le tour des différentes fonctionnalités
+de l'application web du point de vue de l'utilisateur.
+
+* COMMENT Manuel du développeur de l'application web
+
+Le [[file:manuel-developpeur.org][manuel du développeur]] fait le tour des différentes fonctionnalités
+de l'application web du point de vue de l'utilisateur.

@@ -1,0 +1,52 @@
+#+title: Inventaire des orgues - Foire aux questions
+#+setupfile: theme-readtheorg-local.setup
+#+author: Ministère de la culture
+#+email: contact@inventaire-des-orgues.org
+#+date: <2017-11-24 ven.>
+#+options: toc:t
+#+language: fr
+
+* Ai-je le droit de contribuer ?
+
+Oui, tout utilisateur acceptant la [[file:charte-du-contributeur.org][charte du contributeur]] peut créer
+un compte et contribuer à cet inventaire des orgues.
+
+* Quels sont mes droits d’auteur sur les images que je publie ?
+
+Lorsque vous vous inscrivez sur le site, vous accepter la [[file:charte-du-contributeur.org][charte du
+contributeur]].
+
+Celle-ci indique que vous *conservez tous vos droits d’auteur* sur les
+contenus que vous publiez sur le site mais que vous vous engagez à les
+publier sous licences libres : la [[https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf][licence Ouverte 2.0]] pour les données
+textuelles ajoutées dans la base (le nom d’un facteur d’orgue, une
+indication pour la composition d’un orgue, etc.) et la licence
+[[https://creativecommons.org/licenses/by-sa/3.0/fr/][Creative Commons by-sa 3.0]] pour les images et les fichiers son.
+
+La licence Ouverte 2.0 permet à n’importe qui de réutiliser les
+contenus, y compris à des fins commerciales, à condition d’en citer la
+source et les auteurs.
+
+La licence Creative Commons by-sa 3.0 permet la réutilisation, y
+compris à des fins commerciales, mais impose que les contenus dérivés
+soient publiés dans des conditions équivalentes de partage.  C’est la
+licence utilisées par des grands projets comme Wikipédia.
+
+* Qui porte le projet ?
+
+Le projet est conjointement porté par l’association [[http://orgue-en-france.org/][Orgue en France]],
+la Fédération Francophone des Amis de l’Orgue ([[http://ffao.com/][FFAO]]) et le [[http://www.culture.gouv.fr/][ministère
+de la Culture]].
+
+Le ministère de la Culture s’engage à mettre les données de
+l’[[http://www.inventaire.culture.gouv.fr/][Inventaire général du patrimoine culturel]] à disposition de
+l’inventaire des orgues et à en faciliter l’intégration.  Orgue en
+France et la FFAO s’engage à maintenir le site.
+
+* Ai-je le droit de prendre une photo d’orgue et de la publier ?
+
+Vous avez bien sûr le droit de prendre un orgue en photo, mais pour
+diffuser la photographie, vous devez demander l’autorisation au
+propriétaire de l’orgue.  C’est souvent un moyen d’accéder à l’orgue
+plus facilement et de prendre de meilleures photos !
+

@@ -1,0 +1,12 @@
+#+TITLE: Inventaire des orgues - charte utilisateur
+#+SETUPFILE: theme-readtheorg-local.setup
+#+AUTHOR: Ministère de la Culture
+#+EMAIL: contact@inventaire-des-orgues.org
+#+DATE: 13 novembre 2017
+#+OPTIONS: toc:t
+#+LANGUAGE: fr
+
+*Version 0.7*
+
+Voir la [[file:charte-du-contributeur.org][charte du contributeur]].
+
