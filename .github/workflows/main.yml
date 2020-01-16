@@ -13,4 +13,9 @@ jobs:
         username: ${{ secrets.USERNAME_INVENTAIRE_DES_ORGUES }}
         key: ${{ secrets.KEY_INVENTAIRE_DES_ORGUES }}
         port: ${{ secrets.PORT_INVENTAIRE_DES_ORGUES }}
-        script: whoami
+        script: |
+          cd /var/www/docs
+          git pull github_inventairedesorgues master
+          mkdocs build --clean
+          sudo systemctl restart nginx
+          

@@ -1,3 +1,9 @@
+
+# Foire aux questions
+
+La [FAQ (foire aux questions)](faq.md) répond aux questions posées par
+les contributeurs au fur et à mesure que le site évolue.
+
 # Les données à collecter
 
 La page des [données](donnees.md) liste les différentes sources qui
@@ -30,8 +36,3 @@ les éléments sur lesquels vous pouvez aider : collecte de données en
 ligne ou sur le terrain ; aide à l’évolution de la fiche descriptive ;
 aide à la construction du vocabulaire ; aide aux tests de la
 plate-forme.
-
-# Foire aux questions
-
-La [FAQ (foire aux questions)](faq.md) répond aux questions posées par
-les contributeurs au fur et à mesure que le site évolue.

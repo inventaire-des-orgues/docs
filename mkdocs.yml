@@ -9,6 +9,7 @@ theme: mkdocs
 
 nav:
     - Home: index.md
+    - Questions/réponses: faq.md
     - Données:
         - Etat et collectivités: donnees_etatcollectivites.md
         - Sites Internet: donnees_sites.md

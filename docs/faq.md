@@ -7,8 +7,11 @@ Les harmoniums sont exclus. Les instruments électroniques, et la partie électr
 
 Les orgues disparus ne sont pas mentionnés à l'ouverture de l'inventaire, puisque comme son nom l'indique il s'intéresse aux instruments actuellement présents sur le territoire. Cependant, rien n'interdit de les renseigner (les attributs destruction et disparition sont disponibles pour cela).
 
-### Comment sont identifiés les instruments ?
-Les orgues sont identifiés par leur situation géographique.
+### Combien dénombre-t-on d'orgues ?
+Environ huit mille.
+
+### Comment les instruments sont-ils identifiés  ?
+Les orgues sont identifiés par leur situation géographique. Une fiche ne suit donc pas un orgue au cours du temps si celui-ci a été déménagé, ce qui est le cas d'une importante minorité d'instruments : le cas échéant, on retrouvera l'orgue à différents lieux dans différentes fiches.
 
 ### A qui appartiennent les données présentes dans l'inventaire ?
 Les données déposées dans l'inventaire sont obligatoirement libre de droits patrimoniaux. L'ensemble de l'inventaire est donc en open data, que ce soit les textes décrivant l'histoire de chaque instrument, sa composition, son état de conservation, etc. De même, l'ensemble de fichiers annexes déposés dans la base de données de l'inventaire, les photos, vidéos, etc. sont libre de droits patrimoniaux.
@@ -19,7 +22,7 @@ En revanche fichiers images, sonores ou vidéos peuvent conserver leur droit d'a
 Tout un chacun.
 
 ### Qui s'assure que les données sont exactes ?
-L'inventaire national dispose d'un comité de relecture qui s'assure à la publication qu'il n'y a pas d'erreur évidente. Il peut être contacté en cas d'incertitude sur la qualité des informations.
+L'inventaire national dispose d'un comité de relecture qui s'assure à la publication qu'il n'y a pas d'erreur évidente. Il peut être contacté en cas d'incertitude sur la qualité des informations. Il ne rend pas d'avis sur l'esthétique d'un instrument.
 La structure de la fiche descriptive de chaque orgue étant bien établie, et les informations collectées étant objectives, il est peut probable qu'apparaissent des litiges.
 
 ### Qui a payé le portail Internet de l'inventaire ?
@@ -74,13 +77,13 @@ Les données présentes à l'ouverture du portail au sein des fiches descriptive
 Vous avez bien sûr le droit de prendre un orgue en photo, mais pour diffuser la photographie, il est préférable de demander son accord au propriétaire de l’orgue. C’est souvent un moyen d’accéder à l’orgue
 plus facilement et de prendre de meilleures photos, en évitant par exemmple le classique contre-jour dû à la rose ou verrière de facade !
 
-# Ai-je le droit de contribuer ?
+### Ai-je le droit de contribuer ?
 
 Oui, tout utilisateur acceptant la [charte du
 contributeur](charte-du-contributeur.md) peut créer un compte et
 contribuer à cet inventaire des orgues.
 
-# Quels sont mes droits d’auteur sur les images que je publie ?
+### Quels sont mes droits d’auteur sur les images que je publie ?
 
 Lorsque vous vous inscrivez sur le site, vous accepter la [charte du
 contributeur](charte-du-contributeur.md).
@@ -104,7 +107,7 @@ La licence Creative Commons by-sa 3.0 permet la réutilisation, y compris
 publiés dans des conditions équivalentes de partage. C’est la licence
 utilisées par des grands projets comme Wikipédia.
 
-# Qui porte le projet ?
+### Qui porte le projet ?
 
 
 
