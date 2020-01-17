@@ -2,10 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5e3ee4f-eab5-4ba8-8477-f45a4f54de8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/docinventairedesorgues.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/docinventairedesorgues.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generatedocs.py" beforeDir="false" afterPath="$PROJECT_DIR$/generatedocs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/alignement/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/alignement/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/charte-du-contributeur/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/charte-du-contributeur/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/code-source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/code-source/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/css/bootstrap-3.3.7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/css/bootstrap-3.3.7.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/css/font-awesome-4.7.0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/css/font-awesome-4.7.0.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/css/highlight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/donnees/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/donnees_compilees/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_compilees/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/donnees_etatcollectivites/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_etatcollectivites/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/donnees_livres/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_livres/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/donnees_sites/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_sites/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/faq/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/faq/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/fiche-orgue-plan-1990/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/fiche-orgue-plan-1990/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/site/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/site/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/img/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/js/base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/js/bootstrap-3.3.7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/js/bootstrap-3.3.7.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/js/elasticlunr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/js/elasticlunr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/js/highlight.pack.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/js/jquery-3.2.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/lexique/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/lexique/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/mentions-legales/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/mentions-legales/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/modele/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/modele/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/modele_orgue_complet/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/modele_orgue_complet/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/modele_tableur/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/modele_tableur/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/pourquoi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/pourquoi/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/reprise-technique/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/reprise-technique/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/ressources-humaines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/ressources-humaines/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/theindex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/theindex/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,49 +59,95 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="md" value="429" />
+          <entry key="py" value="146" />
+          <entry key="yml" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Markdown" value="429" />
+          <entry key="Python" value="146" />
+          <entry key="YAML" value="98" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="md" value="2" />
           <entry key="py" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="Markdown" value="2" />
           <entry key="Python" value="1" />
+          <entry key="YAML" value="2" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generatedocs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="106" column="31" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+            <state relative-caret-position="495">
+              <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+              <folding>
+                <element signature="e#148#157#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../site/manage.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mkdocs.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+            <state relative-caret-position="220">
+              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/faq.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="480">
+                <caret line="24" column="225" selection-start-line="24" selection-start-column="225" selection-end-line="24" selection-end-column="225" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.github/workflows/main.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="400">
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/index.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="100">
+                <caret line="5" selection-start-line="5" selection-end-line="5" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -79,10 +166,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/generatedocs.py" />
+        <option value="$PROJECT_DIR$/mkdocs.yml" />
+        <option value="$PROJECT_DIR$/docs/index.md" />
+        <option value="$PROJECT_DIR$/docs/faq.md" />
+        <option value="$PROJECT_DIR$/.github/workflows/main.yml" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="2061" />
@@ -94,12 +185,33 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="docinventairedesorgues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docinventairedesorgues" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docinventairedesorgues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docinventairedesorgues" type="462c0819:PsiDirectoryNode" />
+              <item name=".github" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="docinventairedesorgues" type="b2602c69:ProjectViewProjectNode" />
+              <item name="docinventairedesorgues" type="462c0819:PsiDirectoryNode" />
+              <item name=".github" type="462c0819:PsiDirectoryNode" />
+              <item name="workflows" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Mes documents" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../portail" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
@@ -114,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.manage runserver">
+  <component name="RunManager" selected="Python.generatedocs">
     <configuration name="generatedocs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="docinventairedesorgues" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,8 +297,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.manage" />
         <item itemvalue="Python.generatedocs" />
+        <item itemvalue="Python.manage" />
       </list>
     </recent_temporary>
   </component>
@@ -204,14 +316,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15456675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20747218" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32935154" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.12457338" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -229,17 +342,54 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/generatedocs.py">
+    <entry file="file://$PROJECT_DIR$/../site/manage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="106" column="31" selection-start-line="106" selection-start-column="31" selection-end-line="106" selection-end-column="31" />
+        <state relative-caret-position="320">
+          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../site/manage.py">
+    <entry file="file://$PROJECT_DIR$/generatedocs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="17" column="12" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        <state relative-caret-position="495">
+          <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
+          <folding>
+            <element signature="e#148#157#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/faq.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="480">
+            <caret line="24" column="225" selection-start-line="24" selection-start-column="225" selection-end-line="24" selection-end-column="225" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.github/workflows/main.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="100">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
