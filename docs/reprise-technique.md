@@ -1,9 +1,3 @@
-**Version 0.1**
-
-Si vous voyez une erreur dans ce document, n’hésitez pas à me la
-signaler [en ouvrant un
-ticket](https://git.inventaire-des-orgues.fr/bzg/ido-docs/issues).
-
 # Hébergement de la plate-forme
 
 L’application principale est hébergée sur une machine virtuelle louée
@@ -18,30 +12,35 @@ toutes les semaines.
 
 ## Langages et frameworks
 
-Le logiciel faisant fonctionner l’application d’inventaire des orgues
-est écrit en [Clojure](https://clojure.org) pour la partie *backend* et
-en [ClojureScript](https://github.com/clojure/clojurescript) pour la
-partie *frontend*. Clojure et ClojureScript sont des langages LISP de la
-famille des langages fonctionnels. Pour le frontend, le code utilise le
-framework [re-frame](https://github.com/Day8/re-frame), s’appuyant sur
-la bibliothèque [React.js](https://reactjs.org) pour développer des
-*Single Page Application*.
+- Le portail est codé en langage Python, en utilisant le framework Django, dédié aux applications web, ainsi que Bootstrap pour les feuilles de style CSS et un peu de Javascript. Les cartes employent Leaflet. Les fonds de cartes proviennent d'OpenStreetMap.
+- Les utilitaires de traitement des données sont aussi codés en Python.
+- La documentation est rédigée au format Markdown et compilé sous forme de site web statique à l'aide du module Python Mkdocs.
+- La reconnaissance de caractères des livres numérisés a été effectuée à l'aide du logiciel non libre ABBYY.
+- Les fichiers PDF produits ont été manipulés et réagencés à l'aide de l'outil PDFTK et de l'interface graphique PDFTKBuilder.
+- Les livres numérisés sont proposés sur la plate-forme Datashare.
 
 ## Système de base de données
 
-Le système de base de données utilisé est
-[Datomic](http://www.datomic.com).
-
-Datomic et Clojure sont développés et maintenus par l’entreprise
-[Cognitect](https://cognitect.com/) et des centaines de contributeurs.
+Le système de base de données utilisé est SQLite.
 
 ## Déploiement
 
-Le code source Clojure et ClojureScript est compilé en Java et déployé
-sous forme de fichier `.jar` depuis le serveur.
+Deux chaînes d'intégration continue (une pour le portail, une autre pour la documentation) sont mises en place.
+Elles sont basées sur le module 'Actions' de Github.
+La recopie et le déploiement sur le serveur sont déclenchés à chaque action push vers le dépôt distant Github.
 
-# Liste des logiciels utilisés
+# Liste des logiciels libres utilisés
 
+  - [DataShare]
+  
+  - [Python]
+  
+  - [Django]
+  
+  - [PDFTK]
+  
+  - [PDFTKBuilder]
+  
   - [Discourse](https://www.discourse.org)  
     Logiciel libre de forum.
 
@@ -71,6 +70,20 @@ sous forme de fichier `.jar` depuis le serveur.
 
 # Dépôts de code
 
+Dépôts principaux sur placé sur Github :
+
+  - [Portail](https://github.com/inventaire-des-orgues/portail)
+  
+  - [Docs](https://github.com/inventaire-des-orgues/docs)
+
+  - [Indexes](https://github.com/inventaire-des-orgues/indexes)
+  
+  - [Organslist](https://github.com/inventaire-des-orgues/organslist)
+  
+  - [Organslexicon](https://github.com/inventaire-des-orgues/organslexicon)
+
+  - [API](https://github.com/inventaire-des-orgues/api)
+  
 Liste des dépôts disponibles depuis *la forge* du projet :
 
   - [legito](https://git.inventaire-des-orgues.fr/bzg/legito)  
