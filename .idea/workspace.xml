@@ -1,53 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e3ee4f-eab5-4ba8-8477-f45a4f54de8f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/main.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/main.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generatedocs.py" beforeDir="false" afterPath="$PROJECT_DIR$/generatedocs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/alignement/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/alignement/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/charte-du-contributeur/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/charte-du-contributeur/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/code-source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/code-source/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/site/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/bootstrap-3.3.7.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/bootstrap-3.3.7.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/font-awesome-4.7.0.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/font-awesome-4.7.0.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/css/highlight.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/donnees/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/donnees_compilees/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_compilees/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/donnees_etatcollectivites/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_etatcollectivites/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/donnees_livres/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_livres/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/donnees_sites/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_sites/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/faq/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/faq/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/fiche-orgue-plan-1990/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/fiche-orgue-plan-1990/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/fonts/fontawesome-webfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/site/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/fonts/glyphicons-halflings-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/site/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/img/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/js/base.js" beforeDir="false" afterPath="$PROJECT_DIR$/site/js/base.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/js/bootstrap-3.3.7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/js/bootstrap-3.3.7.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/js/elasticlunr.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/js/elasticlunr.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/js/highlight.pack.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/js/jquery-3.2.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/js/jquery-3.2.1.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/lexique/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/lexique/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/mentions-legales/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/mentions-legales/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/modele/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/modele/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/modele_orgue_complet/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/modele_orgue_complet/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/modele_tableur/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/modele_tableur/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/pourquoi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/pourquoi/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/reprise-technique/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/reprise-technique/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/ressources-humaines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/ressources-humaines/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/sitemap.xml.gz" beforeDir="false" afterPath="$PROJECT_DIR$/site/sitemap.xml.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/theindex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/theindex/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="b5e3ee4f-eab5-4ba8-8477-f45a4f54de8f" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +14,11 @@
         <counts>
           <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -101,7 +56,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/generatedocs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
+            <state relative-caret-position="2760">
               <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
               <folding>
                 <element signature="e#148#157#0" expanded="true" />
@@ -173,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="2061" />
@@ -316,10 +271,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20747218" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22019078" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -351,7 +306,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/generatedocs.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
+        <state relative-caret-position="2760">
           <caret line="138" column="4" selection-start-line="138" selection-start-column="4" selection-end-line="138" selection-end-column="4" />
           <folding>
             <element signature="e#148#157#0" expanded="true" />
