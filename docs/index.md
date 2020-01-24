@@ -9,14 +9,8 @@ les contributeurs au fur et à mesure que le site évolue.
 La page des [données](donnees.md) liste les différentes sources qui
 permettent d'alimenter l'inventaire des orgues.
 
-# Le vocabulaire
-
-La page du [vocabulaire de l'orgue](lexique.md) propose un lexique
-provisoire qui servira à terme dans la saisie des informations
-concernant un orgue.
-
 # La fiche descriptive
- 
+
 La page de la [fiche descriptive](modele.md) (ou « modèle ») de l'orgue
 présente la structure des informations à inventorier pour un orgue.
 
@@ -36,3 +30,9 @@ les éléments sur lesquels vous pouvez aider : collecte de données en
 ligne ou sur le terrain ; aide à l’évolution de la fiche descriptive ;
 aide à la construction du vocabulaire ; aide aux tests de la
 plate-forme.
+
+# Le vocabulaire
+
+La page du [vocabulaire de l'orgue](lexique.md) propose un lexique
+provisoire qui servira à terme dans la saisie des informations
+concernant un orgue.
