@@ -22,23 +22,23 @@ Hauteur en Hertz du A2 joué par le prestant 4.
 
 Valeur_par_defaut = Néant
 
-## Classement
-On ne distingue que Inscription et Classement, comme objets evenement.
+## Classement ou incription au titre des monuments historiques
+On ne distingue que Inscription au titres des monuments historiques et Classement au titre des monuments historiques, comme objets evenement.
 Le champ TICO de Palissy sera mis dans le commentaire de l'évenement.
-De même pour les autres champs issus de la mise en correspondance entre l'inventaire et la base Palissy.
+De même pour les autres champs issus de la mise en correspondance entre l'inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.
 
 ## Orgues polyphones de Louis Debierre
-is_polyphone [bool] spécifie si l'orgue un polyphone de la manufacture Debierre.
+is_polyphone [bool] spécifie si l'orgue est un polyphone de la manufacture Debierre. Les polyphones sont des orgues coffres dont certains tuyaux de basse permettent l'émission de plusieurs notes distinctes.
 
 Valeur_par_defaut = False
 
 ## Sommiers
-Champ texte libre. [string]
+Champ texte libre [string]
 
 Valeur_par_defaut = Néant
 
 ## Soufflerie
-Champ texte libre. [string]
+Champ texte libre [string]
 
 Valeur_par_defaut = Néant
 
@@ -48,14 +48,21 @@ Lorsque les claviers disposent d'un autre mode de transmission que celle génér
 
     "Mécanique",
     "Mécanique suspendue",
+    "Mécanique à balanciers",
     "Mécanique Barker",
     "Pneumatique",
     "Electrique",
+    "Electro-pneumatique"
 
 
 ## Transmission des registres
 tirage_jeux est indiqué pour tout l'instrument
 
+    "Mécanique",
+    "Pneumatique",
+    "Electrique",
+    "Electro-pneumatique"
+    
 ## Propriété de l'orgue
 Le propriétaire de l'orgue (qui n'est pas nécessairement le même que l'édifice).
 Le plus souvent, il s'agit de la commune pour des instruments datant d'avant 1905 (de l'Etat pour les orgues de cathédrales), et d'association cultuelle (généralement paroisse) pour les orgues d'après 1905 ou de congrégation.
@@ -155,12 +162,11 @@ Chaque évènement est décrit par :
 *Question ouverte* Ne faut-il pas ajouter un résumé de l'évènement, pour la chronologie notamment ?
 
 ## Buffet
-Champs libre [string sans limite de taille] pour la description du buffet et de son état.
-
-## Console
-console [string sans limite de taille] Décrit la position de la console.
-
+Champ libre [string sans limite de taille] pour la description du buffet et de son état.
 Valeur_par_defaut = Néant
+
+La notion de console est assez récente : elle survient avec l'apparition de meubles séparés du buffet au XIXe siècle, souvent tournés vers l'autel ou mobiles au XXe siècle.
+Aussi n'y a-t-il pas de champ dédié et la console peut-être, le cas échéant, décrite dans un sous-chapitre de la section buffet.
 
 Les type les plus courants sont :
 - en fenêtre

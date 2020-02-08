@@ -1,17 +1,8 @@
-Voir
-[www.patrimoine-religieux.fr](http://www.patrimoine-religieux.fr/rubriques/gauche/edifice-menace/analyse/l2019orgue-un-patrimoine-a-sauvegarder)
-pour une introduction générale.
+# Les mots de l'orgue
 
-Voir
-[www.liegelesorgues.eu](http://www.liegelesorgues.eu/index.php?option=com_content&view=article&id=60&Itemid=40)
-pour une présentation vivante du lexique.
+La facteur d'orgue possède un riche vocabulaire. Le lexique suivant sera mis en ligne ultérieurement pour être enrichi de façon collaborative.
 
-Voir aussi le [petit dictionnaire d’initiation à la facture
-d’orgue](http://www.orgue-en-france.org/linstrument/articles-linstrument-orgue/petit-dictionnaire-dinitiation-a-la-facture-dorgue/).
-
-# Lexique
-
-(Faire une sous-section dédiée au lexique des jeux ?)
+## Lexique
 
   - Abrégé  
     Articulation permettant de transmettre un mouvement latéralement
@@ -1685,32 +1676,28 @@ d’orgue](http://www.orgue-en-france.org/linstrument/articles-linstrument-orgue
     à la fin du Moyen-Age et pendant la renaissance. Ils étaient
     agrémentés d'automates et d'autres jeux à percussions. »
 
-# Instruments voisins
+## Sources
 
-  - Clavicorde  
-    <https://fr.wikipedia.org/wiki/Clavicorde>
-  - Harmonium  
-    <https://fr.wikipedia.org/wiki/Harmonium>
-  - Harmonica de verre  
-    <https://fr.wikipedia.org/wiki/Harmonica_de_verre>
-
-# Ressources
-
-  - Voir <https://fr.wikipedia.org/wiki/Lexique_de_l%27orgue> pour les
-    définitions utilisées par défaut, toutes sous licence CC-by-sa 3.0.
-
-  - <http://www.lartdunfacteurdorguesamateur.fr/pdf/Lexique.pdf> :
-    lexique synthétique et bien illustré.
-
-  - Voir aussi
-    [www.orgues-et-vitraux.ch](http://www.orgues-et-vitraux.ch/default.asp/2-0-116-6-6-1/)
-    pour d'autres termes et définitions.
-
-  - <http://decouverte.orgue.free.fr/jeux.htm> pour une liste des jeux
-    d'orgues.
+  - <https://fr.wikipedia.org/wiki/Lexique_de_l%27orgue> :
+  définitions utilisées par défaut, toutes sous licence CC-by-sa 3.0.
 
   - Vocabulaire des orgues (VDO), 1979, Catherine Arminjon, Conservateur
     de l'Inventaire ; Nicole de Reynies, Conservateur de l'Inventaire.
 
-  - Voir <http://www.organstops.org/FullIndex.html> pour un index
-    encyclopédique des jeux d'orgues.
+  - <http://www.lartdunfacteurdorguesamateur.fr/pdf/Lexique.pdf> :
+    lexique synthétique et bien illustré.
+
+  - [www.orgues-et-vitraux.ch](http://www.orgues-et-vitraux.ch/default.asp/2-0-116-6-6-1/) :
+    autres termes et définitions.
+
+  - <http://decouverte.orgue.free.fr/jeux.htm> : liste des jeux d'orgues.
+
+  - <http://www.organstops.org/FullIndex.html> index encyclopédique des jeux d'orgues.
+    
+  - [www.patrimoine-religieux.fr](http://www.patrimoine-religieux.fr/rubriques/gauche/edifice-menace/analyse/l2019orgue-un-patrimoine-a-sauvegarder) : Une introduction générale.
+
+  - [www.liegelesorgues.eu](http://www.liegelesorgues.eu/index.php?option=com_content&view=article&id=60&Itemid=40) : Une présentation vivante du lexique.
+
+  - [petit dictionnaire d’initiation à la facture
+d’orgue](http://www.orgue-en-france.org/linstrument/articles-linstrument-orgue/petit-dictionnaire-dinitiation-a-la-facture-dorgue/)
+

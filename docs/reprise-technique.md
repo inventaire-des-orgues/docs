@@ -1,16 +1,28 @@
-# Hébergement de la plate-forme
+# Aspects techniques
+
+## Hébergement de la plate-forme
 
 L’application principale est hébergée sur une machine virtuelle louée
 chez *DigitalOcean* et physiquement située à Amsterdam.
 
-## Sauvegarde des données
+L'application annexe de recherche avancées dans les livres d'inventaire numérisés est hébergée sur une autre machine virtuelle, aussi chez *DigitalOcean*.
 
-Le service DigitalOcean permet une sauvegarde complète de la machine
-toutes les semaines.
+### Sauvegarde des données
 
-# Langages, frameworks et système de base de données
+- Le service DigitalOcean permet une sauvegarde complète de la machine
+toutes les semaines (administration, fiches descriptives des orgues, images).
 
-## Langages et frameworks
+- Un crontab permet une sauvegarde quotidienne par simple copie sur le serveur de la base de données SQLite (administration et fiches descriptives).
+
+### Déploiement
+
+Deux chaînes d'intégration continue (une pour le portail, une autre pour la documentation) sont mises en place.
+Elles sont basées sur le module 'Actions' de Github.
+La recopie et le déploiement sur le serveur sont déclenchés à chaque action push vers le dépôt distant Github.
+
+## Langages, frameworks et système de base de données
+
+### Langages et frameworks
 
 - Le portail est codé en langage Python, en utilisant le framework Django, dédié aux applications web, ainsi que Bootstrap pour les feuilles de style CSS et un peu de Javascript. Les cartes employent Leaflet. Les fonds de cartes proviennent d'OpenStreetMap.
 - Les utilitaires de traitement des données sont aussi codés en Python.
@@ -19,15 +31,9 @@ toutes les semaines.
 - Les fichiers PDF produits ont été manipulés et réagencés à l'aide de l'outil PDFTK et de l'interface graphique PDFTKBuilder.
 - Les livres numérisés sont proposés sur la plate-forme Datashare.
 
-## Système de base de données
+### Système de base de données
 
 Le système de base de données utilisé est SQLite.
-
-## Déploiement
-
-Deux chaînes d'intégration continue (une pour le portail, une autre pour la documentation) sont mises en place.
-Elles sont basées sur le module 'Actions' de Github.
-La recopie et le déploiement sur le serveur sont déclenchés à chaque action push vers le dépôt distant Github.
 
 # Liste des logiciels libres utilisés
 
@@ -68,9 +74,9 @@ La recopie et le déploiement sur le serveur sont déclenchés à chaque action 
     Logiciel libre pour la collecte de données sur les visites d’un site
     web.
 
-# Dépôts de code
+## Dépôts de code
 
-Dépôts principaux sur placé sur Github :
+### Dépôts principaux placés sur Github
 
   - [Portail](https://github.com/inventaire-des-orgues/portail)
   
@@ -84,7 +90,7 @@ Dépôts principaux sur placé sur Github :
 
   - [API](https://github.com/inventaire-des-orgues/api)
   
-Liste des dépôts disponibles depuis *la forge* du projet :
+### Liste des dépôts disponibles depuis *la forge* du projet
 
   - [legito](https://git.inventaire-des-orgues.fr/bzg/legito)  
     Code source de l’application d’inventaire des orgues.
@@ -119,11 +125,12 @@ Liste des dépôts disponibles depuis *la forge* du projet :
     (Dépôt privé) Code source pour le site publié sur
     <https://www.inventaire-des-orgues.fr>
 
-# Services web externes
+## Services web externes
 
-## Services utilisés en dehors du logiciel
+### Services utilisés en dehors du logiciel
 
   - gandi.net  
+
     service de location de noms de domaine.
 
   - digitalocean.com  
@@ -141,7 +148,7 @@ Liste des dépôts disponibles depuis *la forge* du projet :
     service de discussion en ligne, utilisé sur les sites statiques du
     projet (www/blog/docs).
 
-## Services utilisés par l’application
+### Services utilisés par l’application
 
   - mailgun.com  
     service d’envoi d’emails utilisé par l’application pour les emails
@@ -194,12 +201,12 @@ Liste des dépôts disponibles depuis *la forge* du projet :
 | digitalocean.com | Changement d’adresse de contact et de facturation |
 | filestack.com    | Changement d’adresse de contact et de facturation |
 
-# Domaines, sous-domaines et services associés
+## Domaines, sous-domaines et services associés
 
 | Sous-domaine                      | Service           | Logiciel associé |
 | --------------------------------- | ----------------- | ---------------- |
+| www.inventaire-des-orgues.fr      | Portail du projet | Jekyll           |
 | blog.inventaire-des-orgues.fr     | Blog du projet    | Jekyll           |
 | fichiers.inventaire-des-orgues.fr | Fichiers partagés | Nextcloud        |
 | forum.inventaire-des-orgues.fr    | Forum             | Discourse        |
-| git.inventaire-des-orgues.fr      | Dépôt de code     | gogs             |
-| www.inventaire-des-orgues.fr      | Portail du projet | Jekyll           |
+| git.inventaire-des-orgues.fr      | Dépôt de code     | Gogs             |

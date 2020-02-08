@@ -11,8 +11,8 @@ permettent d'alimenter l'inventaire des orgues.
 
 # La fiche descriptive
 
-La page de la [fiche descriptive](modele.md) (ou « modèle ») de l'orgue
-présente la structure des informations à inventorier pour un orgue.
+La page de la [fiche descriptive](fiche-orgue.md) de l'orgue
+présente la structure des informations à inventorier pour un orgue  (modèle de données).
 
 # Le code source des outils
 
@@ -21,11 +21,9 @@ développés pour l’inventaire des orgues.
 
 # Comment contribuer au projet ?
 
-Pour commencer à contribuer, rendez-vous sur [cette page du
-forum](https://forum.inventaire-des-orgues.fr/t/comment-contribuer-au-projet-dinventaire-des-orgues/13).
+Pour commencer à contribuer, rendez-vous sur [cette page du forum](https://forum.inventaire-des-orgues.fr/t/comment-contribuer-au-projet-dinventaire-des-orgues/13).
 
-Vous pouvez aussi nous [contacter
-directement](https://www.inventaire-des-orgues.fr/#contact) en indiquant
+Vous pouvez aussi nous [contacter directement](https://www.inventaire-des-orgues.fr/#contact) en indiquant
 les éléments sur lesquels vous pouvez aider : collecte de données en
 ligne ou sur le terrain ; aide à l’évolution de la fiche descriptive ;
 aide à la construction du vocabulaire ; aide aux tests de la
