@@ -86,14 +86,14 @@ Valeur_par_defaut = Néant
     "Dégradé ou en ruine : injouable"
 
 ## Elevation
-elevation
+Permet la distinction, dans la majorité des cas, entre orgue de choeur et orgue de tribune.
 
 Valeur_par_defaut = Néant
 
     "en tribune",
     "au sol""
 
-## Emplacement dans l'édifice
+### Emplacement dans l'édifice
 A ce stade, aucun attribut n'est prévu pour préciser la position de l'orgue dans l'édifice.
 Dans le cas de plusieurs instruments au sein d'un même édifice, l'attribut elevation et les coordonnées géographiques permettent de positionner et distinguer précisément l'instrument.
 
