@@ -110,6 +110,10 @@ La licence Creative Commons by-sa 3.0 permet la réutilisation, y compris
 publiés dans des conditions équivalentes de partage. C’est la licence
 utilisées par des grands projets comme Wikipédia.
 
+## Quelles sont les permissions accordées sur le site ?
+
+La page sur les [permissions](permissions.md) détaille les différents niveaux d'utilisation et administration du site.
+
 ## Un peu de technique
 
 ### Quelles sont les technologies utilisées pour le portail de l'inventaire ?

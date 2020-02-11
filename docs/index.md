@@ -1,36 +1,34 @@
+#
 
-# Foire aux questions
+## Foire aux questions
 
-La [FAQ (foire aux questions)](faq.md) répond aux questions posées par
-les contributeurs au fur et à mesure que le site évolue.
+La [FAQ (foire aux questions)](faq.md) répond aux questions les plus souvent posées par
+les contributeurs. Nous vous invitons à la parcourir !
 
-# Les données à collecter
+## Les données collectées
 
-La page des [données](donnees.md) liste les différentes sources qui
-permettent d'alimenter l'inventaire des orgues.
+La page des [données](donnees.md) liste les très nombreuses sources qui
+permettent d'alimenter l'inventaire des orgues : données des régions et de l'Etat, livres réalisés dans le cadre de l'inventaire général, sites personnels ou associatifs...
 
-# La fiche descriptive
+## La fiche descriptive
 
-La page de la [fiche descriptive](fiche-orgue.md) de l'orgue
-présente la structure des informations à inventorier pour un orgue  (modèle de données).
+La page de la [fiche descriptive](fiche-orgue.md) d'un orgue présente la structure des informations à inventorier (modèle de données).
 
-# Le code source des outils
+## Le code source des outils
 
 [Cette page](code-source.md) donne accès au code source des outils
 développés pour l’inventaire des orgues.
 
-# Comment contribuer au projet ?
+## Comment contribuer au projet ?
 
-Pour commencer à contribuer, rendez-vous sur [cette page du forum](https://forum.inventaire-des-orgues.fr/t/comment-contribuer-au-projet-dinventaire-des-orgues/13).
+Vous pouvez aussi nous contacter par mail en indiquant les éléments sur lesquels vous pouvez aider. Actuellement, nos principaux besoins sont :
+- la collecte informatisée à partir de données en ligne ou sur le terrain (nécessite quelques compétences basiques en langage Python);
+- la contribution à l'inventaire lui-même (ouverte à tout organiste, élève organiste, fonctionnaire de mairie ou simple passionné d'orgue);
+- l'aide à l'enrichissement du vocabulaire.
 
-Vous pouvez aussi nous [contacter directement](https://www.inventaire-des-orgues.fr/#contact) en indiquant
-les éléments sur lesquels vous pouvez aider : collecte de données en
-ligne ou sur le terrain ; aide à l’évolution de la fiche descriptive ;
-aide à la construction du vocabulaire ; aide aux tests de la
-plate-forme.
+Vous pouvez aussi échanger sur [le forum](https://forum.inventaire-des-orgues.fr/).
 
 # Le vocabulaire
 
-La page du [vocabulaire de l'orgue](lexique.md) propose un lexique
-provisoire qui servira à terme dans la saisie des informations
-concernant un orgue.
+La page du [vocabulaire de l'orgue](https://vocabulaire.inventaire-des-orgues.fr/) propose un lexique
+provisoire qui sera prochainement éditable par les contributeurs.

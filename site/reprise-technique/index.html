@@ -8,7 +8,7 @@
         <meta name="author" content="Gwilherm Poullennec">
         <link rel="canonical" href="https://docs.inventaire-des-orgues.fr/reprise-technique/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Reprise technique - Documentation de l'inventaire des orgues</title>
+        <title>Aspects techniques - Documentation de l'inventaire des orgues</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -49,8 +49,14 @@
                             <li >
                                 <a href="..">Home</a>
                             </li>
+                            <li >
+                                <a href="../faq/">Questions/réponses</a>
+                            </li>
+                            <li >
+                                <a href="../fiche-orgue/">Description d'un orgue</a>
+                            </li>
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Données <b class="caret"></b></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Origine des données <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
@@ -65,9 +71,6 @@
     <a href="../donnees_livres/">Livres d'inventaires</a>
 </li>
                                 </ul>
-                            </li>
-                            <li >
-                                <a href="../modele/">Modèle de données</a>
                             </li>
                             <li >
                                 <a href="../about/">About</a>
@@ -88,55 +91,68 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#hebergement-de-la-plate-forme">Hébergement de la plate-forme</a></li>
-            <li><a href="#sauvegarde-des-donnees">Sauvegarde des données</a></li>
-        <li class="main "><a href="#langages-frameworks-et-systeme-de-base-de-donnees">Langages, frameworks et système de base de données</a></li>
-            <li><a href="#langages-et-frameworks">Langages et frameworks</a></li>
-            <li><a href="#systeme-de-base-de-donnees">Système de base de données</a></li>
-            <li><a href="#deploiement">Déploiement</a></li>
-        <li class="main "><a href="#liste-des-logiciels-utilises">Liste des logiciels utilisés</a></li>
-        <li class="main "><a href="#depots-de-code">Dépôts de code</a></li>
-        <li class="main "><a href="#services-web-externes">Services web externes</a></li>
-            <li><a href="#services-utilises-en-dehors-du-logiciel">Services utilisés en dehors du logiciel</a></li>
-            <li><a href="#services-utilises-par-lapplication">Services utilisés par l’application</a></li>
+        <li class="main active"><a href="#aspects-techniques">Aspects techniques</a></li>
+            <li><a href="#hebergement-de-la-plate-forme">Hébergement de la plate-forme</a></li>
+            <li><a href="#langages-frameworks-et-systeme-de-base-de-donnees">Langages, frameworks et système de base de données</a></li>
+        <li class="main "><a href="#liste-des-logiciels-libres-utilises">Liste des logiciels libres utilisés</a></li>
+            <li><a href="#depots-de-code">Dépôts de code</a></li>
+            <li><a href="#services-web-externes">Services web externes</a></li>
             <li><a href="#noms-de-domaine-et-adresses-email-utilisees">Noms de domaine et adresses email utilisées</a></li>
             <li><a href="#synthese-des-services-et-couts-associes">Synthèse des services et coûts associés</a></li>
             <li><a href="#synthese-des-etapes-necessaires-au-tranfert">Synthèse des étapes nécessaires au tranfert</a></li>
-        <li class="main "><a href="#domaines-sous-domaines-et-services-associes">Domaines, sous-domaines et services associés</a></li>
+            <li><a href="#domaines-sous-domaines-et-services-associes">Domaines, sous-domaines et services associés</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<p><strong>Version 0.1</strong></p>
-<p>Si vous voyez une erreur dans ce document, n’hésitez pas à me la
-signaler <a href="https://git.inventaire-des-orgues.fr/bzg/ido-docs/issues">en ouvrant un
-ticket</a>.</p>
-<h1 id="hebergement-de-la-plate-forme">Hébergement de la plate-forme</h1>
+<h1 id="aspects-techniques">Aspects techniques</h1>
+<h2 id="hebergement-de-la-plate-forme">Hébergement de la plate-forme</h2>
 <p>L’application principale est hébergée sur une machine virtuelle louée
 chez <em>DigitalOcean</em> et physiquement située à Amsterdam.</p>
-<h2 id="sauvegarde-des-donnees">Sauvegarde des données</h2>
-<p>Le service DigitalOcean permet une sauvegarde complète de la machine
-toutes les semaines.</p>
-<h1 id="langages-frameworks-et-systeme-de-base-de-donnees">Langages, frameworks et système de base de données</h1>
-<h2 id="langages-et-frameworks">Langages et frameworks</h2>
-<p>Le logiciel faisant fonctionner l’application d’inventaire des orgues
-est écrit en <a href="https://clojure.org">Clojure</a> pour la partie <em>backend</em> et
-en <a href="https://github.com/clojure/clojurescript">ClojureScript</a> pour la
-partie <em>frontend</em>. Clojure et ClojureScript sont des langages LISP de la
-famille des langages fonctionnels. Pour le frontend, le code utilise le
-framework <a href="https://github.com/Day8/re-frame">re-frame</a>, s’appuyant sur
-la bibliothèque <a href="https://reactjs.org">React.js</a> pour développer des
-<em>Single Page Application</em>.</p>
-<h2 id="systeme-de-base-de-donnees">Système de base de données</h2>
-<p>Le système de base de données utilisé est
-<a href="http://www.datomic.com">Datomic</a>.</p>
-<p>Datomic et Clojure sont développés et maintenus par l’entreprise
-<a href="https://cognitect.com/">Cognitect</a> et des centaines de contributeurs.</p>
-<h2 id="deploiement">Déploiement</h2>
-<p>Le code source Clojure et ClojureScript est compilé en Java et déployé
-sous forme de fichier <code>.jar</code> depuis le serveur.</p>
-<h1 id="liste-des-logiciels-utilises">Liste des logiciels utilisés</h1>
+<p>L'application annexe de recherche avancées dans les livres d'inventaire numérisés est hébergée sur une autre machine virtuelle, aussi chez <em>DigitalOcean</em>.</p>
+<h3 id="sauvegarde-des-donnees">Sauvegarde des données</h3>
 <ul>
+<li>
+<p>Le service DigitalOcean permet une sauvegarde complète de la machine
+toutes les semaines (administration, fiches descriptives des orgues, images).</p>
+</li>
+<li>
+<p>Un crontab permet une sauvegarde quotidienne par simple copie sur le serveur de la base de données SQLite (administration et fiches descriptives).</p>
+</li>
+</ul>
+<h3 id="deploiement">Déploiement</h3>
+<p>Deux chaînes d'intégration continue (une pour le portail, une autre pour la documentation) sont mises en place.
+Elles sont basées sur le module 'Actions' de Github.
+La recopie et le déploiement sur le serveur sont déclenchés à chaque action push vers le dépôt distant Github.</p>
+<h2 id="langages-frameworks-et-systeme-de-base-de-donnees">Langages, frameworks et système de base de données</h2>
+<h3 id="langages-et-frameworks">Langages et frameworks</h3>
+<ul>
+<li>Le portail est codé en langage Python, en utilisant le framework Django, dédié aux applications web, ainsi que Bootstrap pour les feuilles de style CSS et un peu de Javascript. Les cartes employent Leaflet. Les fonds de cartes proviennent d'OpenStreetMap.</li>
+<li>Les utilitaires de traitement des données sont aussi codés en Python.</li>
+<li>La documentation est rédigée au format Markdown et compilé sous forme de site web statique à l'aide du module Python Mkdocs.</li>
+<li>La reconnaissance de caractères des livres numérisés a été effectuée à l'aide du logiciel non libre ABBYY.</li>
+<li>Les fichiers PDF produits ont été manipulés et réagencés à l'aide de l'outil PDFTK et de l'interface graphique PDFTKBuilder.</li>
+<li>Les livres numérisés sont proposés sur la plate-forme Datashare.</li>
+</ul>
+<h3 id="systeme-de-base-de-donnees">Système de base de données</h3>
+<p>Le système de base de données utilisé est SQLite.</p>
+<h1 id="liste-des-logiciels-libres-utilises">Liste des logiciels libres utilisés</h1>
+<ul>
+<li>
+<p>[DataShare]</p>
+</li>
+<li>
+<p>[Python]</p>
+</li>
+<li>
+<p>[Django]</p>
+</li>
+<li>
+<p>[PDFTK]</p>
+</li>
+<li>
+<p>[PDFTKBuilder]</p>
+</li>
 <li>
 <p><a href="https://www.discourse.org">Discourse</a><br />
     Logiciel libre de forum.</p>
@@ -172,8 +188,29 @@ sous forme de fichier <code>.jar</code> depuis le serveur.</p>
     web.</p>
 </li>
 </ul>
-<h1 id="depots-de-code">Dépôts de code</h1>
-<p>Liste des dépôts disponibles depuis <em>la forge</em> du projet :</p>
+<h2 id="depots-de-code">Dépôts de code</h2>
+<h3 id="depots-principaux-places-sur-github">Dépôts principaux placés sur Github</h3>
+<ul>
+<li>
+<p><a href="https://github.com/inventaire-des-orgues/portail">Portail</a></p>
+</li>
+<li>
+<p><a href="https://github.com/inventaire-des-orgues/docs">Docs</a></p>
+</li>
+<li>
+<p><a href="https://github.com/inventaire-des-orgues/indexes">Indexes</a></p>
+</li>
+<li>
+<p><a href="https://github.com/inventaire-des-orgues/organslist">Organslist</a></p>
+</li>
+<li>
+<p><a href="https://github.com/inventaire-des-orgues/organslexicon">Organslexicon</a></p>
+</li>
+<li>
+<p><a href="https://github.com/inventaire-des-orgues/api">API</a></p>
+</li>
+</ul>
+<h3 id="liste-des-depots-disponibles-depuis-la-forge-du-projet">Liste des dépôts disponibles depuis <em>la forge</em> du projet</h3>
 <ul>
 <li>
 <p><a href="https://git.inventaire-des-orgues.fr/bzg/legito">legito</a><br />
@@ -217,12 +254,12 @@ sous forme de fichier <code>.jar</code> depuis le serveur.</p>
     <a href="https://www.inventaire-des-orgues.fr">https://www.inventaire-des-orgues.fr</a></p>
 </li>
 </ul>
-<h1 id="services-web-externes">Services web externes</h1>
-<h2 id="services-utilises-en-dehors-du-logiciel">Services utilisés en dehors du logiciel</h2>
+<h2 id="services-web-externes">Services web externes</h2>
+<h3 id="services-utilises-en-dehors-du-logiciel">Services utilisés en dehors du logiciel</h3>
 <ul>
 <li>
-<p>gandi.net<br />
-    service de location de noms de domaine.</p>
+<p>gandi.net  </p>
+<p>service de location de noms de domaine.</p>
 </li>
 <li>
 <p>digitalocean.com<br />
@@ -244,7 +281,7 @@ sous forme de fichier <code>.jar</code> depuis le serveur.</p>
     projet (www/blog/docs).</p>
 </li>
 </ul>
-<h2 id="services-utilises-par-lapplication">Services utilisés par l’application</h2>
+<h3 id="services-utilises-par-lapplication">Services utilisés par l’application</h3>
 <ul>
 <li>
 <p>mailgun.com<br />
@@ -322,7 +359,7 @@ sous forme de fichier <code>.jar</code> depuis le serveur.</p>
 </tr>
 </tbody>
 </table>
-<h1 id="domaines-sous-domaines-et-services-associes">Domaines, sous-domaines et services associés</h1>
+<h2 id="domaines-sous-domaines-et-services-associes">Domaines, sous-domaines et services associés</h2>
 <table>
 <thead>
 <tr>
@@ -332,6 +369,11 @@ sous forme de fichier <code>.jar</code> depuis le serveur.</p>
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>www.inventaire-des-orgues.fr</td>
+<td>Portail du projet</td>
+<td>Jekyll</td>
+</tr>
 <tr>
 <td>blog.inventaire-des-orgues.fr</td>
 <td>Blog du projet</td>
@@ -350,12 +392,7 @@ sous forme de fichier <code>.jar</code> depuis le serveur.</p>
 <tr>
 <td>git.inventaire-des-orgues.fr</td>
 <td>Dépôt de code</td>
-<td>gogs</td>
-</tr>
-<tr>
-<td>www.inventaire-des-orgues.fr</td>
-<td>Portail du projet</td>
-<td>Jekyll</td>
+<td>Gogs</td>
 </tr>
 </tbody>
 </table></div>
