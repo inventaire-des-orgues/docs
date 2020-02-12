@@ -1,18 +1,22 @@
-#
+# Bienvenue sur le site de documentation de l'inventaire national des orgues
 
 ## Foire aux questions
 
-La [FAQ (foire aux questions)](faq.md) répond aux questions les plus souvent posées par
+La [foire aux questions](faq.md) répond aux questions les plus souvent posées par
 les contributeurs. Nous vous invitons à la parcourir !
+
+## La fiche descriptive
+
+La page de la [fiche descriptive](fiche-orgue.md) d'un orgue présente la structure des informations à inventorier (modèle de données).
+
+## Conventions et abréviations
+
+Par souci d'homogénéïté et pour pouvoir requêter de façon robuste dans la base de données, nous avons défini quelques [conventions](conventions.md), que l'on suivra scrupuleusement.
 
 ## Les données collectées
 
 La page des [données](donnees.md) liste les très nombreuses sources qui
 permettent d'alimenter l'inventaire des orgues : données des régions et de l'Etat, livres réalisés dans le cadre de l'inventaire général, sites personnels ou associatifs...
-
-## La fiche descriptive
-
-La page de la [fiche descriptive](fiche-orgue.md) d'un orgue présente la structure des informations à inventorier (modèle de données).
 
 ## Le code source des outils
 
@@ -22,13 +26,18 @@ développés pour l’inventaire des orgues.
 ## Comment contribuer au projet ?
 
 Vous pouvez aussi nous contacter par mail en indiquant les éléments sur lesquels vous pouvez aider. Actuellement, nos principaux besoins sont :
+
 - la collecte informatisée à partir de données en ligne ou sur le terrain (nécessite quelques compétences basiques en langage Python);
 - la contribution à l'inventaire lui-même (ouverte à tout organiste, élève organiste, fonctionnaire de mairie ou simple passionné d'orgue);
 - l'aide à l'enrichissement du vocabulaire.
 
 Vous pouvez aussi échanger sur [le forum](https://forum.inventaire-des-orgues.fr/).
 
-# Le vocabulaire
+## Le vocabulaire
 
 La page du [vocabulaire de l'orgue](https://vocabulaire.inventaire-des-orgues.fr/) propose un lexique
 provisoire qui sera prochainement éditable par les contributeurs.
+
+## La charte du contributeur
+
+[Charte](charte-du-contributeur.md)

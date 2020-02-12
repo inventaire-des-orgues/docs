@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Gwilherm Poullennec">
-        <link rel="canonical" href="https://docs.inventaire-des-orgues.fr/modele_tableur/">
+        <link rel="canonical" href="https://docs.inventaire-des-orgues.fr/osm/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Modele tableur - Documentation de l'inventaire des orgues</title>
+        <title>OpenStreetMap et l'inventaire des orgues - Documentation de l'inventaire des orgues</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -91,116 +91,76 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#openstreetmap-et-linventaire-des-orgues">OpenStreetMap et l'inventaire des orgues</a></li>
+            <li><a href="#visionner-les-donnees-osm">Visionner les données OSM</a></li>
+            <li><a href="#utiliser-les-donnees-osm">Utiliser les données OSM</a></li>
+            <li><a href="#modifier-les-donnees-dopenstreetmap">Modifier les données d'OpenStreetMap</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Localisation édifice (Adresse postal, coordonnées GPS)</td>
-<td>Titre courant édifice (Dénomination/Genre/Appellation/Titre)</td>
-<td>Propriétaire édifice</td>
-<td>Protection MH de l'édifice</td>
-<td>Référence/lien édifice dans Mérimée</td>
-<td>Localisation de l'instrument dans l'édifice et accès à l'instrument</td>
-<td>Nombre de places assises dans l'édifice</td>
-<td>Acoustique de l'édifice</td>
-<td>Appellations orgue (par ex: "grand orgue", cf. thesaurus)</td>
-<td>Appréciation générale sur l'état de l'orgue</td>
-<td>État de l'orgue (jouable ou non)</td>
-<td>Référence/lien de l'orgue dans Palissy</td>
-<td>Affectataire de l'orgue</td>
-<td>Procédure et conditions d'accès à l'instrument</td>
-<td>Propriétaire de l'orgue</td>
-<td>Observations sur l'orgue</td>
-<td>Intérêt de l'orgue</td>
-<td>Date de la notice</td>
-<td>Auteur de la notice</td>
-<td>Accessoires</td>
-<td>Accouplements</td>
-<td>Alimentation</td>
-<td>Claviers</td>
-<td>Console</td>
-<td>Diapason</td>
-<td>Meuble de console</td>
-<td>Pédalier</td>
-<td>Sommiers</td>
-<td>Soufflerie</td>
-<td>Tempérament</td>
-<td>Transmission des notes et des jeux</td>
-<td>Tuyauterie</td>
-<td>Événements</td>
-<td>Archives (paroissiales, diocésaines, associatives, etc.)</td>
-<td>Bibliographie</td>
-<td>Vidéo (+ auteur, licence, description)</td>
-<td>Audio (+ auteur, licence, description)</td>
-<td>Photo (+ auteur, licence, description)</td>
-<td>Discographie</td>
-<td>Documentation</td>
-<td>Description du buffet</td>
-<td>Décor buffet</td>
-<td>Inscriptions sur le buffet</td>
-<td>Auteur(s) du buffet</td>
-<td>Historique du buffet</td>
-<td>Matériau du buffet</td>
-<td>État du buffet</td>
-<td>Référence/lien du buffet dans Palissy</td>
-</tr>
-</tbody>
-</table></div>
+<h1 id="openstreetmap-et-linventaire-des-orgues">OpenStreetMap et l'inventaire des orgues</h1>
+<h2 id="visionner-les-donnees-osm">Visionner les données OSM</h2>
+<h3 id="qgis">QGIS</h3>
+<p>Level0
+https://wiki.openstreetmap.org/wiki/Level0
+http://level0.osmz.ru/?url=node/71893023</p>
+<p>L'import dans une couche vecteur QGIS donne :
+-   Une couche lines
+-   Une couche multilinestrings : vide 
+-   Une couche multipolygons : les way OSM
+-   Une couche points : les node OSM disposant d'un tag au moins
+-   Une couche other_relations : les relation OSM pour lesquelles leurs member OSM n'ont pas de role OSM (ou qui n'ont pas le type multipolygon ?</p>
+<h2 id="utiliser-les-donnees-osm">Utiliser les données OSM</h2>
+<p>Notre objectif : récupérer les données géographiques des édifices hébergeant des orgues.</p>
+<p>OpenStreetMap (OSM) ne propose que 3 type d'objets :
+- node
+- way
+- relation</p>
+<p>Les édifices contenant un orgue sont généralement des chemins ('way'), mais peuvent être d'autres types : simples noeuds ('node') ou bien regroupement d'objet ('relation').</p>
+<p>Filtrer par attribut permet de limiter le nombre de données extraites
+- Attribut building
+  - cathedral
+  - chapel
+  - church</p>
+<p>Plusieurs types de requêtes</p>
+<h3 id="osm">OSM</h3>
+<h3 id="base-de-donnees-osm">Base de données OSM</h3>
+<p>Il est possible de parcourir directement les fichiers OSM :
+http://download.geofabrik.de/
+http://download.geofabrik.de/europe/france.html</p>
+<h3 id="postgresql-et-postgis">PostgreSQL et PostGIS</h3>
+<p>PostGIS
+-   PostgreSQL : prendre la version zippée, pour inclusion dans d'autres distributions
+-   Version 12
+-   PgAdmin4 : prendre le Wheel Python
+-   Installer avec un script Python appelant pip</p>
+<p>Initialiser postgre :
+.\initdb.exe  -D ......\Downloads\OSM\data
+.\postgres.exe -D ......\Downloads\OSM\data\
+Lancer PgAdmin4 (faire un petit .bat)
+cd D:\Users\poullennecgwi\Portable\WPy64-3720\python-3.7.2.amd64
+python.exe .\Lib\site-packages\pgadmin4\pgAdmin4.py</p>
+<p>createuser -s -d gwilherm
+createdb dit que poullennecgwi existe déjà (créé par initdb ?)</p>
+<p>Dans pgadmin : serveur : localhost, base : poullennecgwi, user gwilherm</p>
+<h3 id="overpass">Overpass</h3>
+<p><a href="http://overpass-turbo.eu/">Overpass</a> est un outil en ligne de requête dans les bases OSM.</p>
+<p>https://www.openstreetmap.org/way/351261994</p>
+<p>http://overpass-turbo.eu
+https://wiki.openstreetmap.org/wiki/FR:Overpass_turbo
+https://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide</p>
+<p>Deux langages de requêtes sont disponibles :
+-   Langage ad hoc
+-   Langage XML</p>
+<p>Requête pouvant être passée dans l'IHM ou par API.
+Exemple :
+https://towardsdatascience.com/loading-data-from-openstreetmap-with-python-and-the-overpass-api-513882a27fd0</p>
+<h3 id="python">Python</h3>
+<p>Un script basé sur les modules standard XML (etree pour fichiers pas trop gros) permet la lecture des way, node, relation et leur traitement.</p>
+<h2 id="modifier-les-donnees-dopenstreetmap">Modifier les données d'OpenStreetMap</h2>
+<h3 id="josm">JOSM</h3>
+<p>Nécessite JAVA 1.7</p></div>
         </div>
 
         <footer class="col-md-12">

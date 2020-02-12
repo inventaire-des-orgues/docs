@@ -1,23 +1,18 @@
-**Version 0.9**
+# Charte du contributeur
 
 Si vous voulez réagir à ce brouillon, n’hésitez pas à nous écrire à
 <contact@inventaire-des-orgues.fr> ou à ouvrir [un
 ticket](https://git.inventaire-des-orgues.fr/bzg/ido-docs/issues).
 
-Vous pouvez télécharger la version
-[.odt](data/docs/charte-du-contributeur.odt) ou
-[.docx](data/docs/charte-du-contributeur.docx) de ce document pour
-l’amender et nous envoyer des corrections.
-
-# Charte du contributeur
 
 La charte de l’utilisateur suit les principes de la [charte nationale
 des sciences
 participatives](https://inra-dam-front-resources-cdn.brainsonic.com/ressources/afile/403674-cf7ac-resource-charte-francaise-des-sciences-et-recherches-participatives.pdf)
 (20 mars 2017).
 
-La plateforme « Inventaire des Orgues » est un site expérimental mis en
-œuvre en 2017 par le ministère de la Culture dans le cadre du programme
+## Préambule
+
+L' « Inventaire des Orgues » est un projet mis en œuvre en 2017 par le ministère de la Culture dans le cadre du programme
 « [Entrepreneur d’intérêt
 général](https://entrepreneur-interet-general.etalab.gouv.fr/) » 2017,
 porté ensuite conjointement par l’association [Orgue en

@@ -6,9 +6,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Gwilherm Poullennec">
-        <link rel="canonical" href="https://docs.inventaire-des-orgues.fr/modele_orgue_complet/">
+        <link rel="canonical" href="https://docs.inventaire-des-orgues.fr/permissions/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Modele orgue complet - Documentation de l'inventaire des orgues</title>
+        <title>Permissions - Documentation de l'inventaire des orgues</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -91,416 +91,39 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#permissions">Permissions</a></li>
+            <li><a href="#portail">Portail</a></li>
+            <li><a href="#serveur">Serveur</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<table>
-<thead>
-<tr>
-<th><strong>Propriétés générales de l'orgue</strong></th>
-<th>Type de données</th>
-<th>Lexique associé</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Auteur</td>
-<td>Structuré</td>
-<td>AUTR</td>
-</tr>
-<tr>
-<td>Appellations (par ex: "grand orgue", cf. thesaurus)</td>
-<td>Structuré</td>
-<td>TICO</td>
-</tr>
-<tr>
-<td>Appréciation générale sur l'état (ETAT)</td>
-<td>Texte libre ?</td>
-<td>ETAT ?</td>
-</tr>
-<tr>
-<td>État (jouable, etc.)</td>
-<td>Texte libre ?</td>
-<td>Lexique existant ?</td>
-</tr>
-<tr>
-<td>Référence/lien dans Palissy (REF)</td>
-<td>Structuré</td>
-<td>REF</td>
-</tr>
-<tr>
-<td>Affectataire</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Facteur assurant l'entretien</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Procédure et conditions d'accès à l'instrument</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Propriétaire (ou statut (STAT) ?)</td>
-<td>Structuré ?</td>
-<td>STAT ?</td>
-</tr>
-<tr>
-<td>Observations (OBS)</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Inscription/classement MH</td>
-<td>texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Intérêt (INTE)</td>
-<td>Structuré</td>
-<td>Thesaurus ?</td>
-</tr>
-<tr>
-<td>Date notice (Palissy/Gertrude) par contributeur (DMIS/DMAJ/PERS)</td>
-<td>Date</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Description des composants</strong></td>
-<td>Type de données</td>
-<td>Lexique associé</td>
-</tr>
-<tr>
-<td>Accessoires</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Accouplements et tirasses</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Alimentation</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Boîte expressive</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Combinateur</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Claviers</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Console</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Diapason et température</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Meuble de console</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Pédalier</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Sommiers I</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Sommiers II</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Sommiers III</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Sommiers IV</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Sommiers V</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Sommiers pédale</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Soufflerie / pressions</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Tempérament</td>
-<td>Structuré</td>
-<td>Vocabulaire orgue</td>
-</tr>
-<tr>
-<td>Transmission des notes</td>
-<td>Structuré</td>
-<td>Vocabulaire orgue</td>
-</tr>
-<tr>
-<td>Transmission des jeux</td>
-<td>Structuré</td>
-<td>Vocabulaire orgue</td>
-</tr>
-<tr>
-<td>Tuyauterie</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Claviers</strong></td>
-<td>Type de données</td>
-<td>Lexique associé</td>
-</tr>
-<tr>
-<td>Nom</td>
-<td>Chaîne de caractère</td>
-<td>Lexique des claviers</td>
-</tr>
-<tr>
-<td>Inscription</td>
-<td>Texte libre</td>
-<td>Aucun</td>
-</tr>
-<tr>
-<td>Nombre de touches</td>
-<td>Nombre</td>
-<td>Aucun</td>
-</tr>
-<tr>
-<td>Commentaire</td>
-<td>Texte libre</td>
-<td>Aucun</td>
-</tr>
-<tr>
-<td><strong>Jeux</strong></td>
-<td>Type de données</td>
-<td>Lexique associé</td>
-</tr>
-<tr>
-<td>Nom</td>
-<td>Chaîne de caractère</td>
-<td>Lexique des jeux</td>
-</tr>
-<tr>
-<td>Inscription</td>
-<td>Texte libre</td>
-<td>Aucun</td>
-</tr>
-<tr>
-<td>Hauteur / Tessiture</td>
-<td>Texte libre</td>
-<td>Aucun</td>
-</tr>
-<tr>
-<td>Première / dernière note</td>
-<td>Structuré</td>
-<td>XX / XX avec mini 1 et maxi 73</td>
-</tr>
-<tr>
-<td>Rangs</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Clavier associé</td>
-<td>Clavier</td>
-<td>Lexique des claviers</td>
-</tr>
-<tr>
-<td>Matériaux</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Commentaire</td>
-<td>Texte libre</td>
-<td>Aucun</td>
-</tr>
-<tr>
-<td>Accessoires</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Historique</strong></td>
-<td>Type de données</td>
-<td>Lexique associé</td>
-</tr>
-<tr>
-<td>Événement</td>
-<td>Structuré</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Données extérieures</strong></td>
-<td>Type de données</td>
-<td>Lexique associé</td>
-</tr>
-<tr>
-<td>Archives (paroissiales, diocésaines, associatives, etc.)</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Bibliographie</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Vidéo (+ auteur, licence, description)</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Audio (+ auteur, licence, description)</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Photo (+ auteur, licence, description)</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Discographie</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Documentation</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td><strong>Buffet</strong></td>
-<td>Type de données</td>
-<td>Lexique associé</td>
-</tr>
-<tr>
-<td>Description (DESC)</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Décor (REPR)</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Inscriptions (INSC)</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Auteur(s) (AUTR)</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Historique (DATE)</td>
-<td>Date structurée</td>
-<td></td>
-</tr>
-<tr>
-<td>Matériau (MATR)</td>
-<td>Structuré</td>
-<td>Matériaux</td>
-</tr>
-<tr>
-<td>État (ETAT)</td>
-<td>Structuré</td>
-<td>État</td>
-</tr>
-<tr>
-<td>Inscription/classement MH</td>
-<td>texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Référence/lien dans Palissy (REF)</td>
-<td>Structuré</td>
-<td>REF</td>
-</tr>
-<tr>
-<td><strong>Édifice contenant l'orgue</strong></td>
-<td>Type de données</td>
-<td>Lexique associé</td>
-</tr>
-<tr>
-<td>Localisation (Adresse postal, coordonnées GPS)</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Titre courant (Dénomination/Genre/Appellation/Titre)</td>
-<td>Structuré</td>
-<td></td>
-</tr>
-<tr>
-<td>Propriétaire</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Protection MH</td>
-<td>Structuré</td>
-<td>Protection</td>
-</tr>
-<tr>
-<td>Référence/lien dans Mérimée (REFA)</td>
-<td>Structuré</td>
-<td>REFA</td>
-</tr>
-<tr>
-<td>Localisation de l'instrument dans l'édifice et accès à l'instrument</td>
-<td>Texte libre</td>
-<td></td>
-</tr>
-<tr>
-<td>Nombre de places assises</td>
-<td>Nombre</td>
-<td></td>
-</tr>
-<tr>
-<td>Acoustique de l'édifice</td>
-<td>Texte libre</td>
-<td>?</td>
-</tr>
-</tbody>
-</table></div>
+<h1 id="permissions">Permissions</h1>
+<h2 id="portail">Portail</h2>
+<p>Le portail de l'inventaire, réalisé en Python/Django, autorise de nombreux niveaux de permissions.</p>
+<p>Ceux retenus à ce jour sont les suivants, par ordre croissant :</p>
+<h3 id="visiteur">Visiteur</h3>
+<p>N'importe quel internaute. Permet de visualiser l'ensemble du site et des cartes, à l'exception du commentaire administrateur de chaque fiche.</p>
+<h3 id="contributeur">Contributeur</h3>
+<p>A le pouvoir :
+- de modifier une fiche pour la compléter, mais pas d'en créer une.</p>
+<h3 id="createur">Créateur</h3>
+<p>On distingue le rôle de créateur de celui de contributeur car la création d'une nouvelle fiche réclame quelques précautions en ce qui concerne la localisation de l'orgue (il faut par exemple impérativement renseigner le code INSEE de la commune et le nom INSEE de celle-ci).</p>
+<p>A le pouvoir :
+- de modifier une fiche,
+- de créer une fiche pour un nouvel orgue,
+- d'ajouter un nouveau type de jeu.</p>
+<h3 id="administrateur">Administrateur</h3>
+<p>A le pouvoir :
+- de modifier une fiche,
+- de créer une fiche pour un nouvel orgue,
+- d'ajouter un nouveau type de jeu
+- d'ajouter (ou supprimer) un utilisateur et d'en modifier les permissions</p>
+<h2 id="serveur">Serveur</h2>
+<h3 id="gestionnaire-du-serveur">Gestionnaire du serveur</h3>
+<p>A le pouvoir :
+- d'accéder au serveur et d'y éxecuter toute manipulation
+- de créer des identifiants pour un nouveau gestionnaire du serveur</p></div>
         </div>
 
         <footer class="col-md-12">

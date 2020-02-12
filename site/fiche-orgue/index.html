@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Gwilherm Poullennec">
+        <link rel="canonical" href="https://docs.inventaire-des-orgues.fr/fiche-orgue/">
+        <link rel="shortcut icon" href="../img/favicon.ico">
+        <title>Description d'un orgue - Documentation de l'inventaire des orgues</title>
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="..">Documentation de l'inventaire des orgues</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../faq/">Questions/réponses</a>
+                            </li>
+                            <li class="active">
+                                <a href="./">Description d'un orgue</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Origine des données <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../donnees_etatcollectivites/">Etat et collectivités</a>
+</li>
+                                    
+<li >
+    <a href="../donnees_sites/">Sites Internet</a>
+</li>
+                                    
+<li >
+    <a href="../donnees_livres/">Livres d'inventaires</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../about/">About</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../faq/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../donnees_etatcollectivites/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#structure-de-la-fiche-descriptive-dun-orgue-de-linventaire">Structure de la fiche descriptive d'un orgue de l'inventaire</a></li>
+            <li><a href="#informations-generales">Informations générales</a></li>
+            <li><a href="#localisation">Localisation</a></li>
+            <li><a href="#historique">Historique</a></li>
+            <li><a href="#buffet">Buffet</a></li>
+            <li><a href="#partie-instrumentale">Partie instrumentale</a></li>
+            <li><a href="#composition">Composition</a></li>
+            <li><a href="#images">Images</a></li>
+            <li><a href="#fichiers">Fichiers</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="structure-de-la-fiche-descriptive-dun-orgue-de-linventaire">Structure de la fiche descriptive d'un orgue de l'inventaire</h1>
+<p>[TODO] Reprendre fiche type des orgues d'Ile-de-France (Pierre Dumoulin).</p>
+<p>La structure de la fiche décrivant un orgue est le coeur de l'inventaire. Elle a fait l'objet de longues réflexions, 
+dans le but d'aboutir à un juste compromis entre niveau de détails suffisant et complexité limitée.
+La saisie d'une fiche est facilitée par l'organisation en plusieurs grandes rubriques, 
+qui prennent la forme de différents onglets sur le portail de l'inventaire.</p>
+<h2 id="informations-generales">Informations générales</h2>
+<h3 id="edifice">Edifice</h3>
+<p>Valeur_par_defaut = ""</p>
+<p>Le nom de l'édifice hébergeant l'orgue. Il s'agit très souvent d'églises ou de temples.
+La désignation des édifices peut prêter à discussion car, pour de grands édifices, il est fréquent qu'elle ait changé au cours des siècles.</p>
+<h3 id="designation">Désignation</h3>
+<p>La désignation d'un orgue pose très souvent problème. En effet, le titre "Grand orgue" est subjectif, emphatique, et vaut généralement par opposition au titre "Orgue de choeur".
+C'est l'option adoptée pour l'inventaire : par défaut, on parlera simplement d'un "Orgue", et en employera les désignations de ""</p>
+<pre><code>"Grand orgue",
+"Orgue de choeur",
+"Orgue"
+</code></pre>
+<p>Valeur_par_defaut = "Orgue"</p>
+<h3 id="etat-de-fonctionnement">Etat de fonctionnement</h3>
+<p>Il s'agit d'un avis à date de mise à jour de la fiche descriptive. Nécessairement pour partie subjectif, il est rapporté à l'utilisation possible de l'instrument. Les défauts courants et réversible d'un orgue (cornement occasionnel par exemple) ne rentrent pas en compte dans l'appréciation. L'état de fonctionnement ne décrit pas l'état du buffet ou des boiseries dès lors qu'il n'altère pas le jeu.</p>
+<p>Valeur_par_defaut = Néant</p>
+<pre><code>"Très bon ou bon : tout à fait jouable",
+"Altéré : difficilement jouable",
+"Dégradé ou en ruine : injouable"
+</code></pre>
+<h3 id="elevation">Elévation</h3>
+<p>Permet la distinction, dans la majorité des cas, entre orgue de choeur et orgue de tribune.</p>
+<p>Valeur_par_defaut = Néant</p>
+<pre><code>"en tribune",
+"au sol"
+</code></pre>
+<p>Nota : Emplacement dans l'édifice.
+A ce stade, aucun attribut n'est prévu pour préciser la position de l'orgue dans l'édifice.
+Dans le cas de plusieurs instruments au sein d'un même édifice, l'attribut élévation et les coordonnées géographiques permettent de positionner et distinguer précisément l'instrument.</p>
+<h3 id="orgues-polyphones-de-louis-debierre">Orgues polyphones de Louis Debierre</h3>
+<p>is_polyphone [bool] spécifie si l'orgue est un polyphone de la manufacture Debierre.
+Les polyphones sont des orgues coffres dont certains tuyaux de basse permettent l'émission de plusieurs notes distinctes.
+(Musica et memora)[http://www.musimem.com/debierre.htm]</p>
+<p>Valeur_par_defaut = False</p>
+<h3 id="propriete-de-lorgue">Propriété de l'orgue</h3>
+<p>Le propriétaire de l'orgue (qui n'est pas nécessairement le même que l'édifice).
+Le plus souvent, il s'agit de la commune pour des instruments datant d'avant 1905 (de l'Etat pour les orgues de cathédrales), et d'association cultuelle (généralement paroisse) pour les orgues d'après 1905 ou de congrégation.
+Bien sûr, il existe plusieurs exceptions : par exemple, les orgues des cathédrales de la petite couronne parisienne, n'appartiennent pas à l'Etat, mais l'orgue de la basilique royale de Saint-Denis si.</p>
+<p>Valeur_par_defaut= commune</p>
+<pre><code>"commune",
+"Etat",
+"association culturelle",
+"diocèse",
+"paroisse"
+</code></pre>
+<h3 id="organisme-de-reference">Organisme de référence</h3>
+<p>Valeur_par_defaut = ""</p>
+<p>Libellé du lien, et lien, vers un organisme, le plus souvent une association, au plus proche de l'instrument.
+Il s'agit de l'organisme le plus à même de fournir un renseignement ou un contact pour visiter et jouer l'orgue.
+Le libellé du lien est le terme qui apparaîtra comme lien dans la visualisation de la fiche (cartouche de synthèse).</p>
+<h3 id="resume">Résumé</h3>
+<p>champ_texte</p>
+<p>Valeur_par_defaut = ""</p>
+<p>Cette courte description est une synthèse rédigée sur l'histoire de l'instrument.
+Elle doit être utilisée pour évoquer une particularité de l'instrument, ce qui fait son originalité et sa valeur.</p>
+<h3 id="commentaire-admin">Commentaire admin</h3>
+<p>Valeur_par_defaut = ""</p>
+<p>Ce commentaire n'est visible qu'en mode édition et sera affiché sur fond coloré en haut de la fiche lors de l'édition.
+Il sert à transmettre une information entre rédacteurs de la fiche.
+Par exemple : "La description de la tuyauterie est à compléter", ou "Nous ne sommes pas certain de la composition du Récit".</p>
+<h2 id="localisation">Localisation</h2>
+<h3 id="commune">Commune</h3>
+<p>Il s'agit de la commune selon le dernier <a href="https://www.insee.fr/fr/information/2560452">code officiel géographique</a> en vigueur de l'INSEE.
+Attention, de nombreuses communes ont fusionné au cours des dernières années, et de tels regroupements se poursuivront dans les années à venir.
+Il faut donc prendre garde à ne pas renseigner le nom d'une ancienne commune, même s'il continue à être usuellement utilisé. L'attribut Ancienne commune est dédié à cela.</p>
+<h3 id="code-insee">Code INSEE</h3>
+<p>Code de la commune selon le code géographique officiel de l'INSEE. On le trouve aussi généralement dans la fiche de la commune sur Wikipédia.
+Il est unique, et donc distinct du code postal utilisé pour l'adressage du courrier.</p>
+<h3 id="ancienne-commune">Ancienne commune</h3>
+<p>Cet attribut est une aide pour faciliter la localisation.
+Il est à prendre dans une acceptation large : il peut s'agir d'une ancienne commune disparue suite à un regroupement de communes, 
+d'une commune déléguée, d'une commune associée, ou bien d'un simple lieu-dit.</p>
+<h3 id="code-departement">Code département</h3>
+<p>Code du département selon le code géographique officiel de l'INSEE.</p>
+<h3 id="departement">Département</h3>
+<p>Nom du département selon le code géographique officiel de l'INSEE.</p>
+<h3 id="region">Région</h3>
+<p>Nom de la région selon le code géographique officiel de l'INSEE.</p>
+<h3 id="latitude">Latitude</h3>
+<p>Latitude selon le système de coordonnées WGS84, couramment connu comme "coordonnées GPS". Nota : celui-ci n'est pas le système de coordonnées officiel français.
+Pour des facilités de saisie et d'export des données, le format adopté est un nombre réel signé, et non la notation en degrés, minutes et secondes.</p>
+<p>Cf. la <a href="../osm/">page sur OSM</a>.</p>
+<h3 id="longitude">Longitude</h3>
+<p>Cf. latitude.</p>
+<p>Cf. la <a href="../osm/">page sur OSM</a>.</p>
+<h3 id="type-openstreetmap">Type OpenStreetMap</h3>
+<p>Type d'objet selon la nomenclature utilisée par le projet <a href="https://www.openstreetmap.org">OpenStreetMap</a>.
+Il peut s'agir :
+- way : d'un chemin, ensemble de points
+- node : d'un simple points
+- relation : d'une combinaison libre de ces trois types d'objets</p>
+<p>Cf. la <a href="../osm/">page sur OSM</a>.</p>
+<h3 id="id-openstreetmap">Id OpenStreetMap</h3>
+<p>Identifiant unique de l'objet selon la nomenclature utilisée par le projet <a href="https://www.openstreetmap.org">OpenStreetMap</a>.</p>
+<p>Cf. la <a href="../osm/">page sur OSM</a>.</p>
+<h2 id="historique">Historique</h2>
+<p>L'historique d'un orgue est une succession d'évènements.</p>
+<p>Un évènement est lui-même décrit par les quatres informations suivantes :
+- l'année de l'évènement [int]
+- le type d'évènement [string]
+- la liste des facteurs ayant contribué à l'évènement [liste]
+- une description libre de l'évènement [string]</p>
+<p>Les types d'évènement possibles sont les suivants :</p>
+<p>Valeur_par_defaut = Néant</p>
+<pre><code>"Construction",
+"Reconstruction",
+"Destruction",
+"Restauration",
+"Déménagement",
+"Relevage",
+"Disparition",
+"Dégâts",
+"Classement aux monuments historiques",
+"Inscription aux monuments historiques"
+</code></pre>
+<ul>
+<li>Reconstruction : des éléments nouveaux sont ajoutés en grand nombre, la structure de l'instrument est modifiée.</li>
+<li>Destruction : dégâts sur l'ensemble de l'instrument, rendu totalement inutilisable.</li>
+<li>Restauration : opération d'importance, à caractère patrimonial : il s'agit de revenir à un état antérieur de l'instrument.</li>
+<li>Déplacement : déplacement de l'instrument d'un lieu à un autre, que ce soit dans l'édifice ou entre deux édifices. </li>
+<li>Relevage : simple opération de conservation de l'instrument, menée à intervalles réguliers.</li>
+<li>Disparition : distincte de destruction, car l'orgue a pu disparaître suit à un déménagement, ou être stocké dans un endroit inconnu.</li>
+<li>Dégâts : destruction partielle ou altération de l'instrument.</li>
+<li>Classement ou incription au titre des monuments historiques :
+On ne distingue que Inscription au titres des monuments historiques et Classement au titre des monuments historiques, comme objets evenement. Le champ TICO de Palissy sera mis dans le commentaire de l'évenement.
+De même pour les autres champs issus de la mise en correspondance entre l'inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.</li>
+</ul>
+<h2 id="buffet">Buffet</h2>
+<p>Champ libre [string sans limite de taille] pour la description du buffet et de son état.</p>
+<p>Valeur_par_defaut = Néant</p>
+<p>La notion de console est assez récente : elle survient avec l'apparition de meubles séparés du buffet au XIXe siècle, souvent tournés vers l'autel ou mobiles au XXe siècle.
+Aussi n'y a-t-il pas de champ dédié et la console peut-être, le cas échéant, décrite dans un sous-chapitre de la section buffet.</p>
+<p>Les types les plus courants sont :
+- en fenêtre
+- séparée, organiste tourné vers l'orgue
+- séparée, organiste dos à l'orgue</p>
+<p>Dans le cas d'une console mobile ou en fenêtre sur le côté ou l'arrière de l'instrument, on précisera la disposition.
+Idem dans le cas d'une seconde console.</p>
+<h2 id="partie-instrumentale">Partie instrumentale</h2>
+<h3 id="transmission-des-notes">Transmission des notes</h3>
+<p>Le type de transmission des notes est indiqué pour tout l'instrument, et non par clavier.
+Lorsque les claviers disposent d'un autre mode de transmission que celle généralement ou originellement utilisée pour l'instrument (ex: pédalier à transmission électrique) seront précisés dans les commentaires du clavier.</p>
+<pre><code>"Mécanique",
+"Mécanique suspendue",
+"Mécanique à balanciers",
+"Mécanique Barker",
+"Pneumatique",
+"Electrique",
+"Electro-pneumatique"
+</code></pre>
+<h3 id="diapason">Diapason</h3>
+<p>Valeur_par_defaut = Néant</p>
+<p>Hauteur en hertz du A2 donné par le Prestant 4 ou équivalent.</p>
+<h3 id="transmission-des-registres">Transmission des registres</h3>
+<p>Le type de transmission des notes est indiqué pour tout l'instrument</p>
+<pre><code>"Mécanique",
+"Pneumatique",
+"Electrique",
+"Electro-pneumatique"
+</code></pre>
+<h3 id="sommiers">Sommiers</h3>
+<p>Champ texte libre [string]</p>
+<p>Valeur_par_defaut = Néant</p>
+<h3 id="soufflerie">Soufflerie</h3>
+<p>Champ texte libre [string]</p>
+<p>Valeur_par_defaut = Néant</p>
+<h2 id="composition">Composition</h2>
+<h3 id="composition_1">Composition</h3>
+<p>La composition distingue plusieurs plans sonores.</p>
+<p>Un plan sonore est nommé et son étendue est précisée sous la forme suivante :
+C1-G5</p>
+<p>Cf. <a href="https://vocabulaire.inventaire-des-orgues.fr/">le lexique de l'inventaire</a>
+et <a href="https://fr.wikipedia.org/wiki/Liste_des_jeux_d%27orgue">Wikipédia</a></p>
+<p>Valeur_par_defaut = "Bourdon 8"</p>
+<p>Les registres sont énumérés selon un ordre harmonique (hauteur du jeu).
+On suivra la disposition suivante :
+- Fonds
+- Mixtures
+- Cornet
+- Batterie d'anches
+- Anches de détail</p>
+<p>La hauteur est indiquée par convention en pieds, en chiffres arabes, sans précision de l'unité.
+La nombre de rangs des fournitures, plein-jeux, cornet, etc. est indiqué en chiffre romains, sans précision du terme "rangs" (ni "rgs").</p>
+<p>Un champ libre permet pour de joindre pour chaque jeu une courte information optionnelle.
+Par exemple :
+- Emprunté au Grand orgue
+- Transmission électrique du registre
+En particulier, les basses et dessus seront notés :
+- Basse.
+- Dessus.</p>
+<h3 id="description-de-la-tuyauterie">Description de la tuyauterie</h3>
+<p>Commentaire général sur la tuyauterie et description jeu par jeu, dans l'ordre de la composition.</p>
+<p>Note importante : Une seule notation doit être retenue dans l'inventaire des orgues pour la description des notes : les octaves sont numérotées de 1 à 6.
+C1, C#1, D1, D#1...</p>
+<p>Pour</p>
+<h3 id="accessoires">Accessoires</h3>
+<p>Valeur_par_defaut = Néant</p>
+<p>Les accessoires peuvent être :
+- accouplement :
+    - on peut préciser s'il s'agit d'un accouplement classique à l'unisson, à l'octave basse ou bien à l'octave aigüe.
+    - On peut aussi préciser le clavier accouplé et le clavier jouant avec l'accouplement.
+- trémolo : on peut préciser le clavier
+- appel : appel d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures.
+- renvoi : renvoi d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures. N'est renseigné que si une cuillère spécifique effectue le renvoi. Si la cuillère de l'appel permet le renvoi lorsqu'elle est relâchée, il n'y pas lieu d'indiquer un renvoi.</p>
+<p>Quelques accessoires courants sont proposés pour accélérer la rédaction d'une fiche.
+Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecter les mêmes conventions de nommage, notamment pour ce qui concerne les abréviations:
+- Réc. : Récit
+- G.O. : Grand orgue
+- Pos. : Positif
+- Ped. : Pédale
+- G.C. : Grand choeur
+- Bom. : Bombarde</p>
+<h2 id="images">Images</h2>
+<p>On veillera à joindre des images de bonne qualité et bonne résolution, sans toutefois que leur taille n'excède 2 Mo.
+Par image, on parle ici de documents purement visuels, c'est-à-dire des dessins, croquis et photos.
+Les autres documents doivent être déposés sur le site comme des fichiers. (Cf. ci-après.)</p>
+<p>Il faut désigner une des images comme image principale, à savoir celle qui apparaîtra en tête de la fiche sur le portail, et dans l'index de tous les orgues.</p>
+<p>La rubrique crédit doit obligatoirement être renseignées. Toutes les images déposées sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
+Cf. la <a href="../faq/">foire aux questions</a> pour toutes les questions ayant trait au droit d'auteur.</p>
+<h2 id="fichiers">Fichiers</h2>
+<p>Touts les fichiers déposées sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
+Cf. la <a href="../faq/">foire aux questions</a> pour toutes les questions ayant trait au droit d'auteur.</p></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../js/base.js" defer></script>
+        <script src="../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

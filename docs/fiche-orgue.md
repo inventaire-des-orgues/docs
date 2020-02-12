@@ -1,9 +1,10 @@
 # Structure de la fiche descriptive d'un orgue de l'inventaire
 
-[TODO] Reprendre fiche type des orgues d'Ile-de-France (Pierre Dumoulin).
 
 La structure de la fiche décrivant un orgue est le coeur de l'inventaire. Elle a fait l'objet de longues réflexions, 
 dans le but d'aboutir à un juste compromis entre niveau de détails suffisant et complexité limitée.
+Elle s'inspire bien sûr des livres d'inventaire, ainsi que des sites existants. Elle présente toutefois une structure bien plus fine que la plupart des sites consacrés aux orgues.
+
 La saisie d'une fiche est facilitée par l'organisation en plusieurs grandes rubriques, 
 qui prennent la forme de différents onglets sur le portail de l'inventaire.
 
@@ -11,7 +12,7 @@ qui prennent la forme de différents onglets sur le portail de l'inventaire.
 
 ### Edifice
 
-Valeur_par_defaut = ""
+`Valeur_par_defaut = ""`
 
 Le nom de l'édifice hébergeant l'orgue. Il s'agit très souvent d'églises ou de temples.
 La désignation des édifices peut prêter à discussion car, pour de grands édifices, il est fréquent qu'elle ait changé au cours des siècles.
@@ -94,6 +95,8 @@ Ce commentaire n'est visible qu'en mode édition et sera affiché sur fond color
 Il sert à transmettre une information entre rédacteurs de la fiche.
 Par exemple : "La description de la tuyauterie est à compléter", ou "Nous ne sommes pas certain de la composition du Récit".
 
+----
+
 ## Localisation
 
 ### Commune
@@ -154,6 +157,7 @@ Identifiant unique de l'objet selon la nomenclature utilisée par le projet [Ope
 
 Cf. la [page sur OSM](osm.md).
 
+----
 
 ## Historique
 
@@ -191,6 +195,8 @@ Valeur_par_defaut = Néant
 On ne distingue que Inscription au titres des monuments historiques et Classement au titre des monuments historiques, comme objets evenement. Le champ TICO de Palissy sera mis dans le commentaire de l'évenement.
 De même pour les autres champs issus de la mise en correspondance entre l'inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.
 
+----
+
 ## Buffet
 
 Champ libre [string sans limite de taille] pour la description du buffet et de son état.
@@ -207,6 +213,8 @@ Les types les plus courants sont :
 
 Dans le cas d'une console mobile ou en fenêtre sur le côté ou l'arrière de l'instrument, on précisera la disposition.
 Idem dans le cas d'une seconde console.
+
+----
 
 ## Partie instrumentale
 
@@ -247,9 +255,11 @@ Champ texte libre [string]
 
 Valeur_par_defaut = Néant
 
+----
+
 ## Composition
 
-### Composition
+### Plans sonores
 
 La composition distingue plusieurs plans sonores.
 
@@ -280,29 +290,22 @@ En particulier, les basses et dessus seront notés :
 - Basse.
 - Dessus.
 
-### Description de la tuyauterie
-
-Commentaire général sur la tuyauterie et description jeu par jeu, dans l'ordre de la composition.
-
-Note importante : Une seule notation doit être retenue dans l'inventaire des orgues pour la description des notes : les octaves sont numérotées de 1 à 6.
-C1, C#1, D1, D#1...
-
-Pour
-
 ### Accessoires
 
 Valeur_par_defaut = Néant
 
 Les accessoires peuvent être :
+
 - accouplement :
     - on peut préciser s'il s'agit d'un accouplement classique à l'unisson, à l'octave basse ou bien à l'octave aigüe.
-    - On peut aussi préciser le clavier accouplé et le clavier jouant avec l'accouplement.
+    - on doit préciser le clavier accouplé et le clavier jouant avec l'accouplement.
 - trémolo : on peut préciser le clavier
 - appel : appel d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures.
 - renvoi : renvoi d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures. N'est renseigné que si une cuillère spécifique effectue le renvoi. Si la cuillère de l'appel permet le renvoi lorsqu'elle est relâchée, il n'y pas lieu d'indiquer un renvoi.
 
 Quelques accessoires courants sont proposés pour accélérer la rédaction d'une fiche.
 Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecter les mêmes conventions de nommage, notamment pour ce qui concerne les abréviations:
+
 - Réc. : Récit
 - G.O. : Grand orgue
 - Pos. : Positif
@@ -310,6 +313,14 @@ Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecte
 - G.C. : Grand choeur
 - Bom. : Bombarde
 
+### Description de la tuyauterie
+
+Commentaire général sur la tuyauterie et description jeu par jeu, dans l'ordre de la composition.
+
+Note importante : Une seule notation doit être retenue dans l'inventaire des orgues pour la description des notes : les octaves sont numérotées de 1 à 6.
+C1, C#1, D1, D#1...
+
+----
 
 ## Images
 
@@ -321,6 +332,8 @@ Il faut désigner une des images comme image principale, à savoir celle qui app
 
 La rubrique crédit doit obligatoirement être renseignées. Toutes les images déposées sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
 Cf. la [foire aux questions](faq.md) pour toutes les questions ayant trait au droit d'auteur.
+
+----
 
 ## Fichiers
 
