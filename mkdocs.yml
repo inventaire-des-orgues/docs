@@ -3,14 +3,19 @@ site_url: https://docs.inventaire-des-orgues.fr/
 site_description: Documentation de l'inventaire des orgues
 site_author: Gwilherm Poullennec
 
-repo_url: 
+repo_url: https://github.com/inventaire-des-orgues/docs
 
 theme: mkdocs
 
 nav:
     - Home: index.md
     - Questions/réponses: faq.md
-    - Description d'un orgue : fiche-orgue.md
+    - Décrire un orgue :
+        - Compléter une fiche: fiche-orgue.md
+        - Localiser un orgue: osm.md
+        - Conventions: conventions.md
+        - Permissions: permissions.md
+        - Charte du contributeur: charte-du-contributeur.md
     - Origine des données:
         - Etat et collectivités: donnees_etatcollectivites.md
         - Sites Internet: donnees_sites.md

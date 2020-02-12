@@ -5,7 +5,7 @@
 La [foire aux questions](faq.md) répond aux questions les plus souvent posées par
 les contributeurs. Nous vous invitons à la parcourir !
 
-## La fiche descriptive
+## Décrire un orgue
 
 La page de la [fiche descriptive](fiche-orgue.md) d'un orgue présente la structure des informations à inventorier (modèle de données).
 
@@ -41,3 +41,11 @@ provisoire qui sera prochainement éditable par les contributeurs.
 ## La charte du contributeur
 
 [Charte](charte-du-contributeur.md)
+
+## Informations techniques
+
+Cette [page](reprise-technique.md) détaille ce qu'il faut connaître pour administrer le projet.
+
+## Compétences
+
+Cette [page](ressources-humaines.md) détaille les rôles au sein du projet.

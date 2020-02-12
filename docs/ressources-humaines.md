@@ -1,16 +1,13 @@
-**Version 0.2**
+# Rôles et compétences
 
-Si vous voyez une erreur dans ce document, n’hésitez pas à me la
-signaler [en ouvrant un
-ticket](https://git.inventaire-des-orgues.fr/bzg/ido-docs/issues).
+## Animateur / gestionnaire de bases de données
 
 Ce document présente des précisions sur les compétences requises pour
 assurer le bon fonctionnement de la plate-forme et l’animation du réseau
 des contributeurs.
 
-# Animateur / gestionnaire de bases de données
 
-## Compétences d'animateur de communautés en ligne
+### Compétences d'animateur de communautés en ligne
 
   - Familiarité avec l'échange via un
     [forum](https://forum.inventaire-des-orgues.fr/).
@@ -24,7 +21,7 @@ des contributeurs.
     pour la gestion du compte
     [@soulierdorgue](https://twitter.com/soulierdorgue).
 
-### Rôle dans l’animation communautaire
+#### Rôle dans l’animation communautaire
 
 L’animateur est en chargé de tout mettre en oeuvre pour mobiliser les
 contributeurs, de manière réactive et proactive.
@@ -52,16 +49,16 @@ De façon proactive :
 L’animateur assure aussi le lien entre les contributeurs réguliers et le
 comité scientifique.
 
-## Compétences techniques de gestionnaire de base de données
+### Compétences techniques de gestionnaire de base de données
 
-### Compétences techniques générales
+#### Compétences techniques générales
 
   - Connaissance liées au domaine de l’orgue : être familier avec
     l'ensemble des champs composant la fiche descriptive d'un orgue.
 
   - Familiarité avec les formats de fichier .csv, .ods, .xls et .xlsx.
 
-### Rôle dans l'importation des données
+#### Rôle dans l'importation des données
 
 Le ministère de la culture mettra à disposition un export des bases de
 données Mérimée et Palissy tous les six mois sous forme de fichiers
@@ -76,7 +73,7 @@ disposition par le ministère via l'outil d'inventaire. Le comité
 scientifique sera ensuite en charge de valider l’intégration de ces
 mises à jour.
 
-### Rôle dans la gestion des utilisateurs et des données
+#### Rôle dans la gestion des utilisateurs et des données
 
 L'animateur est techniquement en charge de :
 
@@ -86,18 +83,18 @@ L'animateur est techniquement en charge de :
 
   - Supprimer les contenus défectueux.
 
-### Rôle dans l’établissement des statistiques
+#### Rôle dans l’établissement des statistiques
 
 L'animateur a accès à l'outil de suivi des statistiques de fréquentation
 du site.
 
-# Développeur/mainteneur de la plate-forme
+## Développeur/mainteneur de la plate-forme
 
 Le développeur/mainteneur est en charge de faire en sorte que la
 plate-forme d’inventaire des orgues soit toujours en ligne et
 utilisable.
 
-## Compétences techniques
+### Compétences techniques
 
   - Connaissances en gestion et configuration d’un nom de domaine.
 
@@ -124,7 +121,7 @@ utilisable.
     [markdown](https://fr.wikipedia.org/wiki/Markdown) et d’[Emacs
     org-mode](http://orgmode.org/) non indispensables mais utiles.
 
-# Modalités de formation
+## Modalités de formation
 
 L’animateur et le mainteneur seront en contact avec l’entrepreneur
 d’intérêt général 2017 pour être formés et s’approprier les outils

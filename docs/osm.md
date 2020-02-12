@@ -1,8 +1,29 @@
 # OpenStreetMap et l'inventaire des orgues
 
-## Visionner les données OSM
+L'inventaire des orgues utilise pour une bonne part les coordonnées géographiques issues de la plate-forme OpenStreetMap, car il s'agit d'un projet libre, open source et open data.
+De plus, les données des édifices religieux français sont bien plus complètes que sur Google Maps.
 
-### QGIS
+## Mode simple, accessible à tous
+
+### Directement sur le site OpenStreetMap
+
+La façon la plus simple, si l'on ne recherche les coordonnées géographiques que pour quelques instruments seulements, 
+de les capter manuellement depuis le site OpenStreetMap.
+
+- se connecter au site [OpenStreetMap](https://www.openstreetmap.org)
+- rechercher un édifice à l'aide du moteur de recherche (par exemple : "église saint-thomas la flèche")
+- vérifier sur la carte qu'il s'agit bien du bon édifice
+- récupérer l'id du l'objet représentant l'édifice (il est affiché en parenthèse dans le titre, "37420047" dans notre exemple)
+- récupérer le type d'objet représentant l'édifice (il débute le titre, "Chemin" dans notre exemple)
+- renseigner cet id et ce type dans l'inventaire des orgues, à l'onglet *Localisation* de la fiche
+
+C'est tout ! Nous pourrons alors automatiquement récupérer les latitude et longitude de l'édifice.
+
+## Mode expert, pour les administrateurs ou geeks
+
+### Visionner les données OSM
+
+#### QGIS
 
 Level0
 https://wiki.openstreetmap.org/wiki/Level0
@@ -15,7 +36,7 @@ L'import dans une couche vecteur QGIS donne :
 -	Une couche points : les node OSM disposant d'un tag au moins
 -	Une couche other_relations : les relation OSM pour lesquelles leurs member OSM n'ont pas de role OSM (ou qui n'ont pas le type multipolygon ?
 
-## Utiliser les données OSM
+### Utiliser les données OSM
 
 Notre objectif : récupérer les données géographiques des édifices hébergeant des orgues.
 
@@ -34,15 +55,15 @@ Filtrer par attribut permet de limiter le nombre de données extraites
 
 Plusieurs types de requêtes
 
-### OSM
+#### OSM
 
-### Base de données OSM
+#### Base de données OSM
 
 Il est possible de parcourir directement les fichiers OSM :
 http://download.geofabrik.de/
 http://download.geofabrik.de/europe/france.html
 
-### PostgreSQL et PostGIS
+#### PostgreSQL et PostGIS
 PostGIS
 -	PostgreSQL : prendre la version zippée, pour inclusion dans d'autres distributions
 -	Version 12
@@ -62,7 +83,7 @@ createdb dit que poullennecgwi existe déjà (créé par initdb ?)
 Dans pgadmin : serveur : localhost, base : poullennecgwi, user gwilherm
 
 
-### Overpass
+#### Overpass
 
 [Overpass](http://overpass-turbo.eu/) est un outil en ligne de requête dans les bases OSM.
 
@@ -81,12 +102,12 @@ Exemple :
 https://towardsdatascience.com/loading-data-from-openstreetmap-with-python-and-the-overpass-api-513882a27fd0
 
 
-### Python
+#### Python
 
 Un script basé sur les modules standard XML (etree pour fichiers pas trop gros) permet la lecture des way, node, relation et leur traitement.
 
 
-## Modifier les données d'OpenStreetMap
+### Modifier les données d'OpenStreetMap
 
-### JOSM
+#### JOSM
 Nécessite JAVA 1.7
