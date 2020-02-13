@@ -10,9 +10,10 @@ La documentation est générée depuis Markdown en HTML à l'aide de l'utilitair
 
 Pour générer le site de documentation avec Mkdocs et éventuellement lancer le [serveur local](http://127.0.0.1:8000) :
 
-1- installer le module mkdocs avec pip
-2a- soit depuis une console, via la ligne de commande `mkdocs build`
-2b- soit directement depuis Python via un script de lancement `generate.py` adapté depuis [un exemple trouvé sur le web](https://github.com/ASoftTech/Gbd.IO.Serial/blob/master/Docs/MkDocs/build.py)
+1. installer le module mkdocs avec pip
+2. construire le site statique :
+  a- soit depuis une console, via la ligne de commande `mkdocs build`
+  b- soit directement depuis Python via un script de lancement `generate.py` adapté depuis [un exemple trouvé sur le web](https://github.com/ASoftTech/Gbd.IO.Serial/blob/master/Docs/MkDocs/build.py)
 
 Le fichier de configuration, en langage yaml, peut-être [personnalisé](https://www.mkdocs.org/user-guide/configuration/).
 
