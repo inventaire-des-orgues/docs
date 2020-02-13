@@ -3,6 +3,7 @@
 L'inventaire des orgues utilise pour une bonne part les coordonnées géographiques issues de la plate-forme OpenStreetMap, car il s'agit d'un projet libre, open source et open data.
 De plus, les données des édifices religieux français sont bien plus complètes que sur Google Maps.
 
+
 ## Mode simple, accessible à tous
 
 ### Directement sur le site OpenStreetMap
