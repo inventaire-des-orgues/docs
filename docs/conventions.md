@@ -4,12 +4,12 @@ On respectera strictement les conventions suivantes :
 
 ## Plans sonores
 
-- Réc. : Récit
-- G.O. : Grand orgue
-- Pos. : Positif
-- Ped. : Pédale
-- G.C. : Grand choeur
-- Bom. : Bombarde
+- Réc.  : Récit
+- G.O.  : Grand orgue
+- Pos.  : Positif
+- Ped.  : Pédale
+- G.Ch. : Grand choeur
+- Bom.  : Bombarde
 
 ## Description de la tuyauterie
 
