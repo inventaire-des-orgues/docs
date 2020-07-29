@@ -17,6 +17,15 @@ qui prennent la forme de différents onglets sur le portail de l'inventaire.
 Le nom de l'édifice hébergeant l'orgue. Il s'agit très souvent d'églises ou de temples.
 La désignation des édifices peut prêter à discussion car, pour de grands édifices, il est fréquent qu'elle ait changé au cours des siècles.
 
+Le terme église prend une majuscule lorsqu’il désigne l’institution ou l’ensemble des fidèles : l’Église catholique (ou absolument l’Église), les Églises protestantes, etc. La minuscule est réservée au bâtiment. Cette remarque s’applique à d’autres termes relevant de domaines différents, quand il s’agit de distinguer deux réalités bien distinctes que désigne un même mot (la raison d’État, l’état des lieux ; la Bourse de commerce, une bourse d’études).
+
+Concernant les ordres et les congrégations, on met une majuscule quand on désigne l’ensemble de l’ordre, de la congrégation, etc. : les Jésuites, les Dominicains. Mais on met une minuscule lorsqu’on ne parle que d’une partie des membres : un couvent de dominicains.
+
+Rappel concernant le mot Saint : quand il désigne le personnage lui-même, saint est un nom commun qui s’écrit sans majuscule : Les trois saints de glace sont saint Mamère, saint Pancrace et saint Servais. Seule exception Saint Louis, considéré comme un nom propre. En revanche, saint prend la majuscule lorsqu’il entre dans la formation d’un nom de famille, d’un nom de lieu, de rue, de ville, de fête, etc., et il est suivi d’un trait d’union : le duc de Saint-Simon, la Sainte-Chapelle, la place Saint-Marc, les feux de la Saint-Jean, l’île Saint-Louis ; Les Saint-Germanois sont les habitants de Saint-Germain-en-Laye. Il prend également la majuscule dans certaines expressions traditionnelles historiques ou religieuses : la Sainte-Alliance, le Saint-Empire, le Saint-Office, le Saint-Esprit, le Saint-Siège, la Sainte-Trinité, le Saint-Père.
+
+Apostrophe typographique :
+(https://fr.wikipedia.org/wiki/Apostrophe_(typographie))
+
 ### Désignation
 
 La désignation d'un orgue pose très souvent problème. En effet, le titre "Grand orgue" est subjectif, emphatique, et vaut généralement par opposition au titre "Orgue de choeur".

@@ -2,37 +2,57 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://docs.inventaire-des-orgues.fr/</loc>
-     <lastmod>2020-02-12</lastmod>
+     <lastmod>2020-02-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.inventaire-des-orgues.fr/faq/</loc>
-     <lastmod>2020-02-12</lastmod>
+     <lastmod>2020-02-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.inventaire-des-orgues.fr/fiche-orgue/</loc>
-     <lastmod>2020-02-12</lastmod>
+     <lastmod>2020-02-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.inventaire-des-orgues.fr/osm/</loc>
+     <lastmod>2020-02-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.inventaire-des-orgues.fr/conventions/</loc>
+     <lastmod>2020-02-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.inventaire-des-orgues.fr/permissions/</loc>
+     <lastmod>2020-02-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://docs.inventaire-des-orgues.fr/charte-du-contributeur/</loc>
+     <lastmod>2020-02-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.inventaire-des-orgues.fr/donnees_etatcollectivites/</loc>
-     <lastmod>2020-02-12</lastmod>
+     <lastmod>2020-02-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.inventaire-des-orgues.fr/donnees_sites/</loc>
-     <lastmod>2020-02-12</lastmod>
+     <lastmod>2020-02-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.inventaire-des-orgues.fr/donnees_livres/</loc>
-     <lastmod>2020-02-12</lastmod>
+     <lastmod>2020-02-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://docs.inventaire-des-orgues.fr/about/</loc>
-     <lastmod>2020-02-12</lastmod>
+     <lastmod>2020-02-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>

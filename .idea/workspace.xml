@@ -1,41 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b5e3ee4f-eab5-4ba8-8477-f45a4f54de8f" name="Default Changelist" comment="Ajout dans fiche orgue">
-      <change afterPath="$PROJECT_DIR$/docs/carte.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/permissions.md" afterDir="false" />
+    <list default="true" id="b5e3ee4f-eab5-4ba8-8477-f45a4f54de8f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/donnees.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/donnees.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/donnees_livres.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/donnees_livres.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/donnees_sites.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/donnees_sites.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/faq.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/faq.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/fiche-orgue.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/fiche-orgue.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/lexique.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/mentions-legales.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/mentions-legales.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/modele.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/modele_orgue_complet.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/modele_tableur.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/pourquoi.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/alignement/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/alignement/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/carte/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/carte/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/charte-du-contributeur/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/charte-du-contributeur/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/code-source/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/code-source/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/donnees/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/donnees_compilees/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_compilees/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/donnees_compilees/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/site/donnees_etatcollectivites/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_etatcollectivites/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/donnees_livres/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_livres/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/donnees_sites/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/donnees_sites/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/faq/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/faq/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/fiche-orgue-plan-1990/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/fiche-orgue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/fiche-orgue/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/lexique/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/site/mentions-legales/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/mentions-legales/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/modele/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/modele/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/modele_orgue_complet/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/modele_orgue_complet/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/modele_tableur/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/modele_tableur/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/site/pourquoi/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/pourquoi/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/osm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/osm/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site/permissions/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/permissions/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/reprise-technique/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/reprise-technique/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/ressources-humaines/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/site/ressources-humaines/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/site/search/search_index.json" beforeDir="false" afterPath="$PROJECT_DIR$/site/search/search_index.json" afterDir="false" />
@@ -53,9 +35,9 @@
     <session id="-447557491">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="9" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.10" value="3" />
           <entry key="project.open.time.11" value="2" />
           <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="1" />
@@ -63,38 +45,38 @@
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="md" value="13828" />
+          <entry key="md" value="17525" />
           <entry key="py" value="150" />
-          <entry key="txt" value="28" />
-          <entry key="yml" value="152" />
+          <entry key="txt" value="95" />
+          <entry key="yml" value="373" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Markdown" value="13828" />
-          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="Markdown" value="17525" />
+          <entry key="PLAIN_TEXT" value="95" />
           <entry key="Python" value="150" />
-          <entry key="YAML" value="152" />
+          <entry key="YAML" value="373" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="md" value="26" />
+          <entry key="md" value="36" />
           <entry key="py" value="2" />
-          <entry key="yml" value="3" />
+          <entry key="yml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Markdown" value="26" />
+          <entry key="Markdown" value="36" />
           <entry key="Python" value="2" />
-          <entry key="YAML" value="3" />
+          <entry key="YAML" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -102,11 +84,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/faq.md">
+        <entry file="file://$PROJECT_DIR$/mkdocs.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/conventions.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="267">
-                <caret line="121" column="37" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
+              <first_editor relative-caret-position="220">
+                <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/ressources-humaines.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="2460">
+                <caret line="123" column="2" selection-start-line="123" selection-start-column="2" selection-end-line="123" selection-end-column="2" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/reprise-technique.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="3420">
+                <caret line="171" selection-start-line="171" selection-end-line="171" />
               </first_editor>
               <second_editor />
             </state>
@@ -117,66 +132,8 @@
         <entry file="file://$PROJECT_DIR$/docs/index.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="258">
-                <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/donnees_sites.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="6900">
-                <caret line="345" lean-forward="true" selection-start-line="345" selection-end-line="345" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/theindex.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor />
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/donnees.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="113">
-                <caret line="29" selection-start-line="29" selection-end-line="29" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/fiche-orgue.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="100">
-                <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/permissions.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="640">
-                <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+              <first_editor relative-caret-position="1000">
+                <caret line="50" column="67" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
               </first_editor>
               <second_editor />
             </state>
@@ -187,8 +144,8 @@
         <entry file="file://$PROJECT_DIR$/docs/osm.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
-              <first_editor relative-caret-position="101">
-                <caret line="16" selection-start-line="16" selection-end-line="16" />
+              <first_editor relative-caret-position="100">
+                <caret line="5" selection-start-line="5" selection-end-line="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -209,6 +166,12 @@
       <find>�</find>
       <find>forum</find>
       <find>serve</find>
+      <find>ro</find>
+      <find>renseignéex</find>
+      <find>mis à</find>
+      <find>Leafle</find>
+      <find>buffet</find>
+      <find>riv</find>
     </findStrings>
     <replaceStrings>
       <replace>é</replace>
@@ -221,21 +184,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/.github/workflows/main.yml" />
-        <option value="$PROJECT_DIR$/mkdocs.yml" />
-        <option value="$PROJECT_DIR$/docs/code-source.md" />
         <option value="$PROJECT_DIR$/docs/lexique.md" />
         <option value="$PROJECT_DIR$/docs/reprise-technique.md" />
-        <option value="$PROJECT_DIR$/docs/osm.md" />
-        <option value="$PROJECT_DIR$/docs/carte.md" />
-        <option value="$PROJECT_DIR$/docs/fiche-orgue.md" />
         <option value="$PROJECT_DIR$/docs/permissions.md" />
-        <option value="$PROJECT_DIR$/docs/faq.md" />
         <option value="$PROJECT_DIR$/docs/mentions-legales.md" />
         <option value="$PROJECT_DIR$/generatedocs.py" />
         <option value="$PROJECT_DIR$/docs/donnees_livres.md" />
-        <option value="$PROJECT_DIR$/docs/index.md" />
         <option value="$PROJECT_DIR$/docs/donnees.md" />
         <option value="$PROJECT_DIR$/docs/donnees_sites.md" />
+        <option value="$PROJECT_DIR$/docs/code-source.md" />
+        <option value="$PROJECT_DIR$/docs/faq.md" />
+        <option value="$PROJECT_DIR$/docs/charte-du-contributeur.md" />
+        <option value="$PROJECT_DIR$/docs/carte.md" />
+        <option value="$PROJECT_DIR$/docs/fiche-orgue.md" />
+        <option value="$PROJECT_DIR$/mkdocs.yml" />
+        <option value="$PROJECT_DIR$/docs/index.md" />
+        <option value="$PROJECT_DIR$/docs/ressources-humaines.md" />
+        <option value="$PROJECT_DIR$/docs/osm.md" />
+        <option value="$PROJECT_DIR$/docs/conventions.md" />
       </list>
     </option>
   </component>
@@ -251,7 +217,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -268,6 +233,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -385,19 +351,33 @@
       <option name="project" value="LOCAL" />
       <updated>1581368704123</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Réorganisation structure et nettoyage">
+      <created>1581415879440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1581415879440</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Abréviation Grand choeur">
+      <created>1584521255922</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584521255922</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25596184" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20508744" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.42273533" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42273533" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -461,7 +441,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Ajout dans fiche orgue" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajout dans fiche orgue" />
+    <MESSAGE value="Réorganisation structure et nettoyage" />
+    <MESSAGE value="Abréviation Grand choeur" />
+    <option name="LAST_COMMIT_MESSAGE" value="Abréviation Grand choeur" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/../site/manage.py">
@@ -478,72 +460,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/alignement.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/code-source.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="460">
-            <caret line="26" selection-start-line="26" selection-end-line="26" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/fiche-orgue-plan-1990.md" />
-    <entry file="file://$PROJECT_DIR$/mkdocs.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/reprise-technique.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="3420">
-            <caret line="171" selection-start-line="171" selection-end-line="171" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/carte.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="40">
-            <caret line="2" column="60" selection-start-line="2" selection-start-column="60" selection-end-line="2" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/osm.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="101">
-            <caret line="16" selection-start-line="16" selection-end-line="16" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/fiche-orgue.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="100">
-            <caret line="5" column="66" selection-start-line="5" selection-start-column="66" selection-end-line="5" selection-end-column="66" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/permissions.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -554,26 +471,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/faq.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="267">
-            <caret line="121" column="37" selection-start-line="121" selection-start-column="37" selection-end-line="121" selection-end-column="37" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/lexique.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1040">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/lexique.md" />
     <entry file="file://$PROJECT_DIR$/generatedocs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
@@ -581,56 +479,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/modele.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="-3842" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/modele_orgue_complet.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1482" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/modele_tableur.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/pourquoi.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/theindex.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/donnees_compilees.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="120">
-            <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="62" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/modele.md" />
+    <entry file="file://$PROJECT_DIR$/docs/modele_orgue_complet.md" />
+    <entry file="file://$PROJECT_DIR$/docs/modele_tableur.md" />
+    <entry file="file://$PROJECT_DIR$/docs/pourquoi.md" />
+    <entry file="file://$PROJECT_DIR$/docs/donnees_compilees.md" />
     <entry file="file://$PROJECT_DIR$/docs/mentions-legales.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
@@ -651,12 +504,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.md">
+    <entry file="file://$PROJECT_DIR$/docs/alignement.md" />
+    <entry file="file://$PROJECT_DIR$/docs/theindex.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="258">
-            <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          </first_editor>
+        <state split_layout="SPLIT">
+          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -664,8 +516,18 @@
     <entry file="file://$PROJECT_DIR$/docs/donnees.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="113">
+          <first_editor relative-caret-position="500">
             <caret line="29" selection-start-line="29" selection-end-line="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/code-source.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="-68">
+            <caret line="29" column="64" selection-start-line="29" selection-start-column="64" selection-end-line="29" selection-end-column="64" />
           </first_editor>
           <second_editor />
         </state>
@@ -674,8 +536,113 @@
     <entry file="file://$PROJECT_DIR$/docs/donnees_sites.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="6900">
-            <caret line="345" lean-forward="true" selection-start-line="345" selection-end-line="345" />
+          <first_editor relative-caret-position="1258">
+            <caret line="345" selection-start-line="345" selection-end-line="345" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/charte-du-contributeur.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="40">
+            <caret line="14" column="63" selection-start-line="14" selection-start-column="63" selection-end-line="14" selection-end-column="63" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/carte.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="80">
+            <caret line="4" column="95" selection-start-line="4" selection-start-column="95" selection-end-line="4" selection-end-column="95" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/faq.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="92">
+            <caret line="128" selection-start-line="128" selection-end-line="128" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/fiche-orgue.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="192">
+            <caret line="321" lean-forward="true" selection-start-line="308" selection-end-line="321" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-442" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mkdocs.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/ressources-humaines.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="2460">
+            <caret line="123" column="2" selection-start-line="123" selection-start-column="2" selection-end-line="123" selection-end-column="2" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/reprise-technique.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="3420">
+            <caret line="171" selection-start-line="171" selection-end-line="171" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/index.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="1000">
+            <caret line="50" column="67" selection-start-line="50" selection-start-column="67" selection-end-line="50" selection-end-column="67" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/osm.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="100">
+            <caret line="5" selection-start-line="5" selection-end-line="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/conventions.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="220">
+            <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>

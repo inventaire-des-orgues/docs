@@ -8,7 +8,7 @@
         <meta name="author" content="Gwilherm Poullennec">
         <link rel="canonical" href="https://docs.inventaire-des-orgues.fr/fiche-orgue/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Description d'un orgue - Documentation de l'inventaire des orgues</title>
+        <title>Compléter une fiche - Documentation de l'inventaire des orgues</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -52,8 +52,30 @@
                             <li >
                                 <a href="../faq/">Questions/réponses</a>
                             </li>
-                            <li class="active">
-                                <a href="./">Description d'un orgue</a>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Décrire un orgue <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">Compléter une fiche</a>
+</li>
+                                    
+<li >
+    <a href="../osm/">Localiser un orgue</a>
+</li>
+                                    
+<li >
+    <a href="../conventions/">Conventions</a>
+</li>
+                                    
+<li >
+    <a href="../permissions/">Permissions</a>
+</li>
+                                    
+<li >
+    <a href="../charte-du-contributeur/">Charte du contributeur</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Origine des données <b class="caret"></b></a>
@@ -89,9 +111,12 @@
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../donnees_etatcollectivites/">
+                                <a rel="prev" href="../osm/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/inventaire-des-orgues/docs/edit/master/docs/fiche-orgue.md"><i class="fa fa-github"></i> Edit on GitHub</a>
                             </li>
                     </ul>
                 </div>
@@ -115,14 +140,14 @@
                 <div class="col-md-9" role="main">
 
 <h1 id="structure-de-la-fiche-descriptive-dun-orgue-de-linventaire">Structure de la fiche descriptive d'un orgue de l'inventaire</h1>
-<p>[TODO] Reprendre fiche type des orgues d'Ile-de-France (Pierre Dumoulin).</p>
 <p>La structure de la fiche décrivant un orgue est le coeur de l'inventaire. Elle a fait l'objet de longues réflexions, 
 dans le but d'aboutir à un juste compromis entre niveau de détails suffisant et complexité limitée.
-La saisie d'une fiche est facilitée par l'organisation en plusieurs grandes rubriques, 
+Elle s'inspire bien sûr des livres d'inventaire, ainsi que des sites existants. Elle présente toutefois une structure bien plus fine que la plupart des sites consacrés aux orgues.</p>
+<p>La saisie d'une fiche est facilitée par l'organisation en plusieurs grandes rubriques, 
 qui prennent la forme de différents onglets sur le portail de l'inventaire.</p>
 <h2 id="informations-generales">Informations générales</h2>
 <h3 id="edifice">Edifice</h3>
-<p>Valeur_par_defaut = ""</p>
+<p><code>Valeur_par_defaut = ""</code></p>
 <p>Le nom de l'édifice hébergeant l'orgue. Il s'agit très souvent d'églises ou de temples.
 La désignation des édifices peut prêter à discussion car, pour de grands édifices, il est fréquent qu'elle ait changé au cours des siècles.</p>
 <h3 id="designation">Désignation</h3>
@@ -180,6 +205,7 @@ Elle doit être utilisée pour évoquer une particularité de l'instrument, ce q
 <p>Ce commentaire n'est visible qu'en mode édition et sera affiché sur fond coloré en haut de la fiche lors de l'édition.
 Il sert à transmettre une information entre rédacteurs de la fiche.
 Par exemple : "La description de la tuyauterie est à compléter", ou "Nous ne sommes pas certain de la composition du Récit".</p>
+<hr />
 <h2 id="localisation">Localisation</h2>
 <h3 id="commune">Commune</h3>
 <p>Il s'agit de la commune selon le dernier <a href="https://www.insee.fr/fr/information/2560452">code officiel géographique</a> en vigueur de l'INSEE.
@@ -215,6 +241,7 @@ Il peut s'agir :
 <h3 id="id-openstreetmap">Id OpenStreetMap</h3>
 <p>Identifiant unique de l'objet selon la nomenclature utilisée par le projet <a href="https://www.openstreetmap.org">OpenStreetMap</a>.</p>
 <p>Cf. la <a href="../osm/">page sur OSM</a>.</p>
+<hr />
 <h2 id="historique">Historique</h2>
 <p>L'historique d'un orgue est une succession d'évènements.</p>
 <p>Un évènement est lui-même décrit par les quatres informations suivantes :
@@ -247,6 +274,7 @@ Il peut s'agir :
 On ne distingue que Inscription au titres des monuments historiques et Classement au titre des monuments historiques, comme objets evenement. Le champ TICO de Palissy sera mis dans le commentaire de l'évenement.
 De même pour les autres champs issus de la mise en correspondance entre l'inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.</li>
 </ul>
+<hr />
 <h2 id="buffet">Buffet</h2>
 <p>Champ libre [string sans limite de taille] pour la description du buffet et de son état.</p>
 <p>Valeur_par_defaut = Néant</p>
@@ -258,6 +286,7 @@ Aussi n'y a-t-il pas de champ dédié et la console peut-être, le cas échéant
 - séparée, organiste dos à l'orgue</p>
 <p>Dans le cas d'une console mobile ou en fenêtre sur le côté ou l'arrière de l'instrument, on précisera la disposition.
 Idem dans le cas d'une seconde console.</p>
+<hr />
 <h2 id="partie-instrumentale">Partie instrumentale</h2>
 <h3 id="transmission-des-notes">Transmission des notes</h3>
 <p>Le type de transmission des notes est indiqué pour tout l'instrument, et non par clavier.
@@ -286,8 +315,9 @@ Lorsque les claviers disposent d'un autre mode de transmission que celle génér
 <h3 id="soufflerie">Soufflerie</h3>
 <p>Champ texte libre [string]</p>
 <p>Valeur_par_defaut = Néant</p>
+<hr />
 <h2 id="composition">Composition</h2>
-<h3 id="composition_1">Composition</h3>
+<h3 id="plans-sonores">Plans sonores</h3>
 <p>La composition distingue plusieurs plans sonores.</p>
 <p>Un plan sonore est nommé et son étendue est précisée sous la forme suivante :
 C1-G5</p>
@@ -310,28 +340,34 @@ Par exemple :
 En particulier, les basses et dessus seront notés :
 - Basse.
 - Dessus.</p>
+<h3 id="accessoires">Accessoires</h3>
+<p>Valeur_par_defaut = Néant</p>
+<p>Les accessoires peuvent être :</p>
+<ul>
+<li>accouplement :<ul>
+<li>on peut préciser s'il s'agit d'un accouplement classique à l'unisson, à l'octave basse ou bien à l'octave aigüe.</li>
+<li>on doit préciser le clavier accouplé et le clavier jouant avec l'accouplement.</li>
+</ul>
+</li>
+<li>trémolo : on peut préciser le clavier</li>
+<li>appel : appel d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures.</li>
+<li>renvoi : renvoi d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures. N'est renseigné que si une cuillère spécifique effectue le renvoi. Si la cuillère de l'appel permet le renvoi lorsqu'elle est relâchée, il n'y pas lieu d'indiquer un renvoi.</li>
+</ul>
+<p>Quelques accessoires courants sont proposés pour accélérer la rédaction d'une fiche.
+Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecter les mêmes conventions de nommage, notamment pour ce qui concerne les abréviations:</p>
+<ul>
+<li>Réc. : Récit</li>
+<li>G.O. : Grand orgue</li>
+<li>Pos. : Positif</li>
+<li>Ped. : Pédale</li>
+<li>G.C. : Grand choeur</li>
+<li>Bom. : Bombarde</li>
+</ul>
 <h3 id="description-de-la-tuyauterie">Description de la tuyauterie</h3>
 <p>Commentaire général sur la tuyauterie et description jeu par jeu, dans l'ordre de la composition.</p>
 <p>Note importante : Une seule notation doit être retenue dans l'inventaire des orgues pour la description des notes : les octaves sont numérotées de 1 à 6.
 C1, C#1, D1, D#1...</p>
-<p>Pour</p>
-<h3 id="accessoires">Accessoires</h3>
-<p>Valeur_par_defaut = Néant</p>
-<p>Les accessoires peuvent être :
-- accouplement :
-    - on peut préciser s'il s'agit d'un accouplement classique à l'unisson, à l'octave basse ou bien à l'octave aigüe.
-    - On peut aussi préciser le clavier accouplé et le clavier jouant avec l'accouplement.
-- trémolo : on peut préciser le clavier
-- appel : appel d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures.
-- renvoi : renvoi d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures. N'est renseigné que si une cuillère spécifique effectue le renvoi. Si la cuillère de l'appel permet le renvoi lorsqu'elle est relâchée, il n'y pas lieu d'indiquer un renvoi.</p>
-<p>Quelques accessoires courants sont proposés pour accélérer la rédaction d'une fiche.
-Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecter les mêmes conventions de nommage, notamment pour ce qui concerne les abréviations:
-- Réc. : Récit
-- G.O. : Grand orgue
-- Pos. : Positif
-- Ped. : Pédale
-- G.C. : Grand choeur
-- Bom. : Bombarde</p>
+<hr />
 <h2 id="images">Images</h2>
 <p>On veillera à joindre des images de bonne qualité et bonne résolution, sans toutefois que leur taille n'excède 2 Mo.
 Par image, on parle ici de documents purement visuels, c'est-à-dire des dessins, croquis et photos.
@@ -339,6 +375,7 @@ Les autres documents doivent être déposés sur le site comme des fichiers. (Cf
 <p>Il faut désigner une des images comme image principale, à savoir celle qui apparaîtra en tête de la fiche sur le portail, et dans l'index de tous les orgues.</p>
 <p>La rubrique crédit doit obligatoirement être renseignées. Toutes les images déposées sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
 Cf. la <a href="../faq/">foire aux questions</a> pour toutes les questions ayant trait au droit d'auteur.</p>
+<hr />
 <h2 id="fichiers">Fichiers</h2>
 <p>Touts les fichiers déposées sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
 Cf. la <a href="../faq/">foire aux questions</a> pour toutes les questions ayant trait au droit d'auteur.</p></div>

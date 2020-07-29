@@ -52,8 +52,30 @@
                             <li >
                                 <a href="../faq/">Questions/réponses</a>
                             </li>
-                            <li >
-                                <a href="../fiche-orgue/">Description d'un orgue</a>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Décrire un orgue <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../fiche-orgue/">Compléter une fiche</a>
+</li>
+                                    
+<li >
+    <a href="../osm/">Localiser un orgue</a>
+</li>
+                                    
+<li >
+    <a href="../conventions/">Conventions</a>
+</li>
+                                    
+<li >
+    <a href="../permissions/">Permissions</a>
+</li>
+                                    
+<li >
+    <a href="../charte-du-contributeur/">Charte du contributeur</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Origine des données <b class="caret"></b></a>
@@ -83,6 +105,9 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li>
+                                <a href="https://github.com/inventaire-des-orgues/docs/edit/master/docs/code-source.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -91,13 +116,30 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#code-source">Code source</a></li>
+            <li><a href="#quelles-sont-les-technologies-utilisees-pour-le-portail-de-linventaire">Quelles sont les technologies utilisées pour le portail de l'inventaire ?</a></li>
+            <li><a href="#depots-de-code">Dépôts de code</a></li>
+            <li><a href="#depots-de-donnees">Dépôts de données</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
+<h1 id="code-source">Code source</h1>
+<h2 id="quelles-sont-les-technologies-utilisees-pour-le-portail-de-linventaire">Quelles sont les technologies utilisées pour le portail de l'inventaire ?</h2>
+<ul>
+<li>Le portail est codé en langage Python, en utilisant le framework Django, dédié aux applications web, ainsi que Bootstrap pour les feuilles de style CSS et un peu de Javascript. Les cartes employent la librairie Javascript Leaflet. Les fonds de cartes proviennent d'OpenStreetMap.</li>
+<li>Les utilitaires de traitement des données sont aussi codés en Python.</li>
+<li>La documentation est rédigée au format Markdown et compilée sous forme de site web statique à l'aide du module Python Mkdocs.</li>
+<li>La reconnaissance de caractères des livres numérisés a été effectuée à l'aide du logiciel non libre ABBYY.</li>
+<li>Les fichiers PDF produits ont été manipulés et réagencés à l'aide de l'outil PDFTK et de l'interface graphique PDFTKBuilder, ainsi qu'à l'aide de scripts Python faisant appel à au module PyPDF2.</li>
+</ul>
+<h2 id="depots-de-code">Dépôts de code</h2>
 <p>Le code source des applications développées pour l’inventaire des orgues
-est disponible sur <a href="https://github.com/inventaire-des-orgues/">GitHub</a> ou bien sur la <a href="https://git.inventaire-des-orgues.fr/">forge
-dédiée</a>.</p>
+est disponible :</p>
+<ul>
+<li>sur <a href="https://github.com/inventaire-des-orgues/">GitHub</a> pour les outils en service</li>
+<li>sur la <a href="https://git.inventaire-des-orgues.fr/">forge dédiée</a> pour les prototypes</li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -109,15 +151,27 @@ dédiée</a>.</p>
 </thead>
 <tbody>
 <tr>
-<td><a href="https://github.com/inventaire-des-orgues/portail">Portail</a></td>
-<td>Portail</td>
+<td><a href="https://github.com/inventaire-des-orgues/portail">portail</a></td>
+<td>Le site Internet de l'inventaire</td>
 <td>Python, javascript, HTML, CSS</td>
-<td></td>
+<td>GNU GPLv3+</td>
 </tr>
 <tr>
-<td><a href="https://git.inventaire-des-orgues.fr/documentation">Documentations</a></td>
-<td>Documentation</td>
+<td><a href="https://github.com/inventaire-des-orgues/docs">docs</a></td>
+<td>Le site de documentation</td>
 <td>Markdown/MkDocs</td>
+<td>GNU GPLv3+</td>
+</tr>
+<tr>
+<td><a href="https://github.com/inventaire-des-orgues/paillasse">paillasse</a></td>
+<td>Utilitaires de construction de l'index</td>
+<td>Python</td>
+<td>GNU GPLv3+</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 <tr>
@@ -157,7 +211,7 @@ dédiée</a>.</p>
 <td>GNU GPLv3+</td>
 </tr>
 <tr>
-<td><a href="http://ghislaine.inventaire-des-orgues.fr/">Ghislaine</a></td>
+<td><a href="https://git.inventaire-des-orgues.fr/bzg/ghislaine">Ghislaine</a></td>
 <td>Application de visualisation d’export Gertrude</td>
 <td>Clojure/Clojurescript</td>
 <td>Apache 2.0</td>
@@ -183,13 +237,52 @@ dédiée</a>.</p>
 <tr>
 <td><a href="https://git.inventaire-des-orgues.fr/bzg/rbc-owl">rbc-owl</a></td>
 <td>Outil d’exploration du schéma HADOC en .owl</td>
+<td>Clojure</td>
+<td>Apache 2.0</td>
+</tr>
+</tbody>
+</table>
+<h2 id="depots-de-donnees">Dépôts de données</h2>
+<p>Cf. aussi la page sur les <a href="../donnees/">données</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Nom</th>
+<th>Description</th>
+<th>Format</th>
+<th>Licence</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://github.com/inventaire-des-orgues/vocabulaire">vocabulaire</a></td>
+<td>Le lexique de la facture d'orgue</td>
+<td>JSON, CSV, ODS</td>
 <td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/inventaire-des-orgues/livres">livres</a></td>
+<td>L'index des livre d'inventaire</td>
+<td>Excel</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/inventaire-des-orgues/indexes">indexes</a></td>
+<td>L'index des orgues de l'inventaire</td>
+<td>JSON, CSV</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<p>http://api.inventaire-des-orgues.fr/vocabulaire</p>
-<p>http://api.inventaire-des-orgues.fr/orgues</p></div>
+<h3 id="api">API</h3>
+<ul>
+<li><a href="http://api.inventaire-des-orgues.fr/vocabulaire">vocabulaire</a></li>
+<li><a href="http://api.inventaire-des-orgues.fr/orgues">orgues</a></li>
+</ul>
+<h3 id="visualisation-simplifiee">Visualisation simplifiée</h3>
+<ul>
+<li><a href="https://liste.inventaire-des-orgues.fr">liste</a></li>
+</ul></div>
         </div>
 
         <footer class="col-md-12">

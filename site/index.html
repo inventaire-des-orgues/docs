@@ -52,8 +52,30 @@
                             <li >
                                 <a href="faq/">Questions/réponses</a>
                             </li>
-                            <li >
-                                <a href="fiche-orgue/">Description d'un orgue</a>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Décrire un orgue <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="fiche-orgue/">Compléter une fiche</a>
+</li>
+                                    
+<li >
+    <a href="osm/">Localiser un orgue</a>
+</li>
+                                    
+<li >
+    <a href="conventions/">Conventions</a>
+</li>
+                                    
+<li >
+    <a href="permissions/">Permissions</a>
+</li>
+                                    
+<li >
+    <a href="charte-du-contributeur/">Charte du contributeur</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Origine des données <b class="caret"></b></a>
@@ -93,6 +115,9 @@
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
+                            <li>
+                                <a href="https://github.com/inventaire-des-orgues/docs/edit/master/docs/index.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -101,37 +126,52 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#foire-aux-questions">Foire aux questions</a></li>
-        <li class="main "><a href="#les-donnees-collectees">Les données collectées</a></li>
-        <li class="main "><a href="#la-fiche-descriptive">La fiche descriptive</a></li>
-        <li class="main "><a href="#le-code-source-des-outils">Le code source des outils</a></li>
-        <li class="main "><a href="#comment-contribuer-au-projet">Comment contribuer au projet ?</a></li>
-        <li class="main "><a href="#le-vocabulaire">Le vocabulaire</a></li>
+        <li class="main active"><a href="#bienvenue-sur-le-site-de-documentation-de-linventaire-national-des-orgues">Bienvenue sur le site de documentation de l'inventaire national des orgues</a></li>
+            <li><a href="#foire-aux-questions">Foire aux questions</a></li>
+            <li><a href="#decrire-un-orgue">Décrire un orgue</a></li>
+            <li><a href="#conventions-et-abreviations">Conventions et abréviations</a></li>
+            <li><a href="#les-donnees-collectees">Les données collectées</a></li>
+            <li><a href="#le-code-source-des-outils">Le code source des outils</a></li>
+            <li><a href="#comment-contribuer-au-projet">Comment contribuer au projet ?</a></li>
+            <li><a href="#le-vocabulaire">Le vocabulaire</a></li>
+            <li><a href="#la-charte-du-contributeur">La charte du contributeur</a></li>
+            <li><a href="#informations-techniques">Informations techniques</a></li>
+            <li><a href="#competences">Compétences</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="_1"></h1>
+<h1 id="bienvenue-sur-le-site-de-documentation-de-linventaire-national-des-orgues">Bienvenue sur le site de documentation de l'inventaire national des orgues</h1>
 <h2 id="foire-aux-questions">Foire aux questions</h2>
-<p>La <a href="faq/">FAQ (foire aux questions)</a> répond aux questions les plus souvent posées par
+<p>La <a href="faq/">foire aux questions</a> répond aux questions les plus souvent posées par
 les contributeurs. Nous vous invitons à la parcourir !</p>
+<h2 id="decrire-un-orgue">Décrire un orgue</h2>
+<p>La page de la <a href="fiche-orgue/">fiche descriptive</a> d'un orgue présente la structure des informations à inventorier (modèle de données).</p>
+<h2 id="conventions-et-abreviations">Conventions et abréviations</h2>
+<p>Par souci d'homogénéïté et pour pouvoir requêter de façon robuste dans la base de données, nous avons défini quelques <a href="conventions/">conventions</a>, que l'on suivra scrupuleusement.</p>
 <h2 id="les-donnees-collectees">Les données collectées</h2>
 <p>La page des <a href="donnees/">données</a> liste les très nombreuses sources qui
 permettent d'alimenter l'inventaire des orgues : données des régions et de l'Etat, livres réalisés dans le cadre de l'inventaire général, sites personnels ou associatifs...</p>
-<h2 id="la-fiche-descriptive">La fiche descriptive</h2>
-<p>La page de la <a href="fiche-orgue/">fiche descriptive</a> d'un orgue présente la structure des informations à inventorier (modèle de données).</p>
 <h2 id="le-code-source-des-outils">Le code source des outils</h2>
 <p><a href="code-source/">Cette page</a> donne accès au code source des outils
 développés pour l’inventaire des orgues.</p>
 <h2 id="comment-contribuer-au-projet">Comment contribuer au projet ?</h2>
-<p>Vous pouvez aussi nous contacter par mail en indiquant les éléments sur lesquels vous pouvez aider. Actuellement, nos principaux besoins sont :
-- la collecte informatisée à partir de données en ligne ou sur le terrain (nécessite quelques compétences basiques en langage Python);
-- la contribution à l'inventaire lui-même (ouverte à tout organiste, élève organiste, fonctionnaire de mairie ou simple passionné d'orgue);
-- l'aide à l'enrichissement du vocabulaire.</p>
+<p>Vous pouvez aussi nous contacter par mail en indiquant les éléments sur lesquels vous pouvez aider. Actuellement, nos principaux besoins sont :</p>
+<ul>
+<li>la collecte informatisée à partir de données en ligne ou sur le terrain (nécessite quelques compétences basiques en langage Python);</li>
+<li>la contribution à l'inventaire lui-même (ouverte à tout organiste, élève organiste, fonctionnaire de mairie ou simple passionné d'orgue);</li>
+<li>l'aide à l'enrichissement du vocabulaire.</li>
+</ul>
 <p>Vous pouvez aussi échanger sur <a href="https://forum.inventaire-des-orgues.fr/">le forum</a>.</p>
 <h2 id="le-vocabulaire">Le vocabulaire</h2>
 <p>La page du <a href="https://vocabulaire.inventaire-des-orgues.fr/">vocabulaire de l'orgue</a> propose un lexique
-provisoire qui sera prochainement éditable par les contributeurs.</p></div>
+provisoire qui sera prochainement éditable par les contributeurs.</p>
+<h2 id="la-charte-du-contributeur">La charte du contributeur</h2>
+<p><a href="charte-du-contributeur/">Charte</a></p>
+<h2 id="informations-techniques">Informations techniques</h2>
+<p>Cette <a href="reprise-technique/">page</a> détaille ce qu'il faut connaître pour administrer le projet.</p>
+<h2 id="competences">Compétences</h2>
+<p>Cette <a href="ressources-humaines/">page</a> détaille les rôles au sein du projet.</p></div>
         </div>
 
         <footer class="col-md-12">
@@ -214,5 +254,5 @@ provisoire qui sera prochainement éditable par les contributeurs.</p></div>
 
 <!--
 MkDocs version : 1.0.4
-Build Date UTC : 2020-02-12 19:17:27
+Build Date UTC : 2020-02-27 15:19:30
 -->

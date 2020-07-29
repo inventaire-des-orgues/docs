@@ -8,7 +8,7 @@
         <meta name="author" content="Gwilherm Poullennec">
         <link rel="canonical" href="https://docs.inventaire-des-orgues.fr/ressources-humaines/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Ressources humaines - Documentation de l'inventaire des orgues</title>
+        <title>Rôles et compétences - Documentation de l'inventaire des orgues</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -52,8 +52,30 @@
                             <li >
                                 <a href="../faq/">Questions/réponses</a>
                             </li>
-                            <li >
-                                <a href="../fiche-orgue/">Description d'un orgue</a>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Décrire un orgue <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../fiche-orgue/">Compléter une fiche</a>
+</li>
+                                    
+<li >
+    <a href="../osm/">Localiser un orgue</a>
+</li>
+                                    
+<li >
+    <a href="../conventions/">Conventions</a>
+</li>
+                                    
+<li >
+    <a href="../permissions/">Permissions</a>
+</li>
+                                    
+<li >
+    <a href="../charte-du-contributeur/">Charte du contributeur</a>
+</li>
+                                </ul>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Origine des données <b class="caret"></b></a>
@@ -83,6 +105,9 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li>
+                                <a href="https://github.com/inventaire-des-orgues/docs/edit/master/docs/ressources-humaines.md"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
                     </ul>
                 </div>
             </div>
@@ -91,25 +116,20 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#animateur-gestionnaire-de-bases-de-donnees">Animateur / gestionnaire de bases de données</a></li>
-            <li><a href="#competences-danimateur-de-communautes-en-ligne">Compétences d'animateur de communautés en ligne</a></li>
-            <li><a href="#competences-techniques-de-gestionnaire-de-base-de-donnees">Compétences techniques de gestionnaire de base de données</a></li>
-        <li class="main "><a href="#developpeurmainteneur-de-la-plate-forme">Développeur/mainteneur de la plate-forme</a></li>
-            <li><a href="#competences-techniques">Compétences techniques</a></li>
-        <li class="main "><a href="#modalites-de-formation">Modalités de formation</a></li>
+        <li class="main active"><a href="#roles-et-competences">Rôles et compétences</a></li>
+            <li><a href="#animateur-gestionnaire-de-bases-de-donnees">Animateur / gestionnaire de bases de données</a></li>
+            <li><a href="#developpeurmainteneur-de-la-plate-forme">Développeur/mainteneur de la plate-forme</a></li>
+            <li><a href="#modalites-de-formation">Modalités de formation</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<p><strong>Version 0.2</strong></p>
-<p>Si vous voyez une erreur dans ce document, n’hésitez pas à me la
-signaler <a href="https://git.inventaire-des-orgues.fr/bzg/ido-docs/issues">en ouvrant un
-ticket</a>.</p>
+<h1 id="roles-et-competences">Rôles et compétences</h1>
+<h2 id="animateur-gestionnaire-de-bases-de-donnees">Animateur / gestionnaire de bases de données</h2>
 <p>Ce document présente des précisions sur les compétences requises pour
 assurer le bon fonctionnement de la plate-forme et l’animation du réseau
 des contributeurs.</p>
-<h1 id="animateur-gestionnaire-de-bases-de-donnees">Animateur / gestionnaire de bases de données</h1>
-<h2 id="competences-danimateur-de-communautes-en-ligne">Compétences d'animateur de communautés en ligne</h2>
+<h3 id="competences-danimateur-de-communautes-en-ligne">Compétences d'animateur de communautés en ligne</h3>
 <ul>
 <li>
 <p>Familiarité avec l'échange via un
@@ -127,7 +147,7 @@ des contributeurs.</p>
     <a href="https://twitter.com/soulierdorgue">@soulierdorgue</a>.</p>
 </li>
 </ul>
-<h3 id="role-dans-lanimation-communautaire">Rôle dans l’animation communautaire</h3>
+<h4 id="role-dans-lanimation-communautaire">Rôle dans l’animation communautaire</h4>
 <p>L’animateur est en chargé de tout mettre en oeuvre pour mobiliser les
 contributeurs, de manière réactive et proactive.</p>
 <p>De façon réactive :</p>
@@ -160,8 +180,8 @@ contributeurs, de manière réactive et proactive.</p>
 </ul>
 <p>L’animateur assure aussi le lien entre les contributeurs réguliers et le
 comité scientifique.</p>
-<h2 id="competences-techniques-de-gestionnaire-de-base-de-donnees">Compétences techniques de gestionnaire de base de données</h2>
-<h3 id="competences-techniques-generales">Compétences techniques générales</h3>
+<h3 id="competences-techniques-de-gestionnaire-de-base-de-donnees">Compétences techniques de gestionnaire de base de données</h3>
+<h4 id="competences-techniques-generales">Compétences techniques générales</h4>
 <ul>
 <li>
 <p>Connaissance liées au domaine de l’orgue : être familier avec
@@ -171,7 +191,7 @@ comité scientifique.</p>
 <p>Familiarité avec les formats de fichier .csv, .ods, .xls et .xlsx.</p>
 </li>
 </ul>
-<h3 id="role-dans-limportation-des-donnees">Rôle dans l'importation des données</h3>
+<h4 id="role-dans-limportation-des-donnees">Rôle dans l'importation des données</h4>
 <p>Le ministère de la culture mettra à disposition un export des bases de
 données Mérimée et Palissy tous les six mois sous forme de fichiers
 .csv.</p>
@@ -182,7 +202,7 @@ des orgues.</p>
 disposition par le ministère via l'outil d'inventaire. Le comité
 scientifique sera ensuite en charge de valider l’intégration de ces
 mises à jour.</p>
-<h3 id="role-dans-la-gestion-des-utilisateurs-et-des-donnees">Rôle dans la gestion des utilisateurs et des données</h3>
+<h4 id="role-dans-la-gestion-des-utilisateurs-et-des-donnees">Rôle dans la gestion des utilisateurs et des données</h4>
 <p>L'animateur est techniquement en charge de :</p>
 <ul>
 <li>
@@ -195,14 +215,14 @@ mises à jour.</p>
 <p>Supprimer les contenus défectueux.</p>
 </li>
 </ul>
-<h3 id="role-dans-letablissement-des-statistiques">Rôle dans l’établissement des statistiques</h3>
+<h4 id="role-dans-letablissement-des-statistiques">Rôle dans l’établissement des statistiques</h4>
 <p>L'animateur a accès à l'outil de suivi des statistiques de fréquentation
 du site.</p>
-<h1 id="developpeurmainteneur-de-la-plate-forme">Développeur/mainteneur de la plate-forme</h1>
+<h2 id="developpeurmainteneur-de-la-plate-forme">Développeur/mainteneur de la plate-forme</h2>
 <p>Le développeur/mainteneur est en charge de faire en sorte que la
 plate-forme d’inventaire des orgues soit toujours en ligne et
 utilisable.</p>
-<h2 id="competences-techniques">Compétences techniques</h2>
+<h3 id="competences-techniques">Compétences techniques</h3>
 <ul>
 <li>
 <p>Connaissances en gestion et configuration d’un nom de domaine.</p>
@@ -236,7 +256,7 @@ utilisable.</p>
     org-mode</a> non indispensables mais utiles.</p>
 </li>
 </ul>
-<h1 id="modalites-de-formation">Modalités de formation</h1>
+<h2 id="modalites-de-formation">Modalités de formation</h2>
 <p>L’animateur et le mainteneur seront en contact avec l’entrepreneur
 d’intérêt général 2017 pour être formés et s’approprier les outils
 correctement.</p>
