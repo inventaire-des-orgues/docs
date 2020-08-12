@@ -28,50 +28,51 @@ Apostrophe typographique :
 
 ### Désignation
 
-La désignation d'un orgue pose très souvent problème. En effet, le titre "Grand orgue" est subjectif, emphatique, et vaut généralement par opposition au titre "Orgue de choeur".
-C'est l'option adoptée pour l'inventaire : par défaut, on parlera simplement d'un "Orgue", et en employera les désignations de ""
+La désignation d'un orgue pose très souvent problème. En effet, le titre "grand orgue" est subjectif, emphatique, et vaut généralement par opposition au titre "orgue de choeur".
+Dans l'inventaire, la désignation permet de qualifier le type d'instrument. Ainsi, sans plus de particularité on parlera simplement d'un "orgue".
+On employera le cas échéant les désignations d'"orgue coffre", d'"orgue polyphone", d'"orgue à cylindres", etc.
 
+`Valeur_par_defaut = "orgue"`
 
-    "Grand orgue",
-    "Orgue de choeur",
-    "Orgue"
+Nota : dans les thésaurus du ministère de la culture, la désignation reprend l'emplacement : "orgue de choeur", "orgue de tribune". Cette classification n'est pas exactement adoptée ici, puisque nous distinguons désingation et emplacement.
+En effet, vu le nombre d'orgues, nous avons besoin de plus de finesse de représentation que pour les édifices classés ou inscrits. Il n'y a pas trois orgues classés ou inscrits dans un même édifice, mais trois orgues, si (ex: collégiale Notre-Dame de Mantes-la-Jolie, église Notre-Dame de Versailles)!
 
-Valeur_par_defaut = "Orgue"
+### Emplacement
+
+L'emplacement permet de positionner sans erreur l'orgue dans l'édifice. Il correspond aux coordonnées géographiques indiquées par ailleurs dans la fiche.
+Exemples d'emplacement : "crypte", "choeur", "transept", "sacristie", "triforium", "salle Marcel Dupré", etc.
+
+Cet attribut permet donc aussi la distinction, dans la majorité des cas, entre orgue de choeur et orgue de tribune, voire le cas échéant entre plusieurs orgues de choeur ou de tribune.
+
+`Valeur_par_defaut = <Néant>`
 
 ### Etat de fonctionnement
-Il s'agit d'un avis à date de mise à jour de la fiche descriptive. Nécessairement pour partie subjectif, il est rapporté à l'utilisation possible de l'instrument. Les défauts courants et réversible d'un orgue (cornement occasionnel par exemple) ne rentrent pas en compte dans l'appréciation. L'état de fonctionnement ne décrit pas l'état du buffet ou des boiseries dès lors qu'il n'altère pas le jeu.
+Il s'agit d'un avis à date de mise à jour de la fiche descriptive.
+Nécessairement pour partie subjectif, il se rapporte à l'utilisation possible de l'instrument.
+Les défauts courants et réversibles d'un orgue (cornement occasionnel par exemple) ne rentrent pas en compte dans l'appréciation.
+L'état de fonctionnement ne décrit pas l'état du buffet ou des boiseries dès lors que le jeu n'est pas altéré.
 
-Valeur_par_defaut = Néant
+`Valeur_par_defaut = <Néant>`
 
     "Très bon ou bon : tout à fait jouable",
     "Altéré : difficilement jouable",
     "Dégradé ou en ruine : injouable"
-
-### Elévation
-Permet la distinction, dans la majorité des cas, entre orgue de choeur et orgue de tribune.
-
-Valeur_par_defaut = Néant
-
-    "en tribune",
-    "au sol"
-
-Nota : Emplacement dans l'édifice.
-A ce stade, aucun attribut n'est prévu pour préciser la position de l'orgue dans l'édifice.
-Dans le cas de plusieurs instruments au sein d'un même édifice, l'attribut élévation et les coordonnées géographiques permettent de positionner et distinguer précisément l'instrument.
 
 ### Orgues polyphones de Louis Debierre
 is_polyphone [bool] spécifie si l'orgue est un polyphone de la manufacture Debierre.
 Les polyphones sont des orgues coffres dont certains tuyaux de basse permettent l'émission de plusieurs notes distinctes.
 (Musica et memora)[http://www.musimem.com/debierre.htm]
 
-Valeur_par_defaut = False
+`Valeur_par_defaut = False`
+
+Nota : cet attribut sera supprimé, l'attribut désignation étant suffisant.
 
 ### Propriété de l'orgue
 Le propriétaire de l'orgue (qui n'est pas nécessairement le même que l'édifice).
 Le plus souvent, il s'agit de la commune pour des instruments datant d'avant 1905 (de l'Etat pour les orgues de cathédrales), et d'association cultuelle (généralement paroisse) pour les orgues d'après 1905 ou de congrégation.
 Bien sûr, il existe plusieurs exceptions : par exemple, les orgues des cathédrales de la petite couronne parisienne, n'appartiennent pas à l'Etat, mais l'orgue de la basilique royale de Saint-Denis si.
 
-Valeur_par_defaut= commune
+`Valeur_par_defaut = "commune"`
 
     "commune",
     "Etat",
@@ -79,51 +80,62 @@ Valeur_par_defaut= commune
     "diocèse",
     "paroisse"
 
-### Organisme de référence
+### Organisme auquel s'adresser
 
-Valeur_par_defaut = ""
+`Valeur_par_defaut = ""`
 
 Libellé du lien, et lien, vers un organisme, le plus souvent une association, au plus proche de l'instrument.
 Il s'agit de l'organisme le plus à même de fournir un renseignement ou un contact pour visiter et jouer l'orgue.
 Le libellé du lien est le terme qui apparaîtra comme lien dans la visualisation de la fiche (cartouche de synthèse).
 
+### Lien de référence
+
+Lien Internet vers l'organisme auquel s'adresser.
+
+`Valeur_par_defaut = ""`
+
 ### Résumé
 
-champ_texte
+`Valeur_par_defaut = ""`
 
-Valeur_par_defaut = ""
-
-Cette courte description est une synthèse rédigée sur l'histoire de l'instrument.
+Cette courte description (500 caractères maximum) est une synthèse rédigée sur l'histoire et la description de l'instrument.
 Elle doit être utilisée pour évoquer une particularité de l'instrument, ce qui fait son originalité et sa valeur.
 
-### Commentaire admin
+### Commentaire rédacteurs
 
-Valeur_par_defaut = ""
+`Valeur_par_defaut = ""`
 
 Ce commentaire n'est visible qu'en mode édition et sera affiché sur fond coloré en haut de la fiche lors de l'édition.
 Il sert à transmettre une information entre rédacteurs de la fiche.
-Par exemple : "La description de la tuyauterie est à compléter", ou "Nous ne sommes pas certain de la composition du Récit".
+Par exemple : "La description de la tuyauterie semble erronée.", ou "Nous ne sommes pas certains de la composition du Récit."
 
-----
 
 ## Localisation
 
 ### Commune
 
-Il s'agit de la commune selon le dernier [code officiel géographique](https://www.insee.fr/fr/information/2560452) en vigueur de l'INSEE.
+Il s'agit de la commune selon le dernier [code officiel géographique](https://www.insee.fr/) en vigueur de l'INSEE.
+Celui-ci est aussi sur le site [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/#_)
 Attention, de nombreuses communes ont fusionné au cours des dernières années, et de tels regroupements se poursuivront dans les années à venir.
-Il faut donc prendre garde à ne pas renseigner le nom d'une ancienne commune, même s'il continue à être usuellement utilisé. L'attribut Ancienne commune est dédié à cela.
+Il faut donc prendre garde à ne pas renseigner le nom d'une ancienne commune, même s'il continue à être usuellement utilisé. L'attribut Ancienne commune est dédié à cet effet.
+Trois types de communes sont couramment référencées dans le code officiel géographique en vigueur : commune (de plein droit), commune associée, commune déléguée, auquels s'ajoutent les arrondissements de Paris, Lyon et Marseille.
+Par convention, seules les communes de plein droit sont indiquées dans l'attribut Commune.
 
 ### Code INSEE
 
 Code de la commune selon le code géographique officiel de l'INSEE. On le trouve aussi généralement dans la fiche de la commune sur Wikipédia.
-Il est unique, et donc distinct du code postal utilisé pour l'adressage du courrier.
+Il est unique, et donc distinct du code postal utilisé pour l'adressage du courrier. Il est indispensable pour identifier sans équivoque une commune française, car plusieurs communes peuvent avoir le même nom.
 
 ### Ancienne commune
 
 Cet attribut est une aide pour faciliter la localisation.
 Il est à prendre dans une acceptation large : il peut s'agir d'une ancienne commune disparue suite à un regroupement de communes, 
-d'une commune déléguée, d'une commune associée, ou bien d'un simple lieu-dit.
+d'une commune déléguée, d'une commune associée.
+
+### Adresse
+
+L'adresse de l'édifice considéré. Elle est utilisé pour distinguer deux édifices de même nom sur une même commune, car de plus en plus fréquent au gré des fusions de communes.
+Souvent, ce peut-être un lieu-dit, ou une rue.
 
 ### Code département
 
@@ -139,7 +151,8 @@ Nom de la région selon le code géographique officiel de l'INSEE.
 
 ### Latitude
 
-Latitude selon le système de coordonnées WGS84, couramment connu comme "coordonnées GPS". Nota : celui-ci n'est pas le système de coordonnées officiel français.
+Latitude, selon le système de coordonnées WGS84, couramment connu comme "coordonnées GPS".
+Nota : celui-ci n'est pas le système de coordonnées officiel français.
 Pour des facilités de saisie et d'export des données, le format adopté est un nombre réel signé, et non la notation en degrés, minutes et secondes.
 
 Cf. la [page sur OSM](osm.md).
@@ -152,11 +165,13 @@ Cf. la [page sur OSM](osm.md).
 
 ### Type OpenStreetMap
 
-Type d'objet selon la nomenclature utilisée par le projet [OpenStreetMap](https://www.openstreetmap.org).
+Type d'objet représentant l'édifice selon la nomenclature utilisée par le projet [OpenStreetMap](https://www.openstreetmap.org).
 Il peut s'agir :
 - way : d'un chemin, ensemble de points
 - node : d'un simple points
 - relation : d'une combinaison libre de ces trois types d'objets
+
+On préfèrera définir des "way" ou "relation", représentant le contour exact de l'édifice.
 
 Cf. la [page sur OSM](osm.md).
 
@@ -166,7 +181,6 @@ Identifiant unique de l'objet selon la nomenclature utilisée par le projet [Ope
 
 Cf. la [page sur OSM](osm.md).
 
-----
 
 ## Historique
 
@@ -201,71 +215,113 @@ Valeur_par_defaut = Néant
 - Disparition : distincte de destruction, car l'orgue a pu disparaître suit à un déménagement, ou être stocké dans un endroit inconnu.
 - Dégâts : destruction partielle ou altération de l'instrument.
 - Classement ou incription au titre des monuments historiques :
-On ne distingue que Inscription au titres des monuments historiques et Classement au titre des monuments historiques, comme objets evenement. Le champ TICO de Palissy sera mis dans le commentaire de l'évenement.
+On ne distingue que Inscription au titres des monuments historiques et Classement au titre des monuments historiques, comme objets evenement.
+Le champ TICO de Palissy sera mis dans le commentaire de l'évenement.
 De même pour les autres champs issus de la mise en correspondance entre l'inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.
 
-----
 
-## Buffet
 
-Champ libre [string sans limite de taille] pour la description du buffet et de son état.
+## Buffet / Console
 
-Valeur_par_defaut = Néant
+### Description du buffet
 
+Champ libre [html sans limite de taille] pour la description du buffet et de son état.
+
+`Valeur_par_defaut = ""`
+
+### Description de la console
+
+Champ libre [html sans limite de taille] pour la description de la console et de son état.
 La notion de console est assez récente : elle survient avec l'apparition de meubles séparés du buffet au XIXe siècle, souvent tournés vers l'autel ou mobiles au XXe siècle.
-Aussi n'y a-t-il pas de champ dédié et la console peut-être, le cas échéant, décrite dans un sous-chapitre de la section buffet.
+Aussi la console peut-être, lorsqu'elle n'est pas distincte du buffet, décrite dans un sous-chapitre de la section buffet.
 
-Les types les plus courants sont :
-- en fenêtre
+Hormi la construction dans une fenêtre pratiquée dans le buffet, les dispositions les plus courantes sont :
 - séparée, organiste tourné vers l'orgue
 - séparée, organiste dos à l'orgue
 
-Dans le cas d'une console mobile ou en fenêtre sur le côté ou l'arrière de l'instrument, on précisera la disposition.
-Idem dans le cas d'une seconde console.
+Dans le cas d'une console mobile ou en fenêtre sur le côté (ex : église Saint-Pierre de Prat) ou encore à l'arrière de l'instrument (ex : église Saint-Jean de Lamballe), on précisera la disposition.
+Idem dans le cas d'une seconde console (ex : basilique Sainte-Clotilde et Sainte-Valère à Paris).
 
-----
+`Valeur_par_defaut = ""`
 
 ## Partie instrumentale
 
 ### Transmission des notes
 
 Le type de transmission des notes est indiqué pour tout l'instrument, et non par clavier.
-Lorsque les claviers disposent d'un autre mode de transmission que celle généralement ou originellement utilisée pour l'instrument (ex: pédalier à transmission électrique) seront précisés dans les commentaires du clavier.
+Lorsque les claviers disposent d'un autre mode de transmission que celle généralement ou originellement utilisée pour l'instrument (ex: pédalier à transmission électrique, récit sans Barker) seront précisés dans les commentaires du plan sonore concerné.
 
+    <Néant>,
     "Mécanique",
+    "Mécanique non suspendue",
     "Mécanique suspendue",
     "Mécanique à balanciers",
-    "Mécanique Barker",
+    "Mécanique avec Barker",
     "Pneumatique",
     "Electrique",
     "Electro-pneumatique"
 
-### Diapason
-Valeur_par_defaut = Néant
+Lorsque la mécanique n'est pas suspendue, on indiquera "Mécanique non suspendue". La valeur "Mécanique" sera utilisée en cas de doute sur le type de transmission mécanique. 
 
-Hauteur en hertz du A2 donné par le Prestant 4 ou équivalent.
+### Transmission commentaire
 
-### Transmission des registres
+Une grande variété de systèmes de transmission des notes existe. Cet attribut permet d'apporter un complément d'information sur le type de transmission et sa particularité.
+
+## Tirage des jeux
 
 Le type de transmission des notes est indiqué pour tout l'instrument
 
     "Mécanique",
-    "Pneumatique",
+    "Pneumatique haute pression",
+    "Pneumatique basse pression",
     "Electrique",
     "Electro-pneumatique"
-    
-### Sommiers
-Champ texte libre [string]
 
-Valeur_par_defaut = Néant
+On distingue le tirage pneumatique basse pression (systèmes de la période symphonique) des tirages haute pression utilisé dans la facture d'orgue contemporaine, avec emploi de relais pneumatiques issus de l'industrie.
+
+## Tirage commentaire
+
+Cet attribut permet d'apporter un complément d'information sur le type de tirage des registres et sa particularité.
+
+### Diapason
+
+`Valeur_par_defaut = <Néant>`
+
+Hauteur, notée en Hertz, du A2 donné par le Prestant 4 ou équivalent, avec indication de température de prise du diapason sans laquelle celui-ci n'a pas de sens.
+ex : "412 Hz à 14°C"
+
+### Tempérament
+
+`Valeur_par_defaut = <Néant>`
+
+Champ texte libre [string].
+
+Il existe une infinité de temparément dans le monde de la musique. Cet attribut est donc un texte libre, permettant l'indication du tempérament de la façon la plus précise possible.
+ex : "mésotonique au sixième modifié"
+
+#### Sommiers
+
+Champ HTML libre [string]
+
+`Valeur_par_defaut = <Néant>`
 
 ### Soufflerie
-Champ texte libre [string]
 
-Valeur_par_defaut = Néant
+Champ HTML libre [string]
 
-----
+`Valeur_par_defaut = <Néant>`
 
+### Description de la tuyauterie
+
+Champ HTML libre [string]
+
+`Valeur_par_defaut = <Néant>`
+
+Commentaire général sur la tuyauterie et description jeu par jeu, dans l'ordre de la composition.
+
+Note importante : on veillera à respecter les [conventions](conventions.md) de l'inventaire.
+
+    
 ## Composition
 
 ### Plans sonores
@@ -322,12 +378,6 @@ Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecte
 - G.C. : Grand choeur
 - Bom. : Bombarde
 
-### Description de la tuyauterie
-
-Commentaire général sur la tuyauterie et description jeu par jeu, dans l'ordre de la composition.
-
-Note importante : Une seule notation doit être retenue dans l'inventaire des orgues pour la description des notes : les octaves sont numérotées de 1 à 6.
-C1, C#1, D1, D#1...
 
 ----
 
