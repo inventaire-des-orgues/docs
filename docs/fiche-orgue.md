@@ -329,12 +329,17 @@ Note importante : on veillera à respecter les [conventions](conventions.md) de 
 La composition distingue plusieurs plans sonores.
 
 Un plan sonore est nommé et son étendue est précisée sous la forme suivante :
-C1-G5
+C1-G5 (cf. les [conventions](conventions.md)).
+
+Souvent, les orgues de facture du XIXe siècle possèdent 56 notes au claviers (C1-G5) et 30 notes à la pédale (C1-F3).
+
 
 Cf. [le lexique de l'inventaire](https://vocabulaire.inventaire-des-orgues.fr/)
 et [Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_jeux_d%27orgue)
 
-Valeur_par_defaut = "Bourdon 8"
+De très nombreux jeux sont déjà enregistrés. Merci d'utiliser le formulaire de contact si vous souhaitez citer un jeu qui ne serait pas déjà répertorié.
+
+`Valeur_par_defaut = "Bourdon 8"`
 
 Les registres sont énumérés selon un ordre harmonique (hauteur du jeu).
 On suivra la disposition suivante :
@@ -354,6 +359,12 @@ Par exemple :
 En particulier, les basses et dessus seront notés :
 - Basse.
 - Dessus.
+
+Astuce : Aide à la saisie : une composition peut rapidement se saisir au clavier, sans utiliser la souris.
+Il faut pour cela :
+- utiliser la touche tabulation pour passer d'une case à l'autre du formulaire;
+- appuyer sur la touche espace pour dérouler le menu présentant les jeux.
+
 
 ### Accessoires
 
