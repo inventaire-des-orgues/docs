@@ -7,6 +7,9 @@ repo_url: https://github.com/inventaire-des-orgues/docs
 
 theme: mkdocs
 
+extra_css:
+    - css/extra.css
+
 nav:
     - Questions/réponses: faq.md
     - Décrire un orgue :
