@@ -4,21 +4,31 @@ L'inventaire des orgues utilise pour une bonne part les coordonnées géographiq
 De plus, les données des édifices religieux français sont bien plus complètes que sur Google Maps.
 
 
-## Mode simple, accessible à tous
+## Mode manuel simple, accessible à tous
 
 ### Directement sur le site OpenStreetMap
 
-La façon la plus simple, si l'on ne recherche les coordonnées géographiques que pour quelques instruments seulements, 
-de les capter manuellement depuis le site OpenStreetMap.
+La façon la plus simple, si l'on ne recherche les coordonnées géographiques que pour quelques instruments seulement, 
+est de les capter manuellement depuis le site OpenStreetMap.
 
 - se connecter au site [OpenStreetMap](https://www.openstreetmap.org)
-- rechercher un édifice à l'aide du moteur de recherche (par exemple : "église saint-thomas la flèche")
+- rechercher un édifice à l'aide du moteur de recherche, en précisant commune et nom de l'édifice (par exemple : "église saint-thomas la flèche")
 - vérifier sur la carte qu'il s'agit bien du bon édifice
-- récupérer l'id du l'objet représentant l'édifice (il est affiché en parenthèse dans le titre, "37420047" dans notre exemple)
-- récupérer le type d'objet représentant l'édifice (il débute le titre, "Chemin" dans notre exemple)
+- sélectionner l'édifice (à l'aide de la flèche en bas du menu d'outils proposé à droite de la carte)
+- plusieurs édifices de l'entourage vont vous être proposé, dont celui recherché : sélectionnez-le via son lien dans la liste à gauche
+- vous arrivez sur la page dédié à cet édifice : remarquez l'adresse, très simple, de cette page dans la barre d'adresse du navigateur
+(dans notre exemple : https://www.openstreetmap.org/way/37420047)
+- récupérer l'id du l'objet représentant l'édifice (il est affiché en parenthèse dans le titre en gras et dans l'adresse, "37420047" dans notre exemple)
+- récupérer le type d'objet représentant l'édifice (il débute le titre en gras, "Chemin" dans notre exemple)
 - renseigner cet id et ce type dans l'inventaire des orgues, à l'onglet *Localisation* de la fiche
 
 C'est tout ! Nous pourrons alors automatiquement récupérer les latitude et longitude de l'édifice.
+
+### Si vous ne trouvez pas l'édifice
+Si vous n'êtes pas parvenu à trouver l'édifice, c'est peut-être qu'il n'existe pas encore dans OpenStreetMap, ou encore, cas rare, que son nom est très erroné.
+Dans ces deux cas, nous vous invitons à vous créer un identifiant et mot de passe utilisateur sur OpenStreetMap, et à créer l'édifice ou en corriger le nom.
+Des tutoriels sont disponibles sur OpenStreetMap. Le site OpenStreetMap étant totalement distinct du site de l'éinventaire des orgues, vos modifications seront visibles par tout visiteur Internet.
+
 
 ## Mode expert, pour les administrateurs ou geeks
 
