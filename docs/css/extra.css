@@ -1,3 +1,19 @@
+@font-face {
+    font-family: D-DIN;
+    src: url("./fonts/d-din/D-DIN.otf");
+}
+
+@font-face {
+    font-family: D-DIN-Bold;
+    src: url("./fonts/d-din/D-DIN-Bold.otf");
+    font-weight: bold;
+}
+
+body,h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
+    font-family: D-DIN, sans-serif !important;
+}
+
+
 .navbar {
     background-color: #5c1c54;
     background-image: linear-gradient(#5c1c60,#5c1c54 60%,#5c1c40);
