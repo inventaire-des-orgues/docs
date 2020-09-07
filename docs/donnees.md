@@ -27,3 +27,17 @@ Orgue en France remercie chaleureusement chacun de ces acteurs, ainsi que quelqu
 
 ## Les [sites personnels ou associatifs](donnees_sites.md)
 
+## Articles et documents sur l'orgue
+
+Au-delà de la description de chaque instrument, de nombreux documents de qualité sur l'orgue en général sont disponibles en ligne.
+
+### Archives ouvertes
+
+La plate-forme [Archives ouvertes](https://hal.archives-ouvertes.fr/search/index/?q=orgue) offre une grande variété d'articles scientifiques et de vulgarisation sur l'orgue, en accès libre.
+Il sufft de se créer un identifiant sur cette plate-forme pour accéder aux documents.
+
+### Moteur collections et plate-forme ouverte du patrimoine
+
+[Moteur Collections](http://www.culturecommunication.gouv.fr/collections_locales/Search?text=&text2=%2B%28orgue%29&xsl=site&f.b=&f.ou=&f.eb=false)
+
+[Plate-forme Ouverte du Patrimoine](https://www.pop.culture.gouv.fr/)
