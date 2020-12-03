@@ -1,4 +1,4 @@
-# Bienvenue sur le site de documentation de l'inventaire national des orgues
+# Bienvenue sur le site de documentation de l'Inventaire national des orgues
 
 ## Foire aux questions
 
@@ -28,7 +28,7 @@ développés pour l’inventaire des orgues.
 Vous pouvez aussi nous contacter par mail en indiquant les éléments sur lesquels vous pouvez aider. Actuellement, nos principaux besoins sont :
 
 - la collecte informatisée à partir de données en ligne ou sur le terrain (nécessite quelques compétences basiques en langage Python);
-- la contribution à l'inventaire lui-même (ouverte à tout organiste, élève organiste, fonctionnaire de mairie ou simple passionné d'orgue);
+- la contribution à l'inventaire lui-même (ouverte à tout organiste, élève organiste, fonctionnaire territorial ou simple passionné d'orgue);
 - l'aide à l'enrichissement du vocabulaire.
 
 Vous pouvez aussi échanger sur [le forum](https://forum.inventaire-des-orgues.fr/).

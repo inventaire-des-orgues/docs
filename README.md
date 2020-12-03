@@ -1,4 +1,4 @@
-# La documentation de l'inventaire national des orgues
+# La documentation de l'Inventaire national des orgues
 
 Le site de [documentation](https://docs.inventaire-des-orgues.fr) pour l'inventaire des orgues. 
 

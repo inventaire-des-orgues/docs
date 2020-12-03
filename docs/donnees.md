@@ -9,19 +9,19 @@ Par la suite, cette énorme masse d'information sera amendée et complétée par
 Cette page liste l'ensemble des données qui alimenteront la plate-forme
 collaborative d'inventaire des orgues :
 
-  - les orgues décrits dans les inventaires papiers, lors d'un
-    recensement mené conjointement par la Direction du Patrimoine et la
-    Direction de la Musique et de la Danse entre 1985 et 2006, complété depuis par quelques ouvrages;
+  * les orgues décrits dans les inventaires papier, lors d'un
+    recensement mené conjointement par la direction du Patrimoine et la
+    direction de la Musique et de la Danse entre 1985 et 2006, complété depuis par quelques ouvrages;
 
-  - les orgues présents dans les bases de l'Etat et des collectivités territoriales:
-  	- protection au titre du patrimoine (Palissy) ;
-  	- inventaires régionaux (Gertrude) ;
+  * les orgues présents dans les bases de l'État et des collectivités territoriales:
+  	* protection au titre du patrimoine (Palissy) ;
+  	* inventaires régionaux (Gertrude) ;
 
-  - les orgues que l'on trouve décrits sur les sites personnels ou associatifs, ainsi que les orgues décrits sur les projets Wikimédia.
+  * les orgues que l'on trouve décrits sur les sites personnels ou associatifs, ainsi que les orgues décrits sur les projets Wikimédia.
 
 ## Les [livres d'inventaires](donnees_livres.md)
 
-L'association Orgue en France a, avec l'aide du ministère de la culture, des directions régionales de affaires culturelles, des services régionaux de l'inventaire, d'associations musicales ou patrimoniales, collecté la totalité des livres inventoriant méthodiquement des orgues publiés à ce jour. Ont même été récupérés quelques manuscrits d'ouvrages non publiés, ou maquette inédites.
+L'association Orgue en France a, avec l'aide du ministère de la culture, des directions régionales des affaires culturelles, des services régionaux de l'inventaire, d'associations musicales ou patrimoniales, a collecté la totalité des livres inventoriant méthodiquement des orgues publiés à ce jour. Ont même été récupérés quelques manuscrits d'ouvrages non publiés, ou maquettes inédites.
 
 Orgue en France remercie chaleureusement chacun de ces acteurs, ainsi que quelques généreux particuliers, pour leur dons d'ouvrages en double.
 

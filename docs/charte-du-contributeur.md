@@ -1,6 +1,6 @@
 # Charte du contributeur
 
-Si vous voulez réagir à ce brouillon, n’hésitez pas à nous écrire à
+Si vous voulez réagir à ce projet, n’hésitez pas à nous écrire à
 <contact@inventaire-des-orgues.fr> ou à ouvrir [un
 ticket](https://git.inventaire-des-orgues.fr/bzg/ido-docs/issues).
 

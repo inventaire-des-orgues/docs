@@ -1,19 +1,19 @@
-# Structure de la fiche descriptive d'un orgue de l'inventaire
+# Structure de la fiche descriptive d'un orgue de l'Inventaire
 
 
-La structure de la fiche décrivant un orgue est le cœur de l'inventaire. Elle a fait l'objet de longues réflexions, 
+La structure de la fiche décrivant un orgue est le cœur de l'Inventaire. Elle a fait l'objet de longues réflexions, 
 dans le but d'aboutir à un juste compromis entre niveau de détails suffisant et complexité limitée.
-Elle s'inspire bien sûr des livres d'inventaire, ainsi que des sites Internet existants. Elle présente toutefois une structure bien plus fine que la plupart des sites consacrés aux orgues.
+Elle s'inspire bien sûr des livres d'Inventaire, ainsi que des sites Internet existants. Elle présente toutefois une structure bien plus fine que la plupart des sites consacrés aux orgues.
 
 La saisie d'une fiche est facilitée par l'organisation en plusieurs grandes rubriques, 
-qui prennent la forme de différents onglets sur le portail de l'inventaire accessibles via un menu.
+qui prennent la forme de différents onglets sur le portail de l'Inventaire, accessibles via un menu.
 
 Le caractère institutionnel de l'inventaire et l'exigence de qualité invitent à poser quelques conventions que nous vous invitons à respecter avec scrupule.
 Outre la bonne correspondance entre les éléments saisis par l'utilisateur et les libellés (respect des définitions), il est important de respecter précisément la langue française en général et ses règles orthographiques. De plus, un soin particulier devra être apporté à la typographie.
 Sur le plan documentaire, les sources peuvent et doivent être citées, de même que les crédits photographiques.
 On s'attachera à n'introduire dans l'inventaire que des documents iconographiques de bonne qualité.
 
-Certains champs structurels, notamment ceux permettant la localisation des instrument, ne sont pas éditables sans droit particulier, ceci afin de garantir une information parfaitement exacte, à commencer par le nom des communes.
+Certains champs structurels, notamment ceux permettant la localisation des instruments, ne sont pas éditables sans droit particulier, ceci afin de garantir une information parfaitement exacte, à commencer par le nom des communes.
 
 ## Informations générales
 
@@ -39,7 +39,7 @@ Apostrophe typographique :
 
 La désignation d'un orgue pose très souvent problème. En effet, le titre "grand orgue" est subjectif, emphatique, et vaut généralement par opposition au titre "orgue de chœur".
 Dans l'inventaire, la désignation permet de qualifier le type d'instrument. Ainsi, sans plus de particularité on parlera simplement d'un "orgue".
-On employera le cas échéant les désignations d'"orgue coffre", d'"orgue polyphone", d'"orgue à cylindres", etc.
+On emploiera le cas échéant les désignations d'"orgue coffre", d'"orgue polyphone", d'"orgue à cylindres", etc.
 Les abréviations courantes G.O. et O.C. sont ici conseillées.
 
 Nota : dans les thésaurus du ministère de la culture, la désignation reprend l'emplacement : "orgue de chœur", "orgue de tribune". Cette classification n'est pas exactement adoptée ici, puisque nous distinguons désignation et emplacement.
@@ -59,8 +59,8 @@ Cet attribut permet donc aussi la distinction, dans la majorité des cas, entre 
 
 Il s'agit d'un avis à date de mise à jour de la fiche descriptive.
 Nécessairement pour partie subjectif, il se rapporte à l'utilisation possible de l'instrument.
-Les défauts passagers et réversibles d'un orgue (cornement occasionnel par exemple) ne rentrent pas en compte dans l'appréciation.
-L'état de fonctionnement ne décrit pas l'état du buffet ou des boiseries dès lors que le jeu n'est pas altéré.
+Les défauts passagers et réversibles d'un orgue (cornement occasionnel, par exemple) ne rentrent pas en compte dans l'appréciation.
+L'état de fonctionnement ne décrit pas l'état du buffet ou des boiseries, dès lors que le jeu n'est pas altéré.
 
 `Valeur_par_defaut = <Néant>`
 
@@ -74,20 +74,20 @@ L'état de fonctionnement ne décrit pas l'état du buffet ou des boiseries dès
 `Valeur_par_defaut = False`
 
 is_polyphone [bool] spécifie si l'orgue est un polyphone de la manufacture Debierre.
-Les polyphones sont des orgues coffres dont certains tuyaux de basse permettent l'émission de plusieurs notes distinctes.
+Les polyphones sont des orgues coffres, dont certains tuyaux de basse permettent l'émission de plusieurs notes distinctes.
 (Musica et memora)[http://www.musimem.com/debierre.htm]
 Nota : Ce champ n'est visible que dans l'interface d'administration.
 
 ### Propriété de l'orgue
 
 Le propriétaire de l'orgue (qui n'est pas nécessairement le même que l'édifice).
-Le plus souvent, il s'agit de la commune pour des instruments datant d'avant 1905 (de l'Etat pour les orgues de cathédrales), et d'association cultuelle (généralement paroisse) pour les orgues d'après 1905 ou de congrégation.
-Bien sûr, il existe plusieurs exceptions : par exemple, les orgues des cathédrales de la petite couronne parisienne, n'appartiennent pas à l'Etat, mais l'orgue de la basilique royale de Saint-Denis si.
+Le plus souvent, il s'agit de la commune pour des instruments datant d'avant 1905 (de l'État pour les orgues de cathédrales), et d'association cultuelle (généralement paroisse) pour les orgues d'après 1905 ou de congrégation.
+Bien sûr, il existe plusieurs exceptions : par exemple, les orgues des cathédrales de la petite couronne parisienne, n'appartiennent pas à l'État, sauf l'orgue de la basilique royale de Saint-Denis.
 
 `Valeur_par_defaut = "commune"`
 
     "commune",
-    "Etat",
+    "État",
     "association culturelle",
     "diocèse",
     "paroisse",
@@ -143,7 +143,7 @@ Il est unique, et donc distinct du code postal utilisé pour l'adressage du cour
 ### Commune associée, déléguée ou ancienne commune
 
 Cet attribut est une aide pour faciliter la localisation.
-Il est à prendre dans une acceptation large : il peut s'agir d'une ancienne commune disparue suite à un regroupement de communes, 
+Il est à prendre dans une acceptation large : il peut s'agir d'une ancienne commune disparue à la suite d'un regroupement de communes, 
 d'une commune déléguée, d'une commune associée.
 
 ### Adresse
@@ -206,15 +206,15 @@ Cf. la [page sur OSM](osm.md).
 
 ## Historique
 
-L'historique d'un orgue est une succession d'évènements.
+L'historique d'un orgue est une succession d'événements.
 
-Un évènement est lui-même décrit par les quatres informations suivantes :
-- l'année de l'évènement [int]
-- le type d'évènement [string]
-- la liste des facteurs ayant contribué à l'évènement [liste]
-- une description libre de l'évènement [string]
+Un événement est lui-même décrit par les quatres informations suivantes :
+- l'année de l'événement [int]
+- le type d'événement [string]
+- la liste des facteurs ayant contribué à l'événement [liste]
+- une description libre de l'événement [string]
 
-Les types d'évènement possibles sont les suivants :
+Les types d'événement possibles sont les suivants :
 
 `Valeur_par_defaut = Néant`
 
@@ -231,7 +231,7 @@ Les types d'évènement possibles sont les suivants :
     "Inscription aux monuments historiques"
 
 - Construction : montage initial de l'instrument dans l'édifice.
-- Inauguration : évènement inaugural.
+- Inauguration : événement inaugural.
 - Reconstruction : des éléments nouveaux sont ajoutés en grand nombre, la structure de l'instrument est modifiée.
 - Destruction : dégâts sur l'ensemble de l'instrument, rendu totalement inutilisable.
 - Restauration : opération d'importance, à caractère patrimonial : il s'agit de revenir à un état antérieur de l'instrument.
@@ -241,11 +241,11 @@ Les types d'évènement possibles sont les suivants :
 - Disparition : distincte de destruction, car l'orgue a pu disparaître suit à un déménagement, ou être stocké dans un endroit inconnu.
 - Dégâts : destruction partielle ou altération de l'instrument.
 - Classement ou incription au titre des monuments historiques :
-On ne distingue que Inscription au titres des monuments historiques et Classement au titre des monuments historiques, comme objets evenement.
+On ne distingue que Inscription au titre des monuments historiques et Classement au titre des monuments historiques, comme objets evenement.
 Le champ TICO de Palissy sera mis dans le commentaire de l'évenement.
-De même pour les autres champs issus de la mise en correspondance entre l'inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.
+De même pour les autres champs issus de la mise en correspondance entre l'Inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.
 
-
+Concernant les facteurs, une longue liste à mise à disposition. Elle se présente sous la forme "Nom Prénom". Il est nécessaire de renseigner chaque facteur, même lorsque plusieurs facteurs travaillent en duo ou trio (ex : Benoist et Sarélot, frères Abbey, etc.)
 
 ## Buffet / Console
 
@@ -259,7 +259,7 @@ Champ libre [html sans limite de taille] pour la description du buffet et de son
 
 Champ libre [html sans limite de taille] pour la description de la console et de son état.
 La notion de console est assez récente : elle survient avec l'apparition de meubles séparés du buffet au XIXe siècle, souvent tournés vers l'autel ou mobiles au XXe siècle.
-Aussi la console peut-être, lorsqu'elle n'est pas distincte du buffet, décrite dans un sous-chapitre de la section buffet.
+Aussi la console peut être, lorsqu'elle n'est pas distincte du buffet, décrite dans un sous-chapitre de la section buffet.
 
 Hormi la construction dans une fenêtre pratiquée dans le buffet, les dispositions les plus courantes sont :
 - séparée, organiste tourné vers l'orgue
@@ -295,7 +295,7 @@ Une grande variété de systèmes de transmission des notes existe. Cet attribut
 
 ## Tirage des jeux
 
-Le type de transmission des notes est indiqué pour tout l'instrument
+Le type de transmission des notes est indiqué pour tout l'instrument.
 
     <Néant>,
     "Mécanique",
@@ -346,7 +346,7 @@ Champ HTML libre [string]
 
 Commentaire général sur la tuyauterie et description jeu par jeu, dans l'ordre de la composition.
 
-Note importante : on veillera à respecter les [conventions](conventions.md) de l'inventaire.
+Note importante : on veillera à respecter les [conventions](conventions.md) de l'Inventaire.
 
     
 ## Composition
@@ -361,7 +361,7 @@ C1-G5 (cf. les [conventions](conventions.md)).
 Souvent, les orgues de facture du XIXe siècle possèdent 56 notes au claviers (C1-G5) et 30 notes à la pédale (C1-F3).
 
 
-Cf. [le lexique de l'inventaire](https://vocabulaire.inventaire-des-orgues.fr/)
+Cf. [le lexique de l'Inventaire](https://vocabulaire.inventaire-des-orgues.fr/)
 et [Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_jeux_d%27orgue)
 
 De très nombreux jeux sont déjà enregistrés. Merci d'utiliser le formulaire de contact si vous souhaitez citer un jeu qui ne serait pas déjà répertorié.
@@ -378,9 +378,9 @@ On propose de suivre la disposition suivante par commodité de lecture :
 Toutefois, il n'existe pas de convention à ce sujet, l'orgue classique français ne disinguant pas les différents types de jeux.
 
 La hauteur est indiquée par convention en pieds, en chiffres arabes, sans précision de l'unité.
-Le nombre de rangs des fournitures, plein-jeux, cornet, etc. est indiqué en chiffre romains, sans précision du terme "rangs" (ni "rgs").
+Le nombre de rangs des fournitures, plein-jeux, cornet, etc. est indiqué en chiffres romains, sans précision du terme "rangs" (ni "rgs").
 
-Un champ libre permet pour de joindre pour chaque jeu une courte information optionnelle.
+Un champ libre permet de joindre pour chaque jeu une courte information optionnelle.
 Par exemple :
 - Emprunté au Grand orgue
 - Transmission électrique du registre
@@ -405,7 +405,7 @@ Les accessoires peuvent être :
     - on doit préciser le clavier accouplé et le clavier jouant avec l'accouplement.
 - trémolo : on peut préciser le clavier
 - appel : appel d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures.
-- renvoi : renvoi d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures. N'est renseigné que si une cuillère spécifique effectue le renvoi. Si la cuillère de l'appel permet le renvoi lorsqu'elle est relâchée, il n'y pas lieu d'indiquer un renvoi.
+- renvoi : renvoi d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures. N'est indiqué que si une cuillère spécifique effectue le renvoi. Si la cuillère de l'appel permet le renvoi lorsqu'elle est relâchée, il n'y pas lieu d'indiquer un renvoi.
 
 Quelques accessoires courants sont proposés pour accélérer la rédaction d'une fiche.
 Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecter les mêmes conventions de nommage, notamment pour ce qui concerne les abréviations:
@@ -437,10 +437,10 @@ Un utilitaire permet de modifier le cadrage de cette image.
 Une légende peut être complétée.
 
 La rubrique crédit doit obligatoirement être complétée. Point important : toutes les images déposées sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
-Cf. la [foire aux questions](faq.md) pour toutes les questions ayant trait au droit d'auteur.
+Cf. la [foire aux questions](faq.md) pour toutes les questions ayant trait aux droits d'auteur.
 
 
 ## Fichiers
 
-Point important, tous les fichiers déposées sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
-Cf. la [foire aux questions](faq.md) pour toutes les questions ayant trait au droit d'auteur.
+Point important, tous les fichiers déposés sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
+Cf. la [foire aux questions](faq.md) pour toutes les questions ayant trait aux droits d'auteur.

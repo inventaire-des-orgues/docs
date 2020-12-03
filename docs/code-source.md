@@ -1,7 +1,7 @@
 # Code source
 
 ## Quelles sont les technologies utilisées pour le portail de l'inventaire ?
-- Le portail est codé en langage Python, en utilisant le framework Django, dédié aux applications web, ainsi que Bootstrap pour les feuilles de style CSS et un peu de Javascript. Les cartes employent la librairie Javascript Leaflet. Les fonds de cartes proviennent d'OpenStreetMap.
+- Le portail est codé en langage Python, en utilisant le framework Django, dédié aux applications internet, ainsi que Bootstrap pour les feuilles de style CSS et un peu de Javascript. Les cartes employent la librairie Javascript Leaflet. Les fonds de cartes proviennent d'OpenStreetMap.
 - Les utilitaires de traitement des données sont aussi codés en Python.
 - La documentation est rédigée au format Markdown et compilée sous forme de site web statique à l'aide du module Python Mkdocs.
 - La reconnaissance de caractères des livres numérisés a été effectuée à l'aide du logiciel non libre ABBYY.
@@ -9,7 +9,7 @@
 
 ## Dépôts de code
 
-Le code source des applications développées pour l’inventaire des orgues
+Le code source des applications développées pour l’Inventaire national des orgues
 est disponible sur [GitHub](https://github.com/inventaire-des-orgues/)
 
 | Nom                                                                         | Description                                                               | Langage               | Licence    |
