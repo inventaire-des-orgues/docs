@@ -51,7 +51,7 @@ des Orgues » doit accepter préalablement les termes de la présente
 charte.
 
 Le contributeur reconnaît avoir pris connaissance des [mentions
-légales](https://beta.inventaire-des-orgues.fr/mentions-legales) de la
+légales](mentions-legales.md) de la
 plateforme « Inventaire des Orgues ».
 
 ## Rôles et contributions
