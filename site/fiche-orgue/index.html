@@ -8,11 +8,12 @@
         <meta name="author" content="Gwilherm Poullennec">
         <link rel="canonical" href="https://docs.inventaire-des-orgues.fr/fiche-orgue/">
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Compléter une fiche - Documentation de l'inventaire des orgues</title>
+        <title>Compléter une fiche - Inventaire des orgues</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+        <link href="../css/extra.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -39,16 +40,13 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="..">Documentation de l'inventaire des orgues</a>
+                    <a class="navbar-brand" href="..">Inventaire des orgues</a>
                 </div>
 
                 <!-- Expanded navigation -->
                 <div class="navbar-collapse collapse">
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
-                            <li >
-                                <a href="..">Home</a>
-                            </li>
                             <li >
                                 <a href="../faq/">Questions/réponses</a>
                             </li>
@@ -94,9 +92,6 @@
 </li>
                                 </ul>
                             </li>
-                            <li >
-                                <a href="../about/">About</a>
-                            </li>
                         </ul>
 
                     <ul class="nav navbar-nav navbar-right">
@@ -130,8 +125,10 @@
             <li><a href="#informations-generales">Informations générales</a></li>
             <li><a href="#localisation">Localisation</a></li>
             <li><a href="#historique">Historique</a></li>
-            <li><a href="#buffet">Buffet</a></li>
+            <li><a href="#buffet-console">Buffet / Console</a></li>
             <li><a href="#partie-instrumentale">Partie instrumentale</a></li>
+            <li><a href="#tirage-des-jeux">Tirage des jeux</a></li>
+            <li><a href="#tirage-commentaire">Tirage commentaire</a></li>
             <li><a href="#composition">Composition</a></li>
             <li><a href="#images">Images</a></li>
             <li><a href="#fichiers">Fichiers</a></li>
@@ -150,74 +147,85 @@ qui prennent la forme de différents onglets sur le portail de l'inventaire.</p>
 <p><code>Valeur_par_defaut = ""</code></p>
 <p>Le nom de l'édifice hébergeant l'orgue. Il s'agit très souvent d'églises ou de temples.
 La désignation des édifices peut prêter à discussion car, pour de grands édifices, il est fréquent qu'elle ait changé au cours des siècles.</p>
+<p>Le terme église prend une majuscule lorsqu’il désigne l’institution ou l’ensemble des fidèles : l’Église catholique (ou absolument l’Église), les Églises protestantes, etc. La minuscule est réservée au bâtiment. Cette remarque s’applique à d’autres termes relevant de domaines différents, quand il s’agit de distinguer deux réalités bien distinctes que désigne un même mot (la raison d’État, l’état des lieux ; la Bourse de commerce, une bourse d’études).</p>
+<p>Concernant les ordres et les congrégations, on met une majuscule quand on désigne l’ensemble de l’ordre, de la congrégation, etc. : les Jésuites, les Dominicains. Mais on met une minuscule lorsqu’on ne parle que d’une partie des membres : un couvent de dominicains.</p>
+<p>Rappel concernant le mot Saint : quand il désigne le personnage lui-même, saint est un nom commun qui s’écrit sans majuscule : Les trois saints de glace sont saint Mamère, saint Pancrace et saint Servais. Seule exception Saint Louis, considéré comme un nom propre. En revanche, saint prend la majuscule lorsqu’il entre dans la formation d’un nom de famille, d’un nom de lieu, de rue, de ville, de fête, etc., et il est suivi d’un trait d’union : le duc de Saint-Simon, la Sainte-Chapelle, la place Saint-Marc, les feux de la Saint-Jean, l’île Saint-Louis ; Les Saint-Germanois sont les habitants de Saint-Germain-en-Laye. Il prend également la majuscule dans certaines expressions traditionnelles historiques ou religieuses : la Sainte-Alliance, le Saint-Empire, le Saint-Office, le Saint-Esprit, le Saint-Siège, la Sainte-Trinité, le Saint-Père.</p>
+<p>Apostrophe typographique :
+(https://fr.wikipedia.org/wiki/Apostrophe_(typographie))</p>
 <h3 id="designation">Désignation</h3>
-<p>La désignation d'un orgue pose très souvent problème. En effet, le titre "Grand orgue" est subjectif, emphatique, et vaut généralement par opposition au titre "Orgue de choeur".
-C'est l'option adoptée pour l'inventaire : par défaut, on parlera simplement d'un "Orgue", et en employera les désignations de ""</p>
-<pre><code>"Grand orgue",
-"Orgue de choeur",
-"Orgue"
-</code></pre>
-<p>Valeur_par_defaut = "Orgue"</p>
+<p>La désignation d'un orgue pose très souvent problème. En effet, le titre "grand orgue" est subjectif, emphatique, et vaut généralement par opposition au titre "orgue de choeur".
+Dans l'inventaire, la désignation permet de qualifier le type d'instrument. Ainsi, sans plus de particularité on parlera simplement d'un "orgue".
+On employera le cas échéant les désignations d'"orgue coffre", d'"orgue polyphone", d'"orgue à cylindres", etc.</p>
+<p><code>Valeur_par_defaut = "orgue"</code></p>
+<p>Nota : dans les thésaurus du ministère de la culture, la désignation reprend l'emplacement : "orgue de choeur", "orgue de tribune". Cette classification n'est pas exactement adoptée ici, puisque nous distinguons désingation et emplacement.
+En effet, vu le nombre d'orgues, nous avons besoin de plus de finesse de représentation que pour les édifices classés ou inscrits. Il n'y a pas trois orgues classés ou inscrits dans un même édifice, mais trois orgues, si (ex: collégiale Notre-Dame de Mantes-la-Jolie, église Notre-Dame de Versailles)!</p>
+<h3 id="emplacement">Emplacement</h3>
+<p>L'emplacement permet de positionner sans erreur l'orgue dans l'édifice. Il correspond aux coordonnées géographiques indiquées par ailleurs dans la fiche.
+Exemples d'emplacement : "crypte", "choeur", "transept", "sacristie", "triforium", "salle Marcel Dupré", etc.</p>
+<p>Cet attribut permet donc aussi la distinction, dans la majorité des cas, entre orgue de choeur et orgue de tribune, voire le cas échéant entre plusieurs orgues de choeur ou de tribune.</p>
+<p><code>Valeur_par_defaut = &lt;Néant&gt;</code></p>
 <h3 id="etat-de-fonctionnement">Etat de fonctionnement</h3>
-<p>Il s'agit d'un avis à date de mise à jour de la fiche descriptive. Nécessairement pour partie subjectif, il est rapporté à l'utilisation possible de l'instrument. Les défauts courants et réversible d'un orgue (cornement occasionnel par exemple) ne rentrent pas en compte dans l'appréciation. L'état de fonctionnement ne décrit pas l'état du buffet ou des boiseries dès lors qu'il n'altère pas le jeu.</p>
-<p>Valeur_par_defaut = Néant</p>
+<p>Il s'agit d'un avis à date de mise à jour de la fiche descriptive.
+Nécessairement pour partie subjectif, il se rapporte à l'utilisation possible de l'instrument.
+Les défauts courants et réversibles d'un orgue (cornement occasionnel par exemple) ne rentrent pas en compte dans l'appréciation.
+L'état de fonctionnement ne décrit pas l'état du buffet ou des boiseries dès lors que le jeu n'est pas altéré.</p>
+<p><code>Valeur_par_defaut = &lt;Néant&gt;</code></p>
 <pre><code>"Très bon ou bon : tout à fait jouable",
 "Altéré : difficilement jouable",
 "Dégradé ou en ruine : injouable"
 </code></pre>
-<h3 id="elevation">Elévation</h3>
-<p>Permet la distinction, dans la majorité des cas, entre orgue de choeur et orgue de tribune.</p>
-<p>Valeur_par_defaut = Néant</p>
-<pre><code>"en tribune",
-"au sol"
-</code></pre>
-<p>Nota : Emplacement dans l'édifice.
-A ce stade, aucun attribut n'est prévu pour préciser la position de l'orgue dans l'édifice.
-Dans le cas de plusieurs instruments au sein d'un même édifice, l'attribut élévation et les coordonnées géographiques permettent de positionner et distinguer précisément l'instrument.</p>
 <h3 id="orgues-polyphones-de-louis-debierre">Orgues polyphones de Louis Debierre</h3>
 <p>is_polyphone [bool] spécifie si l'orgue est un polyphone de la manufacture Debierre.
 Les polyphones sont des orgues coffres dont certains tuyaux de basse permettent l'émission de plusieurs notes distinctes.
 (Musica et memora)[http://www.musimem.com/debierre.htm]</p>
-<p>Valeur_par_defaut = False</p>
+<p><code>Valeur_par_defaut = False</code></p>
+<p>Nota : cet attribut sera supprimé, l'attribut désignation étant suffisant.</p>
 <h3 id="propriete-de-lorgue">Propriété de l'orgue</h3>
 <p>Le propriétaire de l'orgue (qui n'est pas nécessairement le même que l'édifice).
 Le plus souvent, il s'agit de la commune pour des instruments datant d'avant 1905 (de l'Etat pour les orgues de cathédrales), et d'association cultuelle (généralement paroisse) pour les orgues d'après 1905 ou de congrégation.
 Bien sûr, il existe plusieurs exceptions : par exemple, les orgues des cathédrales de la petite couronne parisienne, n'appartiennent pas à l'Etat, mais l'orgue de la basilique royale de Saint-Denis si.</p>
-<p>Valeur_par_defaut= commune</p>
+<p><code>Valeur_par_defaut = "commune"</code></p>
 <pre><code>"commune",
 "Etat",
 "association culturelle",
 "diocèse",
 "paroisse"
 </code></pre>
-<h3 id="organisme-de-reference">Organisme de référence</h3>
-<p>Valeur_par_defaut = ""</p>
+<h3 id="organisme-auquel-sadresser">Organisme auquel s'adresser</h3>
+<p><code>Valeur_par_defaut = ""</code></p>
 <p>Libellé du lien, et lien, vers un organisme, le plus souvent une association, au plus proche de l'instrument.
 Il s'agit de l'organisme le plus à même de fournir un renseignement ou un contact pour visiter et jouer l'orgue.
 Le libellé du lien est le terme qui apparaîtra comme lien dans la visualisation de la fiche (cartouche de synthèse).</p>
+<h3 id="lien-de-reference">Lien de référence</h3>
+<p>Lien Internet vers l'organisme auquel s'adresser.</p>
+<p><code>Valeur_par_defaut = ""</code></p>
 <h3 id="resume">Résumé</h3>
-<p>champ_texte</p>
-<p>Valeur_par_defaut = ""</p>
-<p>Cette courte description est une synthèse rédigée sur l'histoire de l'instrument.
+<p><code>Valeur_par_defaut = ""</code></p>
+<p>Cette courte description (500 caractères maximum) est une synthèse rédigée sur l'histoire et la description de l'instrument.
 Elle doit être utilisée pour évoquer une particularité de l'instrument, ce qui fait son originalité et sa valeur.</p>
-<h3 id="commentaire-admin">Commentaire admin</h3>
-<p>Valeur_par_defaut = ""</p>
+<h3 id="commentaire-redacteurs">Commentaire rédacteurs</h3>
+<p><code>Valeur_par_defaut = ""</code></p>
 <p>Ce commentaire n'est visible qu'en mode édition et sera affiché sur fond coloré en haut de la fiche lors de l'édition.
 Il sert à transmettre une information entre rédacteurs de la fiche.
-Par exemple : "La description de la tuyauterie est à compléter", ou "Nous ne sommes pas certain de la composition du Récit".</p>
-<hr />
+Par exemple : "La description de la tuyauterie semble erronée.", ou "Nous ne sommes pas certains de la composition du Récit."</p>
 <h2 id="localisation">Localisation</h2>
 <h3 id="commune">Commune</h3>
-<p>Il s'agit de la commune selon le dernier <a href="https://www.insee.fr/fr/information/2560452">code officiel géographique</a> en vigueur de l'INSEE.
+<p>Il s'agit de la commune selon le dernier <a href="https://www.insee.fr/">code officiel géographique</a> en vigueur de l'INSEE.
+Celui-ci est aussi sur le site <a href="https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/#_">data.gouv.fr</a>
 Attention, de nombreuses communes ont fusionné au cours des dernières années, et de tels regroupements se poursuivront dans les années à venir.
-Il faut donc prendre garde à ne pas renseigner le nom d'une ancienne commune, même s'il continue à être usuellement utilisé. L'attribut Ancienne commune est dédié à cela.</p>
+Il faut donc prendre garde à ne pas renseigner le nom d'une ancienne commune, même s'il continue à être usuellement utilisé. L'attribut Ancienne commune est dédié à cet effet.
+Trois types de communes sont couramment référencées dans le code officiel géographique en vigueur : commune (de plein droit), commune associée, commune déléguée, auquels s'ajoutent les arrondissements de Paris, Lyon et Marseille.
+Par convention, seules les communes de plein droit sont indiquées dans l'attribut Commune.</p>
 <h3 id="code-insee">Code INSEE</h3>
 <p>Code de la commune selon le code géographique officiel de l'INSEE. On le trouve aussi généralement dans la fiche de la commune sur Wikipédia.
-Il est unique, et donc distinct du code postal utilisé pour l'adressage du courrier.</p>
+Il est unique, et donc distinct du code postal utilisé pour l'adressage du courrier. Il est indispensable pour identifier sans équivoque une commune française, car plusieurs communes peuvent avoir le même nom.</p>
 <h3 id="ancienne-commune">Ancienne commune</h3>
 <p>Cet attribut est une aide pour faciliter la localisation.
 Il est à prendre dans une acceptation large : il peut s'agir d'une ancienne commune disparue suite à un regroupement de communes, 
-d'une commune déléguée, d'une commune associée, ou bien d'un simple lieu-dit.</p>
+d'une commune déléguée, d'une commune associée.</p>
+<h3 id="adresse">Adresse</h3>
+<p>L'adresse de l'édifice considéré. Elle est utilisé pour distinguer deux édifices de même nom sur une même commune, car de plus en plus fréquent au gré des fusions de communes.
+Souvent, ce peut-être un lieu-dit, ou une rue.</p>
 <h3 id="code-departement">Code département</h3>
 <p>Code du département selon le code géographique officiel de l'INSEE.</p>
 <h3 id="departement">Département</h3>
@@ -225,23 +233,24 @@ d'une commune déléguée, d'une commune associée, ou bien d'un simple lieu-dit
 <h3 id="region">Région</h3>
 <p>Nom de la région selon le code géographique officiel de l'INSEE.</p>
 <h3 id="latitude">Latitude</h3>
-<p>Latitude selon le système de coordonnées WGS84, couramment connu comme "coordonnées GPS". Nota : celui-ci n'est pas le système de coordonnées officiel français.
+<p>Latitude, selon le système de coordonnées WGS84, couramment connu comme "coordonnées GPS".
+Nota : celui-ci n'est pas le système de coordonnées officiel français.
 Pour des facilités de saisie et d'export des données, le format adopté est un nombre réel signé, et non la notation en degrés, minutes et secondes.</p>
 <p>Cf. la <a href="../osm/">page sur OSM</a>.</p>
 <h3 id="longitude">Longitude</h3>
 <p>Cf. latitude.</p>
 <p>Cf. la <a href="../osm/">page sur OSM</a>.</p>
 <h3 id="type-openstreetmap">Type OpenStreetMap</h3>
-<p>Type d'objet selon la nomenclature utilisée par le projet <a href="https://www.openstreetmap.org">OpenStreetMap</a>.
+<p>Type d'objet représentant l'édifice selon la nomenclature utilisée par le projet <a href="https://www.openstreetmap.org">OpenStreetMap</a>.
 Il peut s'agir :
 - way : d'un chemin, ensemble de points
 - node : d'un simple points
 - relation : d'une combinaison libre de ces trois types d'objets</p>
+<p>On préfèrera définir des "way" ou "relation", représentant le contour exact de l'édifice.</p>
 <p>Cf. la <a href="../osm/">page sur OSM</a>.</p>
 <h3 id="id-openstreetmap">Id OpenStreetMap</h3>
 <p>Identifiant unique de l'objet selon la nomenclature utilisée par le projet <a href="https://www.openstreetmap.org">OpenStreetMap</a>.</p>
 <p>Cf. la <a href="../osm/">page sur OSM</a>.</p>
-<hr />
 <h2 id="historique">Historique</h2>
 <p>L'historique d'un orgue est une succession d'évènements.</p>
 <p>Un évènement est lui-même décrit par les quatres informations suivantes :
@@ -271,59 +280,82 @@ Il peut s'agir :
 <li>Disparition : distincte de destruction, car l'orgue a pu disparaître suit à un déménagement, ou être stocké dans un endroit inconnu.</li>
 <li>Dégâts : destruction partielle ou altération de l'instrument.</li>
 <li>Classement ou incription au titre des monuments historiques :
-On ne distingue que Inscription au titres des monuments historiques et Classement au titre des monuments historiques, comme objets evenement. Le champ TICO de Palissy sera mis dans le commentaire de l'évenement.
+On ne distingue que Inscription au titres des monuments historiques et Classement au titre des monuments historiques, comme objets evenement.
+Le champ TICO de Palissy sera mis dans le commentaire de l'évenement.
 De même pour les autres champs issus de la mise en correspondance entre l'inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.</li>
 </ul>
-<hr />
-<h2 id="buffet">Buffet</h2>
-<p>Champ libre [string sans limite de taille] pour la description du buffet et de son état.</p>
-<p>Valeur_par_defaut = Néant</p>
-<p>La notion de console est assez récente : elle survient avec l'apparition de meubles séparés du buffet au XIXe siècle, souvent tournés vers l'autel ou mobiles au XXe siècle.
-Aussi n'y a-t-il pas de champ dédié et la console peut-être, le cas échéant, décrite dans un sous-chapitre de la section buffet.</p>
-<p>Les types les plus courants sont :
-- en fenêtre
+<h2 id="buffet-console">Buffet / Console</h2>
+<h3 id="description-du-buffet">Description du buffet</h3>
+<p>Champ libre [html sans limite de taille] pour la description du buffet et de son état.</p>
+<p><code>Valeur_par_defaut = ""</code></p>
+<h3 id="description-de-la-console">Description de la console</h3>
+<p>Champ libre [html sans limite de taille] pour la description de la console et de son état.
+La notion de console est assez récente : elle survient avec l'apparition de meubles séparés du buffet au XIXe siècle, souvent tournés vers l'autel ou mobiles au XXe siècle.
+Aussi la console peut-être, lorsqu'elle n'est pas distincte du buffet, décrite dans un sous-chapitre de la section buffet.</p>
+<p>Hormi la construction dans une fenêtre pratiquée dans le buffet, les dispositions les plus courantes sont :
 - séparée, organiste tourné vers l'orgue
 - séparée, organiste dos à l'orgue</p>
-<p>Dans le cas d'une console mobile ou en fenêtre sur le côté ou l'arrière de l'instrument, on précisera la disposition.
-Idem dans le cas d'une seconde console.</p>
-<hr />
+<p>Dans le cas d'une console mobile ou en fenêtre sur le côté (ex : église Saint-Pierre de Prat) ou encore à l'arrière de l'instrument (ex : église Saint-Jean de Lamballe), on précisera la disposition.
+Idem dans le cas d'une seconde console (ex : basilique Sainte-Clotilde et Sainte-Valère à Paris).</p>
+<p><code>Valeur_par_defaut = ""</code></p>
 <h2 id="partie-instrumentale">Partie instrumentale</h2>
 <h3 id="transmission-des-notes">Transmission des notes</h3>
 <p>Le type de transmission des notes est indiqué pour tout l'instrument, et non par clavier.
-Lorsque les claviers disposent d'un autre mode de transmission que celle généralement ou originellement utilisée pour l'instrument (ex: pédalier à transmission électrique) seront précisés dans les commentaires du clavier.</p>
-<pre><code>"Mécanique",
+Lorsque les claviers disposent d'un autre mode de transmission que celle généralement ou originellement utilisée pour l'instrument (ex: pédalier à transmission électrique, récit sans Barker) seront précisés dans les commentaires du plan sonore concerné.</p>
+<pre><code>&lt;Néant&gt;,
+"Mécanique",
+"Mécanique non suspendue",
 "Mécanique suspendue",
 "Mécanique à balanciers",
-"Mécanique Barker",
+"Mécanique avec Barker",
 "Pneumatique",
 "Electrique",
 "Electro-pneumatique"
 </code></pre>
-<h3 id="diapason">Diapason</h3>
-<p>Valeur_par_defaut = Néant</p>
-<p>Hauteur en hertz du A2 donné par le Prestant 4 ou équivalent.</p>
-<h3 id="transmission-des-registres">Transmission des registres</h3>
+<p>Lorsque la mécanique n'est pas suspendue, on indiquera "Mécanique non suspendue". La valeur "Mécanique" sera utilisée en cas de doute sur le type de transmission mécanique. </p>
+<h3 id="transmission-commentaire">Transmission commentaire</h3>
+<p>Une grande variété de systèmes de transmission des notes existe. Cet attribut permet d'apporter un complément d'information sur le type de transmission et sa particularité.</p>
+<h2 id="tirage-des-jeux">Tirage des jeux</h2>
 <p>Le type de transmission des notes est indiqué pour tout l'instrument</p>
 <pre><code>"Mécanique",
-"Pneumatique",
+"Pneumatique haute pression",
+"Pneumatique basse pression",
 "Electrique",
 "Electro-pneumatique"
 </code></pre>
-<h3 id="sommiers">Sommiers</h3>
-<p>Champ texte libre [string]</p>
-<p>Valeur_par_defaut = Néant</p>
+<p>On distingue le tirage pneumatique basse pression (systèmes de la période symphonique) des tirages haute pression utilisé dans la facture d'orgue contemporaine, avec emploi de relais pneumatiques issus de l'industrie.</p>
+<h2 id="tirage-commentaire">Tirage commentaire</h2>
+<p>Cet attribut permet d'apporter un complément d'information sur le type de tirage des registres et sa particularité.</p>
+<h3 id="diapason">Diapason</h3>
+<p><code>Valeur_par_defaut = &lt;Néant&gt;</code></p>
+<p>Hauteur, notée en Hertz, du A2 donné par le Prestant 4 ou équivalent, avec indication de température de prise du diapason sans laquelle celui-ci n'a pas de sens.
+ex : "412 Hz à 14°C"</p>
+<h3 id="temperament">Tempérament</h3>
+<p><code>Valeur_par_defaut = &lt;Néant&gt;</code></p>
+<p>Champ texte libre [string].</p>
+<p>Il existe une infinité de temparément dans le monde de la musique. Cet attribut est donc un texte libre, permettant l'indication du tempérament de la façon la plus précise possible.
+ex : "mésotonique au sixième modifié"</p>
+<h4 id="sommiers">Sommiers</h4>
+<p>Champ HTML libre [string]</p>
+<p><code>Valeur_par_defaut = &lt;Néant&gt;</code></p>
 <h3 id="soufflerie">Soufflerie</h3>
-<p>Champ texte libre [string]</p>
-<p>Valeur_par_defaut = Néant</p>
-<hr />
+<p>Champ HTML libre [string]</p>
+<p><code>Valeur_par_defaut = &lt;Néant&gt;</code></p>
+<h3 id="description-de-la-tuyauterie">Description de la tuyauterie</h3>
+<p>Champ HTML libre [string]</p>
+<p><code>Valeur_par_defaut = &lt;Néant&gt;</code></p>
+<p>Commentaire général sur la tuyauterie et description jeu par jeu, dans l'ordre de la composition.</p>
+<p>Note importante : on veillera à respecter les <a href="../conventions/">conventions</a> de l'inventaire.</p>
 <h2 id="composition">Composition</h2>
 <h3 id="plans-sonores">Plans sonores</h3>
 <p>La composition distingue plusieurs plans sonores.</p>
 <p>Un plan sonore est nommé et son étendue est précisée sous la forme suivante :
-C1-G5</p>
+C1-G5 (cf. les <a href="../conventions/">conventions</a>).</p>
+<p>Souvent, les orgues de facture du XIXe siècle possèdent 56 notes au claviers (C1-G5) et 30 notes à la pédale (C1-F3).</p>
 <p>Cf. <a href="https://vocabulaire.inventaire-des-orgues.fr/">le lexique de l'inventaire</a>
 et <a href="https://fr.wikipedia.org/wiki/Liste_des_jeux_d%27orgue">Wikipédia</a></p>
-<p>Valeur_par_defaut = "Bourdon 8"</p>
+<p>De très nombreux jeux sont déjà enregistrés. Merci d'utiliser le formulaire de contact si vous souhaitez citer un jeu qui ne serait pas déjà répertorié.</p>
+<p><code>Valeur_par_defaut = "Bourdon 8"</code></p>
 <p>Les registres sont énumérés selon un ordre harmonique (hauteur du jeu).
 On suivra la disposition suivante :
 - Fonds
@@ -340,6 +372,10 @@ Par exemple :
 En particulier, les basses et dessus seront notés :
 - Basse.
 - Dessus.</p>
+<p>Astuce : Aide à la saisie : une composition peut rapidement se saisir au clavier, sans utiliser la souris.
+Il faut pour cela :
+- utiliser la touche tabulation pour passer d'une case à l'autre du formulaire;
+- appuyer sur la touche espace pour dérouler le menu présentant les jeux.</p>
 <h3 id="accessoires">Accessoires</h3>
 <p>Valeur_par_defaut = Néant</p>
 <p>Les accessoires peuvent être :</p>
@@ -363,10 +399,6 @@ Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecte
 <li>G.C. : Grand choeur</li>
 <li>Bom. : Bombarde</li>
 </ul>
-<h3 id="description-de-la-tuyauterie">Description de la tuyauterie</h3>
-<p>Commentaire général sur la tuyauterie et description jeu par jeu, dans l'ordre de la composition.</p>
-<p>Note importante : Une seule notation doit être retenue dans l'inventaire des orgues pour la description des notes : les octaves sont numérotées de 1 à 6.
-C1, C#1, D1, D#1...</p>
 <hr />
 <h2 id="images">Images</h2>
 <p>On veillera à joindre des images de bonne qualité et bonne résolution, sans toutefois que leur taille n'excède 2 Mo.
