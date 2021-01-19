@@ -46,6 +46,6 @@ provisoire qui sera prochainement éditable par les contributeurs.
 
 Cette [page](reprise-technique.md) détaille ce qu'il faut connaître pour administrer le projet.
 
-## Compétences
+## API
 
-Cette [page](ressources-humaines.md) détaille les rôles au sein du projet.
+Cette [page](api.md) détaille les rôles au sein du projet.
