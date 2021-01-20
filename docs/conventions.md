@@ -4,8 +4,15 @@ On respectera strictement les conventions suivantes :
 
 ## Plans sonores
 
+Les nom des plans sonores débute par une majuscule.
+On distingue donc "Grand-orgue" (le clavier) de "grand orgue" ou "grandes orgues" (l'instrument).
+
+Se référer à ce sujet à la définition du mot orgue dans le dictionnaire de l'Académie française : https://www.dictionnaire-academie.fr/article/A9O0716-A
+
+Ainsi qu'à la question de langue décryptant la fameuse exception "amours, délices & orgues" : https://www.dictionnaire-academie.fr/article/QDL009
+
+- G.O.  : Grand-orgue
 - Réc.  : Récit
-- G.O.  : Grand orgue
 - Pos.  : Positif
 - Ped.  : Pédale
 - G.Ch. : Grand choeur
@@ -19,3 +26,4 @@ Deux notations sont possibles et très répendues pour le Si et le Si bémol (A,
 
 Par convention, pour l'inventaire, on n'utilisera que la première :
 C1, C#1, D1, D#1, E1, F1, F#1, G1, G#1, A1, A#1, B, C2, ...
+
