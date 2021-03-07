@@ -1,192 +1,214 @@
-# Données de sites Internet personnels ou associatifs
-
-| Source                                                       | Périmètre         | Format    | Nbre | csv                                       |                                                        
-| ------------------------------------------------------------ | ----------------- | --------- | ---- | ----------------------------------------- |
-| [decouverte.orgue.free.fr](http://decouverte.orgue.free.fr)  | Bas et Haut Rhin  | Page web  | 1359 | [csv](data/csv/bas-et-haut-rhin-base.csv) |
-| [orgue.free.fr/paris](http://orgue.free.fr/paris.html)       | Paris             | Page web  | 236  | [csv](data/csv/orguefreefr-paris.csv)     |
-| [orgue.free.fr/province](http://orgue.free.fr/province.html) | « Province »      | Page web  | 1974 | [csv](data/csv/orguefreefr-province.csv)  |
-| [orgues.finistere.free.fr](http://orgues.finistere.free.fr)  | Finistère         | Page web  | 95   | [csv](data/csv/finistere.csv)             |
-| [orguesfrance.com](http://orguesfrance.com)                  | France (et monde) | Jean-Gildas Marquer| Page web  | 567  | [csv](data/csv/orguesfrancecom.csv)       |
-| [www.orgues-normandie.com](http://www.orgues-normandie.com)  | Normandie         | Page web  | 370  | [csv](data/csv/orgues-normandie.csv)      |
-| [orgyve.fr](http://orgyve.fr/)                               | Yvelines          | Wordpress |      | ?                                         |
-| [www.orguepaysdelaloire.fr](http://www.orguepaysdelaloire.fr/inventaire/)| Pays de Loire (participatif) | Page web | 75   | [csv](data/csv/paysdelaloire.csv)  |
-| [Les orgues d'outre-mer sur Musica et Memoria](http://www.musimem.com/orgues_outre-mer.htm) | Outre-mer | Page web | | |
-
-
-Vous pouvez explorer <http://orguesfrance.com/SourcesLiens.html> pour
-d'autres sources d'information.
+# Sites d'inventaires personnels ou associatifs
 
 ## Orgelbase.nl
 (http://www.orgbase.nl)
-Enormément d'orgues en Europe, presque toute la France (~7700 orgues).
+Enormément d'orgues en Europe, presque toute la France (~7700 orgues). Attention, la base comporte aussi des instruments électroniques et des harmoniums.
 
 ## Orgue.free.fr
-orgue.free.fr
-Une référence, beaucoup d'orgues français
+(orgue.free.fr)
+Une référence, beaucoup d'orgues français (1974), dont Paris (236 orgues), classés par arrondissement.
 
 ## Encreuse.free.fr
 (http://encreuse.free.fr/balades/orgues/)
 Orgues de la Creuse.
 
 ## Orgues de Haute-Marne
-http://pajusco.pagesperso-orange.fr/arts_et_loisirs/haute-marne-orgues-claude-pajusco.html
+- http://pajusco.pagesperso-orange.fr/arts_et_loisirs/haute-marne-orgues-claude-pajusco.html
+
+## Orgues du Finistère
+- http://orgues.finistere.free.fr
+Inventaire exhaustif, 95 orgues.
 
 ## Musica et memoria
 (http://www.musimem.com/orgue.html)
-Quelques orgues.
+Quelques orgues, dont les orgues d'outre-mer : http://www.musimem.com/orgues_outre-mer.htm
 
 ## Les orgues du Gers
 - 21 panneaux
 - 30 orgues
 
+## Orgues de Moselle
+- http://www.amofor.fr/Accueil%20Orgues%20Moselle.htm
+
 ## Moisson d'orgues
-http://www.moissondorgues.fr
+- http://www.moissondorgues.fr
 
 ## Richesses en Somme
-https://www.richesses-en-somme.com/patrimoine-des-%C3%A9glises/orgues/
+- https://www.richesses-en-somme.com/patrimoine-des-%C3%A9glises/orgues/
 
 ## Les orgues de l'Aisne
-http://www.orgues-aisne.com
+- http://www.orgues-aisne.com
 
 ## Les orgues de Picardie
-http://orguespicardie.weebly.com/aisne.html
-http://orguespicardie.weebly.com/oise.html
-http://orguespicardie.weebly.com/somme.html
+- http://orguespicardie.weebly.com/aisne.html
+- http://orguespicardie.weebly.com/oise.html
+- http://orguespicardie.weebly.com/somme.html
 
 ## Orgues en Rhône-Alpes
-http://orgues-en-rhonalpe.weebly.com
+- http://orgues-en-rhonalpe.weebly.com
+
+## Orgues en Pays-de-la-Loire
+- http://www.orguepaysdelaloire.fr/inventaire/
 
 ## Organisula
 Orgues de Corse.
-https://www.organisula.com/communes
-Jean-Louis Loriaut
-Facteur d'orgues
-​Funtanone
-20221 Cervioni
-​
-04 95 36 32 55
-06 18 81 03 53
-​
-jeanlouisloriau@orange.fr
+- https://www.organisula.com/communes
 
 ## Organaute
-http://frederic.chapelet.free.fr/orguesenfr.htm
+- http://frederic.chapelet.free.fr/orguesenfr.htm
 Quelques orgues en vrac
 
 ## Le printemps des orgues
-https://www.printempsdesorgues.fr/?q=node/35
+- https://www.printempsdesorgues.fr/?q=node/35
 CSPO
 
-## Les orgues de Saône et Loire / Archives du 71
-http://www.archives71.fr/arkotheque/consult_fonds/fonds_seriel_detail.php?ref_fonds=21&ref1=121
+## Les orgues de Saône-et-Loire / Archives du 71
+- http://www.archives71.fr/arkotheque/consult_fonds/fonds_seriel_detail.php?ref_fonds=21&ref1=121
 
 ## Les orgues en Normandie
-http://www.orgues-normandie.com/index.php?principal=inventaire-hn.php
+- http://www.orgues-normandie.com
+Environ 370 instruments.
+
+- http://www.orgues-normandie.com/index.php?principal=inventaire-hn.php
 Eure, Seine-Maritime
 
-http://www.orgues-normandie.com/index.php?principal=inventaire-bn.php
+- http://www.orgues-normandie.com/index.php?principal=inventaire-bn.php
 Calvados, Manche, Orne
 webmaster@orgues-normandie.com
 info@orgues-normandie.com
 
-## Orgues en terre cathare
+## Orgues du Calvados
+- http://rmck.free.fr/orgues_calvados/index.htm
 
-http://www.orgues-normandie.com/orguescathares/Olmes.htm
-http://www.orgues-normandie.com/orguescathares/fiches%20orgues/Ariege.htm
-http://www.orgues-normandie.com/orguescathares/fiches%20orgues/midipyr.htm
+## Orgues des Côtes-d'Armor
+- http://www.plenumorganum.org/
+Inventaire exhaustif.
+
+## Orgues en terre cathare
+- http://www.orgues-normandie.com/orguescathares/Olmes.htm
+- http://www.orgues-normandie.com/orguescathares/fiches%20orgues/Ariege.htm
+- http://www.orgues-normandie.com/orguescathares/fiches%20orgues/midipyr.htm
 plecoq@orgues-normandie.com
 
 ## Association Aristide Cavaillé-Coll
-http://www.cavaille-coll.fr/category/orgues/
+- http://www.cavaille-coll.fr/category/orgues/
 
 ## Découverte des orgues d'Alsace
-http://decouverte.orgue.free.fr/
+- http://decouverte.orgue.free.fr/
+Site bien connu, faisant référence pour le Bas-Rhin et le Haut-Rhin. Plus de 1357 orgues.
 
 ## Orgues Silbermann
-https://dev.itineraires-silbermann.org/les-orgues/
+- https://dev.itineraires-silbermann.org/les-orgues/
 
 ## Orgues du bocage Coutançais
-https://www.orguesdubocage.fr/les-orgues/
+- https://www.orguesdubocage.fr/les-orgues/
 16 orgues
 compositions, photos, vidéos ou fichiers sonores
 
 ## Association pour le développement de l'orgue en Aquitaine
-http://orgue-aquitaine.fr/-Inventaire-.html
+- http://orgue-aquitaine.fr/-Inventaire-.html
 Environ 400 notices
-adora.orgue@wanadoo.fr
 Association A.D.OR.A.
-Mairie de Coutras BP 69
-33230 COUTRAS (France)
-Philippe BEZKOROWAJNY (pdt et webmestre)
+
 
 ## Orgalie -- Fédération des orgues du Territoire de Belfort
-https://www.orgalie.com/orgues-du-territoire-de-belfort/
-20 orgues
-historique, composition, photos
-Jean-Jacques Griesser
-orgalie90@gmail.com
-06 15 83 93 26
+- https://www.orgalie.com/orgues-du-territoire-de-belfort/
+20 orgues, historique, composition, photos
 
 ## Orgues du Val d'Oise
-http://orguesvaldoise.weebly.com/orgues.html
+- http://orguesvaldoise.weebly.com/orgues.html
 orguesvaldoise@gmail.com
 38 orgues en place, 46 avec les déplacés ou hors d'état.
 
 ## Orgue en Alpes-Maritimes
-http://orgue06.free.fr/orgue06.html
+- http://orgue06.free.fr/orgue06.html
 
 ## Orgues en Dauphiné
-http://orgues.free.fr/
+- http://orgues.free.fr/
+
+## Orgues de Haute-Garonne
+- http://www.toulouse-les-orgues.org/
+
+## Orgues de Redon
+http://orgue-redon.blogspot.com/
 
 ## Orgues du Loiret
-http://orguesduloiret.fr/index.php/LES-ORGUES-DU-LOIRET/id-menu-37.html
+- http://orguesduloiret.fr/index.php/LES-ORGUES-DU-LOIRET/id-menu-37.html
 
 ## L'orgue et ses buffets
-http://orgues.ublog.com/lorgue_et_ses_buffets/sommaire_summary/index.html
+- http://orgues.ublog.com/lorgue_et_ses_buffets/sommaire_summary/index.html
 didber@club-internet.fr
 
 ## Het orgel
-http://www.hetorgel.nl/findex.php
+- http://www.hetorgel.nl/findex.php
 
 ## Orgues et vitraux
-http://www.orgues-et-vitraux.ch/default.asp/2-0-138-11-6-1/
+- http://www.orgues-et-vitraux.ch/default.asp/2-0-138-11-6-1/
+
+## Orguesfrance
+- http://orguesfrance.com
+Plus de 800 orgues.
+
+## Orgues de Brest
+- http://www.brestorguesaintlouis.com/galerie-photos/ (Saint-Louis de Brest + Auray, St-Pol, Lorient, Carnarc, Ergué-Gabéric, Chapelle Delcourt-Ponchelet, Loctudy)
+
+## Orgues méridionales
+http://orgues.meridionales.free.fr
+
+## Wikipédia Orgues des Alpes-Maritimes
+(https://fr.wikipedia.org/wiki/Liste_des_orgues_des_Alpes-Maritimes)
+
+## Wikipédia Orgue en Alsace
+(https://fr.wikipedia.org/wiki/Orgue_en_Alsace)
+
+## Wikipédia Liste des orgues d'Alsace
+(https://fr.wikipedia.org/wiki/Liste_des_orgues_d'Alsace)
+
+## Wikipédia Liste des orgues de l'Ain
+(https://fr.wikipedia.org/wiki/Liste_des_orgues_de_l'Ain)
+
+## Wikipédia Liste des orgues de Colmar
+(https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Colmar)
+
+## Wikipédia Liste des orgues de Paris
+(https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Paris)
+
+## Wikipédia Liste des orgues de Toulouse
+(https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Toulouse)
+
+
 
 # Facteurs d'orgues
 
-|Facteur |Site | Catégorie |
-|---------|----|----|
-|Laurent Plet|(http://lplet.org/orgues/liste.htm)|tous orgues|
 ## Laurent Plet
-http://lplet.org/orgues/liste.htm
-http://lplet.org/orgues/neuves.htm
+- http://lplet.org/orgues/liste.htm
+- http://lplet.org/orgues/neuves.htm
 
 ## Kern
-http://www.kernpipeorgan.com/francais/restauration.htm
+- http://www.kernpipeorgan.com/francais/restauration.htm
 
 ## Pascal Quoirin
-https://www.atelier-quoirin.com/constructions_orgues_quoirin.php
-https://www.atelier-quoirin.com/restaurations_orgues_quoirin.php
+- https://www.atelier-quoirin.com/constructions_orgues_quoirin.php
+- https://www.atelier-quoirin.com/restaurations_orgues_quoirin.php
 
 ## Toussaint
-http://orguent.fr/fr/accueil.php?cat=orrein
-http://orguent.fr/fr/accueil.php?cat=ornein
+- http://orguent.fr/fr/accueil.php?cat=orrein
+- http://orguent.fr/fr/accueil.php?cat=ornein
 
 ## Jean-Pascal Villard
-http://www.facteur-orgue-villard.com/references-facteur-orgue.html
+- http://www.facteur-orgue-villard.com/references-facteur-orgue.html
 
-# Pages de liens
-http://orguesfrance.com/SourcesLiens.html
 
 # Sites sur un orgue / une association
 
 ## Sites de liens
 - http://www.orgue-en-france.org/presentation/annuaire-associations-adherentes/
+- http://orguesfrance.com/SelectSources.php (Lien vers d'autres pays)
 - http://www.orgues-normandie.com/index.php?principal=liens.php
-(TODO : Parser et filtrer sur les liens)
-- http://orgue.egliseloctudy.free.fr/ (Saint-Tudy de Loctudy)
-- http://www.brestorguesaintlouis.com/galerie-photos/ (Saint-Louis de Brest + Auray, St-Pol, Lorient, Carnarc, Ergué-Gabéric, Chapelle Delcourt-Ponchelet, Loctudy)
 
 ## Sites individuels
+- http://orgue.egliseloctudy.free.fr/ (Saint-Tudy de Loctudy)
+- http://orgue-stnicolasredon.blogspot.com/
 - http://www.orguechennevieres.fr/#xl_xr_page_orgue_actuel
 - http://www.orgamanl.fr/styled-4/index.html (Mansle)
 - https://pibrac.org/orgue-de-pibrac/ (Pibrac)
@@ -222,63 +244,64 @@ http://orguesfrance.com/SourcesLiens.html
 - http://vosges.orgues.free.fr/pageliens.htm (bons liens)
 - http://www.cathedrale-chartres.org/fr/le-grand-orgue,75.html (Chartres)
 - http://auborddesorgues.e-monsite.com	Michel Turc
-http://goart.gu.se/cgi-bin/goartslev4/organ.taf	 
-http://jmalandin.free.fr/site01.htm#monti	 
-http://musiqueetpatrimoine.com	 
-http://mypipeorganhobby.blogspot.fr/2009/09/abbey-church-of-saint-ouen-organ-rouen.html	 
-http://organ-au-logis.pagesperso-orange.fr	Didier Guiraud de Willot
-http://orgue.gisors.free.fr	 
-http://orgue.st.louis.free.fr	 
-http://orguededomgermain.free.fr	 
-http://orgues-aisne.com/index.php/les-orgues-de-l-aisne/repertoire-des-orgues.html	 
-http://orgues-fossaert.com	 
-http://orguespicardie.weebly.com	Orgues de Picardi
-http://orguesvaldoise.weebly.com/orgues.html	 
-http://www.acorg.fr	Jean-François Christ
-http://www.amisdesorguesdebrunoy.fr	 
-http://www.amisorgueorsay91.com	Annick Guénard
-http://www.atelier-quoirin.com/Roquemaure.php	 
-http://www.beaugency-orgues.com	Jy Lemonnier
-http://www.beckerathamontelimar.com	 
-http://www.cathedrale-catholique-clermont.fr/lorgue/le-grand-orgue	 
-http://www.cathedrale-catholique-clermont.fr/lorgue/lorgue-de-choeur	 
-http://www.didiermatry.com/	Didier Marty
-http://www.eglise-lamadeleine.com/le-grand-orgue	 
-http://www.eglise-lamadeleine.com/lorgue-de-choeur	 
-http://www.lartdunfacteurdorguesamateur.fr/pages/orgue_1/orgue_1.html	 
-http://www.lilorg.fr	 
-http://www.orgue-saint-pons.org	 
-http://www.orgueboucbelair.com	 
-http://www.orguenjeu.com	 
-http://www.orgues-giroud.com	 
-http://www.orguescelles.fr	 
-http://www.orguesetmontagnes.com	 
-https://orguetullesite.wordpress.com	Paul Cluzeaud
-https://vosgesenorgues.wordpress.com	 
-https://www.organisula.com	 
-https://www.orgues35.com	Association pour la Promotion de l'Orgue en Ille et Vilaine
-https://www.orguesdubocage.fr	Philippe Lemoine
-http://www.amisorguedole.fr/
-http://www.dijonorguecathedrale.org/
-https://fr-fr.facebook.com/orguesaintjeandelosne/
-http://mediatheque.lorient.fr/lorgue-le-roi-des-instruments/
-http://www.lorient.fr/services/culture/patrimoine/les-orgues-de-lorient/
-http://www.orguedeferney.fr/lorgue-du-temple/
-http://orgues.pontdevaux.free.fr/orgues.php
-http://www.orgue-chaource.fr/
-http://www.la-thierache.fr/2015/07/30/la-belle-histoire-de-lorgue-de-chaourse/
-http://www.orguesaintsfrancois.org/
+- http://goart.gu.se/cgi-bin/goartslev4/organ.taf	 
+- http://jmalandin.free.fr/site01.htm#monti	 
+- http://musiqueetpatrimoine.com	 
+- http://mypipeorganhobby.blogspot.fr/2009/09/abbey-church-of-saint-ouen-organ-rouen.html	 
+- http://organ-au-logis.pagesperso-orange.fr	Didier Guiraud de Willot
+- http://orgue.gisors.free.fr	 
+- http://orgue.st.louis.free.fr	 
+- http://orguededomgermain.free.fr	 
+- http://orgues-aisne.com/index.php/les-orgues-de-l-aisne/repertoire-des-orgues.html	 
+- http://orgues-fossaert.com	 
+- http://orguespicardie.weebly.com	Orgues de Picardi
+- http://orguesvaldoise.weebly.com/orgues.html	 
+- http://www.acorg.fr	Jean-François Christ
+- http://www.amisdesorguesdebrunoy.fr	 
+- http://www.amisorgueorsay91.com	Annick Guénard
+- http://www.atelier-quoirin.com/Roquemaure.php	 
+- http://www.beaugency-orgues.com	Jy Lemonnier
+- http://www.beckerathamontelimar.com	 
+- http://www.cathedrale-catholique-clermont.fr/lorgue/le-grand-orgue	 
+- http://www.cathedrale-catholique-clermont.fr/lorgue/lorgue-de-choeur	 
+- http://www.didiermatry.com/	Didier Marty
+- http://www.eglise-lamadeleine.com/le-grand-orgue	 
+- http://www.eglise-lamadeleine.com/lorgue-de-choeur	 
+- http://www.lartdunfacteurdorguesamateur.fr/pages/orgue_1/orgue_1.html	 
+- http://www.lilorg.fr	 
+- http://www.orgue-saint-pons.org	 
+- http://www.orgueboucbelair.com	 
+- http://www.orguenjeu.com	 
+- http://www.orgues-giroud.com	 
+- http://www.orguescelles.fr	 
+- http://www.orguesetmontagnes.com	 
+- https://orguetullesite.wordpress.com	Paul Cluzeaud
+- https://vosgesenorgues.wordpress.com	 
+- https://www.organisula.com	 
+- https://www.orgues35.com	Association pour la Promotion de l'Orgue en Ille et Vilaine
+- https://www.orguesdubocage.fr	Philippe Lemoine
+- http://www.amisorguedole.fr/
+- http://www.dijonorguecathedrale.org/
+- https://fr-fr.facebook.com/orguesaintjeandelosne/
+- http://mediatheque.lorient.fr/lorgue-le-roi-des-instruments/
+- http://www.lorient.fr/services/culture/patrimoine/les-orgues-de-lorient/
+- http://www.orguedeferney.fr/lorgue-du-temple/
+- http://orgues.pontdevaux.free.fr/orgues.php
+- http://www.orgue-chaource.fr/
+- http://www.la-thierache.fr/2015/07/30/la-belle-histoire-de-lorgue-de-chaourse/
+- http://www.orguesaintsfrancois.org/
+- http://www.amofor.fr/
+- https://fr.wikipedia.org/wiki/Orgue_de_la_cath%25C3%25A9drale_Saint-Fulcran_de_Lod%25C3%25A8ve
+- https://fr.wikipedia.org/wiki/Grand_orgue_de_la_cath%25C3%25A9drale_Notre-Dame-de-l%2527Annonciation_de_Nancy
+- https://fr.wikipedia.org/wiki/%25C3%2589glise_Saint-Eustache_de_Paris#Le_grand_orgue
 
-### Projets Wikimédia
 
-Un « portail » sur Wikipédia regroupe plusieurs articles autour d'un
-même thématique.
-
-Un « projet » sur Wikipédia regroupe plusieurs contributeurs autour une
-même thématique, souvent autour d'un mêem portail.
+## Projets Wikimédia
 
 ### Le [portail de l'orgue](https://fr.wikipedia.org/wiki/Portail:Orgue)
 
+Un « portail » sur Wikipédia regroupe plusieurs articles autour d'un
+même thématique.
 Les pages notables du portail de l'orgue :
 
   - [Lexique de
@@ -291,41 +314,11 @@ Les pages notables du portail de l'orgue :
 
 ### Le [Projet Orgue](https://fr.wikipedia.org/wiki/Projet:Orgue)
 
+Un « projet » sur Wikipédia regroupe plusieurs contributeurs autour une
+même thématique, souvent autour d'un mêem portail.
 Le projet orgue présente des idées d'articles à rédiger.
 
 
-### Listes par département
-
-  - [Orgues des
-    Alpes-Maritimes](https://fr.wikipedia.org/wiki/Liste_des_orgues_des_Alpes-Maritimes)
-  - [Orgue en Alsace](https://fr.wikipedia.org/wiki/Orgue_en_Alsace)
-  - [Liste des orgues d'Alsace](https://fr.wikipedia.org/wiki/Liste_des_orgues_d'Alsace)
-  - [Liste des orgues de
-    l'Ain](https://fr.wikipedia.org/wiki/Liste_des_orgues_de_l'Ain)
-
-### Listes par ville
-
-  - [Liste des orgues de
-    Colmar](https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Colmar)
-  - [Liste des orgues de
-    Redon](https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Redon)
-  - [Liste des orgues de
-    Paris](https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Paris)
-  - [Liste des orgues de
-    Toulouse](https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Toulouse)
-
-### Présentations individuelles d'orgue
-
-  - [Orgue de la cathédrale Saint-Fulcran de
-    Lodève](https://fr.wikipedia.org/wiki/Orgue_de_la_cath%25C3%25A9drale_Saint-Fulcran_de_Lod%25C3%25A8ve)
-    (présentation [vidéo](https://www.youtube.com/watch?v=-A8vBuck6KE))
-  - [Grand orgue de la cathédrale Notre-Dame-de-l'Annonciation de
-    Nancy](https://fr.wikipedia.org/wiki/Grand_orgue_de_la_cath%25C3%25A9drale_Notre-Dame-de-l%2527Annonciation_de_Nancy)
-  - [Grand orgue de Saint-Eustache
-    (Paris)](https://fr.wikipedia.org/wiki/%25C3%2589glise_Saint-Eustache_de_Paris#Le_grand_orgue)
-    (présentation [vidéo](https://www.youtube.com/watch?v=nKOdVgMi8KA))
-  - Cathédrale Saint-Etienne de Toulouse
-    ([pdf](http://orgues.meridionales.free.fr/Cath%25E9draleGO.pdf))
 
 ## Autres ressources documentaires et média
 
