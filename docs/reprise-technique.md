@@ -19,12 +19,12 @@ toutes les semaines (administration, fiches descriptives des orgues, images).
   - gandi.net
     service de location de noms de domaine.
 
-  - digitalocean.com  
+  - digitalocean.com
     service de location de machines virtuelles.
 
-### Noms de domaine et adresses email utilisées
+### Noms de domaine et adresses email utilisés
 
-  - inventaire-des-orgues.fr  
+  - inventaire-des-orgues.fr
     nom de domaine principal, utilisé pour le portail et les services
     associés. Pas de service mail actif sur ce nom de domaine depuis
     gandi.net. La zone DNS est gérée par les serveurs DNS de
