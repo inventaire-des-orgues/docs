@@ -247,6 +247,8 @@ De même pour les autres champs issus de la mise en correspondance entre l'Inven
 
 Concernant les facteurs, une longue liste à mise à disposition. Elle se présente sous la forme "Nom Prénom". Il est nécessaire de renseigner chaque facteur, même lorsque plusieurs facteurs travaillent en duo ou trio (ex : Benoist et Sarélot, frères Abbey, etc.)
 
+A un facteur est associée une localisation d'atelier (latitude, longitude au format GPS), ce qui permet le positionnement des ateliers sur la carte.
+
 ## Buffet / Console
 
 ### Description du buffet
@@ -360,6 +362,7 @@ C1-G5 (cf. les [conventions](conventions.md)).
 
 Souvent, les orgues de facture du XIXe siècle possèdent 56 notes au claviers (C1-G5) et 30 notes à la pédale (C1-F3).
 
+Il est possible de mentionner une exception : l'absence du premier Do dièse (C#1). La syntaxe a adopter est alors : CD1. Exemple : CD1-F5
 
 Cf. [le lexique de l'Inventaire](https://vocabulaire.inventaire-des-orgues.fr/)
 et [Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_jeux_d%27orgue)
