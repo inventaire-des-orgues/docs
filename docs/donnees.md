@@ -41,3 +41,16 @@ Il sufft de se créer un identifiant sur cette plate-forme pour accéder aux doc
 [Moteur Collections](http://www.culturecommunication.gouv.fr/collections_locales/Search?text=&text2=%2B%28orgue%29&xsl=site&f.b=&f.ou=&f.eb=false)
 
 [Plate-forme Ouverte du Patrimoine](https://www.pop.culture.gouv.fr/)
+
+
+## Lexique de l'orgue
+
+Le lexique disponible sur le site est en partie issu du document suivant :
+
+Vocabulaire des orgues, Catherine ARMINJON et Nicole de REYNIES, 1979, Inventaire général des monuments et des richesses artistiques de la France, Direction du patrimoine, Ministère de la Culture
+
+Un autre lexique : [Pour mieux comprendre les termes techniques](/data/docs/Pour mieux comprendre les termes techniques.pdf)
+
+[Lexique d'Organisula](https://www.organisula.com/lexique).
+
+[Glossaire](http://www.orgues.irisnet.be/fr/Glossaire/list/app.rvb) sur le site des orgues de Bruxelles.
