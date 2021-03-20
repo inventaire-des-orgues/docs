@@ -15,7 +15,7 @@ jobs:
         port: ${{ secrets.PORT_INVENTAIRE_DES_ORGUES }}
         script: |
           cd /var/www/docs
-          git pull github_inventairedesorgues master
           rm -rf ./site
+          git pull github_inventairedesorgues master
           mkdocs build --clean
           sudo systemctl restart nginx
