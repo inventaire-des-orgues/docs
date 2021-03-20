@@ -16,5 +16,6 @@ jobs:
         script: |
           cd /var/www/docs
           git pull github_inventairedesorgues master
+          rm -rf ./site
           mkdocs build --clean
           sudo systemctl restart nginx
