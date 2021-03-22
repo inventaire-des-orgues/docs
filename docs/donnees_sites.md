@@ -198,6 +198,8 @@ http://orgues.meridionales.free.fr
 ## Jean-Pascal Villard
 - http://www.facteur-orgue-villard.com/references-facteur-orgue.html
 
+## Dalstein-Haerpfer
+https://fr.m.wikipedia.org/wiki/Dalstein-Haerpfer
 
 # Sites sur un orgue / une association
 
