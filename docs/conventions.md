@@ -27,3 +27,5 @@ Deux notations sont possibles et très répendues pour le Si et le Si bémol (A,
 Par convention, pour l'inventaire, on n'utilisera que la première :
 C1, C#1, D1, D#1, E1, F1, F#1, G1, G#1, A1, A#1, B, C2, ...
 
+Pour définir une étendue d'un clavier ou pédalier, on utilise la forme C1-D5.
+Il est possible de mentionner une exception : l'absence du premier Do dièse (C#1). La syntaxe a adopter est alors : CD1. Exemple : CD1-F5
