@@ -54,3 +54,9 @@ Un autre lexique : [Pour mieux comprendre les termes techniques](/data/docs/Pour
 [Lexique d'Organisula](https://www.organisula.com/lexique).
 
 [Glossaire](http://www.orgues.irisnet.be/fr/Glossaire/list/app.rvb) sur le site des orgues de Bruxelles.
+
+http://www.lartdunfacteurdorguesamateur.fr/pdf/Lexique.pdf
+
+https://www.les-orgues-de-narbonne.com/wp-content/uploads/2020/05/lexique-de-orgue.pdf
+
+https://www.orgues-bagneux.com/le-petit-lexique-orgues
