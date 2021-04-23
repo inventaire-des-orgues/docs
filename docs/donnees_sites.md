@@ -110,7 +110,6 @@ compositions, photos, vidéos ou fichiers sonores
 Environ 400 notices
 Association A.D.OR.A.
 
-
 ## Orgalie -- Fédération des orgues du Territoire de Belfort
 - https://www.orgalie.com/orgues-du-territoire-de-belfort/
 20 orgues, historique, composition, photos
@@ -209,6 +208,8 @@ https://fr.m.wikipedia.org/wiki/Dalstein-Haerpfer
 - http://www.orgues-normandie.com/index.php?principal=liens.php
 
 ## Sites individuels
+
+- https://www.amisorgueclicquotsouvigny.com/
 - http://orgue.egliseloctudy.free.fr/ (Saint-Tudy de Loctudy)
 - http://orgue-stnicolasredon.blogspot.com/
 - http://www.orguechennevieres.fr/#xl_xr_page_orgue_actuel
