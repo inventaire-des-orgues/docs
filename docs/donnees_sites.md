@@ -154,6 +154,9 @@ Plus de 800 orgues.
 ## Orgues méridionales
 http://orgues.meridionales.free.fr
 
+## Orgue en Champagne
+https://orgue-en-champagne51.wixsite.com/stage-improvisation/les-orgues
+
 ## Wikipédia Orgues des Alpes-Maritimes
 (https://fr.wikipedia.org/wiki/Liste_des_orgues_des_Alpes-Maritimes)
 
