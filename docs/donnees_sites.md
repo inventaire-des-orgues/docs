@@ -1,26 +1,26 @@
 # Sites d'inventaires personnels ou associatifs
 
 ## Orgelbase.nl
-(http://www.orgbase.nl)
+- [http://www.orgbase.nl]()
 Enormément d'orgues en Europe, presque toute la France (~7700 orgues). Attention, la base comporte aussi des instruments électroniques et des harmoniums.
 
 ## Orgue.free.fr
-(orgue.free.fr)
+- [orgue.free.fr]()
 Une référence, beaucoup d'orgues français (1974), dont Paris (236 orgues), classés par arrondissement.
 
 ## Encreuse.free.fr
-(http://encreuse.free.fr/balades/orgues/)
+- [http://encreuse.free.fr/balades/orgues/]()
 Orgues de la Creuse.
 
 ## Orgues de Haute-Marne
-- http://pajusco.pagesperso-orange.fr/arts_et_loisirs/haute-marne-orgues-claude-pajusco.html
+- [http://pajusco.pagesperso-orange.fr/arts_et_loisirs/haute-marne-orgues-claude-pajusco.html]()
 
 ## Orgues du Finistère
-- http://orgues.finistere.free.fr
+- [http://orgues.finistere.free.fr]()
 Inventaire exhaustif, 95 orgues.
 
 ## Musica et memoria
-(http://www.musimem.com/orgue.html)
+- [http://www.musimem.com/orgue.html]()
 Quelques orgues, dont les orgues d'outre-mer : http://www.musimem.com/orgues_outre-mer.htm
 
 ## Les orgues du Gers
@@ -28,57 +28,57 @@ Quelques orgues, dont les orgues d'outre-mer : http://www.musimem.com/orgues_out
 - 30 orgues
 
 ## Orgues de Moselle
-- http://www.amofor.fr/Accueil%20Orgues%20Moselle.htm
+- [http://www.amofor.fr/Accueil%20Orgues%20Moselle.htm]()
 
 ## Moisson d'orgues
-- http://www.moissondorgues.fr
+- [http://www.moissondorgues.fr]()
 
 ## Richesses en Somme
-- https://www.richesses-en-somme.com/patrimoine-des-%C3%A9glises/orgues/
+- [https://www.richesses-en-somme.com/patrimoine-des-%C3%A9glises/orgues/]()
 
 ## Les orgues de l'Aisne
-- http://www.orgues-aisne.com
+- [http://www.orgues-aisne.com]()
 
 ## Les orgues de Picardie
-- http://orguespicardie.weebly.com/aisne.html
-- http://orguespicardie.weebly.com/oise.html
-- http://orguespicardie.weebly.com/somme.html
+- [http://orguespicardie.weebly.com/aisne.html]()
+- [http://orguespicardie.weebly.com/oise.html]()
+- [http://orguespicardie.weebly.com/somme.html]()
 
 ## Orgues en Rhône-Alpes
-- http://orgues-en-rhonalpe.weebly.com
+- [http://orgues-en-rhonalpe.weebly.com]()
 
 ## Orgues en Pays-de-la-Loire
-- http://www.orguepaysdelaloire.fr/inventaire/
+- [http://www.orguepaysdelaloire.fr/inventaire/]()
 
 ## Organisula
 Orgues de Corse.
-- https://www.organisula.com/communes
+- [https://www.organisula.com/communes]()
 
 ## Organaute
-- http://frederic.chapelet.free.fr/orguesenfr.htm
+- [http://frederic.chapelet.free.fr/orguesenfr.htm]()
 Quelques orgues en vrac
 
 ## Le printemps des orgues
-- https://www.printempsdesorgues.fr/?q=node/35
+- [https://www.printempsdesorgues.fr/?q=node/35]()
 CSPO
 
 ## Les orgues de Saône-et-Loire / Archives du 71
-- http://www.archives71.fr/arkotheque/consult_fonds/fonds_seriel_detail.php?ref_fonds=21&ref1=121
+- [http://www.archives71.fr/arkotheque/consult_fonds/fonds_seriel_detail.php?ref_fonds=21&ref1=121]()
 
 ## Les orgues en Normandie
-- http://www.orgues-normandie.com
+- [http://www.orgues-normandie.com]()
 Environ 370 instruments.
 
-- http://www.orgues-normandie.com/index.php?principal=inventaire-hn.php
+- [http://www.orgues-normandie.com/index.php?principal=inventaire-hn.php]()
 Eure, Seine-Maritime
 
-- http://www.orgues-normandie.com/index.php?principal=inventaire-bn.php
+- [http://www.orgues-normandie.com/index.php?principal=inventaire-bn.php]()
 Calvados, Manche, Orne
 webmaster@orgues-normandie.com
 info@orgues-normandie.com
 
 ## Orgues du Calvados
-- http://rmck.free.fr/orgues_calvados/index.htm
+- [http://rmck.free.fr/orgues_calvados/index.htm]()
 
 ## Orgues des Côtes-d'Armor (Argoat Plenum Organum)
 - [http://www.plenumorganum.org/]()
@@ -86,130 +86,131 @@ info@orgues-normandie.com
 Inventaire exhaustif.
 
 ## Orgues en terre cathare
-- http://www.orgues-normandie.com/orguescathares/Olmes.htm
-- http://www.orgues-normandie.com/orguescathares/fiches%20orgues/Ariege.htm
-- http://www.orgues-normandie.com/orguescathares/fiches%20orgues/midipyr.htm
+- [http://www.orgues-normandie.com/orguescathares/Olmes.htm]()
+- [http://www.orgues-normandie.com/orguescathares/fiches%20orgues/Ariege.htm]()
+- [http://www.orgues-normandie.com/orguescathares/fiches%20orgues/midipyr.htm]()
 plecoq@orgues-normandie.com
 
 ## Association Aristide Cavaillé-Coll
-- http://www.cavaille-coll.fr/category/orgues/
+- [http://www.cavaille-coll.fr/category/orgues/]()
 
 ## Découverte des orgues d'Alsace
-- http://decouverte.orgue.free.fr/
+- [http://decouverte.orgue.free.fr/]()
 Site bien connu, faisant référence pour le Bas-Rhin et le Haut-Rhin. Plus de 1357 orgues.
 
 ## Orgues Silbermann
-- https://dev.itineraires-silbermann.org/les-orgues/
+- [https://dev.itineraires-silbermann.org/les-orgues/]()
 
 ## Orgues du bocage Coutançais
-- https://www.orguesdubocage.fr/les-orgues/
+- [https://www.orguesdubocage.fr/les-orgues/]()
 16 orgues
 compositions, photos, vidéos ou fichiers sonores
 
 ## Association pour le développement de l'orgue en Aquitaine
-- http://orgue-aquitaine.fr/-Inventaire-.html
+- [http://orgue-aquitaine.fr/-Inventaire-.html]()
 Environ 400 notices
 Association A.D.OR.A.
 
 ## Orgalie -- Fédération des orgues du Territoire de Belfort
-- https://www.orgalie.com/orgues-du-territoire-de-belfort/
+- [https://www.orgalie.com/orgues-du-territoire-de-belfort/]()
 20 orgues, historique, composition, photos
 
 ## Orgues du Val d'Oise
-- http://orguesvaldoise.weebly.com/orgues.html
+- [http://orguesvaldoise.weebly.com/orgues.html]()
 orguesvaldoise@gmail.com
 38 orgues en place, 46 avec les déplacés ou hors d'état.
 
 ## Orgue en Alpes-Maritimes
-- http://orgue06.free.fr/orgue06.html
+- [http://orgue06.free.fr/orgue06.html]()
 
 ## Orgues en Dauphiné
-- http://orgues.free.fr/
+- [http://orgues.free.fr/]()
 
 ## Orgues de Haute-Garonne
-- http://www.toulouse-les-orgues.org/
+- [http://www.toulouse-les-orgues.org/]()
 
 ## Orgues de Redon
-http://orgue-redon.blogspot.com/
+- [http://orgue-redon.blogspot.com/]()
 
 ## Orgues du Loiret
-- http://orguesduloiret.fr/index.php/LES-ORGUES-DU-LOIRET/id-menu-37.html
+- [http://orguesduloiret.fr/index.php/LES-ORGUES-DU-LOIRET/id-menu-37.html]()
 
 ## L'orgue et ses buffets
-- http://orgues.ublog.com/lorgue_et_ses_buffets/sommaire_summary/index.html
+- [http://orgues.ublog.com/lorgue_et_ses_buffets/sommaire_summary/index.html]()
 didber@club-internet.fr
 
 ## Het orgel
-- http://www.hetorgel.nl/findex.php
+- [http://www.hetorgel.nl/findex.php]()
 
 ## Orgues et vitraux
-- http://www.orgues-et-vitraux.ch/default.asp/2-0-138-11-6-1/
+- [http://www.orgues-et-vitraux.ch/default.asp/2-0-138-11-6-1/]()
 
 ## Orguesfrance
-- http://orguesfrance.com
+- [http://orguesfrance.com]()
 Plus de 800 orgues.
 
 ## Orgues de Brest
-- http://www.brestorguesaintlouis.com/galerie-photos/ (Saint-Louis de Brest + Auray, St-Pol, Lorient, Carnarc, Ergué-Gabéric, Chapelle Delcourt-Ponchelet, Loctudy)
+- [http://www.brestorguesaintlouis.com/galerie-photos/]()
+  (Saint-Louis de Brest + Auray, St-Pol, Lorient, Carnarc, Ergué-Gabéric, Chapelle Delcourt-Ponchelet, Loctudy)
 
 ## Orgues méridionales
-http://orgues.meridionales.free.fr
+- [http://orgues.meridionales.free.fr]()
 
 ## Orgue en Champagne
-https://orgue-en-champagne51.wixsite.com/stage-improvisation/les-orgues
+- [https://orgue-en-champagne51.wixsite.com/stage-improvisation/les-orgues]()
 
 ## Wikipédia Orgues des Alpes-Maritimes
-(https://fr.wikipedia.org/wiki/Liste_des_orgues_des_Alpes-Maritimes)
+- [https://fr.wikipedia.org/wiki/Liste_des_orgues_des_Alpes-Maritimes]()
 
 ## Wikipédia Orgue en Alsace
-(https://fr.wikipedia.org/wiki/Orgue_en_Alsace)
+- [https://fr.wikipedia.org/wiki/Orgue_en_Alsace]()
 
 ## Wikipédia Liste des orgues d'Alsace
-(https://fr.wikipedia.org/wiki/Liste_des_orgues_d'Alsace)
+- [https://fr.wikipedia.org/wiki/Liste_des_orgues_d'Alsace]()
 
 ## Wikipédia Liste des orgues de l'Ain
-(https://fr.wikipedia.org/wiki/Liste_des_orgues_de_l'Ain)
+- [https://fr.wikipedia.org/wiki/Liste_des_orgues_de_l'Ain]()
 
 ## Wikipédia Liste des orgues de Colmar
-(https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Colmar)
+- [https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Colmar]()
 
 ## Wikipédia Liste des orgues de Paris
-(https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Paris)
+- [https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Paris]()
 
 ## Wikipédia Liste des orgues de Toulouse
-(https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Toulouse)
+- [https://fr.wikipedia.org/wiki/Liste_des_orgues_de_Toulouse]()
 
 
 
 # Facteurs d'orgues
 
 ## Laurent Plet
-- http://lplet.org/orgues/liste.htm
-- http://lplet.org/orgues/neuves.htm
+- [http://lplet.org/orgues/liste.htm]()
+- [http://lplet.org/orgues/neuves.htm]()
 
 ## Kern
-- http://www.kernpipeorgan.com/francais/restauration.htm
+- [http://www.kernpipeorgan.com/francais/restauration.htm]()
 
 ## Pascal Quoirin
-- https://www.atelier-quoirin.com/constructions_orgues_quoirin.php
-- https://www.atelier-quoirin.com/restaurations_orgues_quoirin.php
+- [https://www.atelier-quoirin.com/constructions_orgues_quoirin.php]()
+- [https://www.atelier-quoirin.com/restaurations_orgues_quoirin.php]()
 
 ## Toussaint
-- http://orguent.fr/fr/accueil.php?cat=orrein
-- http://orguent.fr/fr/accueil.php?cat=ornein
+- [http://orguent.fr/fr/accueil.php?cat=orrein]()
+- [http://orguent.fr/fr/accueil.php?cat=ornein]()
 
 ## Jean-Pascal Villard
-- http://www.facteur-orgue-villard.com/references-facteur-orgue.html
+- [http://www.facteur-orgue-villard.com/references-facteur-orgue.html]()
 
 ## Dalstein-Haerpfer
-https://fr.m.wikipedia.org/wiki/Dalstein-Haerpfer
+- [https://fr.m.wikipedia.org/wiki/Dalstein-Haerpfer]()
 
 # Sites sur un orgue / une association
 
 ## Sites de liens
-- http://www.orgue-en-france.org/presentation/annuaire-associations-adherentes/
-- http://orguesfrance.com/SelectSources.php (Lien vers d'autres pays)
-- http://www.orgues-normandie.com/index.php?principal=liens.php
+- [http://www.orgue-en-france.org/presentation/annuaire-associations-adherentes/]()
+- [http://orguesfrance.com/SelectSources.php (Lien vers d'autres pays)]()
+- [http://www.orgues-normandie.com/index.php?principal=liens.php]()
 
 ## Sites individuels
 
