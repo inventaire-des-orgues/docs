@@ -4,7 +4,7 @@ On respectera strictement les conventions suivantes :
 
 ## Plans sonores
 
-Les nom des plans sonores débute par une majuscule.
+Les noms des plans sonores débutent par une majuscule.
 On distingue donc "Grand-orgue" (le clavier) de "grand orgue" ou "grandes orgues" (l'instrument).
 
 Se référer à ce sujet à la définition du mot orgue dans le dictionnaire de l'Académie française : https://www.dictionnaire-academie.fr/article/A9O0716-A
@@ -17,6 +17,7 @@ Ainsi qu'à la question de langue décryptant la fameuse exception "amours, dél
 - Ped.  : Pédale
 - G.Ch. : Grand choeur
 - Bom.  : Bombarde
+- Rés.  : Résonance
 
 ## Description de la tuyauterie
 
@@ -33,3 +34,7 @@ Pour définir une étendue d'un clavier ou pédalier, on utilise la forme C1-D5.
 Il est possible de mentionner une exception : l'absence du premier Do dièse (C#1). La syntaxe à adopter est alors : CD1. Exemple : CD1-F5
 
 Il n'est à ce jour pas possible de décrire dans le champ `Etendue` les ravalements (qui peuvent être très variés). Cependant, ceux-ci peuvent être décrits dans le champ `Commentaire` associé à chaque clavier.
+
+## Facteurs
+
+Sont indiqués le nom de personnes physiques, individuellement et sous la forme Nom Prénom.
