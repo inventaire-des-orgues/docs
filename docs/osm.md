@@ -78,20 +78,25 @@ http://download.geofabrik.de/europe/france.html
 PostGIS
 -	PostgreSQL : prendre la version zippée, pour inclusion dans d'autres distributions
 -	Version 12
--	PgAdmin4 : prendre le Wheel Python
--	Installer avec un script Python appelant pip
+-	PgAdmin4 : prendre le wheel Python
+-	Installer le wheel avec un script Python appelant Pip
 
 Initialiser postgre :
+````shell
 .\initdb.exe  -D ..\..\..\Downloads\OSM\data
 .\postgres.exe -D ..\..\..\Downloads\OSM\data\
 Lancer PgAdmin4 (faire un petit .bat)
 cd D:\Users\poullennecgwi\Portable\WPy64-3720\python-3.7.2.amd64
 python.exe .\Lib\site-packages\pgadmin4\pgAdmin4.py
 
-createuser -s -d gwilherm
-createdb dit que poullennecgwi existe déjà (créé par initdb ?)
+createuser -s -d votre_nom
+createdb
+````
 
-Dans pgadmin : serveur : localhost, base : poullennecgwi, user gwilherm
+Dans pgadmin : 
+serveur : localhost
+base : votre_base (login de l'OS par défaut)
+user votre_nom
 
 
 #### Overpass
