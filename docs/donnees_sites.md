@@ -80,8 +80,8 @@ info@orgues-normandie.com
 ## Orgues du Calvados
 - http://rmck.free.fr/orgues_calvados/index.htm
 
-## Orgues des Côtes-d'Armor
-- (http://www.plenumorganum.org/)
+## Orgues des Côtes-d'Armor (Argoat Plenum Organum)
+- [http://www.plenumorganum.org/]()
 
 Inventaire exhaustif.
 
