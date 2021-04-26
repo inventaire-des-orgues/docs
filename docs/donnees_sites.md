@@ -81,7 +81,8 @@ info@orgues-normandie.com
 - http://rmck.free.fr/orgues_calvados/index.htm
 
 ## Orgues des Côtes-d'Armor
-- http://www.plenumorganum.org/
+- (http://www.plenumorganum.org/)
+
 Inventaire exhaustif.
 
 ## Orgues en terre cathare
