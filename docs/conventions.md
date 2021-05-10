@@ -31,9 +31,15 @@ C1, C#1, D1, D#1, E1, F1, F#1, G1, G#1, A1, A#1, B, C2, ...
 ### Etendue des claviers
 
 Pour définir une étendue d'un clavier ou pédalier, on utilise la forme C1-D5.
+
 Il est possible de mentionner une exception : l'absence du premier Do dièse (C#1). La syntaxe à adopter est alors : CD1. Exemple : CD1-F5
 
-Il n'est à ce jour pas possible de décrire dans le champ `Etendue` les ravalements (qui peuvent être très variés). Cependant, ceux-ci peuvent être décrits dans le champ `Commentaire` associé à chaque clavier.
+Il est désormais possible de décrire dans le champ `Etendue` les ravalements (qui peuvent être très variés). Un ravalement se décrit en mentionnant les notes une à une avant le C1 (sans préciser l'octave):
+Exemples :
+
+- AA#CDE1-G3
+- CFDGEAB♭BC1-C1 (Octave courte italienne)
+- F0-G3
 
 ## Facteurs
 

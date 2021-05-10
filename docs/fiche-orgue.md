@@ -362,7 +362,7 @@ C1-G5 (cf. les [conventions](conventions.md)).
 
 Souvent, les orgues de facture du XIXe siècle possèdent 56 notes au claviers (C1-G5) et 30 notes à la pédale (C1-F3).
 
-Il est possible de mentionner une exception : l'absence du premier Do dièse (C#1). La syntaxe a adopter est alors : CD1. Exemple : CD1-F5
+Il est possible de l'absence du premier Do dièse (la syntaxe a adopter est alors : CD1. Exemple : CD1-F5), ainsi que les ravalements (cf. les [conventions](conventions.md)).
 
 Cf. [le lexique de l'Inventaire](https://vocabulaire.inventaire-des-orgues.fr/)
 et [Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_jeux_d%27orgue)
