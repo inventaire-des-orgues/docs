@@ -5,7 +5,9 @@ site_author: Gwilherm Poullennec
 
 repo_url: https://github.com/inventaire-des-orgues/docs
 
-theme: mkdocs
+theme:
+  name: material
+  language: fr
 
 extra_css:
     - css/extra.css
