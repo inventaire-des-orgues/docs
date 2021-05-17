@@ -12,6 +12,8 @@ Le troisième bloc est un petit texte explicatif de pourquoi cet inventaire exis
 
 ## Carte
 
+L'onglet carte contient une carte centrée sur la France, avec le nombre d'ogues localisés, c'est-à-dire possédant actuellement un id OSM. Lorsque l'utilisateur zoom sur la carte de France, les étiquettes se divisent et affichent ainsi plus d'informations : comme l'utilisateur zoom sur la carte, la surface visible est plus grande et ainsi le nombre d'étiquettes de cluster peut être plus important. L'utilisateur peut également filtrer les orgues selon le facteur ou la manufacture de celles-ci s'il souhaite faire une recherche plus précise.
+
 ## Les orgues
 
 Il s'agit d'un onlet permettant de rechercher un orgue spécifique. L'interface est très simple : comme décrit précédemment pour l'accueil, la recherche d'un orgue se fait par département ou par mot-clé. Par défaut, si rien est rentré, des orgues sont tout de même affichés. L'affichage des orgues se fait sous forme de vignette : l'utilisateur voit le nom, la ville et le département de l'orgue ainsi que sa localisation dans le batiement. La localisation est rappelée voire précisé avec le champ "Localisation", et le facteur d'ogue est également renseigné. Lorque l'on clique sur une vignette, l'utilisateur arrive sur la fiche de l'orgue sélectionné et peut ainsi compléter ou modifier la fiche d'information dans une certaine mesure.
