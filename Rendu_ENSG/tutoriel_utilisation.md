@@ -14,7 +14,7 @@ Le troisième bloc est un petit texte explicatif de pourquoi cet inventaire exis
 
 ## Les orgues
 
-Il s'agit d'un onlet permettant de rechercher un orgue spécifique. L'interface est très simple : comme décrit précédemment pour l'accueil, la recherche d'un orgue se fait par département ou par mot-clé. Par défaut, si rien est rentré, des orgues sont tout de même affichés. L'affichage des orgues se fait sous forme de vignette : l'utilisateur voit le nom, la ville et le département de l'orgue ainsi que sa localisation dans le batiement. La localisation est rappelée voire précisé avec le champ "Localisation", et le facteur d'ogue est également renseigné. Lorque l'on clique sur une vignette, l'utilisateur arrive sur la fiche de l'orgue sélectionné et peut ainsi compléter ou modifier la fiche d'information dans une certaine mesure.
+Il s'agit d'un onglet permettant de rechercher un orgue spécifique. L'interface est très simple : comme décrit précédemment pour l'accueil, la recherche d'un orgue se fait par département ou par mot-clé. Par défaut, si rien n'est rentré, des orgues sont tout de même affichés. L'affichage des orgues se fait sous forme de vignette : l'utilisateur voit le nom, la ville et le département de l'orgue ainsi que sa localisation dans le batîment. La localisation est rappelée voire précisée avec le champ "Localisation", et le facteur d'orgues est également renseigné. Lorque l'on clique sur une vignette, l'utilisateur arrive sur la fiche de l'orgue sélectionné et peut ainsi compléter ou modifier la fiche d'information dans une certaine mesure.
 
 ### Fiche d'un orgue
 
