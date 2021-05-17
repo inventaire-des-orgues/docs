@@ -1,0 +1,38 @@
+Concernant les besoins du commanditaire pour la carte d'accueil,
+celui-ci souhaitait avoir une carte d'accueil interactive qui puisse
+passer du niveau régional au niveau départemental. De plus, il souhaitait
+que de nouvelles statistiques soient affichées. Nous avons également trouvé
+la présence de bugs que nous devions corrigés, et réaliser un peu d'ergonomie
+avec tous les ajouts effectués précédemment.
+
+Dans les fonctionnalités développés, nous nous sommes d'abord occupés
+du passage à la vue départementale. En effet- la carte au format svg des régions étant 
+déjà disponible, nous avons rajouté celles des départements, et nous avons
+joué sur les id de chaque entité. Par exemple lorsqu'on clique sur une région, celles-ci
+sont automatiquement cachée pour laisser place uniquement aux départements de celle-ci.
+Pour repasser à la vue régionale, nous avons créé un bouton qui permet
+de revenir en arrière. Au début du projet, nous avons trouvé la présence d'un bug : en effet
+sur l'état général des orgues, la somme de tous les états n'étaient pas
+égal à 100% sur toutes les régions. Il s'est avéré que cela était dû à une erreur de calcul
+en javascript que ous avons corrigé.
+
+Concernant les derniers besoins concernant la page d'accueil, il nous a été demandé d'ajouter
+le nombre d'orgues inscrits ou classés au monument historique : il a suffit
+pour cela, à partir d'une requpete Ajax de compter le nombres d'orgues qui ont un champ
+reference_palissy non nul, c'est-à-dire qui possédent un matricule qui permet de les retrouver
+dans ce classement. Pour le taux d'avancement, celui-ci est calculé pour chaque orgue
+dès qu'il est entré dans la base de données : il faut simplement récupérer l'information
+à l'aide de pandas et faire la moyenne des taux d'avancement selon le niveau de zoom.
+Pour l'ergonomie, nous avons rajouté, par exemple un bouton de retour à la vue régionale
+pour faciliter la manipulation de la carte. Les statistiques des régions sont également associés
+à un événement de survol de la carte, ce qui rend la carte plus ergonomique, le zoom sur les
+départements étant réservés à un évènement clic. Il y a eu aussi des petits ajouts minimes comme
+les couleurs des statistiques, notamment en rouge pour les orgues inscrits ou classés,
+respectant ainsi la charte graphique du logo.
+
+Reporting de projet
+
+Rapport d'analyse
+Read.md à rendre
+Video de démonstration
+Tutoriel d'utilisation, ligne de commandes
