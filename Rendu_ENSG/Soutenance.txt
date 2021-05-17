@@ -1,6 +1,0 @@
-Reporting de projet
-
-Rapport d'analyse
-Read.md à rendre
-Video de démonstration
-Tutoriel d'utilisation, ligne de commandes
