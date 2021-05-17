@@ -12,8 +12,6 @@ Le troisième bloc est un petit texte explicatif de pourquoi cet inventaire exis
 
 ## Carte
 
-L'onglet carte contient une carte centrée sur la France, avec le nombre d'ogues localisés, c'est-à-dire possédant actuellement un id OSM. Lorsque l'utilisateur zoom sur la carte de France, les étiquettes se divisent et affichent ainsi plus d'informations : comme l'utilisateur zoom sur la carte, la surface visible est plus grande et ainsi le nombre d'étiquettes de cluster peut être plus important. L'utilisateur peut également filtrer les orgues selon le facteur ou la manufacture de celles-ci s'il souhaite faire une recherche plus précise.
-
 ## Les orgues
 
 Il s'agit d'un onlet permettant de rechercher un orgue spécifique. L'interface est très simple : comme décrit précédemment pour l'accueil, la recherche d'un orgue se fait par département ou par mot-clé. Par défaut, si rien est rentré, des orgues sont tout de même affichés. L'affichage des orgues se fait sous forme de vignette : l'utilisateur voit le nom, la ville et le département de l'orgue ainsi que sa localisation dans le batiement. La localisation est rappelée voire précisé avec le champ "Localisation", et le facteur d'ogue est également renseigné. Lorque l'on clique sur une vignette, l'utilisateur arrive sur la fiche de l'orgue sélectionné et peut ainsi compléter ou modifier la fiche d'information dans une certaine mesure.
@@ -58,3 +56,20 @@ Dans certains cas, le nom du facteur contient une association de deux facteurs q
 python manage.py replace_organ_builder --delete chemin/vers/facteurs_remplacement.csv
 ```
 L'option --delete supprime de la base les facteurs d'orgue
+
+### Localisation des orgues
+
+#### A partir de l'id OSM
+
+Pour chaque orgue, l'utilisateur peut renseigner l'identifiant de l'édifice dans Open Street Map et le type du bâtiment (noeud, chemin, relation). C'est une manipulation plus facile pour l'utilisateur que de rentrer des coordonnées en latitude/longitude. Il faut donc un programme en arrière-plan qui puisse faire la conversion. Pour cela, utilisez la commande : 
+```shell script
+python manage.py calcul_barycenter_osm --calculall
+```
+Cette commande fournit un fichier coordonnees_osm.json qui contient la codification des orgues et les coordonnées latitude/longitude associées. Par défaut, le programme ne calcule la position que pour les orgues dont les champs latitude et longitude ne sont pas renseignés. Pour appliquer le calcul à tous les orgues, utilisez l'option --calculall.
+
+Il reste ensuite à insérer ces données dans la base de données. Pour cela, utilisez la commande suivante :
+```shell script
+python manage.py import_organ_lonlat chemin/vers/coordonnees_osm.json
+```
+Par défaut, la commande ne complète que les coordonnées pour les orgues dont la position n'a pas déjà été renseignée. Pour écraser toutes les coordonnées, utilisez l'option --ecraseall. L'option --ecraseif ne remplace la position que si les champs n'étaient pas remplis ou si la distance entre les deux positions est supérieure à 30 mètres.
+
