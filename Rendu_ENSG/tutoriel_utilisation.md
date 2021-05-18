@@ -4,7 +4,7 @@ Lors de l'arrivée sur le site l'utilisateur peut naviguer entre cinq onglets. I
 
 ## Accueil
 
-La page d'accueil est constitué de plusieurs blocs. Le premier permet la recherche d'orgues selon le département ou un mot-clé (commune, facteur, église), qui renvoie à l'onglet "Les orgues" avec les informations entrée pré-remplit après recherche. L'utilisateur peut également accéder à une documentation pour éditer la photo principale d'une fiche d'orgue.
+La page d'accueil est constituée de plusieurs blocs. Le premier permet la recherche d'orgues selon le département ou un mot-clé (commune, facteur, église), qui renvoie à l'onglet "Les orgues" avec les informations entrées pré-remplies après recherche. L'utilisateur peut également accéder à une documentation pour éditer la photo principale d'une fiche d'orgue.
 
 Le deuxième bloc constituant l'accueil est celui de la carte nationale interactive de la France. Cette carte est associée à différentes statistiques : le nombre d'orgues, le nombre d'entre elles qui sont inscrits ou classés, l'avancement des contributions et l'état de celles-ci. Ces statistiques changent en fonction du niveau de zoom : au début l'utilisateur se situe au niveau national, et au survol d'un département les statistiques vont changer et se baser sur la région survolée. Au clic, l'utilisateur peut accéder au niveau départemental et accéder aux départements de la région choisit. Pour accéder aux données du département il faut simplement cliquer dessus. Ensuite, lors du zoom sur les département, l'utilisateur peut revenir à la vue nationale en cliquant sur le bouton "Retour".
 
@@ -57,9 +57,26 @@ python manage.py replace_organ_builder --delete chemin/vers/facteurs_remplacemen
 ```
 L'option --delete supprime de la base les facteurs d'orgue
 
-### Localisation des orgues
+## Localisation des orgues
 
-#### A partir de l'id OSM
+Une partie des orgues n'a pas de coordonnées. Afin de les obtenir, nous passons par Open Street Map afin d'associer chaque orgue à un bâtiment pour calculer ainsi les coordonnées de l'orgue. 
+
+### Association à un objet OSM
+
+Pour les orgues de la base qui n'ont pas d'identifiant OSM renseigné, un programme en arrière-plan se charge d'effectuer une recherche afin d'appairer l'orgue et un objet OSM, en partant du code INSEE de la commune et le nom de l'édifice où se trouve l'orgue. Pour cela, utilisez la commande :
+```shell script
+python manage.py appariement_osm 01
+```
+La valeur en fin de ligne correspond au département dont on souhaite traiter les orgues non localisés. Il est possible de remplacer le code de département par all afin de lancer le programme sur l'ensemble de la base de données.
+Cette commande fournit 4 fichiers json dans le dossier /appariement :
+- appariements_osm_01.json  Ce fichier comprend tous les orgues appairés, avec l'identifiant et le type de l'objet OSM.
+- multi-appariements_osm_01.json  Ce fichier comprend les cas où plusieurs édifices correspondaient à l'orgue, avec les informations nécessaires pour permettre à un administrateur de sélectionner le bon édifice.
+- appariements_partiels_osm_01.json  Ce fichier comprend les cas où plusieurs édifices ont une correspondance partielle avec l'orgue, avec les informations nécessaires pour permettre à un administrateur de sélectionner le bon édifice.
+- non-appariements_osm_01.json  Ce fichier comprend les derniers cas particuliers dont appariement n'a pas pu être possible et pour lesquels une recherche manuelle est nécessaire.
+
+
+
+### Calcul des coordonnées à partir de l'id OSM
 
 Pour chaque orgue, l'utilisateur peut renseigner l'identifiant de l'édifice dans Open Street Map et le type du bâtiment (noeud, chemin, relation). C'est une manipulation plus facile pour l'utilisateur que de rentrer des coordonnées en latitude/longitude. Il faut donc un programme en arrière-plan qui puisse faire la conversion. Pour cela, utilisez la commande : 
 ```shell script
