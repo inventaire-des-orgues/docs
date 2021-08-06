@@ -84,8 +84,8 @@ En revanche, fichiers images, sonores ou vidéos peuvent conserver leurs droits 
 
 ### Ai-je le droit de prendre une photo d’un orgue et de la publier ?
 
-Vous avez bien sûr le droit de prendre un orgue en photo, mais pour diffuser la photographie, il est préférable de demander son accord au propriétaire de l’orgue. C’est souvent un moyen d’accéder à l’orgue
-plus facilement et de prendre de meilleures photos, en évitant par exemple le classique contre-jour dû à la rose ou verrière de façade !
+Vous avez bien sûr le droit de prendre un orgue en photo, mais pour diffuser la photographie, il est préférable de demander son accord au propriétaire de l’orgue. C’est souvent un moyen d’accéder à l’orgue plus facilement et de prendre de meilleures photos, en évitant par exemple le classique contre-jour dû à la rose ou verrière de façade !
+
 
 ### Quels sont mes droits d’auteur sur les images que je publie ?
 
