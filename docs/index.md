@@ -11,7 +11,7 @@ La page de la [fiche descriptive](fiche-orgue.md) d'un orgue présente la struct
 
 ## Conventions et abréviations
 
-Par souci d'homogénéïté et pour pouvoir requêter de façon robuste dans la base de données, nous avons défini quelques [conventions](conventions.md), que l'on suivra scrupuleusement.
+Par souci d'homogénéité et pour pouvoir requêter de façon robuste dans la base de données, nous avons défini quelques [conventions](conventions.md), que l'on suivra scrupuleusement.
 
 ## Les données collectées
 
