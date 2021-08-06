@@ -364,6 +364,17 @@ Souvent, les orgues de facture du XIXe siècle possèdent 56 notes au clavier (C
 
 Il est possible de l'absence du premier Do dièse (la syntaxe à adopter est alors : CD1. Exemple : CD1-F5), ainsi que les ravalements (cf. les [conventions](conventions.md)).
 
+Le commentaire sur le plan sonore peut vous permettre d'ajouter des informations supplémentaires sur le clavier comme par exemple :
+- Positif coffre extractible
+- Octave courte (6 ou 7 notes sur la première octave)
+- Tirasse permanente
+- Clavier transpositeur
+- Machine barker sur un seul clavier
+- Transmission différente sur le clavier
+- Plan sonore positionné dans un autre lieu
+- clavier d'emprunt (pas de jeux propre, que des jeux d'emprunt des autres claviers)
+- Pédalier à la française
+
 Cf. [le lexique de l'Inventaire](https://vocabulaire.inventaire-des-orgues.fr/)
 et [Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_jeux_d%27orgue)
 
