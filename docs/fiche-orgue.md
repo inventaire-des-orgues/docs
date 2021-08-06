@@ -3,7 +3,7 @@
 
 La structure de la fiche décrivant un orgue est le cœur de l'Inventaire. Elle a fait l'objet de longues réflexions, 
 dans le but d'aboutir à un juste compromis entre niveau de détails suffisant et complexité limitée.
-Elle s'inspire bien sûr des livres d'Inventaire, ainsi que des sites Internet existants. Elle présente toutefois une structure bien plus fine que la plupart des sites consacrés aux orgues.
+Elle s'inspire bien sûr des livres d'Inventaire, ainsi que des sites internet existants. Elle présente toutefois une structure bien plus fine que la plupart des sites consacrés aux orgues.
 
 La saisie d'une fiche est facilitée par l'organisation en plusieurs grandes rubriques, 
 qui prennent la forme de différents onglets sur le portail de l'Inventaire, accessibles via un menu.
@@ -43,7 +43,7 @@ On emploiera le cas échéant les désignations d'"orgue coffre", d'"orgue polyp
 Les abréviations courantes G.O. et O.C. sont ici conseillées.
 
 Nota : dans les thésaurus du ministère de la culture, la désignation reprend l'emplacement : "orgue de chœur", "orgue de tribune". Cette classification n'est pas exactement adoptée ici, puisque nous distinguons désignation et emplacement.
-En effet, vu le nombre d'orgues, nous avons besoin de plus de finesse de représentation que pour les seuls édifices classés ou inscrits. Il n'y a pas trois orgues classés ou inscrits dans un même édifice, mais trois orgues, si (ex: collégiale Notre-Dame de Mantes-la-Jolie, église Notre-Dame de Versailles) !
+En effet, vu le nombre d'orgues, nous avons besoin de plus de finesse de représentation que pour les seuls édifices classés ou inscrits. Il n'y a pas trois orgues classés ou inscrits dans un même édifice, mais trois orgues, si (ex : collégiale Notre-Dame de Mantes-la-Jolie, église Notre-Dame de Versailles) !
 
 
 ### Emplacement
@@ -57,7 +57,7 @@ Cet attribut permet donc aussi la distinction, dans la majorité des cas, entre 
 
 ### Etat de fonctionnement
 
-Il s'agit d'un avis à date de mise à jour de la fiche descriptive.
+Il s'agit d'un avis à la date de mise à jour de la fiche descriptive.
 Nécessairement pour partie subjectif, il se rapporte à l'utilisation possible de l'instrument.
 Les défauts passagers et réversibles d'un orgue (cornement occasionnel, par exemple) ne rentrent pas en compte dans l'appréciation.
 L'état de fonctionnement ne décrit pas l'état du buffet ou des boiseries, dès lors que le jeu n'est pas altéré.
@@ -80,7 +80,7 @@ Nota : Ce champ n'est visible que dans l'interface d'administration.
 
 ### Propriété de l'orgue
 
-Le propriétaire de l'orgue (qui n'est pas nécessairement le même que l'édifice).
+Le propriétaire de l'orgue n'est pas nécessairement le même que celui de l'édifice.
 Le plus souvent, il s'agit de la commune pour des instruments datant d'avant 1905 (de l'État pour les orgues de cathédrales), et d'association cultuelle (généralement paroisse) pour les orgues d'après 1905 ou de congrégation.
 Bien sûr, il existe plusieurs exceptions : par exemple, les orgues des cathédrales de la petite couronne parisienne, n'appartiennent pas à l'État, sauf l'orgue de la basilique royale de Saint-Denis.
 
@@ -131,7 +131,7 @@ Par exemple : "La description de la tuyauterie semble erronée.", ou "Nous ne so
 Il s'agit de la commune selon le dernier [code officiel géographique](https://www.insee.fr/) en vigueur de l'INSEE.
 Celui-ci est aussi sur le site [data.gouv.fr](https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/#_)
 Attention, de nombreuses communes ont fusionné au cours des dernières années, et de tels regroupements se poursuivront dans les années à venir.
-Trois types de communes sont couramment référencées dans le code officiel géographique en vigueur : commune (de plein droit), commune associée, commune déléguée, auquels s'ajoutent les arrondissements de Paris, Lyon et Marseille.
+Trois types de communes sont couramment référencées dans le code officiel géographique en vigueur : commune (de plein droit), commune associée, commune déléguée, auxquelles s'ajoutent les arrondissements de Paris, Lyon et Marseille.
 Par convention, seules les communes de plein droit sont indiquées dans l'attribut Commune.
 Il faut donc prendre garde à ne pas renseigner le nom d'une ancienne commune, même s'il continue à être usuellement utilisé. L'attribut `Commune associée, déléguée ou ancienne commune` est dédié à cet effet.
 
@@ -148,7 +148,7 @@ d'une commune déléguée, d'une commune associée.
 
 ### Adresse
 
-L'adresse de l'édifice considéré. Elle est utilisé pour distinguer deux édifices de même nom sur une même commune, car de plus en plus fréquent au gré des fusions de communes.
+L'adresse de l'édifice considéré. Elle est utilisée pour distinguer deux édifices de même nom sur une même commune, car de plus en plus fréquent au gré des fusions de communes.
 
 La [base d'adresses nationale](https://adresse.data.gouv.fr/) est à votre disposition. Quand elle existe, c'est cette adresse codifiée qui doit être renseignée.
 Toutefois, s'agissant d'adresses postales, il est fréquent que les édifices religieux n'en possèdent pas. Auquel cas les adresses "libres" sont autorisées : ce peut-être un lieu-dit, un quartier, ou une rue.
@@ -170,7 +170,7 @@ Nom de la région selon le code géographique officiel de l'INSEE.
 Latitude, selon le système de coordonnées WGS84, couramment connu comme "coordonnées GPS", de l'emplacement précis de l'instrument.
 Nota : celui-ci n'est pas le système de coordonnées officiel français.
 Pour la facilité de saisie et d'export des données, le format adopté est un nombre réel signé, et non la notation en degrés, minutes et secondes.
-De plus, ce nombre adopte la typographie anglaise : le séparateur de décimales est un point et non un virgule
+De plus, ce nombre adopte la typographie anglaise : le séparateur de décimales est un point et non une virgule
 Pour une bonne précision, au moins huit chiffres significatifs sont nécessaires.
 Cf. la [page sur OSM](osm.md).
 
@@ -208,7 +208,7 @@ Cf. la [page sur OSM](osm.md).
 
 L'historique d'un orgue est une succession d'événements.
 
-Un événement est lui-même décrit par les quatres informations suivantes :
+Un événement est lui-même décrit par les quatre informations suivantes :
 - l'année de l'événement [int]
 - le type d'événement [string]
 - la liste des facteurs ayant contribué à l'événement [liste]
@@ -240,12 +240,12 @@ Les types d'événement possibles sont les suivants :
 - Relevage : simple opération de conservation de l'instrument, menée à intervalles réguliers.
 - Disparition : distincte de destruction, car l'orgue a pu disparaître suit à un déménagement, ou être stocké dans un endroit inconnu.
 - Dégâts : destruction partielle ou altération de l'instrument.
-- Classement ou incription au titre des monuments historiques :
-On ne distingue que Inscription au titre des monuments historiques et Classement au titre des monuments historiques, comme objets evenement.
-Le champ TICO de Palissy sera mis dans le commentaire de l'évenement.
+- Classement ou inscription au titre des Monuments historiques :
+On ne distingue que inscription au titre des Monuments historiques et classement au titre des monuments historiques, comme objets événement.
+Le champ TICO de Palissy sera mis dans le commentaire de l'événement.
 De même pour les autres champs issus de la mise en correspondance entre l'Inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.
 
-Concernant les facteurs, une longue liste à mise à disposition. Elle se présente sous la forme "Nom Prénom". Il est nécessaire de renseigner chaque facteur, même lorsque plusieurs facteurs travaillent en duo ou trio (ex : Benoist et Sarélot, frères Abbey, etc.)
+Concernant les facteurs, une longue liste est mise à disposition. Elle se présente sous la forme "Nom Prénom". Il est nécessaire de renseigner chaque facteur, même lorsque plusieurs facteurs travaillent en duo ou trio (ex : Benoist et Sarélot, frères Abbey, etc.)
 
 A un facteur est associée une localisation d'atelier (latitude, longitude au format GPS), ce qui permet le positionnement des ateliers sur la carte.
 
@@ -263,7 +263,7 @@ Champ libre [html sans limite de taille] pour la description de la console et de
 La notion de console est assez récente : elle survient avec l'apparition de meubles séparés du buffet au XIXe siècle, souvent tournés vers l'autel ou mobiles au XXe siècle.
 Aussi la console peut être, lorsqu'elle n'est pas distincte du buffet, décrite dans un sous-chapitre de la section buffet.
 
-Hormi la construction dans une fenêtre pratiquée dans le buffet, les dispositions les plus courantes sont :
+Hormis la construction dans une fenêtre pratiquée dans le buffet, les dispositions les plus courantes sont :
 - séparée, organiste tourné vers l'orgue
 - séparée, organiste dos à l'orgue
 
@@ -277,7 +277,7 @@ Idem dans le cas d'une seconde console (ex : basilique Sainte-Clotilde et Sainte
 ### Transmission des notes
 
 Le type de transmission des notes est indiqué pour tout l'instrument, et non par clavier.
-Lorsque les claviers disposent d'un autre mode de transmission que celle généralement ou originellement utilisée pour l'instrument (ex: pédalier à transmission électrique, récit sans Barker) seront précisés dans les commentaires du plan sonore concerné.
+Lorsque les claviers disposent d'un autre mode de transmission que celle généralement ou originellement utilisée pour l'instrument (ex : pédalier à transmission électrique, récit sans Barker) seront précisés dans les commentaires du plan sonore concerné.
 
     <Néant>,
     "Mécanique",
@@ -325,7 +325,7 @@ ex : "412 Hz à 14°C"
 
 Champ texte libre [string].
 
-Il existe une infinité de temparément dans le monde de la musique. Cet attribut est donc un texte libre, permettant l'indication du tempérament de la façon la plus précise possible.
+Il existe une infinité de tempéraments dans le monde de la musique. Cet attribut est donc un texte libre, permettant l'indication du tempérament de la façon la plus précise possible.
 ex : "mésotonique au sixième modifié"
 
 #### Sommiers
@@ -360,9 +360,9 @@ La composition distingue plusieurs plans sonores.
 Un plan sonore est nommé et son étendue est précisée sous la forme suivante :
 C1-G5 (cf. les [conventions](conventions.md)).
 
-Souvent, les orgues de facture du XIXe siècle possèdent 56 notes au claviers (C1-G5) et 30 notes à la pédale (C1-F3).
+Souvent, les orgues de facture du XIXe siècle possèdent 56 notes au clavier (C1-G5) et 30 notes à la pédale (C1-F3).
 
-Il est possible de mentionner une exception : l'absence du premier Do dièse (C#1). La syntaxe a adopter est alors : CD1. Exemple : CD1-F5
+Il est possible de l'absence du premier Do dièse (la syntaxe à adopter est alors : CD1. Exemple : CD1-F5), ainsi que les ravalements (cf. les [conventions](conventions.md)).
 
 Cf. [le lexique de l'Inventaire](https://vocabulaire.inventaire-des-orgues.fr/)
 et [Wikipédia](https://fr.wikipedia.org/wiki/Liste_des_jeux_d%27orgue)
@@ -378,7 +378,7 @@ On propose de suivre la disposition suivante par commodité de lecture :
 - Cornet
 - Batterie d'anches
 - Anches de détail
-Toutefois, il n'existe pas de convention à ce sujet, l'orgue classique français ne disinguant pas les différents types de jeux.
+Toutefois, il n'existe pas de convention à ce sujet, l'orgue classique français ne distinguant pas les différents types de jeux.
 
 La hauteur est indiquée par convention en pieds, en chiffres arabes, sans précision de l'unité.
 Le nombre de rangs des fournitures, plein-jeux, cornet, etc. est indiqué en chiffres romains, sans précision du terme "rangs" (ni "rgs").
@@ -411,12 +411,12 @@ Les accessoires peuvent être :
 - renvoi : renvoi d'un jeu ou de plusieurs jeux, généralement les jeux d'anches ou mixtures. N'est indiqué que si une cuillère spécifique effectue le renvoi. Si la cuillère de l'appel permet le renvoi lorsqu'elle est relâchée, il n'y pas lieu d'indiquer un renvoi.
 
 Quelques accessoires courants sont proposés pour accélérer la rédaction d'une fiche.
-Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecter les mêmes conventions de nommage, notamment pour ce qui concerne les abréviations:
+Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecter les mêmes conventions de nommage, notamment en ce qui concerne les abréviations :
 
 - Réc. : Récit
 - G.O. : Grand orgue
 - Pos. : Positif
-- Ped. : Pédale
+- Péd. : Pédale
 - G.C. : Grand chœur
 - Bom. : Bombarde
 

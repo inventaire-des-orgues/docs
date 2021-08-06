@@ -41,5 +41,5 @@ A le pouvoir :
 
 A le pouvoir :
 
-- d'accéder au serveur et d'y éxecuter toute manipulation
+- d'accéder au serveur et d'y exécuter toute manipulation
 - de créer des identifiants pour un nouveau gestionnaire du serveur

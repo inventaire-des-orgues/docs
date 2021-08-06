@@ -20,15 +20,15 @@ Chaque orgue est positionné sur une carte et décrit par une fiche.
 La [fiche descriptive](fiche-orgue.md) d'un instrument inclut sa composition, les sommiers, la tuyauterie, le vent, etc. et est accompagnée de photos numériques et tout autre type de fichier, comme par exemple des documents d'archives.
 
 ### Qui soutient cette initiative ?
-Le projet est conjointement porté par l’association [Orgue en France](http://orgue-en-france.org/), la Fédération Francophone des Amis
-de l’Orgue ([FFAO](http://ffao.com/)) et le [ministère de la Culture](http://www.culture.gouv.fr/).
+Le projet est conjointement porté par l’association [Orgue en France](http://orgue-en-france.org/), la Fédération francophone des Amis
+de l’orgue ([FFAO](http://ffao.com/)) et le [ministère de la culture](http://www.culture.gouv.fr/).
 
 Le ministère de la Culture s’engage à mettre les données de
 l’[Inventaire général du patrimoine culturel](http://www.inventaire.culture.gouv.fr/) à disposition de l’inventaire des orgues et à en faciliter l’intégration. Orgue en
 France et la FFAO s’engagent à maintenir le site.
 
-Le ministère de la culture soutient l'initiative depuis deux ans et avait d'ailleurs consacré dix mois temps plein sur le sujet par le biais du dispositif d'entrepreneurs d'intérêt général.
-Les représentations en région du ministère (directions régionales des affaires culturelles -- DRAC) ont contribué à collecter les livres d'inventaire.
+Le ministère de la culture soutient l'initiative depuis deux ans, et avait d'ailleurs consacré dix mois temps plein sur le sujet, par le biais du dispositif d'entrepreneurs d'intérêt général.
+Les représentations en région du ministère (directions régionales des affaires culturelles - DRAC) ont contribué à collecter les livres d'inventaire.
 La Fédération française des amis des orgues (FFAO) soutient aussi le projet.
 L'association Orgue en France est cheville ouvrière du projet.
 Associations et ministère se sont régulièrement réunis pour suivre l'avancement du projet.
@@ -43,8 +43,8 @@ Le portail de l'Inventaire national des orgues a été réalisé par l'associati
 La [société FabDev](https://fabdev.fr/), dans un esprit collaboratif avec deux bénévoles d'Orgue en France, et selon les pratiques de l'open source.
 
 ### Beau projet, mais cet inventaire ne sera jamais achevé...
-Si les associations nationales et locales, ainsi que les personnes privées, travaillent de concert, en quelques mois tous les orgues français disposeront d'une fiche descriptive renseignée, même de façon sommaire et seront donc a minima parfaitement identifiés. De plus, la fiche descriptive de chaque instrument disposera, sous forme d'une pièce jointe, des pages extraites des livres d'inventaire rédigés de 1980 à nos jours. Ainsi, quelques mois après son ouverture, l'inventaire peut être exhaustif et riche de très nombreuses informations.Un indicateur présent sur chaque fiche permet de suivre l'avancement de la rédaction.
-Atteindre une très bonne qualité scientifique des informations (historique détaillé, références biblbiographiques complètes, travail de recherche dans les archives) prendra plus de temps : cela dépendra de chaque instrument et de la motivation des rédacteurs.
+Si les associations nationales et locales, ainsi que les personnes privées, travaillent de concert, en quelques mois tous les orgues français disposeront d'une fiche descriptive renseignée, même de façon sommaire et seront donc a minima parfaitement identifiés. De plus, la fiche descriptive de chaque instrument disposera, sous forme d'une pièce jointe, des pages extraites des livres d'inventaire rédigés de 1980 à nos jours. Ainsi, quelques mois après son ouverture, l'inventaire peut être exhaustif et riche de très nombreuses informations. Un indicateur présent sur chaque fiche permet de suivre l'avancement de la rédaction.
+Atteindre une très bonne qualité scientifique des informations (historique détaillé, références bibliographiques complètes, travail de recherche dans les archives) prendra plus de temps : cela dépendra de chaque instrument et de la motivation des rédacteurs.
 
 ### Tout miser sur le numérique, n'est-ce pas concurrencer le papier ?
 Le projet d'Inventaire national ne mise pas tout sur le numérique, mais un site participatif a semblé un bon outil capable de viser une échelle nationale et d'être à jour. En effet, les livres d'inventaire perdent leur exhaustivité quelques années après leur publication, en raison des constructions, relevages et modifications d'instruments.
@@ -84,8 +84,8 @@ En revanche, fichiers images, sonores ou vidéos peuvent conserver leurs droits 
 
 ### Ai-je le droit de prendre une photo d’un orgue et de la publier ?
 
-Vous avez bien sûr le droit de prendre un orgue en photo, mais pour diffuser la photographie, il est préférable de demander son accord au propriétaire de l’orgue. C’est souvent un moyen d’accéder à l’orgue
-plus facilement et de prendre de meilleures photos, en évitant par exemple le classique contre-jour dû à la rose ou verrière de facade !
+Vous avez bien sûr le droit de prendre un orgue en photo, mais pour diffuser la photographie, il est préférable de demander son accord au propriétaire de l’orgue. C’est souvent un moyen d’accéder à l’orgue plus facilement et de prendre de meilleures photos, en évitant par exemple le classique contre-jour dû à la rose ou verrière de façade !
+
 
 ### Quels sont mes droits d’auteur sur les images que je publie ?
 
@@ -97,7 +97,7 @@ contenus que vous publiez sur le site, mais que vous vous engagez à les
 publier sous licences libres : la [licence
 Ouverte 2.0](https://www.etalab.gouv.fr/wp-content/uploads/2017/04/ETALAB-Licence-Ouverte-v2.0.pdf)
 pour les données textuelles ajoutées dans la base (le nom d’un facteur
-d’orgue, une indication pour la composition d’un orgue, etc.) et la
+d’orgues, une indication pour la composition d’un orgue, etc.) et la
 licence [Creative Commons
 by-sa 3.0](https://creativecommons.org/licenses/by-sa/3.0/fr/) pour les
 images et les fichiers son.
@@ -109,7 +109,7 @@ source et les auteurs.
 La licence Creative Commons by-sa 3.0 permet la réutilisation, y compris
 à des fins commerciales, mais impose que les contenus dérivés soient
 publiés dans des conditions équivalentes de partage. C’est la licence
-utilisées par des grands projets comme Wikipédia.
+utilisée par des grands projets comme Wikipédia.
 
 ## Quelles sont les permissions accordées sur le site ?
 
@@ -118,7 +118,7 @@ La page sur les [permissions](permissions.md) détaille les différents niveaux 
 ## Un peu de technique
 
 ### Quelles sont les technologies utilisées pour le portail de l'inventaire ?
-- Le portail est codé en langage Python, en utilisant le framework Django, dédié aux applications web, ainsi que Bootstrap pour les feuilles de style CSS et un peu de Javascript. Les cartes employent la librairie Javascript Leaflet. Les fonds de cartes proviennent d'OpenStreetMap.
+- Le portail est codé en langage Python, en utilisant le framework Django, dédié aux applications web, ainsi que Bootstrap pour les feuilles de style CSS et un peu de Javascript. Les cartes emploient la librairie Javascript Leaflet. Les fonds de cartes proviennent d'OpenStreetMap.
 - Les utilitaires de traitement des données sont aussi codés en Python.
 - La documentation est rédigée au format Markdown et compilée sous forme de site web statique à l'aide du module Python Mkdocs.
 - La reconnaissance de caractères des livres numérisés a été effectuée à l'aide du logiciel non libre ABBYY.
