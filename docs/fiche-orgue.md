@@ -209,6 +209,7 @@ Cf. la [page sur OSM](osm.md).
 L'historique d'un orgue est une succession d'événements.
 
 Un événement est lui-même décrit par les quatre informations suivantes :
+
 - l'année de l'événement [int]
 - le type d'événement [string]
 - la liste des facteurs ayant contribué à l'événement [liste]
@@ -264,6 +265,7 @@ La notion de console est assez récente : elle survient avec l'apparition de meu
 Aussi la console peut être, lorsqu'elle n'est pas distincte du buffet, décrite dans un sous-chapitre de la section buffet.
 
 Hormis la construction dans une fenêtre pratiquée dans le buffet, les dispositions les plus courantes sont :
+
 - séparée, organiste tourné vers l'orgue
 - séparée, organiste dos à l'orgue
 
@@ -365,6 +367,7 @@ Souvent, les orgues de facture du XIXe siècle possèdent 56 notes au clavier (C
 Il est possible de l'absence du premier Do dièse (la syntaxe à adopter est alors : CD1. Exemple : CD1-F5), ainsi que les ravalements (cf. les [conventions](conventions.md)).
 
 Le commentaire sur le plan sonore peut vous permettre d'ajouter des informations supplémentaires sur le clavier comme par exemple :
+
 - Positif coffre extractible
 - Octave courte (6 ou 7 notes sur la première octave)
 - Tirasse permanente
@@ -384,11 +387,13 @@ De très nombreux jeux sont déjà enregistrés. Merci d'utiliser le formulaire 
 
 Les registres sont énumérés selon un ordre harmonique (hauteur du jeu).
 On propose de suivre la disposition suivante par commodité de lecture :
+
 - Fonds
 - Mixtures
 - Cornet
 - Batterie d'anches
 - Anches de détail
+
 Toutefois, il n'existe pas de convention à ce sujet, l'orgue classique français ne distinguant pas les différents types de jeux.
 
 La hauteur est indiquée par convention en pieds, en chiffres arabes, sans précision de l'unité.
@@ -396,16 +401,21 @@ Le nombre de rangs des fournitures, plein-jeux, cornet, etc. est indiqué en chi
 
 Un champ libre permet de joindre pour chaque jeu une courte information optionnelle.
 Par exemple :
+
 - Emprunté au Grand orgue
 - Transmission électrique du registre
+
 En particulier, les basses et dessus seront notés :
+
 - Basse.
 - Dessus.
 
 Astuce : Aide à la saisie : une composition peut rapidement se saisir au clavier, sans utiliser la souris.
 Il faut pour cela :
+
 - utiliser la touche tabulation pour passer d'une case à l'autre du formulaire;
 - appuyer sur la touche espace pour dérouler le menu présentant les jeux.
+- appuyer sur la touche entrer pour valider un jeux.
 
 
 ### Accessoires
