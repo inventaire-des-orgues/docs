@@ -35,7 +35,7 @@ Vous pouvez aussi échanger sur [le forum](https://forum.inventaire-des-orgues.f
 
 ## Le vocabulaire
 
-La page du [vocabulaire de l'orgue](https://vocabulaire.inventaire-des-orgues.fr/) propose un lexique
+La page du [vocabulaire de l'orgue](https://inventaire-des-orgues.fr/lexique/) propose un lexique
 provisoire qui sera prochainement éditable par les contributeurs.
 
 ## La charte du contributeur

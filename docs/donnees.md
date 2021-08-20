@@ -47,7 +47,7 @@ Il sufft de se créer un identifiant sur cette plate-forme pour accéder aux doc
 
 Le lexique disponible sur le site est en partie issu du document suivant :
 
-Vocabulaire des orgues, Catherine ARMINJON et Nicole de REYNIES, 1979, Inventaire général des monuments et des richesses artistiques de la France, Direction du patrimoine, Ministère de la Culture
+[Vocabulaire des orgues](/data/docs/MCC_Les_orgues_1973.pdf), Catherine ARMINJON et Nicole de REYNIES, 1979, Inventaire général des monuments et des richesses artistiques de la France, Direction du patrimoine, Ministère de la Culture
 
 Un autre lexique : [Pour mieux comprendre les termes techniques](/data/docs/Pour mieux comprendre les termes techniques.pdf)
 
