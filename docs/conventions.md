@@ -1,6 +1,6 @@
 # Conventions et abréviations
 
-On respectera strictement les conventions suivantes :
+Pour conserver des recherches fiables et rigoureuses, il est nécessaire de s'astreindre au respect de quelques conventions.
 
 ## Plans sonores
 
@@ -43,4 +43,15 @@ Exemples :
 
 ## Facteurs
 
-Sont indiqués le nom de personnes physiques, individuellement et sous la forme Nom Prénom.
+Si vous ne trouvez pas le nom du facteur dans la liste, essayez de le chercer avec une orthographe proche : la bonne orthographe n'est pas toujours la plus répandue !
+N'hésitez pas non plus à nous contacter pour nous signaler une erreur ou lever un doute.
+
+Par convention est indiqué le nom de personnes physiques, individuellement.
+A ce jour, nous n'avons pas opté pour une description par raison sociale, car celles-ci sont extrêmement mouvantes, n'apparaissent qu'à l'époque industrielle. Bien que contractuelles, elles ne permettent pas de plus la mise valeur des différents intervenants humains sur un chantier (par exemple l'harmoniste).
+
+Le nom est noté sous la forme Nom Prénom. On sera particulièrement vigilant à la casse et aux fautes dans l'orthographe des patronymes et prénom. La présence du prénom est obligatoire et indispensable pour des recherches fiables. Abbey est par exemple une dénomination trop vague, le nom parcourant deux siècles !
+Bien sûr les abréviations de nom ou de prénom ne sont pas autorisées car trop équivoques.
+Si plusieurs facteurs sont intervenus, ils seront tous notés. Exemple : Abbey John II, Abbey Eugène.
+Si équivoque il y a (comme Abbey John), nous nous chargeons de la lever (ex : Abbey John I, Abbey John II): n'hésitez pas à nous contacter.
+
+La qualité d'une personne est indiquée après son nom et prénom;

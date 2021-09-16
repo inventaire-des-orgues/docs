@@ -246,7 +246,7 @@ On ne distingue que inscription au titre des Monuments historiques et classement
 Le champ TICO de Palissy sera mis dans le commentaire de l'événement.
 De même pour les autres champs issus de la mise en correspondance entre l'Inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.
 
-Concernant les facteurs, une longue liste est mise à disposition. Elle se présente sous la forme "Nom Prénom". Il est nécessaire de renseigner chaque facteur, même lorsque plusieurs facteurs travaillent en duo ou trio (ex : Benoist et Sarélot, frères Abbey, etc.)
+Concernant les facteurs, une longue liste est mise à disposition. Elle se présente sous la forme "Nom Prénom". Il est nécessaire de renseigner chaque facteur, même lorsque plusieurs facteurs travaillent en duo ou trio. Nous vous invitons vivement, si vous souhaitez ajouter un facteur à la liste, à consulter la page des [conventions.md](conventions). 
 
 A un facteur est associée une localisation d'atelier (latitude, longitude au format GPS), ce qui permet le positionnement des ateliers sur la carte.
 
