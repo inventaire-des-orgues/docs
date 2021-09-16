@@ -54,4 +54,4 @@ Bien sûr les abréviations de nom ou de prénom ne sont pas autorisées car tro
 Si plusieurs facteurs sont intervenus, ils seront tous notés. Exemple : Abbey John II, Abbey Eugène.
 Si équivoque il y a (comme Abbey John), nous nous chargeons de la lever (ex : Abbey John I, Abbey John II): n'hésitez pas à nous contacter.
 
-La qualité d'une personne est indiquée après son nom et prénom;
+La qualité d'une personne est indiquée après son nom et prénom.
