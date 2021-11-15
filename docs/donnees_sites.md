@@ -8,6 +8,10 @@ Enormément d'orgues en Europe, presque toute la France (~7700 orgues). Attentio
 - [orgue.free.fr]()
 Une référence, beaucoup d'orgues français (1974), dont Paris (236 orgues), classés par arrondissement.
 
+## Ligne des orgues remarquables
+- [https://ligneorguesremarquables.com/orgues/]()
+Un très beau site franco-suisse, de Luxeuil à Saint-Ursanne, en passant par Belfort.
+
 ## Encreuse.free.fr
 - [http://encreuse.free.fr/balades/orgues/]()
 Orgues de la Creuse.
