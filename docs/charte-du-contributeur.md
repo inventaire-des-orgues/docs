@@ -1,6 +1,6 @@
 # Charte du contributeur
 
-Nota : La charte de l’utilisateur suit les principes de la [charte nationale des sciences participatives](https://inra-dam-front-resources-cdn.brainsonic.com/ressources/afile/403674-cf7ac-resource-charte-francaise-des-sciences-et-recherches-participatives.pdf)
+Nota : La charte de l’utilisateur suit les principes de la [charte nationale des sciences participatives](https://www.science-ensemble.org/pdf/charte-francaise-des-sciences-et-recherches-participatives.pdf)
 (version du 20 mars 2017).
 
 ## Préambule
