@@ -11,9 +11,9 @@ collaborative d'inventaire des orgues :
 
   * les orgues décrits dans les inventaires papier, lors d'un
     recensement mené conjointement par la direction du Patrimoine et la
-    direction de la Musique et de la Danse entre 1985 et 2006, complété depuis par quelques ouvrages;
+    direction de la Musique et de la Danse entre 1985 et 2006, complété depuis par quelques ouvrages ;
 
-  * les orgues présents dans les bases de l'État et des collectivités territoriales:
+  * les orgues présents dans les bases de l'État et des collectivités territoriales :
   	* protection au titre du patrimoine (Palissy) ;
   	* inventaires régionaux (Gertrude) ;
 
@@ -21,9 +21,9 @@ collaborative d'inventaire des orgues :
 
 ## Les [livres d'inventaires](donnees_livres.md)
 
-L'association Orgue en France a, avec l'aide du ministère de la culture, des directions régionales des affaires culturelles, des services régionaux de l'inventaire, d'associations musicales ou patrimoniales, a collecté la totalité des livres inventoriant méthodiquement des orgues publiés à ce jour. Ont même été récupérés quelques manuscrits d'ouvrages non publiés, ou maquettes inédites.
+L'association Orgue en France a, avec l'aide du ministère de la Culture, des directions régionales des affaires culturelles, des services régionaux de l'inventaire, d'associations musicales ou patrimoniales, a collecté la totalité des livres inventoriant méthodiquement des orgues publiés à ce jour. Ont même été récupérés quelques manuscrits d'ouvrages non publiés, ou maquettes inédites.
 
-Orgue en France remercie chaleureusement chacun de ces acteurs, ainsi que quelques généreux particuliers, pour leur dons d'ouvrages en double.
+Orgue en France remercie chaleureusement chacun de ces acteurs, ainsi que quelques généreux particuliers, pour leur don d'ouvrages en double.
 
 ## Les [sites personnels ou associatifs](donnees_sites.md)
 
