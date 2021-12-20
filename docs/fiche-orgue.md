@@ -242,11 +242,11 @@ Les types d'événement possibles sont les suivants :
 - Disparition : distincte de destruction, car l'orgue a pu disparaître suit à un déménagement, ou être stocké dans un endroit inconnu.
 - Dégâts : destruction partielle ou altération de l'instrument.
 - Classement ou inscription au titre des Monuments historiques :
-On ne distingue que inscription au titre des Monuments historiques et classement au titre des monuments historiques, comme objets événement.
+On ne distingue pas inscription au titre des Monuments historiques et classement au titre des monuments historiques, comme objets événement.
 Le champ TICO de Palissy sera mis dans le commentaire de l'événement.
 De même pour les autres champs issus de la mise en correspondance entre l'Inventaire et la base Palissy, par exemple le numéro d'arrêté de classement ou inscription.
 
-Concernant les facteurs, une longue liste est mise à disposition. Elle se présente sous la forme "Nom Prénom". Il est nécessaire de renseigner chaque facteur, même lorsque plusieurs facteurs travaillent en duo ou trio. Nous vous invitons vivement, si vous souhaitez ajouter un facteur à la liste, à consulter la page des [conventions.md](conventions). 
+Concernant les facteurs, une longue liste est mise à disposition. Elle se présente sous la forme "Nom Prénom". Il est nécessaire de renseigner chaque facteur, même lorsque plusieurs facteurs travaillent en duo ou trio. Nous vous invitons vivement, si vous souhaitez ajouter un facteur à la liste, à consulter la page des [conventions](conventions.md). 
 
 A un facteur est associée une localisation d'atelier (latitude, longitude au format GPS), ce qui permet le positionnement des ateliers sur la carte.
 
@@ -445,10 +445,17 @@ Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecte
 
 ## Images
 
+Les images sont un point fort de l'Inventaire national des orgues. Il faut veiller avec soin à respecter quelques règles, qu'elles soient esthétiques (photos de qualité) ou bien juridiques (mention du crédit, et licence libre).
+
+### Rubrique Images ou rubrique Fichiers ?
+
 Par image, on parle ici de documents purement visuels, c'est-à-dire des dessins, tableaux, plans, croquis et photos.
 Les autres documents, par exemple une couverture de disque ou un programme de concert, doivent être déposés sur le site comme des fichiers. (Cf. ci-après.)
 
+### Qualité des images
+
 On veillera à joindre des images de bonne qualité et bonne résolution, sans toutefois que leur taille n'excède 2 Mo.
+Les images de taille excessive sont automatiquement réechantillonnée lors de l'import sur le site.
 Une image de bonne résolution fera de l'ordre de 1500 pixels par 1000 pixels. Elle pèsera environ 100 Ko.
 Des logiciels gratuits, d'utilisation simple, existent pour retravailler rapidement les images, en modifiant leur proportion, leur résolution, leur format d'enregistrement, et éventuellement la luminosité et le contraste.
 (ex : [Logiciel Irfanview](https://portableapps.com/apps/graphics_pictures/irfanview_portable), [Site Internet TinyPNG](https://tinypng.com/))
@@ -456,15 +463,26 @@ Les formats JPG et PNG sont acceptés, le format JPG étant recommandé.
 
 Il faut désigner une des images comme image principale, à savoir celle qui apparaîtra comme vignette en tête de la fiche sur le portail, et dans l'index de tous les orgues.
 Cette image principale doit être la meilleure image disponible au format paysage, en privilégiant une vue d'ensemble et de face.
-Un utilitaire permet de modifier le cadrage de cette image.
+Un utilitaire très simple d'usage permet de modifier le cadrage de cette image, il faut l'utiliser presque systématiquement.
 
-Une légende peut être complétée.
+Une légende peut être complétée. Elle est facultative, mais indispensable pour les photos prise à l'intérieur de l'instrument (tuyaux, sommiers, etc.).
 
-La rubrique crédit doit obligatoirement être complétée. Point important : toutes les images déposées sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
+### Droit d'auteur et droit d'exploitation
+
+La rubrique crédit doit obligatoirement être complétée. En effet, elle porte le droit d'auteur, inaliénable. Tout utilisation ultérieure ou dans un autre contexte de la photo concernée devra se faire en mentionnant l'auteur.
+Si vous utilisez une image prise sur Wikipédia, l'auteur figure toujours et il faut en recopier la mention.
+
+Second point très important : toutes les images déposées sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
+Concrètement, vous devez connaître la licence d'utilisation de l'image.
+Une photo prise sur un site Internet n'est a priori pas libre de droits d'exploitation. Il ne faut donc pas, sans accord explicite, copier une photo provenant d'un site associatif, paroissial, de presse locale, ou autre.
+Pour une seule photot, l'accord peut-être demandé sous forme d'un simple mail que vous conserverez.
 Cf. la [foire aux questions](faq.md) pour toutes les questions ayant trait aux droits d'auteur.
 
+De surcroît, il existe un droit à l'image (lorsque l'on est pris en photo). La règle adoptée par l'Inventaire national des orgues est simple et plus restrictive : aucun photo ne doit faire apparaître un visage.
+En effet, l'Inventaire est un site d'intérêt général qui ne saurait être mis au profit d'une publicité pour une personne en particulier.
 
 ## Fichiers
 
-Point important, tous les fichiers déposés sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
+De même que les photos, tous les fichiers déposés sur le site sont impérativement en licence ouverte permettant une libre réutilisation, commerciale ou non.
 Cf. la [foire aux questions](faq.md) pour toutes les questions ayant trait aux droits d'auteur.
+Nous encourageons vivement l'ajout de fichiers. Ils peuvent être par exemple : un programme de concert, un devis historique, une lettre, un schéma de disposition des jeux à la console, etc.
