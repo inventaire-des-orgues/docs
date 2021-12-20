@@ -446,7 +446,7 @@ Pour les accessoires qui ne sont pas proposés au choix, on veillera à respecte
 ## Images
 
 Par image, on parle ici de documents purement visuels, c'est-à-dire des dessins, tableaux, plans, croquis et photos.
-Les autres documents doivent être déposés sur le site comme des fichiers. (Cf. ci-après.)
+Les autres documents, par exemple une couverture de disque ou un programme de concert, doivent être déposés sur le site comme des fichiers. (Cf. ci-après.)
 
 On veillera à joindre des images de bonne qualité et bonne résolution, sans toutefois que leur taille n'excède 2 Mo.
 Une image de bonne résolution fera de l'ordre de 1500 pixels par 1000 pixels. Elle pèsera environ 100 Ko.

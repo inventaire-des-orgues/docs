@@ -9,11 +9,4 @@
     <orderEntry type="module" module-name="Mes documents" />
     <orderEntry type="module" module-name="site" />
   </component>
-  <component name="TemplatesService">
-    <option name="TEMPLATE_FOLDERS">
-      <list>
-        <option value="$MODULE_DIR$/../portail/orgues/templates" />
-      </list>
-    </option>
-  </component>
 </module>
