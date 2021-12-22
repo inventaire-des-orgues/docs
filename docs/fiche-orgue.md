@@ -115,13 +115,16 @@ Lien Internet vers l'organisme auquel s'adresser.
 Cette courte description (500 caractères maximum) est une synthèse rédigée sur l'histoire et la description de l'instrument.
 Elle doit être utilisée principalement pour évoquer une particularité de l'instrument, ce qui fait son originalité et sa valeur.
 
-### Commentaire rédacteurs
+### Commentaire contributeurs
 
 `Valeur_par_defaut = ""`
 
 Ce commentaire n'est visible qu'en mode édition et sera affiché sur fond coloré en haut de la fiche lors de l'édition.
 Il sert à transmettre une information entre rédacteurs de la fiche.
 Par exemple : "La description de la tuyauterie semble erronée.", ou "Nous ne sommes pas certains de la composition du Récit."
+Ce n'est pas le lieu pour donner une information sur l'instrument "Le sommier de Pédale présente des emprunts", car ce type de renseignement doit figurer dans le corps de la fiche.
+Il est inutile de faire figurer votre nom et/ou la date de contribution, qui sont enregistrés automatiquement et visibles par ailleurs !
+Les commentaires à destination d'une personne en particulier ou à propos d'une personne en particulier sont à proscrire.
 
 
 ## Localisation
