@@ -126,6 +126,8 @@ Ce n'est pas le lieu pour donner une information sur l'instrument "Le sommier de
 Il est inutile de faire figurer votre nom et/ou la date de contribution, qui sont enregistrés automatiquement et visibles par ailleurs !
 Les commentaires à destination d'une personne en particulier ou à propos d'une personne en particulier sont à proscrire.
 
+Bien sûr, une fois les informations mises à jours, il ne faut pas hésiter à modifier ou supprimer le commentaire.
+
 
 ## Localisation
 
