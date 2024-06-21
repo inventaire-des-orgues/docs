@@ -261,7 +261,7 @@ Plus de 800 orgues.
 - http://jmalandin.free.fr/site01.htm#monti	 
 - http://musiqueetpatrimoine.com	 
 - http://mypipeorganhobby.blogspot.fr/2009/09/abbey-church-of-saint-ouen-organ-rouen.html	 
-- http://organ-au-logis.pagesperso-orange.fr	Didier Guiraud de Willot
+- https://web.archive.org/web/20221001215643/https://organ-au-logis.pagesperso-orange.fr/	Didier Guiraud de Willot
 - http://orgue.gisors.free.fr	 
 - http://orgue.st.louis.free.fr	 
 - http://orguededomgermain.free.fr	 
