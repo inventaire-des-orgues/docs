@@ -317,8 +317,8 @@ Un « portail » sur Wikipédia regroupe plusieurs articles autour d'un
 même thématique.
 Les pages notables du portail de l'orgue :
 
-  - [Lexique de
-    l'orgue](https://fr.wikipedia.org/wiki/Lexique_de_l%2527orgue)
+  - [Glossaire de
+    l'orgue](https://fr.wikipedia.org/wiki/Glossaire_de_l%27orgue)
   - [Liste des jeux
     d'orgue](https://fr.wikipedia.org/wiki/Liste_des_jeux_d%2527orgue)
   - Une catégorie regroupant les [oeuvres pour
