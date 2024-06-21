@@ -25,5 +25,5 @@ Cf. aussi la page sur les [données](donnees.md).
 
 | Nom                                                                         | Description                                                               | Format                | Licence    |
 | --------------------------------------------------------------------------- | ------------------------------------------------------------------------- | --------------------- | ---------- |
-| [livres](https://github.com/inventaire-des-orgues/livres)                   | L'index des livres d'inventaire                                           | Excel                 |            |
+| [livres](dépôt privé)             | L'index des livres d'inventaire                                           | Excel                 |            |
 | [indexes](https://github.com/inventaire-des-orgues/indexes)                 | L'index des orgues de l'inventaire                                        | JSON, CSV             |            |
